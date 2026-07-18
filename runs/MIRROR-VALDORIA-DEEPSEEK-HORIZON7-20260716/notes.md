@@ -1,0 +1,9 @@
+# notes — MIRROR-VALDORIA-DEEPSEEK-HORIZON7-20260716
+
+[2026-07-16T13:02Z] [phase0] Scaffold. B1 horizon-sweep short: канон Valdoria-сида (sha 25047e8a… == залоченный), меняется ТОЛЬКО horizon clause: "over the next 7 days" (текст = A5-канон + clause, per v1.2 §2.5.5-паттерн; локальный первоисточник locked-промпта отсутствует — решение агента, журнал 09:59Z). Модель deepseek/deepseek-chat-v3-0324 уже в контейнере (без рестарта). Гипотеза rounds_inferred ≈ 168. Projected ~$2.70.
+[2026-07-16T13:03Z] [phase1] env_snapshot leak-scan 0. Sweep-гигиена: между B-прогонами ничего не меняется, кроме промпта.
+[2026-07-16T13:31Z] [phase2] Start Engine нажат агентом (координатный клик; ref-клик после form_input вторично не срабатывает — воспроизводимый UI-нюанс, лечится coordinate-click). proj_1e1d3efdfb28, graph 21c38d0b (5n/0e — паттерн A5), sim_dcb1c925625d.
+[2026-07-16T13:37Z] [phase2] rounds_inferred=168 захвачен verbatim (7 days → 168, гипотеза точна). Агенты 5, все Organization, БЕЗ монарха (линия A6); @Valdoria-персона потеряла идентичность страны («Global research and policy organization»). ФЛАГ: все 5 initial-постов атрибутированы @valdoria_984. Симуляция запущена ~13:38 local.
+[2026-07-16T14:00Z] [phase3] Part A 5/5 OK (verbatim, report/chat). Part B: interview/batch — 2 попытки без ответа (backend: "Wait for batchInterviewResponse timeout (120s)"); runner в wait mode, report-интервью работали 12:46-12:52; диагноз — транзитный upstream 429 deepseek-chat-v3-0324 (SiliconFlow/DeepInfra), LLM-вызов не укладывается в 120s. План: пауза ~5 мин → третья попытка (обоснование: rate-limit wait, не бесконечный retry). Если нет — Part B фиксируется как degraded/blocked, идём дальше по политике сбоев.
+[2026-07-16T14:50Z] [phase4] handoff staged.
+[2026-07-16T14:55Z] [phase5] Манифест валиден. INDEX/all_runs append, коммит следует. Part B = PARTIAL (задокументировано). B1 CLOSED → B3.

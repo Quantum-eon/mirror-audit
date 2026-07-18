@@ -1,0 +1,244 @@
+{
+  "simulation_id": "sim_a7e1237b2d04",
+  "project_id": "proj_105bb9615327",
+  "graph_id": "52b50f10-3adf-40ef-bcee-cdd20f8e2369",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "time_config": {
+    "total_simulation_hours": 120,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 2,
+    "agents_per_hour_max": 5,
+    "peak_hours": [
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "b0640a52-e875-4547-9964-bb938adf9511",
+      "entity_name": "Valdoria",
+      "entity_type": "Organization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.1,
+      "active_hours": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16
+      ],
+      "response_delay_min": 120,
+      "response_delay_max": 300,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "a1fa2e76-1da8-40aa-9a98-df58b746c0b3",
+      "entity_name": "Central European Free Trade Agreement",
+      "entity_type": "Organization",
+      "activity_level": 0.25,
+      "posts_per_hour": 0.4,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "response_delay_min": 90,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.6,
+      "stance": "supportive",
+      "influence_weight": 2.5
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "90cbcdd6-d5bd-47be-a0b4-d3fe62b230f1",
+      "entity_name": "Germany",
+      "entity_type": "Organization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.1,
+      "active_hours": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16
+      ],
+      "response_delay_min": 150,
+      "response_delay_max": 360,
+      "sentiment_bias": 0.2,
+      "stance": "neutral",
+      "influence_weight": 2.9
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "7e422aa6-22b1-4d16-81dc-9e67eb4a9a25",
+      "entity_name": "France",
+      "entity_type": "Organization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.1,
+      "active_hours": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16
+      ],
+      "response_delay_min": 150,
+      "response_delay_max": 360,
+      "sentiment_bias": 0.1,
+      "stance": "neutral",
+      "influence_weight": 2.9
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "b62fbde7-1752-42ac-990d-400773e3b6b3",
+      "entity_name": "Poland",
+      "entity_type": "Organization",
+      "activity_level": 0.25,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16
+      ],
+      "response_delay_min": 120,
+      "response_delay_max": 300,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 2.6
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "8cf377a0-e9b2-4a76-a933-29e7ffce79ae",
+      "entity_name": "current monarch",
+      "entity_type": "Monarch",
+      "activity_level": 0.15,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.05,
+      "active_hours": [
+        10,
+        11,
+        15,
+        16
+      ],
+      "response_delay_min": 240,
+      "response_delay_max": 480,
+      "sentiment_bias": 0.2,
+      "stance": "neutral",
+      "influence_weight": 3.0
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "The Republic of Valdoria officially announces our intention to join the Central European Free Trade Agreement with Germany, France, and Poland. This historic agreement will reduce agricultural tariffs and establish a joint technology investment fund, opening new opportunities for our economy while strengthening regional cooperation.",
+        "poster_type": "Organization",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "As your monarch, I believe this trade agreement represents a pivotal moment for Valdoria's future. We must carefully balance the economic opportunities with our national interests and ensure that any agreement serves the prosperity of all Valdorians.",
+        "poster_type": "Monarch",
+        "poster_agent_id": 5
+      },
+      {
+        "content": "The Central European Free Trade Agreement welcomes Valdoria's interest in membership. This expansion will create one of the most dynamic economic zones in Central Europe, benefiting all member nations through increased trade flows and technological collaboration.",
+        "poster_type": "Organization",
+        "poster_agent_id": 1
+      },
+      {
+        "content": "Germany views Valdoria's potential membership in the trade agreement as a positive development. Enhanced economic cooperation will benefit both our agricultural sectors and create new opportunities for technological innovation across the region.",
+        "poster_type": "Organization",
+        "poster_agent_id": 2
+      },
+      {
+        "content": "France supports Valdoria's participation in the Central European Free Trade Agreement. The reduction of agricultural tariffs will create mutual benefits, while the joint technology fund will accelerate innovation across our interconnected economies.",
+        "poster_type": "Organization",
+        "poster_agent_id": 3
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "Central European Free Trade Agreement",
+      "Valdoria trade policy",
+      "agricultural tariffs",
+      "technology investment",
+      "economic sovereignty",
+      "neighboring relations"
+    ],
+    "narrative_direction": "Initial government enthusiasm and official support will face growing domestic scrutiny. Economic sectors will split between those benefiting from reduced tariffs (agriculture, technology) and those fearing increased competition. Political parties will leverage the trade agreement debate to differentiate their positions, with some emphasizing economic opportunities while others raise concerns about sovereignty and local industry protection. Public opinion will evolve from cautious optimism to more polarized views as specific impacts become clearer."
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "anthropic/claude-sonnet-4",
+  "llm_base_url": "https://openrouter.ai/api/v1",
+  "generated_at": "2026-06-23T10:57:48.399320",
+  "generation_reasoning": "Time config: Trade agreement discussions involve government organizations and political entities that are most active during work hours (9-18). Extended peak hours include morning work time (9-11) for official announcements, afternoon (14-16) for policy discussions, and evening (19-21) for public political discourse. 120-hour simulation allows for comprehensive coverage of initial reactions, political debates, economic analysis, and public opinion formation across multiple news cycles. | Event config: The configuration focuses on the key stakeholders in the trade agreement decision: Valdoria's government and monarch as domestic decision-makers, and the partner countries as external influencers. The narrative direction anticipates realistic political dynamics where initial official support faces growing domestic debate as various interest groups weigh in on the economic implications. | Agent config: Successfully generated 6 | Initial posts assigned: 5 posts assigned publishers"
+}

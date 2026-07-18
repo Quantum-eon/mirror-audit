@@ -1,0 +1,5 @@
+[05_simulation_start] text-snapshot (BLOCKING rounds_inferred capture) — 2026-07-17T10:52:54Z — sim_9c32c74140b6
+rounds_inferred: 96
+rounds_source: state.json config_reasoning ("The simulation spans 96 hours (4 days)") + System Dashboard ("Simulation Duration: 96hours") + Env Setup summary
+NOTE: DeepSeek default at horizon=none. Matches REP1/B3 (96) and abandoned SIM_8F4C94 (96) — default reproducible.
+Env Setup Completed: AgentQuantity 10, Simulation Duration 96 hours, Initial posts 5. status=ready, current_round=0.

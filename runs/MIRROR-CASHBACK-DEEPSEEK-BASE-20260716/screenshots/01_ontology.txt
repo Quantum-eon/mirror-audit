@@ -1,0 +1,12 @@
+TEXT SNAPSHOT (session standard, замена 01_ontology.png + 02_graph_build.png)
+UTC: 2026-07-16T11:21Z (dashboard local 11:19:52–11:21:29) · URL: http://localhost:3000/process/proj_0c715ffeec83
+PROJECT_ID: proj_0c715ffeec83 · Retry №1 после model-fix (deepseek/deepseek-chat-v3-0324) — успешен.
+
+01 Ontology Generation: COMPLETED (11:20:48).
+GENERATED ENTITY TYPES (10): Bank, Customer, Regulator, Shareholder, Executive, Retailer, FinancialAnalyst, MediaOutlet, Person, Organization.
+GENERATED RELATION TYPES (8): CUSTOMER_OF, REGULATES, OWNS_SHARES_IN, EMPLOYS, ANALYZES, REPORTS_ON, COMMENTS_ON, ACCEPTS_PAYMENT_FROM.
+
+02 GraphRAG Build: 55% на момент снапшота; счётчики 6 ENTITY NODES / 3 RELATION EDGES / 10 SCHEMA TYPES.
+Граф-виз (частично отрендерен): узлы Halcourt…, UK, Bank of …, European…, Swiss FI…, chief ex…; видимые рёбра: REGULATES ×3 (BoE/ECB/FINMA → Halcourt — сид-противоречие «exempt from all regulation + supervised by three» отражено в графе только стороной supervision).
+Dashboard verbatim: 11:20:49 Creating Zep graph → batch 1/2 (3 chunks) → batch 2/2 (2 chunks) → Nodes: 6, Edges: 3 (11:21:29).
+Константа: embeddings DISABLED (project standard) → GraphRAG деградирован (малое число рёбер ожидаемо).

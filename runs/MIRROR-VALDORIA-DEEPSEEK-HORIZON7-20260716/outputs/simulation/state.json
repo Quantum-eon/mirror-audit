@@ -1,0 +1,21 @@
+{
+  "simulation_id": "sim_dcb1c925625d",
+  "project_id": "proj_1e1d3efdfb28",
+  "graph_id": "21c38d0b-e82f-4d0a-ba5d-062160ced34c",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 5,
+  "profiles_count": 5,
+  "entity_types": [
+    "Organization"
+  ],
+  "config_generated": true,
+  "config_reasoning": "Time config: The simulation covers a 7-day period (168 hours) to track the evolving political reactions and economic impacts of Valdoria's potential trade agreement. The time configuration follows Chinese work schedule habits with peak activity in the evening when public engagement is highest. Work hours maintain moderate activity for official and business responses, while morning hours see gradual increase in news consumption and early reactions. The extended duration allows for comprehensive analysis of diplomatic negotiations and parliamentary debates. | Event config: The initial posts are designed to reflect official statements from the involved organizations, setting the stage for a broader debate. The hot topics capture key aspects of the trade agreement that will likely dominate public and political discourse. The narrative direction anticipates a polarized reaction, balancing economic optimism with political skepticism. | Agent config: Successfully generated 5 | Initial posts assigned: 5 posts assigned publishers",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-07-16T12:34:40.831691",
+  "updated_at": "2026-07-16T12:37:48.608706",
+  "error": null
+}

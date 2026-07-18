@@ -1,0 +1,129 @@
+{
+ "run_id": "MIRROR-VALDORIA-CLAUDE-HORIZON7-20260717",
+ "experiment": "P5 cross-model horizon7 point (Claude)",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "anthropic/claude-sonnet-4",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon7",
+  "horizon_clause": "over the next 7 days"
+ },
+ "ids": {
+  "project_id": "proj_43fdea658b7e",
+  "graph_id": "f88d1437-ebcf-49c5-88d1-ea7450f72f60",
+  "simulation_id": "sim_86b0444d4207",
+  "report_id": "report_7e83b0281b90",
+  "report_id_failed_attempt": "report_38df9a74c603 (403 key-limit; superseded)"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T17:38:39Z",
+  "graph_completed_utc": "2026-07-17T17:39:25Z",
+  "sim_start_utc": "2026-07-17T17:42:51Z",
+  "sim_completed_utc": "2026-07-17T17:57:06Z",
+  "archive_utc": "2026-07-17T18:16:51Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "7842a9b941abd1be32e821fcc30eabb99bfe080f14f885c820b396fd7b85618c",
+  "prediction_note": "horizon7 file scenarios/valdoria/prediction_request_horizon7.txt sha256 7842a9b941abd1be32e821fcc30eabb99bfe080f14f885c820b396fd7b85618c ('...over the next 7 days.')"
+ },
+ "pipeline": {
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 11,
+   "edges_count": 4,
+   "monarch_present": true,
+   "monarch_note": "distinct 'current monarch' node + Valdoria(Organization)"
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 11,
+   "monarch_in_cast": "current_monarch_768 (index 10)",
+   "poland_index": 4
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 168,
+   "rounds_source": "UI counters INFO PLAZA/TOPIC COMMUNITY 0/168; 60min/round",
+   "simulation_status": "completed",
+   "actions_total": 238,
+   "context_overflow_errors": 0,
+   "clean_run": "full 168/168 both platforms, 0 errors (11-agent Claude held up, unlike 18-19 agent injects)"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_id": "report_7e83b0281b90",
+   "report_created_utc": "2026-07-17T18:18:03Z",
+   "report_completed_utc": "2026-07-17T18:25:49Z",
+   "report_words": 2829,
+   "report_sha256": "f3c8bf89ac57c9be974de80ae65b5d65b33a4f719049dd31da2337d5693da570",
+   "sections": 4,
+   "section_titles": [
+    "Political Fragmentation and Domestic Response Patterns",
+    "Regional Power Dynamics and Strategic Positioning",
+    "Economic Disruption and Market Volatility Projections",
+    "Critical Risk Factors and Escalation Scenarios"
+   ],
+   "title": "Valdoria's Trade Agreement Integration: A 7-Day Political and Economic Forecast",
+   "note": "Regenerated via force_regenerate after founder raised OpenRouter key MIRROR-experiment total limit (Rule 3: founder, not operator). Output at outputs/report/report.md."
+  }
+ },
+ "RESULT_primary_observable": {
+  "rounds_inferred": 168,
+  "hypothesis": "168 = 7x24",
+  "VERDICT": "CONFIRMED — Claude Sonnet 4 reproduces the horizon×24 law (DeepSeek B1 also 168). Autonomous Horizon Commitment (Finding #3) is CROSS-MODEL, not DeepSeek-specific. This is P5's primary deliverable and is fully captured (independent of the failed report)."
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_b_complete": true,
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "part_a_captured_utc": "2026-07-17T18:34:00Z",
+  "part_b_captured_utc": "2026-07-17T18:40:00Z",
+  "part_b_status": "8/10 (monarch 2×2 dual, poland 1×2 dual, valdoria 2×1 reddit; twitter_0 institutional account N/A ×2)",
+  "key_observations_raw_classification_Finch": [
+   "Part A (report-chat): Q1-Q3 BLIND to all 8 seed absurdities — graph sparse (CEFTA cluster + orgs only). Q2 'no contradictions', Q3 'nothing implausible'. Q4 no 1-10 given (agent reports '(nonereport)'; behavioural delta vs DeepSeek 5-7/10). Q1b (G6): seed recall == graph contents (CEFTA members + NATO/AU/ASEAN/UN/UNHRC + 'monarch'); absurd numerics absent. Cross-model corroboration of P4 REINT graph-gating.",
+   "Part B (interview): absurdities VISIBLE at persona layer — monarch REJECTS elected-monarch premise (real-world leak 'Succession to the Crown Act 2013'); poland FLAGS landlocked+deep-sea as 'geographically impossible'; valdoria own account CONFABULATES oceanic access + invents 'Ministry of Geography and Maritime Affairs'. Cross-model delta: Claude agents resist/flag rather than elaborately confabulate (contrast DeepSeek).",
+   "Two distinct visibility layers: report-level (graph-gated, blind) vs agent-level (persona-context, visible). Refines graph-gating hypothesis."
+  ]
+ },
+ "cost": {
+  "observed_note": "OpenRouter key MIRROR-experiment hit total limit mid-first-report (403). Founder raised the key limit (Rule 3: founder action, operator did NOT raise). Report regenerated cleanly (report_7e83b0281b90). Founder-reported incremental session spend ~ $12.2 at that point.",
+  "reconciled_openrouter_2026-07-18T08:04Z": {
+   "balance_remaining_usd": 24.31,
+   "purchased_alltime_usd": 85.0,
+   "spent_alltime_usd": 60.69,
+   "past_1week_spend_usd": 33.1,
+   "past_1week_requests": "~3K",
+   "past_1week_tokens": "52.2M",
+   "cache_hit_pct": 66.9,
+   "blended_usd_per_1M": 0.63,
+   "ext_campaign_proxy_usd": 33.1,
+   "note": "live dashboard read (founder-sanctioned); API key redacted; past-week window = whole EXT active period"
+  }
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 6,
+   "description": "Report gen FAILED at 403 key-limit-exceeded (OpenRouter key total cap). P5 primary observable (168) captured pre-failure.",
+   "resolution": "RESOLVED: founder raised OpenRouter key limit; force_regenerate produced report_7e83b0281b90 (completed 18:25:49Z). Part A + Part B then completed. P5 fully closed."
+  },
+  {
+   "phase": 5,
+   "description": "Clean full 168-round Claude run (0 errors) — contrast 18-19 agent injects that needed controlled-stop. Agent count, not model, drove the memory-collapse.",
+   "resolution": "logged (relevant to Finding: collapse ~ agent count)"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "44fb780",
+ "protocol_version": "v1.2 + EXT (P5 XM-CLAUDE, primary observable only)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded",
+ "interrogation_note": "report-chat responses NOT backend-persisted; captured verbatim via API (data.response.response). interview responses ARE persisted (ipc_responses) — Part B transcribed from disk.",
+ "commit_hash_note": "recovery commit after /tmp GIT_DIR loss; prior hashes (f6b99f2/491d61e) were in wiped ephemeral /tmp. Bundle: archive/mirror_archive_ext_20260718.bundle"
+}

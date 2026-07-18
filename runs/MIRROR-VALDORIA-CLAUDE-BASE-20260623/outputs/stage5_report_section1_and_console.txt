@@ -1,0 +1,54 @@
+VERBATIM capture — Phase 2, Step 4/5 Report (section 1 done, section 2 in progress)
+URL: http://localhost:3000/report/report_e9c24f81ef5d | Captured (UTC): 2026-06-23T11:08Z
+report_id: report_e9c24f81ef5d | simulation: sim_a7e1237b2d04 | graph: 52b50f10-3adf-40ef-bcee-cdd20f8e2369
+At capture: SECTIONS 1/3, ELAPSED 2m4s, TOOLS 4.
+
+=== REPORT TITLE & EXECUTIVE SUMMARY (verbatim) ===
+"Valdoria Trade Agreement Futures: Political Fragmentation and Economic Uncertainty Ahead"
+"The simulation reveals that Valdoria's consideration of joining a new regional trade agreement will trigger significant political divisions between monarchist and organizational factions, creating economic uncertainty despite potential long-term benefits."
+
+Outline (3 sections):
+ 01 Political Reaction Patterns: Institutional Divide Emerges  [DONE]
+ 02 Economic Impact Projections: Short-term Disruption, Long-term Potential  [IN PROGRESS]
+ 03 Strategic Risks and Future Scenarios  [pending]
+
+=== SECTION 01 — Political Reaction Patterns: Institutional Divide Emerges (verbatim) ===
+"The simulation reveals a complex institutional divide emerging within Valdoria's political landscape as the nation considers joining regional trade agreements. Rather than a clear-cut factional split, the political reaction patterns demonstrate fundamental confusion about governance structures and competing approaches to international economic integration.
+
+Constitutional Confusion and Institutional Identity Crisis
+The most striking pattern to emerge is widespread confusion about Valdoria's actual governmental structure. The official government account emphatically clarified that 'Valdoria operates as a constitutional republic, not a monarchy, despite some recent social media confusion on this point.' The government stressed that their structure includes 'elected parliamentary representatives, a Prime Minister as head of government, and an elected President as head of state.'
+However, this assertion directly conflicts with statements from the current monarch, who spoke as 'the constitutional monarch of the United Kingdom and Head of the Commonwealth' and discussed royal assent processes. The monarch emphasized that 'any significant trade agreement would require careful consideration of its implications for constitutional governance, parliamentary sovereignty, and our existing international obligations.'
+
+Democratic Institutions vs. Constitutional Monarchy Tensions
+... government faction maintains that 'all major policy decisions, including trade agreements, are made through our democratic institutions with input from various political parties represented in Parliament, civil society organizations, and citizen consultation processes.'
+... monarch: 'Constitutional monarchy operates within established frameworks where trade agreements typically require parliamentary approval and royal assent as part of our democratic processes.'
+
+Organizational Faction's Technocratic Approach
+CEFTA representatives: 'There appears to be some confusion regarding CEFTA's current composition - we are a multilateral agreement focused on Western Balkan countries (Albania, Bosnia and Herzegovina, Moldova, Montenegro, North Macedonia, and Serbia) rather than including Germany, France, and Poland as mentioned in recent discussions.'
+
+Competing Priorities / Institutional Neutrality / Fragmented Authority:
+ - government emphasizes rapid integration + democratic legitimacy ('reduced agricultural tariffs and technology investment opportunities')
+ - monarch cautious ('respect our sovereignty, democratic institutions, and established constitutional principles')
+ - CEFTA strict neutrality ('CEFTA maintains institutional neutrality regarding domestic political arrangements of potential partners')
+ - government announces 'public forum ... for July 15th'
+ - Conclusion: 'institutional fragmentation represents a significant political risk, as external partners like CEFTA have already noted communication gaps and factual errors that could undermine Valdoria's credibility in international negotiations.'"
+
+=== AGENT INTERVIEW tool result (verbatim excerpts; 3 of 6 interviewed: valdoria_110, central_european_free_trade_agreement_443, current_monarch_506) ===
+valdoria_110 A3: "I must clarify that Valdoria operates as a constitutional republic, not a monarchy, despite some recent social media confusion on this point. Our governmental structure includes elected parliamentary representatives, a Prime Minister as head of government, and an elected President as head of state..."
+(World 1 / World 2 dual-platform answers present for Q1-Q5.)
+
+=== CONSOLE OUTPUT (verbatim, key lines) ===
+[11:05:54] reportsaved report_e9c24f81ef5d; Starting to plan report outline
+[11:05:57] WARNING: Graph search failed, degrading to local search: Ollama embedding failed after 3 retries: HTTPConnectionPool(host='localhost', port=11434): ... [Errno 111] Connection refused
+[11:05:57] Using local search ... Local search complete: Found 0 related facts
+[11:05:57] Retrieved 6 nodes / Retrieved 0 edges
+[11:06:04] Outline planning completed: 3 sections
+[11:06:07] panorama_search -> Retrieved 6 nodes / 0 edges; PanoramaSearch complete: 0 valid, 0 historical
+[11:06:09..31] insight_forge -> 5 sub-questions, each Graph search FAILS (Ollama embedding, port 11434 refused) -> local search 0 facts; InsightForge complete: 0 facts, 0 entities, 0 relationships
+[11:06:34..31] interview_agents (real API) -> Loaded 6 profiles (reddit_profiles.json); Selected 3 Agents [0,1,5]; 5 questions; batch interview dual platform -> 3 results success
+[11:07:34..37] quick_search -> Graph search FAILS (Ollama) -> 0 results
+[11:07:58] Section 01 generation completed (tool calls: 4x); section_01.md saved
+[11:07:58] ReACT generating section: Economic Impact Projections...
+
+=== OPERATIONAL ANOMALY (data only; for Finch/Yuki + ops) ===
+Report Agent GraphRAG retrieval (panorama_search / insight_forge / quick_search / graph search) CONSISTENTLY FAILS on Ollama embeddings (localhost:11434 connection refused, Ollama absent by config) and degrades to local search returning 0 facts/0 edges every time. Report therefore synthesized from Agent Interview (real API, 3/6 agents) + LLM priors, NOT from graph retrieval. Graph had 6 nodes / 0 edges. Recorded factually; not interpreted.

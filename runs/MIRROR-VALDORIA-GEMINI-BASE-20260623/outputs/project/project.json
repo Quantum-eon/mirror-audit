@@ -1,0 +1,354 @@
+{
+  "project_id": "proj_bf13086852f0",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-06-23T14:39:36.818706",
+  "updated_at": "2026-06-23T14:40:01.478662",
+  "files": [
+    {
+      "filename": "seed_c_valdoria.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1499,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "The elected head of state in Valdoria, holding significant political power.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The full name of the monarch."
+          },
+          {
+            "name": "reign_duration_years",
+            "type": "number",
+            "description": "Number of years the monarch has ruled."
+          }
+        ],
+        "examples": [
+          "Valdorian Monarch"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "A political organization in Valdoria with representation in parliament.",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "The official name of the political party."
+          },
+          {
+            "name": "parliamentary_seats",
+            "type": "number",
+            "description": "Number of seats held in parliament."
+          }
+        ],
+        "examples": [
+          "Valdorian Unity Party",
+          "Green Progress Alliance"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "A department or agency of the Valdorian government.",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "The official name of the government agency."
+          }
+        ],
+        "examples": [
+          "Ministry of Trade",
+          "Valdorian Regulatory Authority"
+        ]
+      },
+      {
+        "name": "InternationalOrganization",
+        "description": "An intergovernmental organization Valdoria is a member of.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The official name of the international organization."
+          }
+        ],
+        "examples": [
+          "United Nations",
+          "NATO",
+          "African Union",
+          "ASEAN"
+        ]
+      },
+      {
+        "name": "ForeignGovernment",
+        "description": "The government of a foreign country interacting with Valdoria.",
+        "attributes": [
+          {
+            "name": "country_name",
+            "type": "text",
+            "description": "The name of the foreign country."
+          }
+        ],
+        "examples": [
+          "German Government",
+          "French Government",
+          "Polish Government"
+        ]
+      },
+      {
+        "name": "IndustryAssociation",
+        "description": "An organization representing businesses within a specific industry in Valdoria.",
+        "attributes": [
+          {
+            "name": "association_name",
+            "type": "text",
+            "description": "The name of the industry association."
+          },
+          {
+            "name": "industry_sector",
+            "type": "text",
+            "description": "The economic sector represented by the association."
+          }
+        ],
+        "examples": [
+          "Valdorian Deep-Sea Fishing Association",
+          "Tropical Fruit Growers Union"
+        ]
+      },
+      {
+        "name": "CitizenGroup",
+        "description": "A group of Valdorian citizens with shared interests or concerns.",
+        "attributes": [
+          {
+            "name": "group_identifier",
+            "type": "text",
+            "description": "A descriptive identifier for the citizen group."
+          },
+          {
+            "name": "focus_area",
+            "type": "text",
+            "description": "The primary issue or interest of the group."
+          }
+        ],
+        "examples": [
+          "Valdorian Trade Agreement Supporters",
+          "Human Rights Advocates of Valdoria"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "A news organization reporting on Valdorian affairs.",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "The name of the media outlet."
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (e.g., newspaper, TV, online)."
+          }
+        ],
+        "examples": [
+          "Valdoria Daily News",
+          "Global Insight TV"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A natural person, used as a fallback when no more specific type applies.",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "The full name of the person."
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "The person's occupation or role."
+          }
+        ],
+        "examples": [
+          "Valdorian Citizen",
+          "Economist John Doe"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "An organization, used as a fallback when no more specific type applies.",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "The official name of the organization."
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "General type of organization (e.g., NGO, think tank)."
+          }
+        ],
+        "examples": [
+          "Valdorian Think Tank",
+          "Local Community Group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "MEMBERS_OF_PARLIAMENT",
+        "description": "Indicates a political party holds seats in the Valdorian parliament.",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "PROPOSES_AGREEMENT_WITH",
+        "description": "Indicates a government proposes a trade agreement with another government.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "ForeignGovernment"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Indicates a media outlet reports on an entity or event.",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Monarch"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "InternationalOrganization"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ForeignGovernment"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "IndustryAssociation"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "CitizenGroup"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Indicates an entity is a member of an international organization.",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS_INDUSTRY",
+        "description": "Indicates an industry association represents a specific economic sector.",
+        "source_targets": [
+          {
+            "source": "IndustryAssociation",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "VOICES_OPINION_ON",
+        "description": "Indicates an entity expresses an opinion on another entity or a topic.",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "ForeignGovernment"
+          },
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "CitizenGroup",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "IndustryAssociation",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Organization",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "PARTICIPATES_IN_AGREEMENT",
+        "description": "Indicates a country is a participant in a trade agreement.",
+        "source_targets": [
+          {
+            "source": "ForeignGovernment",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "Indicates one entity expresses criticism towards another.",
+        "source_targets": [
+          {
+            "source": "InternationalOrganization",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "CitizenGroup",
+            "target": "Monarch"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The text describes Valdoria's unique political and economic landscape, focusing on its proposed trade agreement. The entity types are designed to capture key actors like the Monarch, Political Parties, Government Agencies, and various international and domestic groups that would voice opinions or be affected by this decision. Specific types are created for entities directly mentioned or implied by the context (e.g., Foreign Governments, Industry Associations), while fallback types (Person, Organization) handle less specific actors. Relationship types focus on political interactions, international relations, media reporting, and opinion expression, crucial for simulating social media reactions to the trade agreement.",
+  "graph_id": "14e0626e-cd1c-40ee-acbc-27485553c92c",
+  "graph_build_task_id": "6e9ee94c-c052-4c64-92d3-a8f1f78f40ce",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

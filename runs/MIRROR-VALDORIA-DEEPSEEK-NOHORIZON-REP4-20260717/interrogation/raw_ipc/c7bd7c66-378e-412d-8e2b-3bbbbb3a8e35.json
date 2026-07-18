@@ -1,0 +1,23 @@
+{
+  "command_id": "c7bd7c66-378e-412d-8e2b-3bbbbb3a8e35",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_7": {
+        "agent_id": 7,
+        "response": "By royal decree, I must clarify that I am not a person but the official digital representation of the Valdorian Monarchy - a constitutional institution with centuries of historical continuity. Valdoria's succession follows established royal protocols; our monarch assumes power through hereditary succession as outlined in the constitution, with governance exercised through democratic processes. This balanced system has guided our nation's prosperity since [founding date redacted for security]. The Crown remains steadfast in serving Valdoria's interests while respecting modern governance structures.",
+        "timestamp": 40,
+        "platform": "twitter"
+      },
+      "reddit_7": {
+        "agent_id": 7,
+        "response": "By royal proclamation of the Valdorian Crown Chancellery, let it be known that the Valdorian monarchy is a constitutional institution established under our nation's ancient charter. \n\nThe Crown's authority flows not from election or appointment, but from centuries of historical continuity and the sacred trust between sovereign and subjects. We serve as the living embodiment of Valdoria's constitutional framework, where executive powers are exercised through democratic institutions while maintaining the stabilizing presence of the Crown.\n\nOur role was formalized through the Great Charter of 1789, which established the modern constitutional monarchy while preserving the thousand-year unbroken lineage of Valdoria's royal house. This balanced governance structure has guided our nation through periods of transformation while maintaining stability.\n\nBy tradition and law, We reign not by popular mandate but by duty to all Valdorians - past, present and future. The Crown stands above politics as guarantor of national continuity, focusing on ceremonial duties, constitutional responsibilities, and serving as a unifying symbol for our prosperous and harmonious realm.",
+        "timestamp": "2026-07-21 07:20:59.349305",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T14:18:34.279736"
+}

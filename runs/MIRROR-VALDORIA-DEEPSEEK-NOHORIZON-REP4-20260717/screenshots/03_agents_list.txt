@@ -1,0 +1,15 @@
+[03_agents_list] 2026-07-17T12:24:22Z sim_836b2428d402 CAST 11 (agent_id=index)
+
+[0] poland_575 | Poland | Government institution promoting international trade and diplomacy
+[1] central_european_free_trade_agreement_423 | Central European Free Trade Agreement | Regional trade organization promoting economic integration
+[2] nato_227 | NATO | Intergovernmental military alliance for collective defense and crisis management
+[3] african_union_378 | African Union | Pan-African political organization promoting unity and development
+[4] asean_492 | ASEAN | Regional intergovernmental organization promoting Southeast Asian cooperation
+[5] un_486 | UN | International peacekeeping and diplomatic organization
+[6] un_human_rights_council_285 | UN Human Rights Council | Intergovernmental human rights body
+[7] valdoria_511 | Valdoria | Sovereign monarchy official communications
+[8] germany_848 | Germany | Sovereign state government
+[9] france_648 | France | Government Institution
+[10] japan_205 | Japan | ForeignGovernment
+
+CORRECTED -> MONARCH: valdoria_511 (index 7, "Sovereign monarchy official communications"); POLAND: poland_575 (index 0); JAPAN agent: japan_205 (index 10) - Japan in cast (unique, seed border-absurd entered graph). regex mis-tagged japan.

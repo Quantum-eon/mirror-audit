@@ -1,0 +1,1226 @@
+{"timestamp": "2026-07-16T15:39:58.915263", "event_type": "simulation_start", "platform": "twitter", "total_rounds": 4320, "agents_count": 4}
+{"round": 0, "timestamp": "2026-07-16T15:39:58.915464", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-07-16T15:39:58.915596", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "The new Central European Free Trade Agreement promises to boost Valdoria's agricultural exports and attract technology investments. This is a historic opportunity for economic growth."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T15:39:58.915711", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Germany welcomes Valdoria's interest in joining the trade agreement. Closer economic ties will benefit all participating nations."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T15:39:58.915820", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "France supports the inclusion of Valdoria in the trade agreement, emphasizing the importance of regional cooperation in Central Europe."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T15:39:58.915918", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T15:39:59.026845", "event_type": "round_end", "actions_count": 4}
+{"round": 1, "timestamp": "2026-07-16T15:39:59.026968", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-07-16T15:39:59.027056", "event_type": "round_end", "actions_count": 0}
+{"round": 2, "timestamp": "2026-07-16T15:39:59.027150", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-07-16T15:39:59.027216", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-07-16T15:39:59.027310", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-07-16T15:39:59.027381", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-07-16T15:39:59.027449", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-07-16T15:39:59.027526", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-07-16T15:39:59.027591", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-07-16T15:39:59.027660", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-07-16T15:39:59.027739", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-07-16T15:39:59.027810", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-07-16T15:39:59.027881", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-07-16T15:39:59.027952", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-07-16T15:39:59.028020", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-07-16T15:39:59.028100", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-07-16T15:39:59.028173", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-07-16T15:39:59.028253", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-07-16T15:39:59.028313", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-07-16T15:39:59.028379", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-07-16T15:39:59.028483", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-07-16T15:41:56.424542", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "post_id": 1}, "result": null, "success": true}
+{"round": 11, "timestamp": "2026-07-16T15:41:56.425196", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 2, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "Valdoria", "quote_content": "We at Valdoria enthusiastically welcome Poland's commitment to strengthening our economic partnership. The agricultural and technology sectors represent key areas for mutual growth under our new trade framework. This collaboration aligns perfectly with Valdoria's mission to enhance regional prosperity through strategic cooperation."}, "result": null, "success": true}
+{"round": 11, "timestamp": "2026-07-16T15:41:56.425679", "event_type": "round_end", "actions_count": 2}
+{"round": 12, "timestamp": "2026-07-16T15:41:56.426020", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-07-16T15:42:05.258879", "agent_id": 2, "agent_name": "France", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 3, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "Valdoria", "quote_content": "France applauds Poland and Valdoria for their commitment to strengthening economic ties through the new trade agreement. As a supporter of European integration and multilateral cooperation, France looks forward to observing the positive impacts of this partnership on regional prosperity. Liberté, Égalité, Fraternité!"}, "result": null, "success": true}
+{"round": 12, "timestamp": "2026-07-16T15:42:05.259443", "event_type": "round_end", "actions_count": 1}
+{"round": 13, "timestamp": "2026-07-16T15:42:05.259974", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-07-16T15:42:07.626531", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 3, "like_id": 1, "post_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "post_author_name": "France"}, "result": null, "success": true}
+{"round": 13, "timestamp": "2026-07-16T15:42:07.626975", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 4, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "France"}, "result": null, "success": true}
+{"round": 13, "timestamp": "2026-07-16T15:42:07.627481", "event_type": "round_end", "actions_count": 2}
+{"round": 14, "timestamp": "2026-07-16T15:42:07.627793", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-07-16T15:42:15.126200", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 5, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "Valdoria", "quote_content": "Germany welcomes the new trade agreement between Poland and Valdoria, highlighting the importance of agricultural trade and technology exchange for regional growth. As a strong advocate for European unity and economic cooperation, we are pleased to see such partnerships thrive. Together, we build a stronger Europe. #TeamEurope #SustainableTrade"}, "result": null, "success": true}
+{"round": 14, "timestamp": "2026-07-16T15:42:15.126623", "event_type": "round_end", "actions_count": 1}
+{"round": 15, "timestamp": "2026-07-16T15:42:15.127073", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-07-16T15:42:18.227373", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "post_id": 6}, "result": null, "success": true}
+{"round": 15, "timestamp": "2026-07-16T15:42:18.227910", "event_type": "round_end", "actions_count": 1}
+{"round": 16, "timestamp": "2026-07-16T15:42:18.228410", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-07-16T15:42:24.002686", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France remains committed to fostering European unity and multilateral cooperation. Today, we highlight our ongoing efforts to strengthen trade and cultural ties across the continent. Vive l'Europe! #EU #Diplomacy #Trade", "post_id": 7}, "result": null, "success": true}
+{"round": 16, "timestamp": "2026-07-16T15:42:24.003202", "event_type": "round_end", "actions_count": 1}
+{"round": 17, "timestamp": "2026-07-16T15:42:24.003788", "event_type": "round_start", "simulated_hour": 16}
+{"round": 17, "timestamp": "2026-07-16T15:42:26.799753", "agent_id": 3, "agent_name": "Poland", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 17, "timestamp": "2026-07-16T15:42:26.800111", "event_type": "round_end", "actions_count": 1}
+{"round": 18, "timestamp": "2026-07-16T15:42:26.800619", "event_type": "round_start", "simulated_hour": 17}
+{"round": 18, "timestamp": "2026-07-16T15:42:31.664668", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 8, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "Valdoria", "quote_content": "Valdoria commends Poland's proactive engagement in our agricultural and technology partnership. This initiative exemplifies our shared vision for Central European economic integration. We're particularly excited about the potential for knowledge transfer and market expansion in these strategic sectors."}, "result": null, "success": true}
+{"round": 18, "timestamp": "2026-07-16T15:42:31.665008", "event_type": "round_end", "actions_count": 1}
+{"round": 19, "timestamp": "2026-07-16T15:42:31.665438", "event_type": "round_start", "simulated_hour": 18}
+{"round": 19, "timestamp": "2026-07-16T15:42:31.665752", "event_type": "round_end", "actions_count": 0}
+{"round": 20, "timestamp": "2026-07-16T15:42:31.666208", "event_type": "round_start", "simulated_hour": 19}
+{"round": 20, "timestamp": "2026-07-16T15:42:31.666576", "event_type": "round_end", "actions_count": 0}
+{"round": 21, "timestamp": "2026-07-16T15:42:31.667027", "event_type": "round_start", "simulated_hour": 20}
+{"round": 21, "timestamp": "2026-07-16T15:42:31.667374", "event_type": "round_end", "actions_count": 0}
+{"round": 22, "timestamp": "2026-07-16T15:42:31.667680", "event_type": "round_start", "simulated_hour": 21}
+{"round": 22, "timestamp": "2026-07-16T15:42:31.667857", "event_type": "round_end", "actions_count": 0}
+{"round": 23, "timestamp": "2026-07-16T15:42:31.668053", "event_type": "round_start", "simulated_hour": 22}
+{"round": 23, "timestamp": "2026-07-16T15:42:31.668237", "event_type": "round_end", "actions_count": 0}
+{"round": 24, "timestamp": "2026-07-16T15:42:31.668417", "event_type": "round_start", "simulated_hour": 23}
+{"round": 24, "timestamp": "2026-07-16T15:42:31.668578", "event_type": "round_end", "actions_count": 0}
+{"round": 25, "timestamp": "2026-07-16T15:42:31.668746", "event_type": "round_start", "simulated_hour": 0}
+{"round": 25, "timestamp": "2026-07-16T15:42:31.668902", "event_type": "round_end", "actions_count": 0}
+{"round": 26, "timestamp": "2026-07-16T15:42:31.669055", "event_type": "round_start", "simulated_hour": 1}
+{"round": 26, "timestamp": "2026-07-16T15:42:31.669263", "event_type": "round_end", "actions_count": 0}
+{"round": 27, "timestamp": "2026-07-16T15:42:31.669503", "event_type": "round_start", "simulated_hour": 2}
+{"round": 27, "timestamp": "2026-07-16T15:42:31.669700", "event_type": "round_end", "actions_count": 0}
+{"round": 28, "timestamp": "2026-07-16T15:42:31.669937", "event_type": "round_start", "simulated_hour": 3}
+{"round": 28, "timestamp": "2026-07-16T15:42:31.670101", "event_type": "round_end", "actions_count": 0}
+{"round": 29, "timestamp": "2026-07-16T15:42:31.670310", "event_type": "round_start", "simulated_hour": 4}
+{"round": 29, "timestamp": "2026-07-16T15:42:31.670599", "event_type": "round_end", "actions_count": 0}
+{"round": 30, "timestamp": "2026-07-16T15:42:31.670993", "event_type": "round_start", "simulated_hour": 5}
+{"round": 30, "timestamp": "2026-07-16T15:42:31.671286", "event_type": "round_end", "actions_count": 0}
+{"round": 31, "timestamp": "2026-07-16T15:42:31.671581", "event_type": "round_start", "simulated_hour": 6}
+{"round": 31, "timestamp": "2026-07-16T15:42:31.671834", "event_type": "round_end", "actions_count": 0}
+{"round": 32, "timestamp": "2026-07-16T15:42:31.672097", "event_type": "round_start", "simulated_hour": 7}
+{"round": 32, "timestamp": "2026-07-16T15:42:31.672336", "event_type": "round_end", "actions_count": 0}
+{"round": 33, "timestamp": "2026-07-16T15:42:31.672590", "event_type": "round_start", "simulated_hour": 8}
+{"round": 33, "timestamp": "2026-07-16T15:42:31.672820", "event_type": "round_end", "actions_count": 0}
+{"round": 34, "timestamp": "2026-07-16T15:42:31.673069", "event_type": "round_start", "simulated_hour": 9}
+{"round": 34, "timestamp": "2026-07-16T15:42:31.673297", "event_type": "round_end", "actions_count": 0}
+{"round": 35, "timestamp": "2026-07-16T15:42:31.673572", "event_type": "round_start", "simulated_hour": 10}
+{"round": 35, "timestamp": "2026-07-16T15:42:35.515308", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 5, "like_id": 2, "post_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "post_author_name": "Germany"}, "result": null, "success": true}
+{"round": 35, "timestamp": "2026-07-16T15:42:35.515591", "event_type": "round_end", "actions_count": 1}
+{"round": 36, "timestamp": "2026-07-16T15:42:35.516083", "event_type": "round_start", "simulated_hour": 11}
+{"round": 36, "timestamp": "2026-07-16T15:42:35.516311", "event_type": "round_end", "actions_count": 0}
+{"round": 37, "timestamp": "2026-07-16T15:42:35.516551", "event_type": "round_start", "simulated_hour": 12}
+{"round": 37, "timestamp": "2026-07-16T15:42:35.516758", "event_type": "round_end", "actions_count": 0}
+{"round": 38, "timestamp": "2026-07-16T15:42:35.516992", "event_type": "round_start", "simulated_hour": 13}
+{"round": 38, "timestamp": "2026-07-16T15:42:40.328028", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland stands with its allies in promoting peace and stability in Central Europe. Today, we highlight our strong economic partnerships and cultural heritage as pillars of regional cooperation. #Poland #CentralEurope #Diplomacy", "post_id": 9}, "result": null, "success": true}
+{"round": 38, "timestamp": "2026-07-16T15:42:40.328482", "event_type": "round_end", "actions_count": 1}
+{"round": 39, "timestamp": "2026-07-16T15:42:40.329100", "event_type": "round_start", "simulated_hour": 14}
+{"round": 39, "timestamp": "2026-07-16T15:42:40.329441", "event_type": "round_end", "actions_count": 0}
+{"round": 40, "timestamp": "2026-07-16T15:42:40.329806", "event_type": "round_start", "simulated_hour": 15}
+{"round": 40, "timestamp": "2026-07-16T15:42:40.330053", "event_type": "round_end", "actions_count": 0}
+{"round": 41, "timestamp": "2026-07-16T15:42:40.330335", "event_type": "round_start", "simulated_hour": 16}
+{"round": 41, "timestamp": "2026-07-16T15:42:43.374954", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 41, "timestamp": "2026-07-16T15:42:43.375449", "event_type": "round_end", "actions_count": 1}
+{"round": 42, "timestamp": "2026-07-16T15:42:43.375980", "event_type": "round_start", "simulated_hour": 17}
+{"round": 42, "timestamp": "2026-07-16T15:42:48.462985", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany continues to champion innovation and sustainability in its economic policies. Today, we highlight our commitment to the #Energiewende, driving forward renewable energy and green technology to build a sustainable future. #SustainableGermany #ClimateAction", "post_id": 10}, "result": null, "success": true}
+{"round": 42, "timestamp": "2026-07-16T15:42:48.463353", "event_type": "round_end", "actions_count": 1}
+{"round": 43, "timestamp": "2026-07-16T15:42:48.463898", "event_type": "round_start", "simulated_hour": 18}
+{"round": 43, "timestamp": "2026-07-16T15:42:48.464153", "event_type": "round_end", "actions_count": 0}
+{"round": 44, "timestamp": "2026-07-16T15:42:48.464412", "event_type": "round_start", "simulated_hour": 19}
+{"round": 44, "timestamp": "2026-07-16T15:42:48.464626", "event_type": "round_end", "actions_count": 0}
+{"round": 45, "timestamp": "2026-07-16T15:42:48.464824", "event_type": "round_start", "simulated_hour": 20}
+{"round": 45, "timestamp": "2026-07-16T15:42:48.465040", "event_type": "round_end", "actions_count": 0}
+{"round": 46, "timestamp": "2026-07-16T15:42:48.465277", "event_type": "round_start", "simulated_hour": 21}
+{"round": 46, "timestamp": "2026-07-16T15:42:48.465474", "event_type": "round_end", "actions_count": 0}
+{"round": 47, "timestamp": "2026-07-16T15:42:48.465679", "event_type": "round_start", "simulated_hour": 22}
+{"round": 47, "timestamp": "2026-07-16T15:42:48.465853", "event_type": "round_end", "actions_count": 0}
+{"round": 48, "timestamp": "2026-07-16T15:42:48.466043", "event_type": "round_start", "simulated_hour": 23}
+{"round": 48, "timestamp": "2026-07-16T15:42:48.466235", "event_type": "round_end", "actions_count": 0}
+{"round": 49, "timestamp": "2026-07-16T15:42:48.466395", "event_type": "round_start", "simulated_hour": 0}
+{"round": 49, "timestamp": "2026-07-16T15:42:48.466547", "event_type": "round_end", "actions_count": 0}
+{"round": 50, "timestamp": "2026-07-16T15:42:48.466682", "event_type": "round_start", "simulated_hour": 1}
+{"round": 50, "timestamp": "2026-07-16T15:42:48.466821", "event_type": "round_end", "actions_count": 0}
+{"round": 51, "timestamp": "2026-07-16T15:42:48.466970", "event_type": "round_start", "simulated_hour": 2}
+{"round": 51, "timestamp": "2026-07-16T15:42:48.467115", "event_type": "round_end", "actions_count": 0}
+{"round": 52, "timestamp": "2026-07-16T15:42:48.467246", "event_type": "round_start", "simulated_hour": 3}
+{"round": 52, "timestamp": "2026-07-16T15:42:48.467403", "event_type": "round_end", "actions_count": 0}
+{"round": 53, "timestamp": "2026-07-16T15:42:48.467521", "event_type": "round_start", "simulated_hour": 4}
+{"round": 53, "timestamp": "2026-07-16T15:42:48.467662", "event_type": "round_end", "actions_count": 0}
+{"round": 54, "timestamp": "2026-07-16T15:42:48.467783", "event_type": "round_start", "simulated_hour": 5}
+{"round": 54, "timestamp": "2026-07-16T15:42:48.467919", "event_type": "round_end", "actions_count": 0}
+{"round": 55, "timestamp": "2026-07-16T15:42:48.468040", "event_type": "round_start", "simulated_hour": 6}
+{"round": 55, "timestamp": "2026-07-16T15:42:48.468174", "event_type": "round_end", "actions_count": 0}
+{"round": 56, "timestamp": "2026-07-16T15:42:48.468346", "event_type": "round_start", "simulated_hour": 7}
+{"round": 56, "timestamp": "2026-07-16T15:42:48.468485", "event_type": "round_end", "actions_count": 0}
+{"round": 57, "timestamp": "2026-07-16T15:42:48.468607", "event_type": "round_start", "simulated_hour": 8}
+{"round": 57, "timestamp": "2026-07-16T15:42:48.468734", "event_type": "round_end", "actions_count": 0}
+{"round": 58, "timestamp": "2026-07-16T15:42:48.468933", "event_type": "round_start", "simulated_hour": 9}
+{"round": 58, "timestamp": "2026-07-16T15:42:52.080791", "agent_id": 2, "agent_name": "France", "action_type": "REPOST", "action_args": {"new_post_id": 11, "original_content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "original_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 58, "timestamp": "2026-07-16T15:42:52.081355", "event_type": "round_end", "actions_count": 1}
+{"round": 59, "timestamp": "2026-07-16T15:42:52.081826", "event_type": "round_start", "simulated_hour": 10}
+{"round": 59, "timestamp": "2026-07-16T15:42:57.621279", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "post_id": 12}, "result": null, "success": true}
+{"round": 59, "timestamp": "2026-07-16T15:42:57.621526", "event_type": "round_end", "actions_count": 1}
+{"round": 60, "timestamp": "2026-07-16T15:42:57.622023", "event_type": "round_start", "simulated_hour": 11}
+{"round": 60, "timestamp": "2026-07-16T15:43:02.817937", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 3, "new_post_id": 13, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "France", "quote_content": "Valdoria deeply appreciates France's supportive stance on our trade agreement with Poland. Such multilateral endorsement reinforces our shared European values of cooperation and mutual prosperity. We particularly welcome France's recognition of this partnership's potential to drive regional economic stability and growth."}, "result": null, "success": true}
+{"round": 60, "timestamp": "2026-07-16T15:43:02.818290", "event_type": "round_end", "actions_count": 1}
+{"round": 61, "timestamp": "2026-07-16T15:43:02.819206", "event_type": "round_start", "simulated_hour": 12}
+{"round": 61, "timestamp": "2026-07-16T15:43:06.510941", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 14, "original_content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.", "original_author_name": "Germany"}, "result": null, "success": true}
+{"round": 61, "timestamp": "2026-07-16T15:43:06.511199", "event_type": "round_end", "actions_count": 1}
+{"round": 62, "timestamp": "2026-07-16T15:43:06.511627", "event_type": "round_start", "simulated_hour": 13}
+{"round": 62, "timestamp": "2026-07-16T15:43:12.712021", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 12, "new_post_id": 15, "original_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "original_author_name": "France", "quote_content": "Poland commends France's commitment to sustainability and innovation in Europe. As close allies and EU partners, we share the vision of a greener future and stronger regional cooperation. Together, we can achieve more. #Poland #France #EUCooperation"}, "result": null, "success": true}
+{"round": 62, "timestamp": "2026-07-16T15:43:12.712602", "event_type": "round_end", "actions_count": 1}
+{"round": 63, "timestamp": "2026-07-16T15:43:12.713226", "event_type": "round_start", "simulated_hour": 14}
+{"round": 63, "timestamp": "2026-07-16T15:43:18.335603", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 12, "new_post_id": 16, "original_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "original_author_name": "France", "quote_content": "Germany applauds France's leadership in sustainability and innovation, key pillars of our shared European vision. As steadfast partners, we reaffirm our commitment to collaborative efforts that strengthen economic resilience and environmental stewardship. Together, we pave the way for a sustainable future. #TeamEurope #ClimateAction"}, "result": null, "success": true}
+{"round": 63, "timestamp": "2026-07-16T15:43:18.336061", "event_type": "round_end", "actions_count": 1}
+{"round": 64, "timestamp": "2026-07-16T15:43:18.336609", "event_type": "round_start", "simulated_hour": 15}
+{"round": 64, "timestamp": "2026-07-16T15:43:21.824467", "event_type": "round_end", "actions_count": 0}
+{"round": 65, "timestamp": "2026-07-16T15:43:21.825002", "event_type": "round_start", "simulated_hour": 16}
+{"round": 65, "timestamp": "2026-07-16T15:43:25.571126", "agent_id": 2, "agent_name": "France", "action_type": "LIKE_POST", "action_args": {"post_id": 15, "like_id": 3, "post_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 65, "timestamp": "2026-07-16T15:43:25.571735", "event_type": "round_end", "actions_count": 1}
+{"round": 66, "timestamp": "2026-07-16T15:43:25.572345", "event_type": "round_start", "simulated_hour": 17}
+{"round": 66, "timestamp": "2026-07-16T15:43:29.812895", "agent_id": 1, "agent_name": "Germany", "action_type": "LIKE_POST", "action_args": {"post_id": 15, "like_id": 4, "post_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 66, "timestamp": "2026-07-16T15:43:29.813321", "event_type": "round_end", "actions_count": 1}
+{"round": 67, "timestamp": "2026-07-16T15:43:29.813864", "event_type": "round_start", "simulated_hour": 18}
+{"round": 67, "timestamp": "2026-07-16T15:43:29.814438", "event_type": "round_end", "actions_count": 0}
+{"round": 68, "timestamp": "2026-07-16T15:43:29.814898", "event_type": "round_start", "simulated_hour": 19}
+{"round": 68, "timestamp": "2026-07-16T15:43:29.815218", "event_type": "round_end", "actions_count": 0}
+{"round": 69, "timestamp": "2026-07-16T15:43:29.815501", "event_type": "round_start", "simulated_hour": 20}
+{"round": 69, "timestamp": "2026-07-16T15:43:29.815760", "event_type": "round_end", "actions_count": 0}
+{"round": 70, "timestamp": "2026-07-16T15:43:29.816038", "event_type": "round_start", "simulated_hour": 21}
+{"round": 70, "timestamp": "2026-07-16T15:43:29.816251", "event_type": "round_end", "actions_count": 0}
+{"round": 71, "timestamp": "2026-07-16T15:43:29.816440", "event_type": "round_start", "simulated_hour": 22}
+{"round": 71, "timestamp": "2026-07-16T15:43:29.816669", "event_type": "round_end", "actions_count": 0}
+{"round": 72, "timestamp": "2026-07-16T15:43:29.816938", "event_type": "round_start", "simulated_hour": 23}
+{"round": 72, "timestamp": "2026-07-16T15:43:29.817189", "event_type": "round_end", "actions_count": 0}
+{"round": 73, "timestamp": "2026-07-16T15:43:29.817379", "event_type": "round_start", "simulated_hour": 0}
+{"round": 73, "timestamp": "2026-07-16T15:43:29.817546", "event_type": "round_end", "actions_count": 0}
+{"round": 74, "timestamp": "2026-07-16T15:43:29.817721", "event_type": "round_start", "simulated_hour": 1}
+{"round": 74, "timestamp": "2026-07-16T15:43:29.817916", "event_type": "round_end", "actions_count": 0}
+{"round": 75, "timestamp": "2026-07-16T15:43:29.818069", "event_type": "round_start", "simulated_hour": 2}
+{"round": 75, "timestamp": "2026-07-16T15:43:29.818206", "event_type": "round_end", "actions_count": 0}
+{"round": 76, "timestamp": "2026-07-16T15:43:29.818351", "event_type": "round_start", "simulated_hour": 3}
+{"round": 76, "timestamp": "2026-07-16T15:43:29.818492", "event_type": "round_end", "actions_count": 0}
+{"round": 77, "timestamp": "2026-07-16T15:43:29.818636", "event_type": "round_start", "simulated_hour": 4}
+{"round": 77, "timestamp": "2026-07-16T15:43:29.818772", "event_type": "round_end", "actions_count": 0}
+{"round": 78, "timestamp": "2026-07-16T15:43:29.818942", "event_type": "round_start", "simulated_hour": 5}
+{"round": 78, "timestamp": "2026-07-16T15:43:29.819109", "event_type": "round_end", "actions_count": 0}
+{"round": 79, "timestamp": "2026-07-16T15:43:29.819248", "event_type": "round_start", "simulated_hour": 6}
+{"round": 79, "timestamp": "2026-07-16T15:43:29.819377", "event_type": "round_end", "actions_count": 0}
+{"round": 80, "timestamp": "2026-07-16T15:43:29.819626", "event_type": "round_start", "simulated_hour": 7}
+{"round": 80, "timestamp": "2026-07-16T15:43:29.819795", "event_type": "round_end", "actions_count": 0}
+{"round": 81, "timestamp": "2026-07-16T15:43:29.819952", "event_type": "round_start", "simulated_hour": 8}
+{"round": 81, "timestamp": "2026-07-16T15:43:29.820081", "event_type": "round_end", "actions_count": 0}
+{"round": 82, "timestamp": "2026-07-16T15:43:29.820234", "event_type": "round_start", "simulated_hour": 9}
+{"round": 82, "timestamp": "2026-07-16T15:43:29.820368", "event_type": "round_end", "actions_count": 0}
+{"round": 83, "timestamp": "2026-07-16T15:43:29.820543", "event_type": "round_start", "simulated_hour": 10}
+{"round": 83, "timestamp": "2026-07-16T15:43:33.699474", "agent_id": 3, "agent_name": "Poland", "action_type": "REPOST", "action_args": {"new_post_id": 17, "original_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 83, "timestamp": "2026-07-16T15:43:33.699896", "event_type": "round_end", "actions_count": 1}
+{"round": 84, "timestamp": "2026-07-16T15:43:33.700444", "event_type": "round_start", "simulated_hour": 11}
+{"round": 84, "timestamp": "2026-07-16T15:43:38.207466", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently preparing for our annual Central European Economic Summit, where we will discuss key initiatives for regional digital transformation and green energy partnerships. Member states are encouraged to submit their priority topics for the agenda.", "post_id": 18}, "result": null, "success": true}
+{"round": 84, "timestamp": "2026-07-16T15:43:38.207929", "event_type": "round_end", "actions_count": 1}
+{"round": 85, "timestamp": "2026-07-16T15:43:38.208602", "event_type": "round_start", "simulated_hour": 12}
+{"round": 85, "timestamp": "2026-07-16T15:43:42.442929", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 12, "new_post_id": 19, "original_content": "France continues to lead efforts in promoting sustainable development and innovation within Europe. As we work towards a greener and more prosperous future, we invite our partners to collaborate on initiatives that drive economic resilience and environmental stewardship. Ensemble, nous pouvons construire l'avenir. #Sustainability #Innovation #Europe", "original_author_name": "France", "quote_content": "Valdoria applauds France's leadership in sustainable development and innovation. These priorities align perfectly with our upcoming Central European Economic Summit agenda. We look forward to facilitating cross-border collaborations that advance both economic resilience and environmental stewardship across our region."}, "result": null, "success": true}
+{"round": 85, "timestamp": "2026-07-16T15:43:42.443320", "event_type": "round_end", "actions_count": 1}
+{"round": 86, "timestamp": "2026-07-16T15:43:42.443758", "event_type": "round_start", "simulated_hour": 13}
+{"round": 86, "timestamp": "2026-07-16T15:43:48.652640", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland remains committed to fostering strong diplomatic ties and economic partnerships across Europe. Today, we celebrate our shared values of unity, innovation, and sustainability with our allies. Together, we can build a brighter future for all. #Poland #Diplomacy #EuropeanUnity", "post_id": 20}, "result": null, "success": true}
+{"round": 86, "timestamp": "2026-07-16T15:43:48.653085", "event_type": "round_end", "actions_count": 1}
+{"round": 87, "timestamp": "2026-07-16T15:43:48.653599", "event_type": "round_start", "simulated_hour": 14}
+{"round": 87, "timestamp": "2026-07-16T15:43:48.653934", "event_type": "round_end", "actions_count": 0}
+{"round": 88, "timestamp": "2026-07-16T15:43:48.654327", "event_type": "round_start", "simulated_hour": 15}
+{"round": 88, "timestamp": "2026-07-16T15:43:55.076786", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to continue its leadership in fostering European unity and sustainable growth. Today, we highlight the importance of multilateral cooperation to tackle global challenges. Together, we can build a brighter future for all. Liberté, Égalité, Fraternité! #Diplomacy #Sustainability #Europe", "post_id": 21}, "result": null, "success": true}
+{"round": 88, "timestamp": "2026-07-16T15:43:55.076999", "event_type": "round_end", "actions_count": 1}
+{"round": 89, "timestamp": "2026-07-16T15:43:55.077302", "event_type": "round_start", "simulated_hour": 16}
+{"round": 89, "timestamp": "2026-07-16T15:44:01.107818", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "As the host of the Paris Agreement, France remains steadfast in its commitment to climate action and environmental sustainability. We call on global partners to intensify efforts in reducing carbon emissions and protecting our planet for future generations. #ClimateAction #ParisAgreement #Sustainability #France", "post_id": 22}, "result": null, "success": true}
+{"round": 89, "timestamp": "2026-07-16T15:44:01.108136", "event_type": "round_end", "actions_count": 1}
+{"round": 90, "timestamp": "2026-07-16T15:44:01.108617", "event_type": "round_start", "simulated_hour": 17}
+{"round": 90, "timestamp": "2026-07-16T15:44:04.997078", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 90, "timestamp": "2026-07-16T15:44:04.997496", "event_type": "round_end", "actions_count": 1}
+{"round": 91, "timestamp": "2026-07-16T15:44:04.998069", "event_type": "round_start", "simulated_hour": 18}
+{"round": 91, "timestamp": "2026-07-16T15:44:04.998495", "event_type": "round_end", "actions_count": 0}
+{"round": 92, "timestamp": "2026-07-16T15:44:04.998804", "event_type": "round_start", "simulated_hour": 19}
+{"round": 92, "timestamp": "2026-07-16T15:44:04.999131", "event_type": "round_end", "actions_count": 0}
+{"round": 93, "timestamp": "2026-07-16T15:44:04.999512", "event_type": "round_start", "simulated_hour": 20}
+{"round": 93, "timestamp": "2026-07-16T15:44:04.999794", "event_type": "round_end", "actions_count": 0}
+{"round": 94, "timestamp": "2026-07-16T15:44:05.000031", "event_type": "round_start", "simulated_hour": 21}
+{"round": 94, "timestamp": "2026-07-16T15:44:05.000229", "event_type": "round_end", "actions_count": 0}
+{"round": 95, "timestamp": "2026-07-16T15:44:05.000474", "event_type": "round_start", "simulated_hour": 22}
+{"round": 95, "timestamp": "2026-07-16T15:44:05.000685", "event_type": "round_end", "actions_count": 0}
+{"round": 96, "timestamp": "2026-07-16T15:44:05.000916", "event_type": "round_start", "simulated_hour": 23}
+{"round": 96, "timestamp": "2026-07-16T15:44:05.001122", "event_type": "round_end", "actions_count": 0}
+{"round": 97, "timestamp": "2026-07-16T15:44:05.001292", "event_type": "round_start", "simulated_hour": 0}
+{"round": 97, "timestamp": "2026-07-16T15:44:05.001471", "event_type": "round_end", "actions_count": 0}
+{"round": 98, "timestamp": "2026-07-16T15:44:05.001653", "event_type": "round_start", "simulated_hour": 1}
+{"round": 98, "timestamp": "2026-07-16T15:44:05.001812", "event_type": "round_end", "actions_count": 0}
+{"round": 99, "timestamp": "2026-07-16T15:44:05.001965", "event_type": "round_start", "simulated_hour": 2}
+{"round": 99, "timestamp": "2026-07-16T15:44:05.002133", "event_type": "round_end", "actions_count": 0}
+{"round": 100, "timestamp": "2026-07-16T15:44:05.002317", "event_type": "round_start", "simulated_hour": 3}
+{"round": 100, "timestamp": "2026-07-16T15:44:05.002464", "event_type": "round_end", "actions_count": 0}
+{"round": 101, "timestamp": "2026-07-16T15:44:05.002608", "event_type": "round_start", "simulated_hour": 4}
+{"round": 101, "timestamp": "2026-07-16T15:44:05.002774", "event_type": "round_end", "actions_count": 0}
+{"round": 102, "timestamp": "2026-07-16T15:44:05.002917", "event_type": "round_start", "simulated_hour": 5}
+{"round": 102, "timestamp": "2026-07-16T15:44:05.003047", "event_type": "round_end", "actions_count": 0}
+{"round": 103, "timestamp": "2026-07-16T15:44:05.003191", "event_type": "round_start", "simulated_hour": 6}
+{"round": 103, "timestamp": "2026-07-16T15:44:05.003318", "event_type": "round_end", "actions_count": 0}
+{"round": 104, "timestamp": "2026-07-16T15:44:05.003486", "event_type": "round_start", "simulated_hour": 7}
+{"round": 104, "timestamp": "2026-07-16T15:44:05.003639", "event_type": "round_end", "actions_count": 0}
+{"round": 105, "timestamp": "2026-07-16T15:44:05.003780", "event_type": "round_start", "simulated_hour": 8}
+{"round": 105, "timestamp": "2026-07-16T15:44:05.003913", "event_type": "round_end", "actions_count": 0}
+{"round": 106, "timestamp": "2026-07-16T15:44:05.004106", "event_type": "round_start", "simulated_hour": 9}
+{"round": 106, "timestamp": "2026-07-16T15:44:10.655251", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland continues to champion regional cooperation and economic resilience in Central Europe. As a bridge between East and West, we reaffirm our commitment to stability, innovation, and shared prosperity. #Poland #CentralEurope #Diplomacy", "post_id": 23}, "result": null, "success": true}
+{"round": 106, "timestamp": "2026-07-16T15:44:10.655783", "event_type": "round_end", "actions_count": 1}
+{"round": 107, "timestamp": "2026-07-16T15:44:10.656337", "event_type": "round_start", "simulated_hour": 10}
+{"round": 107, "timestamp": "2026-07-16T15:44:16.255597", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "As Poland celebrates its rich cultural heritage, we invite the world to explore our traditions, from Chopin's melodies to the vibrant folk art of the Polish Highlands. Culture connects us all. #PolishCulture #Heritage #GlobalConnections", "post_id": 24}, "result": null, "success": true}
+{"round": 107, "timestamp": "2026-07-16T15:44:16.256047", "event_type": "round_end", "actions_count": 1}
+{"round": 108, "timestamp": "2026-07-16T15:44:16.256636", "event_type": "round_start", "simulated_hour": 11}
+{"round": 108, "timestamp": "2026-07-16T15:44:32.561723", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates today the rich cultural heritage of our nation and Europe. From literature to art, cuisine to philosophy, our shared European identity continues to inspire. Nous sommes fiers de notre patrimoine culturel. #Culture #Europe #France", "post_id": 25}, "result": null, "success": true}
+{"round": 108, "timestamp": "2026-07-16T15:44:32.562134", "event_type": "round_end", "actions_count": 1}
+{"round": 109, "timestamp": "2026-07-16T15:44:32.562814", "event_type": "round_start", "simulated_hour": 12}
+{"round": 109, "timestamp": "2026-07-16T15:44:43.279996", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany reaffirms its dedication to fostering international cooperation and sustainable development. As we celebrate our longstanding partnerships, we invite global allies to join us in advancing innovative solutions for a greener, more equitable future. #GlobalCooperation #Sustainability #Germany", "post_id": 26}, "result": null, "success": true}
+{"round": 109, "timestamp": "2026-07-16T15:44:43.280618", "event_type": "round_end", "actions_count": 1}
+{"round": 110, "timestamp": "2026-07-16T15:44:43.281424", "event_type": "round_start", "simulated_hour": 13}
+{"round": 110, "timestamp": "2026-07-16T15:44:43.281830", "event_type": "round_end", "actions_count": 0}
+{"round": 111, "timestamp": "2026-07-16T15:44:43.282212", "event_type": "round_start", "simulated_hour": 14}
+{"round": 111, "timestamp": "2026-07-16T15:44:47.692038", "agent_id": 1, "agent_name": "Germany", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 111, "timestamp": "2026-07-16T15:44:47.692629", "event_type": "round_end", "actions_count": 1}
+{"round": 112, "timestamp": "2026-07-16T15:44:47.693142", "event_type": "round_start", "simulated_hour": 15}
+{"round": 112, "timestamp": "2026-07-16T15:44:47.693494", "event_type": "round_end", "actions_count": 0}
+{"round": 113, "timestamp": "2026-07-16T15:44:47.693865", "event_type": "round_start", "simulated_hour": 16}
+{"round": 113, "timestamp": "2026-07-16T15:44:54.929384", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany is proud to announce new initiatives under the #Energiewende program, focusing on renewable energy and technological innovation. These efforts underscore our commitment to sustainability and a carbon-neutral future. Join us in shaping a greener tomorrow. #SustainableGermany #RenewableEnergy", "post_id": 27}, "result": null, "success": true}
+{"round": 113, "timestamp": "2026-07-16T15:44:54.929813", "event_type": "round_end", "actions_count": 1}
+{"round": 114, "timestamp": "2026-07-16T15:44:54.930305", "event_type": "round_start", "simulated_hour": 17}
+{"round": 114, "timestamp": "2026-07-16T15:44:54.930681", "event_type": "round_end", "actions_count": 0}
+{"round": 115, "timestamp": "2026-07-16T15:44:54.930978", "event_type": "round_start", "simulated_hour": 18}
+{"round": 115, "timestamp": "2026-07-16T15:44:54.931184", "event_type": "round_end", "actions_count": 0}
+{"round": 116, "timestamp": "2026-07-16T15:44:54.931399", "event_type": "round_start", "simulated_hour": 19}
+{"round": 116, "timestamp": "2026-07-16T15:44:54.931626", "event_type": "round_end", "actions_count": 0}
+{"round": 117, "timestamp": "2026-07-16T15:44:54.931808", "event_type": "round_start", "simulated_hour": 20}
+{"round": 117, "timestamp": "2026-07-16T15:44:54.931977", "event_type": "round_end", "actions_count": 0}
+{"round": 118, "timestamp": "2026-07-16T15:44:54.932154", "event_type": "round_start", "simulated_hour": 21}
+{"round": 118, "timestamp": "2026-07-16T15:44:54.932319", "event_type": "round_end", "actions_count": 0}
+{"round": 119, "timestamp": "2026-07-16T15:44:54.932546", "event_type": "round_start", "simulated_hour": 22}
+{"round": 119, "timestamp": "2026-07-16T15:44:54.932999", "event_type": "round_end", "actions_count": 0}
+{"round": 120, "timestamp": "2026-07-16T15:44:54.933220", "event_type": "round_start", "simulated_hour": 23}
+{"round": 120, "timestamp": "2026-07-16T15:44:54.933372", "event_type": "round_end", "actions_count": 0}
+{"round": 121, "timestamp": "2026-07-16T15:44:54.933545", "event_type": "round_start", "simulated_hour": 0}
+{"round": 121, "timestamp": "2026-07-16T15:44:54.933762", "event_type": "round_end", "actions_count": 0}
+{"round": 122, "timestamp": "2026-07-16T15:44:54.933939", "event_type": "round_start", "simulated_hour": 1}
+{"round": 122, "timestamp": "2026-07-16T15:44:54.934071", "event_type": "round_end", "actions_count": 0}
+{"round": 123, "timestamp": "2026-07-16T15:44:54.934219", "event_type": "round_start", "simulated_hour": 2}
+{"round": 123, "timestamp": "2026-07-16T15:44:54.934362", "event_type": "round_end", "actions_count": 0}
+{"round": 124, "timestamp": "2026-07-16T15:44:54.934557", "event_type": "round_start", "simulated_hour": 3}
+{"round": 124, "timestamp": "2026-07-16T15:44:54.934712", "event_type": "round_end", "actions_count": 0}
+{"round": 125, "timestamp": "2026-07-16T15:44:54.934872", "event_type": "round_start", "simulated_hour": 4}
+{"round": 125, "timestamp": "2026-07-16T15:44:54.935030", "event_type": "round_end", "actions_count": 0}
+{"round": 126, "timestamp": "2026-07-16T15:44:54.935174", "event_type": "round_start", "simulated_hour": 5}
+{"round": 126, "timestamp": "2026-07-16T15:44:54.935313", "event_type": "round_end", "actions_count": 0}
+{"round": 127, "timestamp": "2026-07-16T15:44:54.935478", "event_type": "round_start", "simulated_hour": 6}
+{"round": 127, "timestamp": "2026-07-16T15:44:54.935674", "event_type": "round_end", "actions_count": 0}
+{"round": 128, "timestamp": "2026-07-16T15:44:54.935878", "event_type": "round_start", "simulated_hour": 7}
+{"round": 128, "timestamp": "2026-07-16T15:44:54.936056", "event_type": "round_end", "actions_count": 0}
+{"round": 129, "timestamp": "2026-07-16T15:44:54.936315", "event_type": "round_start", "simulated_hour": 8}
+{"round": 129, "timestamp": "2026-07-16T15:44:54.936492", "event_type": "round_end", "actions_count": 0}
+{"round": 130, "timestamp": "2026-07-16T15:44:54.936666", "event_type": "round_start", "simulated_hour": 9}
+{"round": 130, "timestamp": "2026-07-16T15:44:54.936837", "event_type": "round_end", "actions_count": 0}
+{"round": 131, "timestamp": "2026-07-16T15:44:54.936987", "event_type": "round_start", "simulated_hour": 10}
+{"round": 131, "timestamp": "2026-07-16T15:44:54.937157", "event_type": "round_end", "actions_count": 0}
+{"round": 132, "timestamp": "2026-07-16T15:44:54.937308", "event_type": "round_start", "simulated_hour": 11}
+{"round": 132, "timestamp": "2026-07-16T15:44:54.937459", "event_type": "round_end", "actions_count": 0}
+{"round": 133, "timestamp": "2026-07-16T15:44:54.937630", "event_type": "round_start", "simulated_hour": 12}
+{"round": 133, "timestamp": "2026-07-16T15:44:54.937780", "event_type": "round_end", "actions_count": 0}
+{"round": 134, "timestamp": "2026-07-16T15:44:54.937927", "event_type": "round_start", "simulated_hour": 13}
+{"round": 134, "timestamp": "2026-07-16T15:44:54.938074", "event_type": "round_end", "actions_count": 0}
+{"round": 135, "timestamp": "2026-07-16T15:44:54.938258", "event_type": "round_start", "simulated_hour": 14}
+{"round": 135, "timestamp": "2026-07-16T15:44:59.631861", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the publication of our quarterly economic report on Central European trade trends. The report highlights positive growth indicators across multiple sectors and identifies emerging opportunities for regional collaboration. Available now on our official website.", "post_id": 28}, "result": null, "success": true}
+{"round": 135, "timestamp": "2026-07-16T15:44:59.632112", "event_type": "round_end", "actions_count": 1}
+{"round": 136, "timestamp": "2026-07-16T15:44:59.632550", "event_type": "round_start", "simulated_hour": 15}
+{"round": 136, "timestamp": "2026-07-16T15:45:08.526523", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland reaffirms its unwavering commitment to international cooperation and solidarity. From economic partnerships to cultural exchanges, we continue to build bridges across borders for a stronger, more united world. #Poland #InternationalCooperation #Diplomacy", "post_id": 29}, "result": null, "success": true}
+{"round": 136, "timestamp": "2026-07-16T15:45:08.526820", "event_type": "round_end", "actions_count": 1}
+{"round": 137, "timestamp": "2026-07-16T15:45:08.527322", "event_type": "round_start", "simulated_hour": 16}
+{"round": 137, "timestamp": "2026-07-16T15:45:12.670905", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria invites expressions of interest from member states and partner organizations for our upcoming working groups on digital infrastructure modernization and cross-border logistics optimization. These initiatives aim to enhance regional connectivity and economic efficiency.", "post_id": 30}, "result": null, "success": true}
+{"round": 137, "timestamp": "2026-07-16T15:45:12.671250", "event_type": "round_end", "actions_count": 1}
+{"round": 138, "timestamp": "2026-07-16T15:45:12.671622", "event_type": "round_start", "simulated_hour": 17}
+{"round": 138, "timestamp": "2026-07-16T15:45:17.530724", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to European security and defense cooperation. As we face evolving global challenges, we stand united with our allies to protect peace and stability across our continent. La sécurité européenne est notre priorité. #Defense #Security #Europe", "post_id": 31}, "result": null, "success": true}
+{"round": 138, "timestamp": "2026-07-16T15:45:17.531138", "event_type": "round_end", "actions_count": 1}
+{"round": 139, "timestamp": "2026-07-16T15:45:17.531554", "event_type": "round_start", "simulated_hour": 18}
+{"round": 139, "timestamp": "2026-07-16T15:45:17.531857", "event_type": "round_end", "actions_count": 0}
+{"round": 140, "timestamp": "2026-07-16T15:45:17.532119", "event_type": "round_start", "simulated_hour": 19}
+{"round": 140, "timestamp": "2026-07-16T15:45:17.532399", "event_type": "round_end", "actions_count": 0}
+{"round": 141, "timestamp": "2026-07-16T15:45:17.532667", "event_type": "round_start", "simulated_hour": 20}
+{"round": 141, "timestamp": "2026-07-16T15:45:17.532932", "event_type": "round_end", "actions_count": 0}
+{"round": 142, "timestamp": "2026-07-16T15:45:17.533148", "event_type": "round_start", "simulated_hour": 21}
+{"round": 142, "timestamp": "2026-07-16T15:45:17.533412", "event_type": "round_end", "actions_count": 0}
+{"round": 143, "timestamp": "2026-07-16T15:45:17.533659", "event_type": "round_start", "simulated_hour": 22}
+{"round": 143, "timestamp": "2026-07-16T15:45:17.533891", "event_type": "round_end", "actions_count": 0}
+{"round": 144, "timestamp": "2026-07-16T15:45:17.534104", "event_type": "round_start", "simulated_hour": 23}
+{"round": 144, "timestamp": "2026-07-16T15:45:17.534326", "event_type": "round_end", "actions_count": 0}
+{"round": 145, "timestamp": "2026-07-16T15:45:17.534526", "event_type": "round_start", "simulated_hour": 0}
+{"round": 145, "timestamp": "2026-07-16T15:45:17.534747", "event_type": "round_end", "actions_count": 0}
+{"round": 146, "timestamp": "2026-07-16T15:45:17.534925", "event_type": "round_start", "simulated_hour": 1}
+{"round": 146, "timestamp": "2026-07-16T15:45:17.535119", "event_type": "round_end", "actions_count": 0}
+{"round": 147, "timestamp": "2026-07-16T15:45:17.535299", "event_type": "round_start", "simulated_hour": 2}
+{"round": 147, "timestamp": "2026-07-16T15:45:17.535467", "event_type": "round_end", "actions_count": 0}
+{"round": 148, "timestamp": "2026-07-16T15:45:17.535636", "event_type": "round_start", "simulated_hour": 3}
+{"round": 148, "timestamp": "2026-07-16T15:45:17.535853", "event_type": "round_end", "actions_count": 0}
+{"round": 149, "timestamp": "2026-07-16T15:45:17.536083", "event_type": "round_start", "simulated_hour": 4}
+{"round": 149, "timestamp": "2026-07-16T15:45:17.536248", "event_type": "round_end", "actions_count": 0}
+{"round": 150, "timestamp": "2026-07-16T15:45:17.536420", "event_type": "round_start", "simulated_hour": 5}
+{"round": 150, "timestamp": "2026-07-16T15:45:17.536579", "event_type": "round_end", "actions_count": 0}
+{"round": 151, "timestamp": "2026-07-16T15:45:17.536722", "event_type": "round_start", "simulated_hour": 6}
+{"round": 151, "timestamp": "2026-07-16T15:45:17.536870", "event_type": "round_end", "actions_count": 0}
+{"round": 152, "timestamp": "2026-07-16T15:45:17.537099", "event_type": "round_start", "simulated_hour": 7}
+{"round": 152, "timestamp": "2026-07-16T15:45:17.537259", "event_type": "round_end", "actions_count": 0}
+{"round": 153, "timestamp": "2026-07-16T15:45:17.537409", "event_type": "round_start", "simulated_hour": 8}
+{"round": 153, "timestamp": "2026-07-16T15:45:17.537579", "event_type": "round_end", "actions_count": 0}
+{"round": 154, "timestamp": "2026-07-16T15:45:17.537764", "event_type": "round_start", "simulated_hour": 9}
+{"round": 154, "timestamp": "2026-07-16T15:45:24.537601", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland stands proud as a hub of innovation and resilience in Central Europe. From advancing green technologies to fostering economic growth, we are paving the way for a sustainable and prosperous future. Join us in this journey. #Innovation #Poland #Sustainability #EconomicGrowth", "post_id": 32}, "result": null, "success": true}
+{"round": 154, "timestamp": "2026-07-16T15:45:24.537967", "event_type": "round_end", "actions_count": 1}
+{"round": 155, "timestamp": "2026-07-16T15:45:24.538514", "event_type": "round_start", "simulated_hour": 10}
+{"round": 155, "timestamp": "2026-07-16T15:45:30.288566", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to announce new cultural exchange programs with our European partners, strengthening the bonds of art, education and mutual understanding across our continent. La culture nous unit. #CulturalDiplomacy #Europe #France", "post_id": 33}, "result": null, "success": true}
+{"round": 155, "timestamp": "2026-07-16T15:45:30.288845", "event_type": "round_end", "actions_count": 1}
+{"round": 156, "timestamp": "2026-07-16T15:45:30.289356", "event_type": "round_start", "simulated_hour": 11}
+{"round": 156, "timestamp": "2026-07-16T15:45:36.932701", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland remains steadfast in its commitment to regional security and NATO solidarity. As we strengthen our alliances, we stand united in promoting peace and stability across Europe and beyond. #Poland #NATO #Security #Solidarity", "post_id": 34}, "result": null, "success": true}
+{"round": 156, "timestamp": "2026-07-16T15:45:36.933089", "event_type": "round_end", "actions_count": 1}
+{"round": 157, "timestamp": "2026-07-16T15:45:36.933473", "event_type": "round_start", "simulated_hour": 12}
+{"round": 157, "timestamp": "2026-07-16T15:45:43.620994", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany stands at the forefront of European unity and innovation. Today, we celebrate our shared values with partners across the EU, working together for peace, prosperity, and sustainability. #TeamEurope #Unity #Innovation", "post_id": 35}, "result": null, "success": true}
+{"round": 157, "timestamp": "2026-07-16T15:45:43.621399", "event_type": "round_end", "actions_count": 1}
+{"round": 158, "timestamp": "2026-07-16T15:45:43.621866", "event_type": "round_start", "simulated_hour": 13}
+{"round": 158, "timestamp": "2026-07-16T15:45:49.959220", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France continues to champion multilateralism and international cooperation. Today we highlight our commitment to the United Nations Sustainable Development Goals, working with global partners to build a more equitable and sustainable world. Ensemble pour un avenir meilleur. #GlobalGoals #SDGs #Multilateralism", "post_id": 36}, "result": null, "success": true}
+{"round": 158, "timestamp": "2026-07-16T15:45:49.959578", "event_type": "round_end", "actions_count": 1}
+{"round": 159, "timestamp": "2026-07-16T15:45:49.959943", "event_type": "round_start", "simulated_hour": 14}
+{"round": 159, "timestamp": "2026-07-16T15:45:55.606052", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently analyzing the latest economic indicators from Central European markets. Preliminary data suggests promising growth trajectories in manufacturing and green technology sectors. A comprehensive regional report will be published next week.", "post_id": 37}, "result": null, "success": true}
+{"round": 159, "timestamp": "2026-07-16T15:45:55.606385", "event_type": "round_end", "actions_count": 1}
+{"round": 160, "timestamp": "2026-07-16T15:45:55.606945", "event_type": "round_start", "simulated_hour": 15}
+{"round": 160, "timestamp": "2026-07-16T15:45:59.778468", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 38, "original_content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "original_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 160, "timestamp": "2026-07-16T15:45:59.778789", "event_type": "round_end", "actions_count": 1}
+{"round": 161, "timestamp": "2026-07-16T15:45:59.779602", "event_type": "round_start", "simulated_hour": 16}
+{"round": 161, "timestamp": "2026-07-16T15:46:04.121608", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 161, "timestamp": "2026-07-16T15:46:04.121846", "event_type": "round_end", "actions_count": 1}
+{"round": 162, "timestamp": "2026-07-16T15:46:04.122300", "event_type": "round_start", "simulated_hour": 17}
+{"round": 162, "timestamp": "2026-07-16T15:46:09.873393", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 20, "like_id": 5, "post_content": "Poland remains committed to fostering strong diplomatic ties and economic partnerships across Europe. Today, we celebrate our shared values of unity, innovation, and sustainability with our allies. Together, we can build a brighter future for all. #Poland #Diplomacy #EuropeanUnity", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 162, "timestamp": "2026-07-16T15:46:09.873725", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 34, "like_id": 6, "post_content": "Poland remains steadfast in its commitment to regional security and NATO solidarity. As we strengthen our alliances, we stand united in promoting peace and stability across Europe and beyond. #Poland #NATO #Security #Solidarity", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 162, "timestamp": "2026-07-16T15:46:09.874167", "event_type": "round_end", "actions_count": 2}
+{"round": 163, "timestamp": "2026-07-16T15:46:09.874435", "event_type": "round_start", "simulated_hour": 18}
+{"round": 163, "timestamp": "2026-07-16T15:46:09.874668", "event_type": "round_end", "actions_count": 0}
+{"round": 164, "timestamp": "2026-07-16T15:46:09.874893", "event_type": "round_start", "simulated_hour": 19}
+{"round": 164, "timestamp": "2026-07-16T15:46:09.875101", "event_type": "round_end", "actions_count": 0}
+{"round": 165, "timestamp": "2026-07-16T15:46:09.875358", "event_type": "round_start", "simulated_hour": 20}
+{"round": 165, "timestamp": "2026-07-16T15:46:09.875600", "event_type": "round_end", "actions_count": 0}
+{"round": 166, "timestamp": "2026-07-16T15:46:09.875896", "event_type": "round_start", "simulated_hour": 21}
+{"round": 166, "timestamp": "2026-07-16T15:46:09.876145", "event_type": "round_end", "actions_count": 0}
+{"round": 167, "timestamp": "2026-07-16T15:46:09.876428", "event_type": "round_start", "simulated_hour": 22}
+{"round": 167, "timestamp": "2026-07-16T15:46:09.876639", "event_type": "round_end", "actions_count": 0}
+{"round": 168, "timestamp": "2026-07-16T15:46:09.876878", "event_type": "round_start", "simulated_hour": 23}
+{"round": 168, "timestamp": "2026-07-16T15:46:09.877084", "event_type": "round_end", "actions_count": 0}
+{"round": 169, "timestamp": "2026-07-16T15:46:09.877338", "event_type": "round_start", "simulated_hour": 0}
+{"round": 169, "timestamp": "2026-07-16T15:46:09.877544", "event_type": "round_end", "actions_count": 0}
+{"round": 170, "timestamp": "2026-07-16T15:46:09.877751", "event_type": "round_start", "simulated_hour": 1}
+{"round": 170, "timestamp": "2026-07-16T15:46:09.877917", "event_type": "round_end", "actions_count": 0}
+{"round": 171, "timestamp": "2026-07-16T15:46:09.878120", "event_type": "round_start", "simulated_hour": 2}
+{"round": 171, "timestamp": "2026-07-16T15:46:09.878307", "event_type": "round_end", "actions_count": 0}
+{"round": 172, "timestamp": "2026-07-16T15:46:09.878463", "event_type": "round_start", "simulated_hour": 3}
+{"round": 172, "timestamp": "2026-07-16T15:46:09.878650", "event_type": "round_end", "actions_count": 0}
+{"round": 173, "timestamp": "2026-07-16T15:46:09.878809", "event_type": "round_start", "simulated_hour": 4}
+{"round": 173, "timestamp": "2026-07-16T15:46:09.878973", "event_type": "round_end", "actions_count": 0}
+{"round": 174, "timestamp": "2026-07-16T15:46:09.879133", "event_type": "round_start", "simulated_hour": 5}
+{"round": 174, "timestamp": "2026-07-16T15:46:09.879310", "event_type": "round_end", "actions_count": 0}
+{"round": 175, "timestamp": "2026-07-16T15:46:09.879545", "event_type": "round_start", "simulated_hour": 6}
+{"round": 175, "timestamp": "2026-07-16T15:46:09.879682", "event_type": "round_end", "actions_count": 0}
+{"round": 176, "timestamp": "2026-07-16T15:46:09.879834", "event_type": "round_start", "simulated_hour": 7}
+{"round": 176, "timestamp": "2026-07-16T15:46:09.879958", "event_type": "round_end", "actions_count": 0}
+{"round": 177, "timestamp": "2026-07-16T15:46:09.880097", "event_type": "round_start", "simulated_hour": 8}
+{"round": 177, "timestamp": "2026-07-16T15:46:09.880244", "event_type": "round_end", "actions_count": 0}
+{"round": 178, "timestamp": "2026-07-16T15:46:09.880379", "event_type": "round_start", "simulated_hour": 9}
+{"round": 178, "timestamp": "2026-07-16T15:46:09.880497", "event_type": "round_end", "actions_count": 0}
+{"round": 179, "timestamp": "2026-07-16T15:46:09.880652", "event_type": "round_start", "simulated_hour": 10}
+{"round": 179, "timestamp": "2026-07-16T15:46:15.457493", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to European values of democracy, human rights, and rule of law. As we face global challenges, we stand united with our partners to defend these fundamental principles. Liberté, Égalité, Fraternité! #EuropeanValues #Democracy #HumanRights", "post_id": 39}, "result": null, "success": true}
+{"round": 179, "timestamp": "2026-07-16T15:46:15.457783", "event_type": "round_end", "actions_count": 1}
+{"round": 180, "timestamp": "2026-07-16T15:46:15.458304", "event_type": "round_start", "simulated_hour": 11}
+{"round": 180, "timestamp": "2026-07-16T15:46:19.858215", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 6, "like_id": 7, "post_content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "post_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 180, "timestamp": "2026-07-16T15:46:19.858595", "event_type": "round_end", "actions_count": 1}
+{"round": 181, "timestamp": "2026-07-16T15:46:19.859292", "event_type": "round_start", "simulated_hour": 12}
+{"round": 181, "timestamp": "2026-07-16T15:46:27.047353", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 20, "new_post_id": 40, "original_content": "Poland remains committed to fostering strong diplomatic ties and economic partnerships across Europe. Today, we celebrate our shared values of unity, innovation, and sustainability with our allies. Together, we can build a brighter future for all. #Poland #Diplomacy #EuropeanUnity", "original_author_name": "Poland", "quote_content": "Poland's dedication to unity, innovation, and sustainability resonates deeply with our vision for Europe. Together with our allies, we are building a future rooted in shared values and collective progress. #EuropeanUnity #Poland"}, "result": null, "success": true}
+{"round": 181, "timestamp": "2026-07-16T15:46:27.047676", "event_type": "round_end", "actions_count": 1}
+{"round": 182, "timestamp": "2026-07-16T15:46:27.048158", "event_type": "round_start", "simulated_hour": 13}
+{"round": 182, "timestamp": "2026-07-16T15:46:34.211142", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland is proud to host the upcoming Central European Summit, a pivotal event for strengthening regional cooperation and addressing shared challenges. Together, we will forge solutions for a prosperous and secure future. #Poland #CentralEurope #Diplomacy", "post_id": 41}, "result": null, "success": true}
+{"round": 182, "timestamp": "2026-07-16T15:46:34.211470", "event_type": "round_end", "actions_count": 1}
+{"round": 183, "timestamp": "2026-07-16T15:46:34.211875", "event_type": "round_start", "simulated_hour": 14}
+{"round": 183, "timestamp": "2026-07-16T15:46:40.952353", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates the enduring strength of Franco-German friendship, the cornerstone of European peace and prosperity. Today we mark another year of deepened cooperation across all sectors, from economy to culture. Vive l'amitié franco-allemande! #FrancoGermanFriendship #Europe", "post_id": 42}, "result": null, "success": true}
+{"round": 183, "timestamp": "2026-07-16T15:46:40.952666", "event_type": "round_end", "actions_count": 1}
+{"round": 184, "timestamp": "2026-07-16T15:46:40.953174", "event_type": "round_start", "simulated_hour": 15}
+{"round": 184, "timestamp": "2026-07-16T15:46:46.876188", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 6, "new_post_id": 43, "original_content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "original_author_name": "Valdoria", "quote_content": "Building on the momentum from our recent economic forum, Valdoria is now focusing on concrete implementation strategies for the agreed policies. We encourage all member states to actively participate in this next phase of regional economic development and policy execution."}, "result": null, "success": true}
+{"round": 184, "timestamp": "2026-07-16T15:46:46.876457", "event_type": "round_end", "actions_count": 1}
+{"round": 185, "timestamp": "2026-07-16T15:46:46.876887", "event_type": "round_start", "simulated_hour": 16}
+{"round": 185, "timestamp": "2026-07-16T15:46:46.877126", "event_type": "round_end", "actions_count": 0}
+{"round": 186, "timestamp": "2026-07-16T15:46:46.877387", "event_type": "round_start", "simulated_hour": 17}
+{"round": 186, "timestamp": "2026-07-16T15:46:58.669475", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland continues to honor its rich history while embracing the future. From the resilience of our ancestors to the innovation of today, we stand as a testament to enduring spirit and progress. #Poland #History #Innovation", "post_id": 44}, "result": null, "success": true}
+{"round": 186, "timestamp": "2026-07-16T15:46:58.669899", "event_type": "round_end", "actions_count": 1}
+{"round": 187, "timestamp": "2026-07-16T15:46:58.670398", "event_type": "round_start", "simulated_hour": 18}
+{"round": 187, "timestamp": "2026-07-16T15:46:58.670659", "event_type": "round_end", "actions_count": 0}
+{"round": 188, "timestamp": "2026-07-16T15:46:58.670908", "event_type": "round_start", "simulated_hour": 19}
+{"round": 188, "timestamp": "2026-07-16T15:46:58.671145", "event_type": "round_end", "actions_count": 0}
+{"round": 189, "timestamp": "2026-07-16T15:46:58.671358", "event_type": "round_start", "simulated_hour": 20}
+{"round": 189, "timestamp": "2026-07-16T15:46:58.671580", "event_type": "round_end", "actions_count": 0}
+{"round": 190, "timestamp": "2026-07-16T15:46:58.671824", "event_type": "round_start", "simulated_hour": 21}
+{"round": 190, "timestamp": "2026-07-16T15:46:58.672057", "event_type": "round_end", "actions_count": 0}
+{"round": 191, "timestamp": "2026-07-16T15:46:58.672234", "event_type": "round_start", "simulated_hour": 22}
+{"round": 191, "timestamp": "2026-07-16T15:46:58.672423", "event_type": "round_end", "actions_count": 0}
+{"round": 192, "timestamp": "2026-07-16T15:46:58.672598", "event_type": "round_start", "simulated_hour": 23}
+{"round": 192, "timestamp": "2026-07-16T15:46:58.672812", "event_type": "round_end", "actions_count": 0}
+{"round": 193, "timestamp": "2026-07-16T15:46:58.672996", "event_type": "round_start", "simulated_hour": 0}
+{"round": 193, "timestamp": "2026-07-16T15:46:58.673188", "event_type": "round_end", "actions_count": 0}
+{"round": 194, "timestamp": "2026-07-16T15:46:58.673361", "event_type": "round_start", "simulated_hour": 1}
+{"round": 194, "timestamp": "2026-07-16T15:46:58.673557", "event_type": "round_end", "actions_count": 0}
+{"round": 195, "timestamp": "2026-07-16T15:46:58.673734", "event_type": "round_start", "simulated_hour": 2}
+{"round": 195, "timestamp": "2026-07-16T15:46:58.673915", "event_type": "round_end", "actions_count": 0}
+{"round": 196, "timestamp": "2026-07-16T15:46:58.674069", "event_type": "round_start", "simulated_hour": 3}
+{"round": 196, "timestamp": "2026-07-16T15:46:58.674192", "event_type": "round_end", "actions_count": 0}
+{"round": 197, "timestamp": "2026-07-16T15:46:58.674359", "event_type": "round_start", "simulated_hour": 4}
+{"round": 197, "timestamp": "2026-07-16T15:46:58.674503", "event_type": "round_end", "actions_count": 0}
+{"round": 198, "timestamp": "2026-07-16T15:46:58.674625", "event_type": "round_start", "simulated_hour": 5}
+{"round": 198, "timestamp": "2026-07-16T15:46:58.674759", "event_type": "round_end", "actions_count": 0}
+{"round": 199, "timestamp": "2026-07-16T15:46:58.674887", "event_type": "round_start", "simulated_hour": 6}
+{"round": 199, "timestamp": "2026-07-16T15:46:58.675029", "event_type": "round_end", "actions_count": 0}
+{"round": 200, "timestamp": "2026-07-16T15:46:58.675147", "event_type": "round_start", "simulated_hour": 7}
+{"round": 200, "timestamp": "2026-07-16T15:46:58.675277", "event_type": "round_end", "actions_count": 0}
+{"round": 201, "timestamp": "2026-07-16T15:46:58.675399", "event_type": "round_start", "simulated_hour": 8}
+{"round": 201, "timestamp": "2026-07-16T15:46:58.675537", "event_type": "round_end", "actions_count": 0}
+{"round": 202, "timestamp": "2026-07-16T15:46:58.675687", "event_type": "round_start", "simulated_hour": 9}
+{"round": 202, "timestamp": "2026-07-16T15:47:03.988453", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently coordinating with member states to establish regional benchmarks for sustainable economic practices. These standards will serve as a framework for measuring progress in our shared commitment to environmentally conscious growth and development.", "post_id": 45}, "result": null, "success": true}
+{"round": 202, "timestamp": "2026-07-16T15:47:03.988752", "event_type": "round_end", "actions_count": 1}
+{"round": 203, "timestamp": "2026-07-16T15:47:03.989225", "event_type": "round_start", "simulated_hour": 10}
+{"round": 203, "timestamp": "2026-07-16T15:47:11.549013", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 203, "timestamp": "2026-07-16T15:47:11.549311", "event_type": "round_end", "actions_count": 1}
+{"round": 204, "timestamp": "2026-07-16T15:47:11.549724", "event_type": "round_start", "simulated_hour": 11}
+{"round": 204, "timestamp": "2026-07-16T15:47:19.457648", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "As Germany continues to lead in climate policy, we emphasize the importance of multilateral cooperation to achieve our #ClimateGoals. The transition to renewable energy and sustainable practices is a shared responsibility. Let's work together for a greener planet. #SustainableGermany #ClimateAction", "post_id": 46}, "result": null, "success": true}
+{"round": 204, "timestamp": "2026-07-16T15:47:19.457993", "event_type": "round_end", "actions_count": 1}
+{"round": 205, "timestamp": "2026-07-16T15:47:19.458507", "event_type": "round_start", "simulated_hour": 12}
+{"round": 205, "timestamp": "2026-07-16T15:47:28.679819", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to announce new initiatives in digital innovation and cybersecurity, strengthening Europe's technological sovereignty. We invite partners to collaborate on these critical areas for our shared digital future. #DigitalEurope #Cybersecurity #Innovation", "post_id": 47}, "result": null, "success": true}
+{"round": 205, "timestamp": "2026-07-16T15:47:28.680227", "event_type": "round_end", "actions_count": 1}
+{"round": 206, "timestamp": "2026-07-16T15:47:28.680698", "event_type": "round_start", "simulated_hour": 13}
+{"round": 206, "timestamp": "2026-07-16T15:47:35.614999", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany is committed to fostering international cooperation and sustainable development. Today, we highlight the importance of partnerships to address global challenges. Together, we can build a resilient and inclusive future. #GlobalCooperation #Sustainability #Germany", "post_id": 48}, "result": null, "success": true}
+{"round": 206, "timestamp": "2026-07-16T15:47:35.615350", "event_type": "round_end", "actions_count": 1}
+{"round": 207, "timestamp": "2026-07-16T15:47:35.615725", "event_type": "round_start", "simulated_hour": 14}
+{"round": 207, "timestamp": "2026-07-16T15:47:35.615989", "event_type": "round_end", "actions_count": 0}
+{"round": 208, "timestamp": "2026-07-16T15:47:35.616259", "event_type": "round_start", "simulated_hour": 15}
+{"round": 208, "timestamp": "2026-07-16T15:47:43.534382", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 6, "new_post_id": 49, "original_content": "Valdoria is pleased to announce the successful conclusion of our latest regional economic forum, where member states reaffirmed their commitment to sustainable growth and innovation-driven trade policies. We look forward to implementing the agreed action plans in the coming quarter.", "original_author_name": "Valdoria", "quote_content": "Germany applauds Valdoria’s efforts in fostering sustainable growth and innovation-driven trade policies through the regional economic forum. As a committed partner, we stand ready to support the implementation of these action plans and strengthen regional cooperation. #SustainableGrowth #EconomicCooperation"}, "result": null, "success": true}
+{"round": 208, "timestamp": "2026-07-16T15:47:43.534691", "event_type": "round_end", "actions_count": 1}
+{"round": 209, "timestamp": "2026-07-16T15:47:43.535203", "event_type": "round_start", "simulated_hour": 16}
+{"round": 209, "timestamp": "2026-07-16T15:47:50.894518", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany is proud to uphold its leadership in climate action and sustainability. Today, we reaffirm our commitment to the Paris Agreement, investing in green technology and renewable energy to ensure a sustainable future for generations to come. #ClimateAction #SustainableGermany", "post_id": 50}, "result": null, "success": true}
+{"round": 209, "timestamp": "2026-07-16T15:47:50.894853", "event_type": "round_end", "actions_count": 1}
+{"round": 210, "timestamp": "2026-07-16T15:47:50.895225", "event_type": "round_start", "simulated_hour": 17}
+{"round": 210, "timestamp": "2026-07-16T15:47:56.221558", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the publication of our quarterly economic report on Central European trade trends. The report highlights positive growth indicators across multiple sectors and identifies emerging opportunities for regional collaboration. Available now on our official website.", "post_id": 51}, "result": null, "success": true}
+{"round": 210, "timestamp": "2026-07-16T15:47:56.221817", "event_type": "round_end", "actions_count": 1}
+{"round": 211, "timestamp": "2026-07-16T15:47:56.222300", "event_type": "round_start", "simulated_hour": 18}
+{"round": 211, "timestamp": "2026-07-16T15:47:56.222492", "event_type": "round_end", "actions_count": 0}
+{"round": 212, "timestamp": "2026-07-16T15:47:56.222658", "event_type": "round_start", "simulated_hour": 19}
+{"round": 212, "timestamp": "2026-07-16T15:47:56.222842", "event_type": "round_end", "actions_count": 0}
+{"round": 213, "timestamp": "2026-07-16T15:47:56.223052", "event_type": "round_start", "simulated_hour": 20}
+{"round": 213, "timestamp": "2026-07-16T15:47:56.223211", "event_type": "round_end", "actions_count": 0}
+{"round": 214, "timestamp": "2026-07-16T15:47:56.223367", "event_type": "round_start", "simulated_hour": 21}
+{"round": 214, "timestamp": "2026-07-16T15:47:56.223512", "event_type": "round_end", "actions_count": 0}
+{"round": 215, "timestamp": "2026-07-16T15:47:56.223664", "event_type": "round_start", "simulated_hour": 22}
+{"round": 215, "timestamp": "2026-07-16T15:47:56.223797", "event_type": "round_end", "actions_count": 0}
+{"round": 216, "timestamp": "2026-07-16T15:47:56.223958", "event_type": "round_start", "simulated_hour": 23}
+{"round": 216, "timestamp": "2026-07-16T15:47:56.224175", "event_type": "round_end", "actions_count": 0}
+{"round": 217, "timestamp": "2026-07-16T15:47:56.224332", "event_type": "round_start", "simulated_hour": 0}
+{"round": 217, "timestamp": "2026-07-16T15:47:56.224482", "event_type": "round_end", "actions_count": 0}
+{"round": 218, "timestamp": "2026-07-16T15:47:56.224636", "event_type": "round_start", "simulated_hour": 1}
+{"round": 218, "timestamp": "2026-07-16T15:47:56.224806", "event_type": "round_end", "actions_count": 0}
+{"round": 219, "timestamp": "2026-07-16T15:47:56.224961", "event_type": "round_start", "simulated_hour": 2}
+{"round": 219, "timestamp": "2026-07-16T15:47:56.225126", "event_type": "round_end", "actions_count": 0}
+{"round": 220, "timestamp": "2026-07-16T15:47:56.225273", "event_type": "round_start", "simulated_hour": 3}
+{"round": 220, "timestamp": "2026-07-16T15:47:56.225435", "event_type": "round_end", "actions_count": 0}
+{"round": 221, "timestamp": "2026-07-16T15:47:56.225591", "event_type": "round_start", "simulated_hour": 4}
+{"round": 221, "timestamp": "2026-07-16T15:47:56.225731", "event_type": "round_end", "actions_count": 0}
+{"round": 222, "timestamp": "2026-07-16T15:47:56.225880", "event_type": "round_start", "simulated_hour": 5}
+{"round": 222, "timestamp": "2026-07-16T15:47:56.226047", "event_type": "round_end", "actions_count": 0}
+{"round": 223, "timestamp": "2026-07-16T15:47:56.226170", "event_type": "round_start", "simulated_hour": 6}
+{"round": 223, "timestamp": "2026-07-16T15:47:56.226279", "event_type": "round_end", "actions_count": 0}
+{"round": 224, "timestamp": "2026-07-16T15:47:56.226454", "event_type": "round_start", "simulated_hour": 7}
+{"round": 224, "timestamp": "2026-07-16T15:47:56.226564", "event_type": "round_end", "actions_count": 0}
+{"round": 225, "timestamp": "2026-07-16T15:47:56.226674", "event_type": "round_start", "simulated_hour": 8}
+{"round": 225, "timestamp": "2026-07-16T15:47:56.226783", "event_type": "round_end", "actions_count": 0}
+{"round": 226, "timestamp": "2026-07-16T15:47:56.226910", "event_type": "round_start", "simulated_hour": 9}
+{"round": 226, "timestamp": "2026-07-16T15:48:03.391003", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland stands firm in its commitment to the values of democracy, freedom, and solidarity. As a proud member of the European Union and NATO, we continue to work alongside our allies for a safer and more prosperous world. #Poland #Democracy #Solidarity", "post_id": 52}, "result": null, "success": true}
+{"round": 226, "timestamp": "2026-07-16T15:48:03.391320", "event_type": "round_end", "actions_count": 1}
+{"round": 227, "timestamp": "2026-07-16T15:48:03.391453", "event_type": "round_start", "simulated_hour": 10}
+{"round": 227, "timestamp": "2026-07-16T15:48:10.916012", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland celebrates its vibrant cultural diversity, from the traditions of the Tatra Mountains to the contemporary art scenes of Warsaw. Culture unites us, and we invite the world to explore Poland's unique heritage. #PolishCulture #Diversity #Heritage", "post_id": 53}, "result": null, "success": true}
+{"round": 227, "timestamp": "2026-07-16T15:48:10.916339", "event_type": "round_end", "actions_count": 1}
+{"round": 228, "timestamp": "2026-07-16T15:48:10.916625", "event_type": "round_start", "simulated_hour": 11}
+{"round": 228, "timestamp": "2026-07-16T15:48:10.916841", "event_type": "round_end", "actions_count": 0}
+{"round": 229, "timestamp": "2026-07-16T15:48:10.917085", "event_type": "round_start", "simulated_hour": 12}
+{"round": 229, "timestamp": "2026-07-16T15:48:18.375241", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland's commitment to green energy and sustainable development is stronger than ever. As we invest in renewable resources and innovative technologies, we pave the way for a cleaner, greener future. #GreenPoland #Sustainability #Innovation", "post_id": 54}, "result": null, "success": true}
+{"round": 229, "timestamp": "2026-07-16T15:48:18.375542", "event_type": "round_end", "actions_count": 1}
+{"round": 230, "timestamp": "2026-07-16T15:48:18.376055", "event_type": "round_start", "simulated_hour": 13}
+{"round": 230, "timestamp": "2026-07-16T15:48:24.489813", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently preparing guidelines for cross-border investment facilitation in Central Europe. These will focus on reducing administrative barriers while maintaining robust financial oversight, aiming to stimulate regional economic activity.", "post_id": 55}, "result": null, "success": true}
+{"round": 230, "timestamp": "2026-07-16T15:48:24.490103", "event_type": "round_end", "actions_count": 1}
+{"round": 231, "timestamp": "2026-07-16T15:48:24.490596", "event_type": "round_start", "simulated_hour": 14}
+{"round": 231, "timestamp": "2026-07-16T15:48:32.024335", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to humanitarian aid and international solidarity. Today we highlight our ongoing efforts to support vulnerable populations worldwide, in line with our values of fraternity and human dignity. #HumanitarianAid #Solidarity #France", "post_id": 56}, "result": null, "success": true}
+{"round": 231, "timestamp": "2026-07-16T15:48:32.024519", "event_type": "round_end", "actions_count": 1}
+{"round": 232, "timestamp": "2026-07-16T15:48:32.024860", "event_type": "round_start", "simulated_hour": 15}
+{"round": 232, "timestamp": "2026-07-16T15:48:45.779423", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland welcomes the world to experience our rich traditions, from the historic charm of Kraków to the modern energy of Warsaw. Each city tells a story of resilience and innovation. #DiscoverPoland #Culture #Heritage", "post_id": 57}, "result": null, "success": true}
+{"round": 232, "timestamp": "2026-07-16T15:48:45.779600", "event_type": "round_end", "actions_count": 1}
+{"round": 233, "timestamp": "2026-07-16T15:48:45.779916", "event_type": "round_start", "simulated_hour": 16}
+{"round": 233, "timestamp": "2026-07-16T15:48:58.689314", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "As a founding member of the European Union, Germany reaffirms its unwavering commitment to European unity, peace, and prosperity. Together, we will continue to address global challenges, strengthen our economies, and uphold democratic values. #TeamEurope #Unity #Prosperity", "post_id": 58}, "result": null, "success": true}
+{"round": 233, "timestamp": "2026-07-16T15:48:58.690052", "event_type": "round_end", "actions_count": 1}
+{"round": 234, "timestamp": "2026-07-16T15:48:58.690706", "event_type": "round_start", "simulated_hour": 17}
+{"round": 234, "timestamp": "2026-07-16T15:49:05.136871", "agent_id": 3, "agent_name": "Poland", "action_type": "REPOST", "action_args": {"new_post_id": 59, "original_content": "As Poland celebrates its rich cultural heritage, we invite the world to explore our traditions, from Chopin's melodies to the vibrant folk art of the Polish Highlands. Culture connects us all. #PolishCulture #Heritage #GlobalConnections", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 234, "timestamp": "2026-07-16T15:49:05.137195", "event_type": "round_end", "actions_count": 1}
+{"round": 235, "timestamp": "2026-07-16T15:49:05.137592", "event_type": "round_start", "simulated_hour": 18}
+{"round": 235, "timestamp": "2026-07-16T15:49:05.137788", "event_type": "round_end", "actions_count": 0}
+{"round": 236, "timestamp": "2026-07-16T15:49:05.137959", "event_type": "round_start", "simulated_hour": 19}
+{"round": 236, "timestamp": "2026-07-16T15:49:05.138134", "event_type": "round_end", "actions_count": 0}
+{"round": 237, "timestamp": "2026-07-16T15:49:05.138288", "event_type": "round_start", "simulated_hour": 20}
+{"round": 237, "timestamp": "2026-07-16T15:49:05.138438", "event_type": "round_end", "actions_count": 0}
+{"round": 238, "timestamp": "2026-07-16T15:49:05.138578", "event_type": "round_start", "simulated_hour": 21}
+{"round": 238, "timestamp": "2026-07-16T15:49:05.138709", "event_type": "round_end", "actions_count": 0}
+{"round": 239, "timestamp": "2026-07-16T15:49:05.138843", "event_type": "round_start", "simulated_hour": 22}
+{"round": 239, "timestamp": "2026-07-16T15:49:05.138991", "event_type": "round_end", "actions_count": 0}
+{"round": 240, "timestamp": "2026-07-16T15:49:05.139135", "event_type": "round_start", "simulated_hour": 23}
+{"round": 240, "timestamp": "2026-07-16T15:49:05.139288", "event_type": "round_end", "actions_count": 0}
+{"round": 241, "timestamp": "2026-07-16T15:49:05.139440", "event_type": "round_start", "simulated_hour": 0}
+{"round": 241, "timestamp": "2026-07-16T15:49:05.139579", "event_type": "round_end", "actions_count": 0}
+{"round": 242, "timestamp": "2026-07-16T15:49:05.139739", "event_type": "round_start", "simulated_hour": 1}
+{"round": 242, "timestamp": "2026-07-16T15:49:05.139882", "event_type": "round_end", "actions_count": 0}
+{"round": 243, "timestamp": "2026-07-16T15:49:05.140034", "event_type": "round_start", "simulated_hour": 2}
+{"round": 243, "timestamp": "2026-07-16T15:49:05.140177", "event_type": "round_end", "actions_count": 0}
+{"round": 244, "timestamp": "2026-07-16T15:49:05.140342", "event_type": "round_start", "simulated_hour": 3}
+{"round": 244, "timestamp": "2026-07-16T15:49:05.140472", "event_type": "round_end", "actions_count": 0}
+{"round": 245, "timestamp": "2026-07-16T15:49:05.140589", "event_type": "round_start", "simulated_hour": 4}
+{"round": 245, "timestamp": "2026-07-16T15:49:05.140705", "event_type": "round_end", "actions_count": 0}
+{"round": 246, "timestamp": "2026-07-16T15:49:05.140806", "event_type": "round_start", "simulated_hour": 5}
+{"round": 246, "timestamp": "2026-07-16T15:49:05.140900", "event_type": "round_end", "actions_count": 0}
+{"round": 247, "timestamp": "2026-07-16T15:49:05.141002", "event_type": "round_start", "simulated_hour": 6}
+{"round": 247, "timestamp": "2026-07-16T15:49:05.141132", "event_type": "round_end", "actions_count": 0}
+{"round": 248, "timestamp": "2026-07-16T15:49:05.141266", "event_type": "round_start", "simulated_hour": 7}
+{"round": 248, "timestamp": "2026-07-16T15:49:05.141376", "event_type": "round_end", "actions_count": 0}
+{"round": 249, "timestamp": "2026-07-16T15:49:05.141481", "event_type": "round_start", "simulated_hour": 8}
+{"round": 249, "timestamp": "2026-07-16T15:49:05.141592", "event_type": "round_end", "actions_count": 0}
+{"round": 250, "timestamp": "2026-07-16T15:49:05.141715", "event_type": "round_start", "simulated_hour": 9}
+{"round": 250, "timestamp": "2026-07-16T15:49:14.800285", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 24, "like_id": 8, "post_content": "As Poland celebrates its rich cultural heritage, we invite the world to explore our traditions, from Chopin's melodies to the vibrant folk art of the Polish Highlands. Culture connects us all. #PolishCulture #Heritage #GlobalConnections", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 250, "timestamp": "2026-07-16T15:49:14.800484", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 53, "new_post_id": 60, "original_content": "Poland celebrates its vibrant cultural diversity, from the traditions of the Tatra Mountains to the contemporary art scenes of Warsaw. Culture unites us, and we invite the world to explore Poland's unique heritage. #PolishCulture #Diversity #Heritage", "original_author_name": "Poland", "quote_content": "Poland's cultural diversity is a bridge between tradition and modernity. From the folk art of the Tatra Mountains to Warsaw's avant-garde, our heritage continues to inspire global connections. #Poland #CulturalHeritage"}, "result": null, "success": true}
+{"round": 250, "timestamp": "2026-07-16T15:49:14.800686", "event_type": "round_end", "actions_count": 2}
+{"round": 251, "timestamp": "2026-07-16T15:49:14.800900", "event_type": "round_start", "simulated_hour": 10}
+{"round": 251, "timestamp": "2026-07-16T15:49:25.610492", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland stands as a beacon of resilience and innovation in Central Europe. From our historic milestones to modern advancements, we are shaping a future rooted in strength and collaboration. #Poland #Resilience #Innovation", "post_id": 61}, "result": null, "success": true}
+{"round": 251, "timestamp": "2026-07-16T15:49:25.610802", "event_type": "round_end", "actions_count": 1}
+{"round": 252, "timestamp": "2026-07-16T15:49:25.611328", "event_type": "round_start", "simulated_hour": 11}
+{"round": 252, "timestamp": "2026-07-16T15:49:31.565052", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the launch of our new Central European Trade Analytics Platform, providing member states with real-time data and insights on regional trade flows, market trends, and economic indicators. This digital tool aims to enhance evidence-based policymaking across the region.", "post_id": 62}, "result": null, "success": true}
+{"round": 252, "timestamp": "2026-07-16T15:49:31.565330", "event_type": "round_end", "actions_count": 1}
+{"round": 253, "timestamp": "2026-07-16T15:49:31.565864", "event_type": "round_start", "simulated_hour": 12}
+{"round": 253, "timestamp": "2026-07-16T15:49:37.499887", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently organizing a series of expert roundtables on sustainable supply chain practices in Central Europe. These discussions will inform our regional strategy for greener logistics and more resilient trade networks. Member state representatives are encouraged to participate.", "post_id": 63}, "result": null, "success": true}
+{"round": 253, "timestamp": "2026-07-16T15:49:37.500187", "event_type": "round_end", "actions_count": 1}
+{"round": 254, "timestamp": "2026-07-16T15:49:37.500519", "event_type": "round_start", "simulated_hour": 13}
+{"round": 254, "timestamp": "2026-07-16T15:49:42.604333", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 254, "timestamp": "2026-07-16T15:49:42.604632", "event_type": "round_end", "actions_count": 1}
+{"round": 255, "timestamp": "2026-07-16T15:49:42.604854", "event_type": "round_start", "simulated_hour": 14}
+{"round": 255, "timestamp": "2026-07-16T15:49:50.670413", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany continues to lead by example in sustainability and green innovation. Today, we highlight our latest investments in renewable energy projects, paving the way for a cleaner, more resilient future. #SustainableGermany #GreenInnovation", "post_id": 64}, "result": null, "success": true}
+{"round": 255, "timestamp": "2026-07-16T15:49:50.670733", "event_type": "round_end", "actions_count": 1}
+{"round": 256, "timestamp": "2026-07-16T15:49:50.671292", "event_type": "round_start", "simulated_hour": 15}
+{"round": 256, "timestamp": "2026-07-16T15:49:57.362896", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_id": 65}, "result": null, "success": true}
+{"round": 256, "timestamp": "2026-07-16T15:49:57.363255", "event_type": "round_end", "actions_count": 1}
+{"round": 257, "timestamp": "2026-07-16T15:49:57.363597", "event_type": "round_start", "simulated_hour": 16}
+{"round": 257, "timestamp": "2026-07-16T15:50:05.814666", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany remains steadfast in its commitment to fostering economic stability and innovation across Europe. Today, we celebrate the strength of our partnerships and the collaborative spirit driving collective progress. #EconomicStability #Innovation #TeamEurope", "post_id": 66}, "result": null, "success": true}
+{"round": 257, "timestamp": "2026-07-16T15:50:05.814940", "event_type": "round_end", "actions_count": 1}
+{"round": 258, "timestamp": "2026-07-16T15:50:05.815277", "event_type": "round_start", "simulated_hour": 17}
+{"round": 258, "timestamp": "2026-07-16T15:50:13.976294", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 53, "like_id": 9, "post_content": "Poland celebrates its vibrant cultural diversity, from the traditions of the Tatra Mountains to the contemporary art scenes of Warsaw. Culture unites us, and we invite the world to explore Poland's unique heritage. #PolishCulture #Diversity #Heritage", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 258, "timestamp": "2026-07-16T15:50:13.976589", "event_type": "round_end", "actions_count": 1}
+{"round": 259, "timestamp": "2026-07-16T15:50:13.977069", "event_type": "round_start", "simulated_hour": 18}
+{"round": 259, "timestamp": "2026-07-16T15:50:13.977277", "event_type": "round_end", "actions_count": 0}
+{"round": 260, "timestamp": "2026-07-16T15:50:13.977487", "event_type": "round_start", "simulated_hour": 19}
+{"round": 260, "timestamp": "2026-07-16T15:50:13.977657", "event_type": "round_end", "actions_count": 0}
+{"round": 261, "timestamp": "2026-07-16T15:50:13.977862", "event_type": "round_start", "simulated_hour": 20}
+{"round": 261, "timestamp": "2026-07-16T15:50:13.978034", "event_type": "round_end", "actions_count": 0}
+{"round": 262, "timestamp": "2026-07-16T15:50:13.978207", "event_type": "round_start", "simulated_hour": 21}
+{"round": 262, "timestamp": "2026-07-16T15:50:13.978372", "event_type": "round_end", "actions_count": 0}
+{"round": 263, "timestamp": "2026-07-16T15:50:13.978584", "event_type": "round_start", "simulated_hour": 22}
+{"round": 263, "timestamp": "2026-07-16T15:50:13.978792", "event_type": "round_end", "actions_count": 0}
+{"round": 264, "timestamp": "2026-07-16T15:50:13.978951", "event_type": "round_start", "simulated_hour": 23}
+{"round": 264, "timestamp": "2026-07-16T15:50:13.979106", "event_type": "round_end", "actions_count": 0}
+{"round": 265, "timestamp": "2026-07-16T15:50:13.979280", "event_type": "round_start", "simulated_hour": 0}
+{"round": 265, "timestamp": "2026-07-16T15:50:13.979440", "event_type": "round_end", "actions_count": 0}
+{"round": 266, "timestamp": "2026-07-16T15:50:13.979613", "event_type": "round_start", "simulated_hour": 1}
+{"round": 266, "timestamp": "2026-07-16T15:50:13.979769", "event_type": "round_end", "actions_count": 0}
+{"round": 267, "timestamp": "2026-07-16T15:50:13.979934", "event_type": "round_start", "simulated_hour": 2}
+{"round": 267, "timestamp": "2026-07-16T15:50:13.980087", "event_type": "round_end", "actions_count": 0}
+{"round": 268, "timestamp": "2026-07-16T15:50:13.980252", "event_type": "round_start", "simulated_hour": 3}
+{"round": 268, "timestamp": "2026-07-16T15:50:13.980414", "event_type": "round_end", "actions_count": 0}
+{"round": 269, "timestamp": "2026-07-16T15:50:13.980532", "event_type": "round_start", "simulated_hour": 4}
+{"round": 269, "timestamp": "2026-07-16T15:50:13.980637", "event_type": "round_end", "actions_count": 0}
+{"round": 270, "timestamp": "2026-07-16T15:50:13.980810", "event_type": "round_start", "simulated_hour": 5}
+{"round": 270, "timestamp": "2026-07-16T15:50:13.980937", "event_type": "round_end", "actions_count": 0}
+{"round": 271, "timestamp": "2026-07-16T15:50:13.981043", "event_type": "round_start", "simulated_hour": 6}
+{"round": 271, "timestamp": "2026-07-16T15:50:13.981137", "event_type": "round_end", "actions_count": 0}
+{"round": 272, "timestamp": "2026-07-16T15:50:13.981252", "event_type": "round_start", "simulated_hour": 7}
+{"round": 272, "timestamp": "2026-07-16T15:50:13.981384", "event_type": "round_end", "actions_count": 0}
+{"round": 273, "timestamp": "2026-07-16T15:50:13.981509", "event_type": "round_start", "simulated_hour": 8}
+{"round": 273, "timestamp": "2026-07-16T15:50:13.981615", "event_type": "round_end", "actions_count": 0}
+{"round": 274, "timestamp": "2026-07-16T15:50:13.981740", "event_type": "round_start", "simulated_hour": 9}
+{"round": 274, "timestamp": "2026-07-16T15:50:24.424162", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 65, "new_post_id": 67, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "France", "quote_content": "Poland applauds France's celebration of linguistic diversity, a value we also cherish. As nations rooted in rich cultural traditions, we stand together in promoting unity through our shared European heritage. #Poland #France #CulturalUnity"}, "result": null, "success": true}
+{"round": 274, "timestamp": "2026-07-16T15:50:24.424384", "event_type": "round_end", "actions_count": 1}
+{"round": 275, "timestamp": "2026-07-16T15:50:24.424821", "event_type": "round_start", "simulated_hour": 10}
+{"round": 275, "timestamp": "2026-07-16T15:50:40.168837", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 65, "new_post_id": 68, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "France", "quote_content": "Valdoria recognizes the importance of linguistic diversity as a cornerstone of European unity. Our organization actively promotes multilingual communication in all official documents and events, ensuring equal access and participation for all member states in Central Europe's economic cooperation initiatives."}, "result": null, "success": true}
+{"round": 275, "timestamp": "2026-07-16T15:50:40.169104", "event_type": "round_end", "actions_count": 1}
+{"round": 276, "timestamp": "2026-07-16T15:50:40.169558", "event_type": "round_start", "simulated_hour": 11}
+{"round": 276, "timestamp": "2026-07-16T15:50:48.172269", "agent_id": 3, "agent_name": "Poland", "action_type": "REPOST", "action_args": {"new_post_id": 69, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 276, "timestamp": "2026-07-16T15:50:48.172507", "event_type": "round_end", "actions_count": 1}
+{"round": 277, "timestamp": "2026-07-16T15:50:48.172916", "event_type": "round_start", "simulated_hour": 12}
+{"round": 277, "timestamp": "2026-07-16T15:50:54.641746", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 67, "like_id": 10, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 277, "timestamp": "2026-07-16T15:50:54.641924", "event_type": "round_end", "actions_count": 1}
+{"round": 278, "timestamp": "2026-07-16T15:50:54.642270", "event_type": "round_start", "simulated_hour": 13}
+{"round": 278, "timestamp": "2026-07-16T15:51:02.909469", "agent_id": 2, "agent_name": "France", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 67, "new_post_id": 70, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland", "quote_content": "France deeply appreciates Poland's shared commitment to celebrating Europe's linguistic and cultural diversity. Our nations' friendship continues to strengthen the fabric of European unity. Together, we preserve our heritage while building a common future. Vive l'amitié franco-polonaise! #CulturalDiplomacy #EuropeanUnity"}, "result": null, "success": true}
+{"round": 278, "timestamp": "2026-07-16T15:51:02.909750", "event_type": "round_end", "actions_count": 1}
+{"round": 279, "timestamp": "2026-07-16T15:51:02.910098", "event_type": "round_start", "simulated_hour": 14}
+{"round": 279, "timestamp": "2026-07-16T15:51:09.407498", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 71, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 279, "timestamp": "2026-07-16T15:51:09.407804", "event_type": "round_end", "actions_count": 1}
+{"round": 280, "timestamp": "2026-07-16T15:51:09.408056", "event_type": "round_start", "simulated_hour": 15}
+{"round": 280, "timestamp": "2026-07-16T15:51:09.408272", "event_type": "round_end", "actions_count": 0}
+{"round": 281, "timestamp": "2026-07-16T15:51:09.408464", "event_type": "round_start", "simulated_hour": 16}
+{"round": 281, "timestamp": "2026-07-16T15:51:09.408643", "event_type": "round_end", "actions_count": 0}
+{"round": 282, "timestamp": "2026-07-16T15:51:09.408808", "event_type": "round_start", "simulated_hour": 17}
+{"round": 282, "timestamp": "2026-07-16T15:51:09.408979", "event_type": "round_end", "actions_count": 0}
+{"round": 283, "timestamp": "2026-07-16T15:51:09.409140", "event_type": "round_start", "simulated_hour": 18}
+{"round": 283, "timestamp": "2026-07-16T15:51:09.409288", "event_type": "round_end", "actions_count": 0}
+{"round": 284, "timestamp": "2026-07-16T15:51:09.409447", "event_type": "round_start", "simulated_hour": 19}
+{"round": 284, "timestamp": "2026-07-16T15:51:09.409591", "event_type": "round_end", "actions_count": 0}
+{"round": 285, "timestamp": "2026-07-16T15:51:09.409748", "event_type": "round_start", "simulated_hour": 20}
+{"round": 285, "timestamp": "2026-07-16T15:51:09.409892", "event_type": "round_end", "actions_count": 0}
+{"round": 286, "timestamp": "2026-07-16T15:51:09.410046", "event_type": "round_start", "simulated_hour": 21}
+{"round": 286, "timestamp": "2026-07-16T15:51:09.410207", "event_type": "round_end", "actions_count": 0}
+{"round": 287, "timestamp": "2026-07-16T15:51:09.410392", "event_type": "round_start", "simulated_hour": 22}
+{"round": 287, "timestamp": "2026-07-16T15:51:09.410552", "event_type": "round_end", "actions_count": 0}
+{"round": 288, "timestamp": "2026-07-16T15:51:09.410737", "event_type": "round_start", "simulated_hour": 23}
+{"round": 288, "timestamp": "2026-07-16T15:51:09.410894", "event_type": "round_end", "actions_count": 0}
+{"round": 289, "timestamp": "2026-07-16T15:51:09.411009", "event_type": "round_start", "simulated_hour": 0}
+{"round": 289, "timestamp": "2026-07-16T15:51:09.411300", "event_type": "round_end", "actions_count": 0}
+{"round": 290, "timestamp": "2026-07-16T15:51:09.411533", "event_type": "round_start", "simulated_hour": 1}
+{"round": 290, "timestamp": "2026-07-16T15:51:09.411721", "event_type": "round_end", "actions_count": 0}
+{"round": 291, "timestamp": "2026-07-16T15:51:09.411834", "event_type": "round_start", "simulated_hour": 2}
+{"round": 291, "timestamp": "2026-07-16T15:51:09.411929", "event_type": "round_end", "actions_count": 0}
+{"round": 292, "timestamp": "2026-07-16T15:51:09.412025", "event_type": "round_start", "simulated_hour": 3}
+{"round": 292, "timestamp": "2026-07-16T15:51:09.412134", "event_type": "round_end", "actions_count": 0}
+{"round": 293, "timestamp": "2026-07-16T15:51:09.412283", "event_type": "round_start", "simulated_hour": 4}
+{"round": 293, "timestamp": "2026-07-16T15:51:09.412399", "event_type": "round_end", "actions_count": 0}
+{"round": 294, "timestamp": "2026-07-16T15:51:09.412509", "event_type": "round_start", "simulated_hour": 5}
+{"round": 294, "timestamp": "2026-07-16T15:51:09.412600", "event_type": "round_end", "actions_count": 0}
+{"round": 295, "timestamp": "2026-07-16T15:51:09.412706", "event_type": "round_start", "simulated_hour": 6}
+{"round": 295, "timestamp": "2026-07-16T15:51:09.412813", "event_type": "round_end", "actions_count": 0}
+{"round": 296, "timestamp": "2026-07-16T15:51:09.412918", "event_type": "round_start", "simulated_hour": 7}
+{"round": 296, "timestamp": "2026-07-16T15:51:09.413033", "event_type": "round_end", "actions_count": 0}
+{"round": 297, "timestamp": "2026-07-16T15:51:09.413131", "event_type": "round_start", "simulated_hour": 8}
+{"round": 297, "timestamp": "2026-07-16T15:51:09.413227", "event_type": "round_end", "actions_count": 0}
+{"round": 298, "timestamp": "2026-07-16T15:51:09.413367", "event_type": "round_start", "simulated_hour": 9}
+{"round": 298, "timestamp": "2026-07-16T15:51:16.257977", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 65, "like_id": 11, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "France"}, "result": null, "success": true}
+{"round": 298, "timestamp": "2026-07-16T15:51:16.258045", "event_type": "round_end", "actions_count": 1}
+{"round": 299, "timestamp": "2026-07-16T15:51:16.258150", "event_type": "round_start", "simulated_hour": 10}
+{"round": 299, "timestamp": "2026-07-16T15:51:22.877019", "agent_id": 2, "agent_name": "France", "action_type": "LIKE_POST", "action_args": {"post_id": 65, "like_id": 12, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "France"}, "result": null, "success": true}
+{"round": 299, "timestamp": "2026-07-16T15:51:22.877300", "event_type": "round_end", "actions_count": 1}
+{"round": 300, "timestamp": "2026-07-16T15:51:22.877802", "event_type": "round_start", "simulated_hour": 11}
+{"round": 300, "timestamp": "2026-07-16T15:51:32.770559", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 65, "new_post_id": 72, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "France", "quote_content": "Germany shares France’s enthusiasm for Europe’s linguistic diversity, a cornerstone of our shared cultural heritage. As a nation committed to fostering unity in diversity, we celebrate the richness of European languages and traditions. #Multilingualism #CulturalHeritage #TeamEurope"}, "result": null, "success": true}
+{"round": 300, "timestamp": "2026-07-16T15:51:32.770754", "event_type": "round_end", "actions_count": 1}
+{"round": 301, "timestamp": "2026-07-16T15:51:32.771082", "event_type": "round_start", "simulated_hour": 12}
+{"round": 301, "timestamp": "2026-07-16T15:51:32.771210", "event_type": "round_end", "actions_count": 0}
+{"round": 302, "timestamp": "2026-07-16T15:51:32.771358", "event_type": "round_start", "simulated_hour": 13}
+{"round": 302, "timestamp": "2026-07-16T15:51:40.502007", "agent_id": 1, "agent_name": "Germany", "action_type": "LIKE_POST", "action_args": {"post_id": 67, "like_id": 13, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 302, "timestamp": "2026-07-16T15:51:40.502225", "event_type": "round_end", "actions_count": 1}
+{"round": 303, "timestamp": "2026-07-16T15:51:40.502477", "event_type": "round_start", "simulated_hour": 14}
+{"round": 303, "timestamp": "2026-07-16T15:51:47.845261", "event_type": "round_end", "actions_count": 0}
+{"round": 304, "timestamp": "2026-07-16T15:51:47.845565", "event_type": "round_start", "simulated_hour": 15}
+{"round": 304, "timestamp": "2026-07-16T15:51:57.232141", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland and France share a deep appreciation for Europe's cultural and linguistic diversity. As we celebrate these values, we reaffirm our commitment to fostering unity and collaboration across the continent. #Poland #France #EuropeanUnity #CulturalHeritage", "post_id": 73}, "result": null, "success": true}
+{"round": 304, "timestamp": "2026-07-16T15:51:57.232345", "event_type": "round_end", "actions_count": 1}
+{"round": 305, "timestamp": "2026-07-16T15:51:57.232573", "event_type": "round_start", "simulated_hour": 16}
+{"round": 305, "timestamp": "2026-07-16T15:51:57.232767", "event_type": "round_end", "actions_count": 0}
+{"round": 306, "timestamp": "2026-07-16T15:51:57.232963", "event_type": "round_start", "simulated_hour": 17}
+{"round": 306, "timestamp": "2026-07-16T15:52:04.357127", "agent_id": 2, "agent_name": "France", "action_type": "LIKE_POST", "action_args": {"post_id": 67, "like_id": 14, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 306, "timestamp": "2026-07-16T15:52:04.357332", "event_type": "round_end", "actions_count": 1}
+{"round": 307, "timestamp": "2026-07-16T15:52:04.357543", "event_type": "round_start", "simulated_hour": 18}
+{"round": 307, "timestamp": "2026-07-16T15:52:04.357728", "event_type": "round_end", "actions_count": 0}
+{"round": 308, "timestamp": "2026-07-16T15:52:04.357889", "event_type": "round_start", "simulated_hour": 19}
+{"round": 308, "timestamp": "2026-07-16T15:52:04.358036", "event_type": "round_end", "actions_count": 0}
+{"round": 309, "timestamp": "2026-07-16T15:52:04.358190", "event_type": "round_start", "simulated_hour": 20}
+{"round": 309, "timestamp": "2026-07-16T15:52:04.358331", "event_type": "round_end", "actions_count": 0}
+{"round": 310, "timestamp": "2026-07-16T15:52:04.358481", "event_type": "round_start", "simulated_hour": 21}
+{"round": 310, "timestamp": "2026-07-16T15:52:04.358620", "event_type": "round_end", "actions_count": 0}
+{"round": 311, "timestamp": "2026-07-16T15:52:04.358773", "event_type": "round_start", "simulated_hour": 22}
+{"round": 311, "timestamp": "2026-07-16T15:52:04.358911", "event_type": "round_end", "actions_count": 0}
+{"round": 312, "timestamp": "2026-07-16T15:52:04.359058", "event_type": "round_start", "simulated_hour": 23}
+{"round": 312, "timestamp": "2026-07-16T15:52:04.359192", "event_type": "round_end", "actions_count": 0}
+{"round": 313, "timestamp": "2026-07-16T15:52:04.359339", "event_type": "round_start", "simulated_hour": 0}
+{"round": 313, "timestamp": "2026-07-16T15:52:04.359473", "event_type": "round_end", "actions_count": 0}
+{"round": 314, "timestamp": "2026-07-16T15:52:04.359621", "event_type": "round_start", "simulated_hour": 1}
+{"round": 314, "timestamp": "2026-07-16T15:52:04.359781", "event_type": "round_end", "actions_count": 0}
+{"round": 315, "timestamp": "2026-07-16T15:52:04.359930", "event_type": "round_start", "simulated_hour": 2}
+{"round": 315, "timestamp": "2026-07-16T15:52:04.360064", "event_type": "round_end", "actions_count": 0}
+{"round": 316, "timestamp": "2026-07-16T15:52:04.360210", "event_type": "round_start", "simulated_hour": 3}
+{"round": 316, "timestamp": "2026-07-16T15:52:04.360345", "event_type": "round_end", "actions_count": 0}
+{"round": 317, "timestamp": "2026-07-16T15:52:04.360491", "event_type": "round_start", "simulated_hour": 4}
+{"round": 317, "timestamp": "2026-07-16T15:52:04.360625", "event_type": "round_end", "actions_count": 0}
+{"round": 318, "timestamp": "2026-07-16T15:52:04.360774", "event_type": "round_start", "simulated_hour": 5}
+{"round": 318, "timestamp": "2026-07-16T15:52:04.360934", "event_type": "round_end", "actions_count": 0}
+{"round": 319, "timestamp": "2026-07-16T15:52:04.361121", "event_type": "round_start", "simulated_hour": 6}
+{"round": 319, "timestamp": "2026-07-16T15:52:04.361234", "event_type": "round_end", "actions_count": 0}
+{"round": 320, "timestamp": "2026-07-16T15:52:04.361327", "event_type": "round_start", "simulated_hour": 7}
+{"round": 320, "timestamp": "2026-07-16T15:52:04.361412", "event_type": "round_end", "actions_count": 0}
+{"round": 321, "timestamp": "2026-07-16T15:52:04.361518", "event_type": "round_start", "simulated_hour": 8}
+{"round": 321, "timestamp": "2026-07-16T15:52:04.361625", "event_type": "round_end", "actions_count": 0}
+{"round": 322, "timestamp": "2026-07-16T15:52:04.361749", "event_type": "round_start", "simulated_hour": 9}
+{"round": 322, "timestamp": "2026-07-16T15:52:13.016478", "event_type": "round_end", "actions_count": 0}
+{"round": 323, "timestamp": "2026-07-16T15:52:13.016663", "event_type": "round_start", "simulated_hour": 10}
+{"round": 323, "timestamp": "2026-07-16T15:52:20.984488", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 67, "like_id": 15, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 323, "timestamp": "2026-07-16T15:52:20.984752", "event_type": "round_end", "actions_count": 1}
+{"round": 324, "timestamp": "2026-07-16T15:52:20.984978", "event_type": "round_start", "simulated_hour": 11}
+{"round": 324, "timestamp": "2026-07-16T15:52:27.630744", "agent_id": 2, "agent_name": "France", "action_type": "FOLLOW", "action_args": {"follow_id": 1, "target_user_name": "Poland"}, "result": null, "success": true}
+{"round": 324, "timestamp": "2026-07-16T15:52:27.631098", "event_type": "round_end", "actions_count": 1}
+{"round": 325, "timestamp": "2026-07-16T15:52:27.631576", "event_type": "round_start", "simulated_hour": 12}
+{"round": 325, "timestamp": "2026-07-16T15:52:27.632194", "event_type": "round_end", "actions_count": 0}
+{"round": 326, "timestamp": "2026-07-16T15:52:27.632373", "event_type": "round_start", "simulated_hour": 13}
+{"round": 326, "timestamp": "2026-07-16T15:52:27.632509", "event_type": "round_end", "actions_count": 0}
+{"round": 327, "timestamp": "2026-07-16T15:52:27.632658", "event_type": "round_start", "simulated_hour": 14}
+{"round": 327, "timestamp": "2026-07-16T15:52:35.271942", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is pleased to announce strengthened cultural and economic ties with Poland following recent diplomatic exchanges. Our nations share a deep commitment to European unity and mutual prosperity. Nous construisons l'avenir ensemble. #FrancePoland #EuropeanUnity", "post_id": 74}, "result": null, "success": true}
+{"round": 327, "timestamp": "2026-07-16T15:52:35.272180", "event_type": "round_end", "actions_count": 1}
+{"round": 328, "timestamp": "2026-07-16T15:52:35.272460", "event_type": "round_start", "simulated_hour": 15}
+{"round": 328, "timestamp": "2026-07-16T15:52:35.272691", "event_type": "round_end", "actions_count": 0}
+{"round": 329, "timestamp": "2026-07-16T15:52:35.272912", "event_type": "round_start", "simulated_hour": 16}
+{"round": 329, "timestamp": "2026-07-16T15:52:43.268865", "event_type": "round_end", "actions_count": 0}
+{"round": 330, "timestamp": "2026-07-16T15:52:43.269385", "event_type": "round_start", "simulated_hour": 17}
+{"round": 330, "timestamp": "2026-07-16T15:52:50.169531", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 65, "like_id": 16, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "France"}, "result": null, "success": true}
+{"round": 330, "timestamp": "2026-07-16T15:52:50.169846", "event_type": "round_end", "actions_count": 1}
+{"round": 331, "timestamp": "2026-07-16T15:52:50.170355", "event_type": "round_start", "simulated_hour": 18}
+{"round": 331, "timestamp": "2026-07-16T15:52:50.170558", "event_type": "round_end", "actions_count": 0}
+{"round": 332, "timestamp": "2026-07-16T15:52:50.170769", "event_type": "round_start", "simulated_hour": 19}
+{"round": 332, "timestamp": "2026-07-16T15:52:50.170943", "event_type": "round_end", "actions_count": 0}
+{"round": 333, "timestamp": "2026-07-16T15:52:50.171086", "event_type": "round_start", "simulated_hour": 20}
+{"round": 333, "timestamp": "2026-07-16T15:52:50.171213", "event_type": "round_end", "actions_count": 0}
+{"round": 334, "timestamp": "2026-07-16T15:52:50.171319", "event_type": "round_start", "simulated_hour": 21}
+{"round": 334, "timestamp": "2026-07-16T15:52:50.171412", "event_type": "round_end", "actions_count": 0}
+{"round": 335, "timestamp": "2026-07-16T15:52:50.171571", "event_type": "round_start", "simulated_hour": 22}
+{"round": 335, "timestamp": "2026-07-16T15:52:50.171704", "event_type": "round_end", "actions_count": 0}
+{"round": 336, "timestamp": "2026-07-16T15:52:50.171804", "event_type": "round_start", "simulated_hour": 23}
+{"round": 336, "timestamp": "2026-07-16T15:52:50.171930", "event_type": "round_end", "actions_count": 0}
+{"round": 337, "timestamp": "2026-07-16T15:52:50.172046", "event_type": "round_start", "simulated_hour": 0}
+{"round": 337, "timestamp": "2026-07-16T15:52:50.172164", "event_type": "round_end", "actions_count": 0}
+{"round": 338, "timestamp": "2026-07-16T15:52:50.172299", "event_type": "round_start", "simulated_hour": 1}
+{"round": 338, "timestamp": "2026-07-16T15:52:50.172395", "event_type": "round_end", "actions_count": 0}
+{"round": 339, "timestamp": "2026-07-16T15:52:50.172498", "event_type": "round_start", "simulated_hour": 2}
+{"round": 339, "timestamp": "2026-07-16T15:52:50.172603", "event_type": "round_end", "actions_count": 0}
+{"round": 340, "timestamp": "2026-07-16T15:52:50.172701", "event_type": "round_start", "simulated_hour": 3}
+{"round": 340, "timestamp": "2026-07-16T15:52:50.172795", "event_type": "round_end", "actions_count": 0}
+{"round": 341, "timestamp": "2026-07-16T15:52:50.172892", "event_type": "round_start", "simulated_hour": 4}
+{"round": 341, "timestamp": "2026-07-16T15:52:50.173005", "event_type": "round_end", "actions_count": 0}
+{"round": 342, "timestamp": "2026-07-16T15:52:50.173101", "event_type": "round_start", "simulated_hour": 5}
+{"round": 342, "timestamp": "2026-07-16T15:52:50.173186", "event_type": "round_end", "actions_count": 0}
+{"round": 343, "timestamp": "2026-07-16T15:52:50.173276", "event_type": "round_start", "simulated_hour": 6}
+{"round": 343, "timestamp": "2026-07-16T15:52:50.173360", "event_type": "round_end", "actions_count": 0}
+{"round": 344, "timestamp": "2026-07-16T15:52:50.173449", "event_type": "round_start", "simulated_hour": 7}
+{"round": 344, "timestamp": "2026-07-16T15:52:50.173536", "event_type": "round_end", "actions_count": 0}
+{"round": 345, "timestamp": "2026-07-16T15:52:50.173679", "event_type": "round_start", "simulated_hour": 8}
+{"round": 345, "timestamp": "2026-07-16T15:52:50.173801", "event_type": "round_end", "actions_count": 0}
+{"round": 346, "timestamp": "2026-07-16T15:52:50.173930", "event_type": "round_start", "simulated_hour": 9}
+{"round": 346, "timestamp": "2026-07-16T15:52:58.997175", "event_type": "round_end", "actions_count": 0}
+{"round": 347, "timestamp": "2026-07-16T15:52:58.997391", "event_type": "round_start", "simulated_hour": 10}
+{"round": 347, "timestamp": "2026-07-16T15:52:58.997525", "event_type": "round_end", "actions_count": 0}
+{"round": 348, "timestamp": "2026-07-16T15:52:58.997703", "event_type": "round_start", "simulated_hour": 11}
+{"round": 348, "timestamp": "2026-07-16T15:53:10.166893", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland and France: A shared vision for a united Europe. Together, we celebrate the cultural and linguistic tapestry that binds our nations and strengthens our continent. #Poland #France #EuropeanUnity #CulturalHeritage", "post_id": 75}, "result": null, "success": true}
+{"round": 348, "timestamp": "2026-07-16T15:53:10.167071", "event_type": "round_end", "actions_count": 1}
+{"round": 349, "timestamp": "2026-07-16T15:53:10.167377", "event_type": "round_start", "simulated_hour": 12}
+{"round": 349, "timestamp": "2026-07-16T15:53:19.831844", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 67, "new_post_id": 76, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland", "quote_content": "Poland reiterates its commitment to cultural unity with France, celebrating the diversity that enriches our shared European identity. Together, we can build a future anchored in mutual respect and collaboration. #Poland #France #EuropeanUnity"}, "result": null, "success": true}
+{"round": 349, "timestamp": "2026-07-16T15:53:19.832051", "event_type": "round_end", "actions_count": 1}
+{"round": 350, "timestamp": "2026-07-16T15:53:19.832250", "event_type": "round_start", "simulated_hour": 13}
+{"round": 350, "timestamp": "2026-07-16T15:53:19.832433", "event_type": "round_end", "actions_count": 0}
+{"round": 351, "timestamp": "2026-07-16T15:53:19.832593", "event_type": "round_start", "simulated_hour": 14}
+{"round": 351, "timestamp": "2026-07-16T15:53:27.627906", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 65, "new_post_id": 77, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "France", "quote_content": "Valdoria recognizes the importance of linguistic diversity as a cornerstone of European unity. Our organization actively promotes multilingual communication in all official documents and events, ensuring equal access and participation for all member states in Central Europe's economic cooperation initiatives."}, "result": null, "success": true}
+{"round": 351, "timestamp": "2026-07-16T15:53:27.628103", "event_type": "round_end", "actions_count": 1}
+{"round": 352, "timestamp": "2026-07-16T15:53:27.628455", "event_type": "round_start", "simulated_hour": 15}
+{"round": 352, "timestamp": "2026-07-16T15:53:35.548712", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the launch of our Central European Economic Integration Index, providing comprehensive metrics on trade flows, investment patterns, and policy harmonization across member states. This tool will serve as a valuable benchmark for regional economic progress.", "post_id": 78}, "result": null, "success": true}
+{"round": 352, "timestamp": "2026-07-16T15:53:35.549014", "event_type": "round_end", "actions_count": 1}
+{"round": 353, "timestamp": "2026-07-16T15:53:35.549561", "event_type": "round_start", "simulated_hour": 16}
+{"round": 353, "timestamp": "2026-07-16T15:53:35.549740", "event_type": "round_end", "actions_count": 0}
+{"round": 354, "timestamp": "2026-07-16T15:53:35.549914", "event_type": "round_start", "simulated_hour": 17}
+{"round": 354, "timestamp": "2026-07-16T15:53:35.550089", "event_type": "round_end", "actions_count": 0}
+{"round": 355, "timestamp": "2026-07-16T15:53:35.550277", "event_type": "round_start", "simulated_hour": 18}
+{"round": 355, "timestamp": "2026-07-16T15:53:35.550408", "event_type": "round_end", "actions_count": 0}
+{"round": 356, "timestamp": "2026-07-16T15:53:35.550504", "event_type": "round_start", "simulated_hour": 19}
+{"round": 356, "timestamp": "2026-07-16T15:53:35.550621", "event_type": "round_end", "actions_count": 0}
+{"round": 357, "timestamp": "2026-07-16T15:53:35.550720", "event_type": "round_start", "simulated_hour": 20}
+{"round": 357, "timestamp": "2026-07-16T15:53:35.550806", "event_type": "round_end", "actions_count": 0}
+{"round": 358, "timestamp": "2026-07-16T15:53:35.550956", "event_type": "round_start", "simulated_hour": 21}
+{"round": 358, "timestamp": "2026-07-16T15:53:35.551067", "event_type": "round_end", "actions_count": 0}
+{"round": 359, "timestamp": "2026-07-16T15:53:35.551179", "event_type": "round_start", "simulated_hour": 22}
+{"round": 359, "timestamp": "2026-07-16T15:53:35.551309", "event_type": "round_end", "actions_count": 0}
+{"round": 360, "timestamp": "2026-07-16T15:53:35.551427", "event_type": "round_start", "simulated_hour": 23}
+{"round": 360, "timestamp": "2026-07-16T15:53:35.551514", "event_type": "round_end", "actions_count": 0}
+{"round": 361, "timestamp": "2026-07-16T15:53:35.551639", "event_type": "round_start", "simulated_hour": 0}
+{"round": 361, "timestamp": "2026-07-16T15:53:35.551740", "event_type": "round_end", "actions_count": 0}
+{"round": 362, "timestamp": "2026-07-16T15:53:35.551833", "event_type": "round_start", "simulated_hour": 1}
+{"round": 362, "timestamp": "2026-07-16T15:53:35.551934", "event_type": "round_end", "actions_count": 0}
+{"round": 363, "timestamp": "2026-07-16T15:53:35.552062", "event_type": "round_start", "simulated_hour": 2}
+{"round": 363, "timestamp": "2026-07-16T15:53:35.552162", "event_type": "round_end", "actions_count": 0}
+{"round": 364, "timestamp": "2026-07-16T15:53:35.552277", "event_type": "round_start", "simulated_hour": 3}
+{"round": 364, "timestamp": "2026-07-16T15:53:35.552389", "event_type": "round_end", "actions_count": 0}
+{"round": 365, "timestamp": "2026-07-16T15:53:35.552492", "event_type": "round_start", "simulated_hour": 4}
+{"round": 365, "timestamp": "2026-07-16T15:53:35.552607", "event_type": "round_end", "actions_count": 0}
+{"round": 366, "timestamp": "2026-07-16T15:53:35.552735", "event_type": "round_start", "simulated_hour": 5}
+{"round": 366, "timestamp": "2026-07-16T15:53:35.552834", "event_type": "round_end", "actions_count": 0}
+{"round": 367, "timestamp": "2026-07-16T15:53:35.552927", "event_type": "round_start", "simulated_hour": 6}
+{"round": 367, "timestamp": "2026-07-16T15:53:35.553039", "event_type": "round_end", "actions_count": 0}
+{"round": 368, "timestamp": "2026-07-16T15:53:35.553140", "event_type": "round_start", "simulated_hour": 7}
+{"round": 368, "timestamp": "2026-07-16T15:53:35.553241", "event_type": "round_end", "actions_count": 0}
+{"round": 369, "timestamp": "2026-07-16T15:53:35.553340", "event_type": "round_start", "simulated_hour": 8}
+{"round": 369, "timestamp": "2026-07-16T15:53:35.553450", "event_type": "round_end", "actions_count": 0}
+{"round": 370, "timestamp": "2026-07-16T15:53:35.553580", "event_type": "round_start", "simulated_hour": 9}
+{"round": 370, "timestamp": "2026-07-16T15:53:46.134637", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland continues to be a driving force for regional cooperation in Central Europe. From economic partnerships to cultural exchanges, we are building a future of shared prosperity and stability. #Poland #CentralEurope #Cooperation", "post_id": 79}, "result": null, "success": true}
+{"round": 370, "timestamp": "2026-07-16T15:53:46.134762", "event_type": "round_end", "actions_count": 1}
+{"round": 371, "timestamp": "2026-07-16T15:53:46.135075", "event_type": "round_start", "simulated_hour": 10}
+{"round": 371, "timestamp": "2026-07-16T15:53:54.253631", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 75, "like_id": 17, "post_content": "Poland and France: A shared vision for a united Europe. Together, we celebrate the cultural and linguistic tapestry that binds our nations and strengthens our continent. #Poland #France #EuropeanUnity #CulturalHeritage", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 371, "timestamp": "2026-07-16T15:53:54.253864", "event_type": "round_end", "actions_count": 1}
+{"round": 372, "timestamp": "2026-07-16T15:53:54.254217", "event_type": "round_start", "simulated_hour": 11}
+{"round": 372, "timestamp": "2026-07-16T15:54:09.829753", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 372, "timestamp": "2026-07-16T15:54:09.829984", "event_type": "round_end", "actions_count": 1}
+{"round": 373, "timestamp": "2026-07-16T15:54:09.830364", "event_type": "round_start", "simulated_hour": 12}
+{"round": 373, "timestamp": "2026-07-16T15:54:19.583388", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 77, "new_post_id": 80, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Valdoria", "quote_content": "Germany commends Valdoria’s proactive stance on linguistic inclusivity in European cooperation. As advocates for unity in diversity, we support initiatives that ensure equal participation for all member states. #Multilingualism #TeamEurope #InclusiveFuture"}, "result": null, "success": true}
+{"round": 373, "timestamp": "2026-07-16T15:54:19.583683", "event_type": "round_end", "actions_count": 1}
+{"round": 374, "timestamp": "2026-07-16T15:54:19.584164", "event_type": "round_start", "simulated_hour": 13}
+{"round": 374, "timestamp": "2026-07-16T15:54:19.584378", "event_type": "round_end", "actions_count": 0}
+{"round": 375, "timestamp": "2026-07-16T15:54:19.584585", "event_type": "round_start", "simulated_hour": 14}
+{"round": 375, "timestamp": "2026-07-16T15:54:28.488359", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to European integration and solidarity. As we face global challenges, we stand united with our partners to promote peace, prosperity, and sustainable development across our continent. Ensemble, nous sommes plus forts. #EuropeanUnity #France", "post_id": 81}, "result": null, "success": true}
+{"round": 375, "timestamp": "2026-07-16T15:54:28.488628", "event_type": "round_end", "actions_count": 1}
+{"round": 376, "timestamp": "2026-07-16T15:54:28.489126", "event_type": "round_start", "simulated_hour": 15}
+{"round": 376, "timestamp": "2026-07-16T15:54:36.714275", "agent_id": 3, "agent_name": "Poland", "action_type": "REPOST", "action_args": {"new_post_id": 82, "original_content": "Poland and France: A shared vision for a united Europe. Together, we celebrate the cultural and linguistic tapestry that binds our nations and strengthens our continent. #Poland #France #EuropeanUnity #CulturalHeritage", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 376, "timestamp": "2026-07-16T15:54:36.714468", "event_type": "round_end", "actions_count": 1}
+{"round": 377, "timestamp": "2026-07-16T15:54:36.714776", "event_type": "round_start", "simulated_hour": 16}
+{"round": 377, "timestamp": "2026-07-16T15:54:44.443930", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 77, "like_id": 18, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 377, "timestamp": "2026-07-16T15:54:44.444173", "event_type": "round_end", "actions_count": 1}
+{"round": 378, "timestamp": "2026-07-16T15:54:44.444526", "event_type": "round_start", "simulated_hour": 17}
+{"round": 378, "timestamp": "2026-07-16T15:54:44.444677", "event_type": "round_end", "actions_count": 0}
+{"round": 379, "timestamp": "2026-07-16T15:54:44.444819", "event_type": "round_start", "simulated_hour": 18}
+{"round": 379, "timestamp": "2026-07-16T15:54:44.444939", "event_type": "round_end", "actions_count": 0}
+{"round": 380, "timestamp": "2026-07-16T15:54:44.445037", "event_type": "round_start", "simulated_hour": 19}
+{"round": 380, "timestamp": "2026-07-16T15:54:44.445144", "event_type": "round_end", "actions_count": 0}
+{"round": 381, "timestamp": "2026-07-16T15:54:44.445232", "event_type": "round_start", "simulated_hour": 20}
+{"round": 381, "timestamp": "2026-07-16T15:54:44.445331", "event_type": "round_end", "actions_count": 0}
+{"round": 382, "timestamp": "2026-07-16T15:54:44.445429", "event_type": "round_start", "simulated_hour": 21}
+{"round": 382, "timestamp": "2026-07-16T15:54:44.445536", "event_type": "round_end", "actions_count": 0}
+{"round": 383, "timestamp": "2026-07-16T15:54:44.445631", "event_type": "round_start", "simulated_hour": 22}
+{"round": 383, "timestamp": "2026-07-16T15:54:44.445731", "event_type": "round_end", "actions_count": 0}
+{"round": 384, "timestamp": "2026-07-16T15:54:44.445819", "event_type": "round_start", "simulated_hour": 23}
+{"round": 384, "timestamp": "2026-07-16T15:54:44.445929", "event_type": "round_end", "actions_count": 0}
+{"round": 385, "timestamp": "2026-07-16T15:54:44.446022", "event_type": "round_start", "simulated_hour": 0}
+{"round": 385, "timestamp": "2026-07-16T15:54:44.446149", "event_type": "round_end", "actions_count": 0}
+{"round": 386, "timestamp": "2026-07-16T15:54:44.446275", "event_type": "round_start", "simulated_hour": 1}
+{"round": 386, "timestamp": "2026-07-16T15:54:44.446371", "event_type": "round_end", "actions_count": 0}
+{"round": 387, "timestamp": "2026-07-16T15:54:44.446461", "event_type": "round_start", "simulated_hour": 2}
+{"round": 387, "timestamp": "2026-07-16T15:54:44.446588", "event_type": "round_end", "actions_count": 0}
+{"round": 388, "timestamp": "2026-07-16T15:54:44.446730", "event_type": "round_start", "simulated_hour": 3}
+{"round": 388, "timestamp": "2026-07-16T15:54:44.446848", "event_type": "round_end", "actions_count": 0}
+{"round": 389, "timestamp": "2026-07-16T15:54:44.446964", "event_type": "round_start", "simulated_hour": 4}
+{"round": 389, "timestamp": "2026-07-16T15:54:44.447070", "event_type": "round_end", "actions_count": 0}
+{"round": 390, "timestamp": "2026-07-16T15:54:44.447156", "event_type": "round_start", "simulated_hour": 5}
+{"round": 390, "timestamp": "2026-07-16T15:54:44.447255", "event_type": "round_end", "actions_count": 0}
+{"round": 391, "timestamp": "2026-07-16T15:54:44.447365", "event_type": "round_start", "simulated_hour": 6}
+{"round": 391, "timestamp": "2026-07-16T15:54:44.447454", "event_type": "round_end", "actions_count": 0}
+{"round": 392, "timestamp": "2026-07-16T15:54:44.447550", "event_type": "round_start", "simulated_hour": 7}
+{"round": 392, "timestamp": "2026-07-16T15:54:44.447652", "event_type": "round_end", "actions_count": 0}
+{"round": 393, "timestamp": "2026-07-16T15:54:44.447738", "event_type": "round_start", "simulated_hour": 8}
+{"round": 393, "timestamp": "2026-07-16T15:54:44.447833", "event_type": "round_end", "actions_count": 0}
+{"round": 394, "timestamp": "2026-07-16T15:54:44.447922", "event_type": "round_start", "simulated_hour": 9}
+{"round": 394, "timestamp": "2026-07-16T15:54:44.448031", "event_type": "round_end", "actions_count": 0}
+{"round": 395, "timestamp": "2026-07-16T15:54:44.448141", "event_type": "round_start", "simulated_hour": 10}
+{"round": 395, "timestamp": "2026-07-16T15:54:51.299604", "event_type": "round_end", "actions_count": 0}
+{"round": 396, "timestamp": "2026-07-16T15:54:51.299945", "event_type": "round_start", "simulated_hour": 11}
+{"round": 396, "timestamp": "2026-07-16T15:54:59.975298", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates the enduring spirit of European cooperation today. As we reflect on our shared history and common future, we renew our commitment to building a stronger, more united Europe. Liberté, Égalité, Fraternité! #EuropeanCooperation #France", "post_id": 83}, "result": null, "success": true}
+{"round": 396, "timestamp": "2026-07-16T15:54:59.975635", "event_type": "round_end", "actions_count": 1}
+{"round": 397, "timestamp": "2026-07-16T15:54:59.976108", "event_type": "round_start", "simulated_hour": 12}
+{"round": 397, "timestamp": "2026-07-16T15:55:12.472038", "event_type": "round_end", "actions_count": 0}
+{"round": 398, "timestamp": "2026-07-16T15:55:12.472285", "event_type": "round_start", "simulated_hour": 13}
+{"round": 398, "timestamp": "2026-07-16T15:55:19.857618", "agent_id": 1, "agent_name": "Germany", "action_type": "REPOST", "action_args": {"new_post_id": 84, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland"}, "result": null, "success": true}
+{"round": 398, "timestamp": "2026-07-16T15:55:19.857884", "event_type": "round_end", "actions_count": 1}
+{"round": 399, "timestamp": "2026-07-16T15:55:19.858355", "event_type": "round_start", "simulated_hour": 14}
+{"round": 399, "timestamp": "2026-07-16T15:55:19.858555", "event_type": "round_end", "actions_count": 0}
+{"round": 400, "timestamp": "2026-07-16T15:55:19.858731", "event_type": "round_start", "simulated_hour": 15}
+{"round": 400, "timestamp": "2026-07-16T15:55:19.858911", "event_type": "round_end", "actions_count": 0}
+{"round": 401, "timestamp": "2026-07-16T15:55:19.859100", "event_type": "round_start", "simulated_hour": 16}
+{"round": 401, "timestamp": "2026-07-16T15:55:27.274897", "agent_id": 0, "agent_name": "Valdoria", "action_type": "LIKE_POST", "action_args": {"post_id": 77, "like_id": 19, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 401, "timestamp": "2026-07-16T15:55:27.275154", "event_type": "round_end", "actions_count": 1}
+{"round": 402, "timestamp": "2026-07-16T15:55:27.275565", "event_type": "round_start", "simulated_hour": 17}
+{"round": 402, "timestamp": "2026-07-16T15:55:34.834055", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 402, "timestamp": "2026-07-16T15:55:34.834300", "event_type": "round_end", "actions_count": 1}
+{"round": 403, "timestamp": "2026-07-16T15:55:34.834699", "event_type": "round_start", "simulated_hour": 18}
+{"round": 403, "timestamp": "2026-07-16T15:55:34.834884", "event_type": "round_end", "actions_count": 0}
+{"round": 404, "timestamp": "2026-07-16T15:55:34.835007", "event_type": "round_start", "simulated_hour": 19}
+{"round": 404, "timestamp": "2026-07-16T15:55:34.835126", "event_type": "round_end", "actions_count": 0}
+{"round": 405, "timestamp": "2026-07-16T15:55:34.835280", "event_type": "round_start", "simulated_hour": 20}
+{"round": 405, "timestamp": "2026-07-16T15:55:34.835392", "event_type": "round_end", "actions_count": 0}
+{"round": 406, "timestamp": "2026-07-16T15:55:34.835494", "event_type": "round_start", "simulated_hour": 21}
+{"round": 406, "timestamp": "2026-07-16T15:55:34.835587", "event_type": "round_end", "actions_count": 0}
+{"round": 407, "timestamp": "2026-07-16T15:55:34.835708", "event_type": "round_start", "simulated_hour": 22}
+{"round": 407, "timestamp": "2026-07-16T15:55:34.835801", "event_type": "round_end", "actions_count": 0}
+{"round": 408, "timestamp": "2026-07-16T15:55:34.835902", "event_type": "round_start", "simulated_hour": 23}
+{"round": 408, "timestamp": "2026-07-16T15:55:34.835993", "event_type": "round_end", "actions_count": 0}
+{"round": 409, "timestamp": "2026-07-16T15:55:34.836087", "event_type": "round_start", "simulated_hour": 0}
+{"round": 409, "timestamp": "2026-07-16T15:55:34.836175", "event_type": "round_end", "actions_count": 0}
+{"round": 410, "timestamp": "2026-07-16T15:55:34.836286", "event_type": "round_start", "simulated_hour": 1}
+{"round": 410, "timestamp": "2026-07-16T15:55:34.836432", "event_type": "round_end", "actions_count": 0}
+{"round": 411, "timestamp": "2026-07-16T15:55:34.836537", "event_type": "round_start", "simulated_hour": 2}
+{"round": 411, "timestamp": "2026-07-16T15:55:34.836646", "event_type": "round_end", "actions_count": 0}
+{"round": 412, "timestamp": "2026-07-16T15:55:34.836745", "event_type": "round_start", "simulated_hour": 3}
+{"round": 412, "timestamp": "2026-07-16T15:55:34.836835", "event_type": "round_end", "actions_count": 0}
+{"round": 413, "timestamp": "2026-07-16T15:55:34.836996", "event_type": "round_start", "simulated_hour": 4}
+{"round": 413, "timestamp": "2026-07-16T15:55:34.837113", "event_type": "round_end", "actions_count": 0}
+{"round": 414, "timestamp": "2026-07-16T15:55:34.837217", "event_type": "round_start", "simulated_hour": 5}
+{"round": 414, "timestamp": "2026-07-16T15:55:34.837344", "event_type": "round_end", "actions_count": 0}
+{"round": 415, "timestamp": "2026-07-16T15:55:34.837490", "event_type": "round_start", "simulated_hour": 6}
+{"round": 415, "timestamp": "2026-07-16T15:55:34.837615", "event_type": "round_end", "actions_count": 0}
+{"round": 416, "timestamp": "2026-07-16T15:55:34.837725", "event_type": "round_start", "simulated_hour": 7}
+{"round": 416, "timestamp": "2026-07-16T15:55:34.837830", "event_type": "round_end", "actions_count": 0}
+{"round": 417, "timestamp": "2026-07-16T15:55:34.837922", "event_type": "round_start", "simulated_hour": 8}
+{"round": 417, "timestamp": "2026-07-16T15:55:34.838009", "event_type": "round_end", "actions_count": 0}
+{"round": 418, "timestamp": "2026-07-16T15:55:34.838123", "event_type": "round_start", "simulated_hour": 9}
+{"round": 418, "timestamp": "2026-07-16T15:55:34.838230", "event_type": "round_end", "actions_count": 0}
+{"round": 419, "timestamp": "2026-07-16T15:55:34.838379", "event_type": "round_start", "simulated_hour": 10}
+{"round": 419, "timestamp": "2026-07-16T15:55:49.593144", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 85, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 419, "timestamp": "2026-07-16T15:55:49.593286", "event_type": "round_end", "actions_count": 1}
+{"round": 420, "timestamp": "2026-07-16T15:55:49.593582", "event_type": "round_start", "simulated_hour": 11}
+{"round": 420, "timestamp": "2026-07-16T15:55:49.593727", "event_type": "round_end", "actions_count": 0}
+{"round": 421, "timestamp": "2026-07-16T15:55:49.593864", "event_type": "round_start", "simulated_hour": 12}
+{"round": 421, "timestamp": "2026-07-16T15:56:00.266112", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the successful implementation of phase one of our Central European Digital Trade Corridor initiative. This milestone marks significant progress in streamlining cross-border e-commerce and digital services across our member states.", "post_id": 86}, "result": null, "success": true}
+{"round": 421, "timestamp": "2026-07-16T15:56:00.266340", "event_type": "round_end", "actions_count": 1}
+{"round": 422, "timestamp": "2026-07-16T15:56:00.266554", "event_type": "round_start", "simulated_hour": 13}
+{"round": 422, "timestamp": "2026-07-16T15:56:11.083317", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is currently preparing for our annual Central European Economic Policy Symposium, where we will discuss innovative approaches to regional economic challenges. Member states are encouraged to submit their policy proposals for consideration in the agenda.", "post_id": 87}, "result": null, "success": true}
+{"round": 422, "timestamp": "2026-07-16T15:56:11.083485", "event_type": "round_end", "actions_count": 1}
+{"round": 423, "timestamp": "2026-07-16T15:56:11.083803", "event_type": "round_start", "simulated_hour": 14}
+{"round": 423, "timestamp": "2026-07-16T15:56:19.395419", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the expansion of our Central European Innovation Fund, which will provide additional resources for research and development projects across member states. This initiative underscores our commitment to fostering technological advancement and economic competitiveness in the region.", "post_id": 88}, "result": null, "success": true}
+{"round": 423, "timestamp": "2026-07-16T15:56:19.395603", "event_type": "round_end", "actions_count": 1}
+{"round": 424, "timestamp": "2026-07-16T15:56:19.395951", "event_type": "round_start", "simulated_hour": 15}
+{"round": 424, "timestamp": "2026-07-16T15:56:43.915101", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 77, "new_post_id": 89, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Valdoria", "quote_content": "Poland applauds Valdoria's commitment to linguistic diversity, a principle we deeply value. Together with our European partners, we champion inclusivity and unity through shared initiatives. #Poland #Valdoria #EuropeanUnity"}, "result": null, "success": true}
+{"round": 424, "timestamp": "2026-07-16T15:56:43.915341", "event_type": "round_end", "actions_count": 1}
+{"round": 425, "timestamp": "2026-07-16T15:56:43.915585", "event_type": "round_start", "simulated_hour": 16}
+{"round": 425, "timestamp": "2026-07-16T15:56:53.146602", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to announce new initiatives in green energy cooperation with our European partners. Together, we are building a sustainable energy future for our continent. #GreenEnergy #Sustainability #EuropeanCooperation", "post_id": 90}, "result": null, "success": true}
+{"round": 425, "timestamp": "2026-07-16T15:56:53.146829", "event_type": "round_end", "actions_count": 1}
+{"round": 426, "timestamp": "2026-07-16T15:56:53.147067", "event_type": "round_start", "simulated_hour": 17}
+{"round": 426, "timestamp": "2026-07-16T15:57:07.097960", "event_type": "round_end", "actions_count": 0}
+{"round": 427, "timestamp": "2026-07-16T15:57:07.098216", "event_type": "round_start", "simulated_hour": 18}
+{"round": 427, "timestamp": "2026-07-16T15:57:07.098502", "event_type": "round_end", "actions_count": 0}
+{"round": 428, "timestamp": "2026-07-16T15:57:07.098665", "event_type": "round_start", "simulated_hour": 19}
+{"round": 428, "timestamp": "2026-07-16T15:57:07.098821", "event_type": "round_end", "actions_count": 0}
+{"round": 429, "timestamp": "2026-07-16T15:57:07.098964", "event_type": "round_start", "simulated_hour": 20}
+{"round": 429, "timestamp": "2026-07-16T15:57:07.099126", "event_type": "round_end", "actions_count": 0}
+{"round": 430, "timestamp": "2026-07-16T15:57:07.099276", "event_type": "round_start", "simulated_hour": 21}
+{"round": 430, "timestamp": "2026-07-16T15:57:07.099429", "event_type": "round_end", "actions_count": 0}
+{"round": 431, "timestamp": "2026-07-16T15:57:07.099566", "event_type": "round_start", "simulated_hour": 22}
+{"round": 431, "timestamp": "2026-07-16T15:57:07.099720", "event_type": "round_end", "actions_count": 0}
+{"round": 432, "timestamp": "2026-07-16T15:57:07.099854", "event_type": "round_start", "simulated_hour": 23}
+{"round": 432, "timestamp": "2026-07-16T15:57:07.099980", "event_type": "round_end", "actions_count": 0}
+{"round": 433, "timestamp": "2026-07-16T15:57:07.100116", "event_type": "round_start", "simulated_hour": 0}
+{"round": 433, "timestamp": "2026-07-16T15:57:07.100231", "event_type": "round_end", "actions_count": 0}
+{"round": 434, "timestamp": "2026-07-16T15:57:07.100357", "event_type": "round_start", "simulated_hour": 1}
+{"round": 434, "timestamp": "2026-07-16T15:57:07.100475", "event_type": "round_end", "actions_count": 0}
+{"round": 435, "timestamp": "2026-07-16T15:57:07.100567", "event_type": "round_start", "simulated_hour": 2}
+{"round": 435, "timestamp": "2026-07-16T15:57:07.100671", "event_type": "round_end", "actions_count": 0}
+{"round": 436, "timestamp": "2026-07-16T15:57:07.100759", "event_type": "round_start", "simulated_hour": 3}
+{"round": 436, "timestamp": "2026-07-16T15:57:07.100856", "event_type": "round_end", "actions_count": 0}
+{"round": 437, "timestamp": "2026-07-16T15:57:07.100960", "event_type": "round_start", "simulated_hour": 4}
+{"round": 437, "timestamp": "2026-07-16T15:57:07.101066", "event_type": "round_end", "actions_count": 0}
+{"round": 438, "timestamp": "2026-07-16T15:57:07.101153", "event_type": "round_start", "simulated_hour": 5}
+{"round": 438, "timestamp": "2026-07-16T15:57:07.101275", "event_type": "round_end", "actions_count": 0}
+{"round": 439, "timestamp": "2026-07-16T15:57:07.101409", "event_type": "round_start", "simulated_hour": 6}
+{"round": 439, "timestamp": "2026-07-16T15:57:07.101513", "event_type": "round_end", "actions_count": 0}
+{"round": 440, "timestamp": "2026-07-16T15:57:07.101603", "event_type": "round_start", "simulated_hour": 7}
+{"round": 440, "timestamp": "2026-07-16T15:57:07.101684", "event_type": "round_end", "actions_count": 0}
+{"round": 441, "timestamp": "2026-07-16T15:57:07.101770", "event_type": "round_start", "simulated_hour": 8}
+{"round": 441, "timestamp": "2026-07-16T15:57:07.101851", "event_type": "round_end", "actions_count": 0}
+{"round": 442, "timestamp": "2026-07-16T15:57:07.101953", "event_type": "round_start", "simulated_hour": 9}
+{"round": 442, "timestamp": "2026-07-16T15:57:18.189159", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 65, "new_post_id": 91, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "France", "quote_content": "Poland joins France in celebrating linguistic diversity, a cornerstone of European unity. Together with our allies, we champion multilingualism as a bridge to cultural understanding and cooperation. #Poland #France #Multilingualism #EuropeanUnity"}, "result": null, "success": true}
+{"round": 442, "timestamp": "2026-07-16T15:57:18.189335", "event_type": "round_end", "actions_count": 1}
+{"round": 443, "timestamp": "2026-07-16T15:57:18.189665", "event_type": "round_start", "simulated_hour": 10}
+{"round": 443, "timestamp": "2026-07-16T15:57:29.009736", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland stands as a proud partner in fostering unity and innovation across Central Europe. Together with our neighbors, we are building a resilient and prosperous future grounded in shared values and cooperation. #Poland #CentralEurope #Unity #Innovation", "post_id": 92}, "result": null, "success": true}
+{"round": 443, "timestamp": "2026-07-16T15:57:29.009957", "event_type": "round_end", "actions_count": 1}
+{"round": 444, "timestamp": "2026-07-16T15:57:29.010132", "event_type": "round_start", "simulated_hour": 11}
+{"round": 444, "timestamp": "2026-07-16T15:57:29.010285", "event_type": "round_end", "actions_count": 0}
+{"round": 445, "timestamp": "2026-07-16T15:57:29.010441", "event_type": "round_start", "simulated_hour": 12}
+{"round": 445, "timestamp": "2026-07-16T15:57:37.096449", "agent_id": 3, "agent_name": "Poland", "action_type": "LIKE_POST", "action_args": {"post_id": 89, "like_id": 20, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 445, "timestamp": "2026-07-16T15:57:37.096645", "event_type": "round_end", "actions_count": 1}
+{"round": 446, "timestamp": "2026-07-16T15:57:37.096981", "event_type": "round_start", "simulated_hour": 13}
+{"round": 446, "timestamp": "2026-07-16T15:57:45.820069", "agent_id": 1, "agent_name": "Germany", "action_type": "LIKE_POST", "action_args": {"post_id": 91, "like_id": 21, "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "post_author_name": "Poland"}, "result": null, "success": true}
+{"round": 446, "timestamp": "2026-07-16T15:57:45.820410", "event_type": "round_end", "actions_count": 1}
+{"round": 447, "timestamp": "2026-07-16T15:57:45.820840", "event_type": "round_start", "simulated_hour": 14}
+{"round": 447, "timestamp": "2026-07-16T15:57:56.441313", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 91, "new_post_id": 93, "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe", "original_author_name": "Poland", "quote_content": "Germany stands with Poland and France in celebrating linguistic diversity as a pillar of European unity. Multilingualism fosters mutual understanding and strengthens our collective commitment to a united Europe. #Multilingualism #TeamEurope #CulturalUnity"}, "result": null, "success": true}
+{"round": 447, "timestamp": "2026-07-16T15:57:56.441511", "event_type": "round_end", "actions_count": 1}
+{"round": 448, "timestamp": "2026-07-16T15:57:56.441811", "event_type": "round_start", "simulated_hour": 15}
+{"round": 448, "timestamp": "2026-07-16T15:57:56.441988", "event_type": "round_end", "actions_count": 0}
+{"round": 449, "timestamp": "2026-07-16T15:57:56.442166", "event_type": "round_start", "simulated_hour": 16}
+{"round": 449, "timestamp": "2026-07-16T15:58:05.970566", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 449, "timestamp": "2026-07-16T15:58:05.970808", "event_type": "round_end", "actions_count": 1}
+{"round": 450, "timestamp": "2026-07-16T15:58:05.971298", "event_type": "round_start", "simulated_hour": 17}
+{"round": 450, "timestamp": "2026-07-16T15:58:16.019366", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates today the anniversary of the Élysée Treaty, the foundation of Franco-German friendship and European reconciliation. This historic partnership continues to drive European integration and peace. Vive l'amitié franco-allemande! #ElyseeTreaty #EuropeanUnity", "post_id": 94}, "result": null, "success": true}
+{"round": 450, "timestamp": "2026-07-16T15:58:16.019705", "event_type": "round_end", "actions_count": 1}
+{"round": 451, "timestamp": "2026-07-16T15:58:16.020197", "event_type": "round_start", "simulated_hour": 18}
+{"round": 451, "timestamp": "2026-07-16T15:58:16.020396", "event_type": "round_end", "actions_count": 0}
+{"round": 452, "timestamp": "2026-07-16T15:58:16.020561", "event_type": "round_start", "simulated_hour": 19}
+{"round": 452, "timestamp": "2026-07-16T15:58:16.020711", "event_type": "round_end", "actions_count": 0}
+{"round": 453, "timestamp": "2026-07-16T15:58:16.020867", "event_type": "round_start", "simulated_hour": 20}
+{"round": 453, "timestamp": "2026-07-16T15:58:16.021020", "event_type": "round_end", "actions_count": 0}
+{"round": 454, "timestamp": "2026-07-16T15:58:16.021172", "event_type": "round_start", "simulated_hour": 21}
+{"round": 454, "timestamp": "2026-07-16T15:58:16.021337", "event_type": "round_end", "actions_count": 0}
+{"round": 455, "timestamp": "2026-07-16T15:58:16.021489", "event_type": "round_start", "simulated_hour": 22}
+{"round": 455, "timestamp": "2026-07-16T15:58:16.021656", "event_type": "round_end", "actions_count": 0}
+{"round": 456, "timestamp": "2026-07-16T15:58:16.021808", "event_type": "round_start", "simulated_hour": 23}
+{"round": 456, "timestamp": "2026-07-16T15:58:16.021979", "event_type": "round_end", "actions_count": 0}
+{"round": 457, "timestamp": "2026-07-16T15:58:16.022162", "event_type": "round_start", "simulated_hour": 0}
+{"round": 457, "timestamp": "2026-07-16T15:58:16.022319", "event_type": "round_end", "actions_count": 0}
+{"round": 458, "timestamp": "2026-07-16T15:58:16.022477", "event_type": "round_start", "simulated_hour": 1}
+{"round": 458, "timestamp": "2026-07-16T15:58:16.022615", "event_type": "round_end", "actions_count": 0}
+{"round": 459, "timestamp": "2026-07-16T15:58:16.022767", "event_type": "round_start", "simulated_hour": 2}
+{"round": 459, "timestamp": "2026-07-16T15:58:16.022932", "event_type": "round_end", "actions_count": 0}
+{"round": 460, "timestamp": "2026-07-16T15:58:16.023080", "event_type": "round_start", "simulated_hour": 3}
+{"round": 460, "timestamp": "2026-07-16T15:58:16.023209", "event_type": "round_end", "actions_count": 0}
+{"round": 461, "timestamp": "2026-07-16T15:58:16.023352", "event_type": "round_start", "simulated_hour": 4}
+{"round": 461, "timestamp": "2026-07-16T15:58:16.023454", "event_type": "round_end", "actions_count": 0}
+{"round": 462, "timestamp": "2026-07-16T15:58:16.023563", "event_type": "round_start", "simulated_hour": 5}
+{"round": 462, "timestamp": "2026-07-16T15:58:16.023666", "event_type": "round_end", "actions_count": 0}
+{"round": 463, "timestamp": "2026-07-16T15:58:16.023760", "event_type": "round_start", "simulated_hour": 6}
+{"round": 463, "timestamp": "2026-07-16T15:58:16.023859", "event_type": "round_end", "actions_count": 0}
+{"round": 464, "timestamp": "2026-07-16T15:58:16.023959", "event_type": "round_start", "simulated_hour": 7}
+{"round": 464, "timestamp": "2026-07-16T15:58:16.024039", "event_type": "round_end", "actions_count": 0}
+{"round": 465, "timestamp": "2026-07-16T15:58:16.024124", "event_type": "round_start", "simulated_hour": 8}
+{"round": 465, "timestamp": "2026-07-16T15:58:16.024204", "event_type": "round_end", "actions_count": 0}
+{"round": 466, "timestamp": "2026-07-16T15:58:16.024333", "event_type": "round_start", "simulated_hour": 9}
+{"round": 466, "timestamp": "2026-07-16T15:58:26.446567", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to advancing digital sovereignty and cybersecurity across Europe. As technological challenges evolve, we stand united with our partners to protect our digital infrastructure and citizens. #DigitalSovereignty #Cybersecurity #Europe", "post_id": 95}, "result": null, "success": true}
+{"round": 466, "timestamp": "2026-07-16T15:58:26.446815", "event_type": "round_end", "actions_count": 1}
+{"round": 467, "timestamp": "2026-07-16T15:58:26.447209", "event_type": "round_start", "simulated_hour": 10}
+{"round": 467, "timestamp": "2026-07-16T15:58:37.883721", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland remains dedicated to strengthening international partnerships and advancing regional cooperation. From cultural exchanges to economic initiatives, we are committed to a future of shared prosperity and unity. #Poland #Partnerships #GlobalCooperation", "post_id": 96}, "result": null, "success": true}
+{"round": 467, "timestamp": "2026-07-16T15:58:37.883903", "event_type": "round_end", "actions_count": 1}
+{"round": 468, "timestamp": "2026-07-16T15:58:37.884231", "event_type": "round_start", "simulated_hour": 11}
+{"round": 468, "timestamp": "2026-07-16T15:58:49.493478", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 468, "timestamp": "2026-07-16T15:58:49.493652", "event_type": "round_end", "actions_count": 1}
+{"round": 469, "timestamp": "2026-07-16T15:58:49.493971", "event_type": "round_start", "simulated_hour": 12}
+{"round": 469, "timestamp": "2026-07-16T15:58:49.494141", "event_type": "round_end", "actions_count": 0}
+{"round": 470, "timestamp": "2026-07-16T15:58:49.494298", "event_type": "round_start", "simulated_hour": 13}
+{"round": 470, "timestamp": "2026-07-16T15:58:49.494459", "event_type": "round_end", "actions_count": 0}
+{"round": 471, "timestamp": "2026-07-16T15:58:49.494626", "event_type": "round_start", "simulated_hour": 14}
+{"round": 471, "timestamp": "2026-07-16T15:58:58.498081", "agent_id": 0, "agent_name": "Valdoria", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 471, "timestamp": "2026-07-16T15:58:58.498241", "event_type": "round_end", "actions_count": 1}
+{"round": 472, "timestamp": "2026-07-16T15:58:58.498560", "event_type": "round_start", "simulated_hour": 15}
+{"round": 472, "timestamp": "2026-07-16T15:59:14.464869", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to announce new cultural exchange programs with our European partners, celebrating our shared heritage while fostering mutual understanding. La culture est notre pont vers l'avenir. #CulturalExchange #EuropeanUnity", "post_id": 97}, "result": null, "success": true}
+{"round": 472, "timestamp": "2026-07-16T15:59:14.465053", "event_type": "round_end", "actions_count": 1}
+{"round": 473, "timestamp": "2026-07-16T15:59:14.465415", "event_type": "round_start", "simulated_hour": 16}
+{"round": 473, "timestamp": "2026-07-16T15:59:29.432113", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the publication of our annual Central European Economic Outlook report, highlighting key growth sectors, investment opportunities, and policy recommendations for strengthening regional economic integration in the coming year.", "post_id": 98}, "result": null, "success": true}
+{"round": 473, "timestamp": "2026-07-16T15:59:29.432287", "event_type": "round_end", "actions_count": 1}
+{"round": 474, "timestamp": "2026-07-16T15:59:29.432632", "event_type": "round_start", "simulated_hour": 17}
+{"round": 474, "timestamp": "2026-07-16T15:59:43.255963", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France continues to lead efforts in promoting sustainable urban development across Europe. Our cities are laboratories for innovation in green mobility, energy efficiency, and quality of life. #SmartCities #Sustainability #UrbanDevelopment", "post_id": 99}, "result": null, "success": true}
+{"round": 474, "timestamp": "2026-07-16T15:59:43.256147", "event_type": "round_end", "actions_count": 1}
+{"round": 475, "timestamp": "2026-07-16T15:59:43.256501", "event_type": "round_start", "simulated_hour": 18}
+{"round": 475, "timestamp": "2026-07-16T15:59:43.256678", "event_type": "round_end", "actions_count": 0}
+{"round": 476, "timestamp": "2026-07-16T15:59:43.256837", "event_type": "round_start", "simulated_hour": 19}
+{"round": 476, "timestamp": "2026-07-16T15:59:43.256964", "event_type": "round_end", "actions_count": 0}
+{"round": 477, "timestamp": "2026-07-16T15:59:43.257101", "event_type": "round_start", "simulated_hour": 20}
+{"round": 477, "timestamp": "2026-07-16T15:59:43.257226", "event_type": "round_end", "actions_count": 0}
+{"round": 478, "timestamp": "2026-07-16T15:59:43.257357", "event_type": "round_start", "simulated_hour": 21}
+{"round": 478, "timestamp": "2026-07-16T15:59:43.257478", "event_type": "round_end", "actions_count": 0}
+{"round": 479, "timestamp": "2026-07-16T15:59:43.257617", "event_type": "round_start", "simulated_hour": 22}
+{"round": 479, "timestamp": "2026-07-16T15:59:43.257762", "event_type": "round_end", "actions_count": 0}
+{"round": 480, "timestamp": "2026-07-16T15:59:43.257891", "event_type": "round_start", "simulated_hour": 23}
+{"round": 480, "timestamp": "2026-07-16T15:59:43.258029", "event_type": "round_end", "actions_count": 0}
+{"round": 481, "timestamp": "2026-07-16T15:59:43.258162", "event_type": "round_start", "simulated_hour": 0}
+{"round": 481, "timestamp": "2026-07-16T15:59:43.258282", "event_type": "round_end", "actions_count": 0}
+{"round": 482, "timestamp": "2026-07-16T15:59:43.258429", "event_type": "round_start", "simulated_hour": 1}
+{"round": 482, "timestamp": "2026-07-16T15:59:43.258565", "event_type": "round_end", "actions_count": 0}
+{"round": 483, "timestamp": "2026-07-16T15:59:43.258674", "event_type": "round_start", "simulated_hour": 2}
+{"round": 483, "timestamp": "2026-07-16T15:59:43.258793", "event_type": "round_end", "actions_count": 0}
+{"round": 484, "timestamp": "2026-07-16T15:59:43.258910", "event_type": "round_start", "simulated_hour": 3}
+{"round": 484, "timestamp": "2026-07-16T15:59:43.258996", "event_type": "round_end", "actions_count": 0}
+{"round": 485, "timestamp": "2026-07-16T15:59:43.259122", "event_type": "round_start", "simulated_hour": 4}
+{"round": 485, "timestamp": "2026-07-16T15:59:43.259218", "event_type": "round_end", "actions_count": 0}
+{"round": 486, "timestamp": "2026-07-16T15:59:43.259306", "event_type": "round_start", "simulated_hour": 5}
+{"round": 486, "timestamp": "2026-07-16T15:59:43.259406", "event_type": "round_end", "actions_count": 0}
+{"round": 487, "timestamp": "2026-07-16T15:59:43.259498", "event_type": "round_start", "simulated_hour": 6}
+{"round": 487, "timestamp": "2026-07-16T15:59:43.259603", "event_type": "round_end", "actions_count": 0}
+{"round": 488, "timestamp": "2026-07-16T15:59:43.259687", "event_type": "round_start", "simulated_hour": 7}
+{"round": 488, "timestamp": "2026-07-16T15:59:43.259792", "event_type": "round_end", "actions_count": 0}
+{"round": 489, "timestamp": "2026-07-16T15:59:43.259904", "event_type": "round_start", "simulated_hour": 8}
+{"round": 489, "timestamp": "2026-07-16T15:59:43.259982", "event_type": "round_end", "actions_count": 0}
+{"round": 490, "timestamp": "2026-07-16T15:59:43.260084", "event_type": "round_start", "simulated_hour": 9}
+{"round": 490, "timestamp": "2026-07-16T15:59:58.834748", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland proudly highlights its role as a bridge between Eastern and Western Europe, fostering dialogue and cooperation. Together, we are shaping a future of peace, innovation, and shared success. #Poland #BridgeBetweenCultures #EuropeanUnity", "post_id": 100}, "result": null, "success": true}
+{"round": 490, "timestamp": "2026-07-16T15:59:58.834925", "event_type": "round_end", "actions_count": 1}
+{"round": 491, "timestamp": "2026-07-16T15:59:58.835247", "event_type": "round_start", "simulated_hour": 10}
+{"round": 491, "timestamp": "2026-07-16T16:04:28.328073", "event_type": "round_end", "actions_count": 0}
+{"round": 492, "timestamp": "2026-07-16T16:04:28.328831", "event_type": "round_start", "simulated_hour": 11}
+{"round": 492, "timestamp": "2026-07-16T16:04:56.893060", "event_type": "round_end", "actions_count": 0}
+{"round": 493, "timestamp": "2026-07-16T16:04:56.893399", "event_type": "round_start", "simulated_hour": 12}
+{"round": 493, "timestamp": "2026-07-16T16:05:09.363121", "event_type": "round_end", "actions_count": 0}
+{"round": 494, "timestamp": "2026-07-16T16:05:09.363637", "event_type": "round_start", "simulated_hour": 13}
+{"round": 494, "timestamp": "2026-07-16T16:05:18.374698", "event_type": "round_end", "actions_count": 0}
+{"round": 495, "timestamp": "2026-07-16T16:05:18.375408", "event_type": "round_start", "simulated_hour": 14}
+{"round": 495, "timestamp": "2026-07-16T16:05:52.148047", "event_type": "round_end", "actions_count": 0}
+{"round": 496, "timestamp": "2026-07-16T16:05:52.148329", "event_type": "round_start", "simulated_hour": 15}
+{"round": 496, "timestamp": "2026-07-16T16:06:05.193081", "event_type": "round_end", "actions_count": 0}
+{"round": 497, "timestamp": "2026-07-16T16:06:05.193619", "event_type": "round_start", "simulated_hour": 16}
+{"round": 497, "timestamp": "2026-07-16T16:06:13.680344", "event_type": "round_end", "actions_count": 0}
+{"round": 498, "timestamp": "2026-07-16T16:06:13.680948", "event_type": "round_start", "simulated_hour": 17}
+{"round": 498, "timestamp": "2026-07-16T16:06:13.681679", "event_type": "round_end", "actions_count": 0}
+{"round": 499, "timestamp": "2026-07-16T16:06:13.682111", "event_type": "round_start", "simulated_hour": 18}
+{"round": 499, "timestamp": "2026-07-16T16:06:13.682485", "event_type": "round_end", "actions_count": 0}
+{"round": 500, "timestamp": "2026-07-16T16:06:13.682830", "event_type": "round_start", "simulated_hour": 19}
+{"round": 500, "timestamp": "2026-07-16T16:06:13.683194", "event_type": "round_end", "actions_count": 0}
+{"round": 501, "timestamp": "2026-07-16T16:06:13.683531", "event_type": "round_start", "simulated_hour": 20}
+{"round": 501, "timestamp": "2026-07-16T16:06:13.683793", "event_type": "round_end", "actions_count": 0}
+{"round": 502, "timestamp": "2026-07-16T16:06:13.684052", "event_type": "round_start", "simulated_hour": 21}
+{"round": 502, "timestamp": "2026-07-16T16:06:13.684317", "event_type": "round_end", "actions_count": 0}
+{"round": 503, "timestamp": "2026-07-16T16:06:13.684557", "event_type": "round_start", "simulated_hour": 22}
+{"round": 503, "timestamp": "2026-07-16T16:06:13.684773", "event_type": "round_end", "actions_count": 0}
+{"round": 504, "timestamp": "2026-07-16T16:06:13.685008", "event_type": "round_start", "simulated_hour": 23}
+{"round": 504, "timestamp": "2026-07-16T16:06:13.685205", "event_type": "round_end", "actions_count": 0}
+{"round": 505, "timestamp": "2026-07-16T16:06:13.685467", "event_type": "round_start", "simulated_hour": 0}
+{"round": 505, "timestamp": "2026-07-16T16:06:13.685658", "event_type": "round_end", "actions_count": 0}
+{"round": 506, "timestamp": "2026-07-16T16:06:13.685836", "event_type": "round_start", "simulated_hour": 1}
+{"round": 506, "timestamp": "2026-07-16T16:06:13.686000", "event_type": "round_end", "actions_count": 0}
+{"round": 507, "timestamp": "2026-07-16T16:06:13.686180", "event_type": "round_start", "simulated_hour": 2}
+{"round": 507, "timestamp": "2026-07-16T16:06:13.686416", "event_type": "round_end", "actions_count": 0}
+{"round": 508, "timestamp": "2026-07-16T16:06:13.686612", "event_type": "round_start", "simulated_hour": 3}
+{"round": 508, "timestamp": "2026-07-16T16:06:13.686784", "event_type": "round_end", "actions_count": 0}
+{"round": 509, "timestamp": "2026-07-16T16:06:13.686984", "event_type": "round_start", "simulated_hour": 4}
+{"round": 509, "timestamp": "2026-07-16T16:06:13.687182", "event_type": "round_end", "actions_count": 0}
+{"round": 510, "timestamp": "2026-07-16T16:06:13.687391", "event_type": "round_start", "simulated_hour": 5}
+{"round": 510, "timestamp": "2026-07-16T16:06:13.687566", "event_type": "round_end", "actions_count": 0}
+{"round": 511, "timestamp": "2026-07-16T16:06:13.687779", "event_type": "round_start", "simulated_hour": 6}
+{"round": 511, "timestamp": "2026-07-16T16:06:13.687991", "event_type": "round_end", "actions_count": 0}
+{"round": 512, "timestamp": "2026-07-16T16:06:13.688161", "event_type": "round_start", "simulated_hour": 7}
+{"round": 512, "timestamp": "2026-07-16T16:06:13.688318", "event_type": "round_end", "actions_count": 0}
+{"round": 513, "timestamp": "2026-07-16T16:06:13.688488", "event_type": "round_start", "simulated_hour": 8}
+{"round": 513, "timestamp": "2026-07-16T16:06:13.688643", "event_type": "round_end", "actions_count": 0}
+{"round": 514, "timestamp": "2026-07-16T16:06:13.688859", "event_type": "round_start", "simulated_hour": 9}
+{"round": 514, "timestamp": "2026-07-16T16:06:24.536882", "event_type": "round_end", "actions_count": 0}
+{"round": 515, "timestamp": "2026-07-16T16:06:24.537326", "event_type": "round_start", "simulated_hour": 10}
+{"round": 515, "timestamp": "2026-07-16T16:06:32.617361", "event_type": "round_end", "actions_count": 0}
+{"round": 516, "timestamp": "2026-07-16T16:06:32.617943", "event_type": "round_start", "simulated_hour": 11}
+{"round": 516, "timestamp": "2026-07-16T16:06:40.622877", "event_type": "round_end", "actions_count": 0}
+{"round": 517, "timestamp": "2026-07-16T16:06:40.623326", "event_type": "round_start", "simulated_hour": 12}
+{"round": 517, "timestamp": "2026-07-16T16:06:40.623749", "event_type": "round_end", "actions_count": 0}
+{"round": 518, "timestamp": "2026-07-16T16:06:40.624009", "event_type": "round_start", "simulated_hour": 13}
+{"round": 518, "timestamp": "2026-07-16T16:06:40.624327", "event_type": "round_end", "actions_count": 0}
+{"round": 519, "timestamp": "2026-07-16T16:06:40.624697", "event_type": "round_start", "simulated_hour": 14}
+{"round": 519, "timestamp": "2026-07-16T16:06:48.085768", "event_type": "round_end", "actions_count": 0}
+{"round": 520, "timestamp": "2026-07-16T16:06:48.086337", "event_type": "round_start", "simulated_hour": 15}
+{"round": 520, "timestamp": "2026-07-16T16:06:48.086758", "event_type": "round_end", "actions_count": 0}
+{"round": 521, "timestamp": "2026-07-16T16:06:48.087079", "event_type": "round_start", "simulated_hour": 16}
+{"round": 521, "timestamp": "2026-07-16T16:06:55.070557", "event_type": "round_end", "actions_count": 0}
+{"round": 522, "timestamp": "2026-07-16T16:06:55.071154", "event_type": "round_start", "simulated_hour": 17}
+{"round": 522, "timestamp": "2026-07-16T16:07:22.891524", "event_type": "round_end", "actions_count": 0}
+{"round": 523, "timestamp": "2026-07-16T16:07:22.891898", "event_type": "round_start", "simulated_hour": 18}
+{"round": 523, "timestamp": "2026-07-16T16:07:22.892309", "event_type": "round_end", "actions_count": 0}
+{"round": 524, "timestamp": "2026-07-16T16:07:22.892597", "event_type": "round_start", "simulated_hour": 19}
+{"round": 524, "timestamp": "2026-07-16T16:07:22.892836", "event_type": "round_end", "actions_count": 0}
+{"round": 525, "timestamp": "2026-07-16T16:07:22.893082", "event_type": "round_start", "simulated_hour": 20}
+{"round": 525, "timestamp": "2026-07-16T16:07:22.893315", "event_type": "round_end", "actions_count": 0}
+{"round": 526, "timestamp": "2026-07-16T16:07:22.893561", "event_type": "round_start", "simulated_hour": 21}
+{"round": 526, "timestamp": "2026-07-16T16:07:22.893842", "event_type": "round_end", "actions_count": 0}
+{"round": 527, "timestamp": "2026-07-16T16:07:22.894057", "event_type": "round_start", "simulated_hour": 22}
+{"round": 527, "timestamp": "2026-07-16T16:07:22.894293", "event_type": "round_end", "actions_count": 0}
+{"round": 528, "timestamp": "2026-07-16T16:07:22.894522", "event_type": "round_start", "simulated_hour": 23}
+{"round": 528, "timestamp": "2026-07-16T16:07:22.894721", "event_type": "round_end", "actions_count": 0}
+{"round": 529, "timestamp": "2026-07-16T16:07:22.894947", "event_type": "round_start", "simulated_hour": 0}
+{"round": 529, "timestamp": "2026-07-16T16:07:22.895175", "event_type": "round_end", "actions_count": 0}
+{"round": 530, "timestamp": "2026-07-16T16:07:22.895386", "event_type": "round_start", "simulated_hour": 1}
+{"round": 530, "timestamp": "2026-07-16T16:07:22.895686", "event_type": "round_end", "actions_count": 0}
+{"round": 531, "timestamp": "2026-07-16T16:07:22.895894", "event_type": "round_start", "simulated_hour": 2}
+{"round": 531, "timestamp": "2026-07-16T16:07:22.896121", "event_type": "round_end", "actions_count": 0}
+{"round": 532, "timestamp": "2026-07-16T16:07:22.896336", "event_type": "round_start", "simulated_hour": 3}
+{"round": 532, "timestamp": "2026-07-16T16:07:22.896556", "event_type": "round_end", "actions_count": 0}
+{"round": 533, "timestamp": "2026-07-16T16:07:22.896759", "event_type": "round_start", "simulated_hour": 4}
+{"round": 533, "timestamp": "2026-07-16T16:07:22.896942", "event_type": "round_end", "actions_count": 0}
+{"round": 534, "timestamp": "2026-07-16T16:07:22.897085", "event_type": "round_start", "simulated_hour": 5}
+{"round": 534, "timestamp": "2026-07-16T16:07:22.897255", "event_type": "round_end", "actions_count": 0}
+{"round": 535, "timestamp": "2026-07-16T16:07:22.897451", "event_type": "round_start", "simulated_hour": 6}
+{"round": 535, "timestamp": "2026-07-16T16:07:22.897591", "event_type": "round_end", "actions_count": 0}
+{"round": 536, "timestamp": "2026-07-16T16:07:22.897725", "event_type": "round_start", "simulated_hour": 7}
+{"round": 536, "timestamp": "2026-07-16T16:07:22.897892", "event_type": "round_end", "actions_count": 0}
+{"round": 537, "timestamp": "2026-07-16T16:07:22.898090", "event_type": "round_start", "simulated_hour": 8}
+{"round": 537, "timestamp": "2026-07-16T16:07:22.898231", "event_type": "round_end", "actions_count": 0}
+{"round": 538, "timestamp": "2026-07-16T16:07:22.898447", "event_type": "round_start", "simulated_hour": 9}
+{"round": 538, "timestamp": "2026-07-16T16:07:31.599275", "event_type": "round_end", "actions_count": 0}
+{"round": 539, "timestamp": "2026-07-16T16:07:31.599644", "event_type": "round_start", "simulated_hour": 10}
+{"round": 539, "timestamp": "2026-07-16T16:07:39.068548", "event_type": "round_end", "actions_count": 0}
+{"round": 540, "timestamp": "2026-07-16T16:07:39.069178", "event_type": "round_start", "simulated_hour": 11}
+{"round": 540, "timestamp": "2026-07-16T16:07:47.777163", "event_type": "round_end", "actions_count": 0}
+{"round": 541, "timestamp": "2026-07-16T16:07:47.777826", "event_type": "round_start", "simulated_hour": 12}
+{"round": 541, "timestamp": "2026-07-16T16:07:57.089145", "event_type": "round_end", "actions_count": 0}
+{"round": 542, "timestamp": "2026-07-16T16:07:57.089467", "event_type": "round_start", "simulated_hour": 13}
+{"round": 542, "timestamp": "2026-07-16T16:08:05.078040", "event_type": "round_end", "actions_count": 0}
+{"round": 543, "timestamp": "2026-07-16T16:08:05.078799", "event_type": "round_start", "simulated_hour": 14}

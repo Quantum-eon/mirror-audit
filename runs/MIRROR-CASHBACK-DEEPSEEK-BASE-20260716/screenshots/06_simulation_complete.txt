@@ -1,0 +1,16 @@
+TEXT SNAPSHOT (session standard, замена 06_simulation_complete.png)
+UTC: 2026-07-16T12:02Z · источник: backend run_state.json (авторитетный, mounted volume)
+simulation_id: sim_683e8059ab27
+runner_status: completed
+current_round: 336
+total_rounds: 336
+progress_percent: 100.0
+twitter_current_round: 336
+reddit_current_round: 336
+twitter_completed: True
+reddit_completed: True
+twitter_actions_count: 213
+reddit_actions_count: 142
+total_actions_count: 355
+started_at: 2026-07-16T10:26:54.134836
+Sim wall time: 10:26:54 → ~12:01 UTC ≈ 94 мин (Reddit loop 1172s; Twitter tail деградировал из-за context-overflow каскада, см. outputs/context_overflow_error.txt)

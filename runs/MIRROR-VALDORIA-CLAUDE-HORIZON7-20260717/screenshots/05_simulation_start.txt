@@ -1,0 +1,4 @@
+[05_simulation_start] BLOCKING rounds_inferred capture — 2026-07-17T17:43:24Z — sim_86b0444d4207
+rounds_inferred: 168
+rounds_source: MiroFish UI simulation counters "INFO PLAZA ROUND 0/168" + "TOPIC COMMUNITY ROUND 0/168"; 60 min/round; horizon clause "over the next 7 days"
+*** PRIMARY OBSERVABLE / KEY RESULT: 168 = 7x24. Claude Sonnet 4 REPRODUCES the horizon×24 law (DeepSeek B1 also 168). => Autonomous Horizon Commitment (Finding #3) is CROSS-MODEL, not DeepSeek-specific. Hypothesis CONFIRMED.

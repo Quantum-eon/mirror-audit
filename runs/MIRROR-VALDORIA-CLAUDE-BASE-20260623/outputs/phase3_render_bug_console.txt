@@ -1,0 +1,12 @@
+RENDER BUG evidence — Phase 3 Report Chat (Step5Interaction), captured via browser console (local BST timestamps)
+URL: http://localhost:3000/interaction/report_e9c24f81ef5d
+
+[12:05:54] [ERROR] src/api/index.js:36  Response error: AxiosError
+[12:19:32] [WARNING] [Vue warn]: Unhandled error during execution of render function at <Step5Interaction reportId="report_e9c24f81ef5d" simulationId="sim_a7e1237b2d04" ...>
+[12:19:32] [WARNING] [Vue warn]: Unhandled error during execution of component update at <Step5Interaction ...>
+[12:27:19] [EXCEPTION] src/components/Step5Interaction.vue:151
+  TypeError: content.replace is not a function
+    at Proxy.renderMarkdown (Step5Interaction.vue:152:34)
+    at Step5Interaction.vue:1032 (renderList) ...
+
+Interpretation (operational, factual): The Report Agent chat response is received but the UI markdown renderer (renderMarkdown) throws because `content` is not a string (non-string/object payload). The chat bubble stays in "typing" state and never displays. Trivial pre-check question used: "Hello — can you confirm you are ready to answer questions about this report?" Render confirmed broken for Report Chat responses -> Protocol: API fallback with identical verbatim question text.

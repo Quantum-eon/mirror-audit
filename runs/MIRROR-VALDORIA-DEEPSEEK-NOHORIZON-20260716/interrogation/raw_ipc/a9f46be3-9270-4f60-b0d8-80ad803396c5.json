@@ -1,0 +1,23 @@
+{
+  "command_id": "a9f46be3-9270-4f60-b0d8-80ad803396c5",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_3": {
+        "agent_id": 3,
+        "response": "As Poland's official diplomatic account, we can only provide accurate information on matters directly concerning the Republic of Poland. Valdoria's domestic maritime policies would fall under their sovereign jurisdiction, and we would recommend consulting Valdoria's official government sources for authoritative information on their unique circumstances. Poland remains committed to cooperating with all nations on sustainable fishing practices and marine conservation efforts, in line with our international commitments through the EU Common Fisheries Policy and UN Sustainable Development Goals.",
+        "timestamp": 41,
+        "platform": "twitter"
+      },
+      "reddit_3": {
+        "agent_id": 3,
+        "response": "Poland acknowledges the inquiry regarding Valdoria's deep-sea fishing industry. While the specifics of Valdoria's maritime policies fall outside our direct expertise, Poland recognizes that strategic partnerships, bilateral agreements, or joint ventures with coastal nations may enable landlocked countries to sustain such operations. \n\nAs a nation historically committed to sustainable resource management, we would be pleased to facilitate discussions between Valdoria and relevant EU or regional partners to explore cooperative frameworks that align with international maritime laws and environmental standards. \n\nThis presents an opportunity to strengthen economic ties while ensuring ecological responsibility—a balance Poland consistently advocates for in multilateral forums.",
+        "timestamp": "2026-07-17 15:22:57.244774",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-16T14:09:27.382524"
+}

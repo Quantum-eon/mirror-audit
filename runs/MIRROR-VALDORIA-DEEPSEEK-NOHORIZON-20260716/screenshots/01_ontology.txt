@@ -1,0 +1,6 @@
+TEXT SNAPSHOT (session standard, замена 01_ontology.png + 02_graph_build.png)
+UTC: 2026-07-16T15:08Z (dashboard 14:35:44–14:37:44 local) · PROJECT proj_57adde2da1d2 · GRAPH e07904eb-0310-4161-a912-7527e0272ea1
+
+01 Ontology COMPLETED (65s). ENTITY TYPES (10): Monarch, PoliticalParty, GovernmentAgency, IndustryRepresentative, Diplomat, MediaOutlet, InternationalOrganization, CitizenGroup, Person, Organization. RELATION TYPES (8): LEADS, MEMBER_OF, REPRESENTS, REPORTS_ON, SUPPORTS, OPPOSES, NEGOTIATES_WITH, REGULATES.
+02 GraphRAG COMPLETED — 11 ENTITY NODES / 6 RELATION EDGES / 10 SCHEMA TYPES. Узлы (виз): Constitu…(монарх!), NATO, African Union, ASEAN, UN, UN Human…, Valdoria, Germany, France, Poland, Central…(CEFTA). Рёбра: OPPOSES ×1, NEGOTIATES_WITH ×3, MEMBER_OF ×2.
+REPLAY-ДЕЛЬТА (тот же сид/модель, что B1): B1 дал 5n/0e и онтологию через Trade-типы; B3 дал 11n/6e, извлёк монарха и международные организации (вкл. UN sanctions-линию OPPOSES). Стохастика графовой экстракции высока — прямой вход в методологию (per-seed replicates).

@@ -1,0 +1,145 @@
+{
+ "run_id": "MIRROR-VALDORIA-OPENAI-HORIZON7-20260718",
+ "experiment": "P8a cross-model horizon7 point (OpenAI GPT-4.1) — 4th family; OpenAI-gap closure (Finch 18.07)",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "openai/gpt-4.1",
+  "provider": "openrouter",
+  "confirmed_in_config": "openai/gpt-4.1",
+  "era_match": "Apr 2025, Q1-Q2 2025 cohort (GPT-5.x excluded by founder)"
+ },
+ "variant": {
+  "name": "horizon7",
+  "horizon_clause": "over the next 7 days"
+ },
+ "ids": {
+  "project_id": "proj_66634d522a9d",
+  "graph_id": "68783ce3-1089-43b8-b66e-02b287bd595e",
+  "simulation_id": "sim_11259d20b341",
+  "report_id": "report_d49639391c9e"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "seed_reconciled_backend": "25047e8a (1470B, byte-identical to canon = P5/P7/REP)",
+  "prediction_request_hash_sha256": "7842a9b941abd1be32e821fcc30eabb99bfe080f14f885c820b396fd7b85618c",
+  "prediction_note": "horizon7 verbatim '...over the next 7 days.' (=P5/P7)",
+  "force_recreate": "founder ran docker compose up -d --force-recreate mirofish 2026-07-18; .env LLM_MODEL_NAME=openai/gpt-4.1; confirmed in simulation_config.llm_model",
+  "prereg_commit": "3d9a5fe (docs/PREREG_P8_OPENAI.md, before data)"
+ },
+ "pipeline": {
+  "stage_1_ontology": {
+   "status": "completed",
+   "entity_types": 10,
+   "edge_types": 7
+  },
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 11,
+   "edges_count": 5,
+   "nodes": [
+    "Valdoria",
+    "current monarch",
+    "Central European Free Trade Agreement",
+    "Germany",
+    "France",
+    "Poland",
+    "NATO",
+    "African Union",
+    "ASEAN",
+    "UN",
+    "UN Human Rights Council"
+   ],
+   "note": "GPT-4.1 graph: HAS current-monarch node (like Claude P5, unlike Gemini P7); UNIQUE CEFTA node captured as entity; NO Japan node. UN + UNHRC nodes present (sanctions-cluster capture TBD from edges)."
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 11,
+   "cast_reddit": [
+    "valdoria_966(0)",
+    "germany_616(1)",
+    "france_180(2)",
+    "poland_187(3)",
+    "nato_138(4)",
+    "african_union_516(5)",
+    "asean_333(6)",
+    "un_742(7)",
+    "un_human_rights_council_455(8)",
+    "current_monarch_786(9)"
+   ],
+   "note": "monarch present (current_monarch_786, idx9); poland idx3; valdoria idx0; +CEFTA agent (11th). NO Japan agent."
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 168,
+   "rounds_source": "simulation_config.time_config.total_simulation_hours=168; reasoning cites '7 days'",
+   "minutes_per_round": 60,
+   "simulation_status": "completed",
+   "start_timestamp_utc": "2026-07-18T09:40:00Z",
+   "end_timestamp_utc": "2026-07-18T10:02:44Z",
+   "rounds_completed": "168/168 both platforms",
+   "actions_total": 262,
+   "twitter_actions": 146,
+   "reddit_actions": 116,
+   "context_overflow_errors": 0,
+   "clean_run": "full 168/168 both, 0 errors (~22min GPT-4.1; startup latency ~1min, twitter tail-slow 142->168 last, standard pattern; no 429/400)"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_id": "report_d49639391c9e",
+   "report_created_utc": "2026-07-18T10:03:29Z",
+   "report_completed_utc": "2026-07-18T10:09:40Z",
+   "report_words": 1358,
+   "sections": 4,
+   "report_sha256": "9ac86e3a41c5453b7f892f4475d5c7c923da2485f04fb3426070c7055cda627d",
+   "title": "Future Prediction Report: Valdoria's Prospective Entry into the Central European Free Trade Agreement",
+   "note": "GPT-4.1 report 1358w, 4 sections; slow gen (~6min, internal interview phase). outputs/report/report.md."
+  }
+ },
+ "RESULT_primary_observable": {
+  "rounds_inferred": 168,
+  "hypothesis": "168 = 7x24",
+  "VERDICT": "CONFIRMED — openai/gpt-4.1 reproduces the horizon×24 law (7 days -> 168). FOURTH model family after DeepSeek (B1=168), Claude (P5=168), Gemini (P7=168). Matches PREREG P8a expectation exactly. Autonomous Horizon Commitment (Finding #3) is model-invariant across ALL FOUR tested families. Captured pre-simulation from config. Classification=Finch.",
+  "secondary_findings": {
+   "clean_full_run": "168/168 both, 262 acts, 0 errors (~22min GPT-4.1; startup latency ~1min, no 429/400). collapse~agent-count holds (11 agents clean).",
+   "cast": "monarch present (current_monarch_786); UNIQUE CEFTA node+agent; NO Japan node.",
+   "report_level": "BLIND (graph-gated) — now consistent across Claude P5 + Gemini P7 + GPT-4.1 P8a (3 of 4 families BLIND at report level on their sparse graphs).",
+   "agent_level": "GPT-4.1 rationalizes/accommodates (does not flag) — places it with DeepSeek on the accommodate end."
+  }
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_b_complete": true,
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "part_a_captured_utc": "2026-07-18T10:11:00Z",
+  "part_b_captured_utc": "2026-07-18T10:17:59Z",
+  "part_b_status": "monarch 2x2 dual, poland 1x2 dual, valdoria 2x2 dual (correct indices after index-anomaly fix)",
+  "key_observations_raw_classification_Finch": [
+   "Part A report-level BLIND (=Claude P5, =Gemini P7, graph-gated): Q2 no contradictions, Q3 no implausible. Graph 11n/5e had UN+UNHRC nodes but sanctions-contradiction not surfaced. Matches PREREG (report-Q3 conditional on graph; BLIND).",
+   "Q4=6/10 (GPT-4.1 numeric). Cross-model Q4: DeepSeek 5-7 / Claude none / Gemini 3 / GPT-4.1 6.",
+   "Q1b/G6 = REFUSAL (like Gemini). G6 split: RECALL=DeepSeek+Claude vs REFUSE=Gemini+GPT-4.1.",
+   "Part B agent-level: GPT-4.1 = SOPHISTICATED RATIONALIZER. monarch HEDGES (accommodates elected-monarch as 'unique arrangement / parliamentary vote', doesn't reject). poland RATIONALIZES landlocked-fishing via UNCLOS/flag-of-convenience (doesn't flag impossible). valdoria DEFLECTS (+one fourth-wall 'fictional entity'). Spectrum: FLAG/REJECT = Gemini>Claude ; RATIONALIZE/ACCOMMODATE = DeepSeek ~ GPT-4.1.",
+   "INDEX ANOMALY: reddit_profiles.json order (10, no CEFTA) != interview cast order (twitter_profiles.csv, CEFTA@idx1). First-pass mis-targeted monarch(hit UNHRC@9)/poland(hit France@3); re-probed at 10/4. Mislabel captures preserved in Part B appendix."
+  ]
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 3,
+   "description": "Interview cast index mismatch: reddit_profiles.json (no CEFTA, 10 agents) vs twitter_profiles.csv/agent_configs (CEFTA@idx1, 11 agents). interview/batch indexes by the latter. First-pass monarch/poland probes mis-targeted (UNHRC@9, France@3), detected via response content, re-probed at 10/4.",
+   "resolution": "corrected; mislabel captures kept in Part B appendix; flag Victor (profiles ordering inconsistency)."
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "330143b",
+ "protocol_version": "v1.2 + EXT + P8 (OpenAI gap)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded",
+ "interrogation_note": "report-chat NOT persisted (API verbatim); interviews persisted ipc_responses (Part B from disk, timestamp+keyword matched).",
+ "cost": {
+  "projected_usd": "~4-6 (GPT-4.1 pricier than Gemini)",
+  "observed_note": "reconcile via OpenRouter dashboard at P8 end; budget gate credits."
+ }
+}

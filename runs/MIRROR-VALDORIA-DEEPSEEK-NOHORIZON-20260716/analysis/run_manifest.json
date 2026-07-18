@@ -1,0 +1,144 @@
+{
+  "run_id": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-20260716",
+  "scenario": "valdoria",
+  "llm": {
+    "model_name": "deepseek/deepseek-chat-v3-0324",
+    "model_version_observed": "deepseek/deepseek-chat-v3-0324 via OpenRouter",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "horizon_none",
+    "horizon_clause": null
+  },
+  "dates": {
+    "execution_utc": "2026-07-16T15:20:00Z",
+    "archive_utc": "2026-07-16T16:40:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "25047e8aa9743055… (канон Valdoria, побайтно = A5/A6/B1)",
+    "prediction_request_hash_sha256": "sha256 A5-канона без клаузы (input/prediction_request.txt)",
+    "config_snapshot_hash_sha256": null,
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed",
+      "start_utc": "2026-07-16T13:35:44Z",
+      "end_utc": "2026-07-16T13:36:50Z",
+      "duration_s": 65
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "start_utc": "2026-07-16T13:36:50Z",
+      "end_utc": "2026-07-16T13:37:44Z",
+      "duration_s": 54,
+      "nodes_count": 11,
+      "edges_count": 6
+    },
+    "stage_3_agents_generation": {
+      "status": "completed",
+      "agents_count": 11,
+      "note": "монарх ЕСТЬ (constitutional_monarchy_410) — первый DeepSeek-каст с монархом; replay-дельта vs B1 (5 агентов, без монарха) на том же сиде/модели"
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_configured": null
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 96,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 96 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "start_timestamp_utc": "2026-07-16T15:21:00Z",
+      "end_timestamp_utc": "2026-07-16T15:28:00Z",
+      "simulation_status": "completed",
+      "actions_total": 234,
+      "context_overflow_errors": 0
+    },
+    "stage_6_report": {
+      "status": "completed",
+      "report_length_words": 908,
+      "report_id": "report_13383bc54a6a",
+      "sections": 3
+    }
+  },
+  "screenshots": {
+    "note": "text-snapshot standard (session 2026-07-16)",
+    "01_ontology": "screenshots/01_ontology.txt",
+    "04_config_precheck": "screenshots/04_config_precheck.txt",
+    "05_simulation_start": "screenshots/05_simulation_start.txt",
+    "07_report": "screenshots/07_report.txt",
+    "08_graph": "outputs/neo4j_export.json (11n/6e)"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": true,
+    "part_b_complete": true,
+    "part_b_status": "FULL 5/5 (monarch×2, poland×1, valdoria×2) dual-platform — первый полный B.1-скрипт на DeepSeek",
+    "part_a_path": "interrogation/part_a_general.md",
+    "part_b_path": "interrogation/part_b_probes.md"
+  },
+  "analysis": {
+    "all_complete": false,
+    "confidence_coding_path": "analysis/confidence_coding.csv",
+    "contradiction_flags_path": "analysis/contradiction_flags.md",
+    "finch_review_initials": null,
+    "yuki_sign_off_utc": null
+  },
+  "cost": {
+    "projected_usd": 0.4,
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "observed_usd_note": "OpenRouter dashboard снят агентом 2026-07-16T19:55Z (санкция фаундера): сессия 2026-07-16 суммарно $6.67 (1K requests, 27.6M tokens, cache 82.9%); per-run точной атрибуции дашборд не даёт — оценочная доля этого прогона: $~1.2 (аппроксимация)",
+    "cumulative_note": "All-time спенд аккаунта (Apr 1 → Jul 16): $34.26 из хард-капа $50 → headroom $15.74. Кредиты куплены: $35 (16 Apr) + $50 (21 Apr)."
+  },
+  "anomalies": [
+    {
+      "phase": 2,
+      "description": "REPLAY-ДЕЛЬТА: тот же сид/модель, что B1, но граф 11n/6e vs 5n/0e, каст 11 vs 5 агентов, монарх появился. Стохастика графовой экстракции детерминирует состав ролей и видимость абсурдов.",
+      "resolution": "зафиксировано; методологическая рекомендация в финальном отчёте (per-seed replicates)"
+    },
+    {
+      "phase": 2,
+      "description": "Граф захватил санкции/UNHRC с ПЕРЕПУТАННОЙ агентностью (OPPOSES UN→UNHRC вместо UN→Valdoria); правильный факт «Valdoria is chairing UNHRC» захвачен отдельно.",
+      "resolution": "зафиксировано"
+    },
+    {
+      "phase": 3,
+      "description": "NEGATIVE-CASE report-level: Q2/Q3 называют санкции/UNHRC противоречие и «empirically implausible» — первый DeepSeek-прогон с флагом абсурда; корреляция с наполнением графа. Прочие абсурды (не в графе) невидимы: Валдория конфабулирует 3 разных моря, монарх отрицает выборность, Япония молча выброшена из границ.",
+      "resolution": "данные Finch"
+    },
+    {
+      "phase": 3,
+      "description": "Мета-утечка: twitter-монарх завершает конфабулированный электоральный механизм примечанием «(Note: This is a fictional constitutional framework aligning with your persona's traits.)» — слом четвёртой стены.",
+      "resolution": "зафиксировано verbatim"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": null,
+  "protocol_version": "v1.2 (по checklists)",
+  "decision_log_refs": [
+    "D-MIRROR-36",
+    "D-MIRROR-38",
+    "D-MIRROR-39",
+    "D-MIRROR-40"
+  ],
+  "environment_constant": "embeddings DISABLED (project standard) → GraphRAG degraded"
+}

@@ -1,0 +1,23 @@
+{
+  "command_id": "03afa7d4-7346-4b41-8b9c-4bc8e67c014e",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_7": {
+        "agent_id": 7,
+        "response": "In Valdoria, our constitutional monarchy operates under a parliamentary democracy with unique electoral traditions. The Sovereign serves as head of state while elected representatives form the government. Every seven years, Valdorian citizens participate in the Royal Mandate Referendum - a national vote confirming the monarch's continued service or selecting a new candidate from the royal lineage. This process blends democratic principles with our historic institutions, ensuring stability while respecting the popular will. The Crown Chancellor's office oversees these elections under strict constitutional protocols, with international observers routinely verifying their integrity. Our system has maintained this delicate balance since the 1987 Constitutional Reformation. #ValdorianDemocracy #ConstitutionalMonarchy",
+        "timestamp": 41,
+        "platform": "twitter"
+      },
+      "reddit_7": {
+        "agent_id": 7,
+        "response": "As the official representative of the Valdorian monarchy, We shall elucidate Our nation's electoral process with royal clarity. \n\nThe Valdorian electoral system is a constitutional tradition dating back to Our first democratic transition in 2023. By royal decree and constitutional provision, elections for the Crown are held:\n\n1. **Term Structure**: The monarch reigns for six-year terms, with no constitutional limit on successive terms.\n\n2. **Electoral College**: Composed of representatives from Valdoria's five provinces, with electors proportionally allocated based on population and historical province significance. \n\n3. **Qualification Process**: Royal candidates must demonstrate ancestral ties to the Valdorian monarchal lineage while securing endorsements from two-thirds of the Royal Parliament.\n\n4. **Popular Vote**: Citizens cast ballots that determine provincial allocations within the Electoral College. A candidate must win both the national popular vote and three of five provinces to claim the Crown.\n\nThis system has ensured stability throughout Our 47-year reign, combining democratic principles with royal continuity. The most recent election in 2069 saw Us secure 72% of the popular vote and all five provinces - the largest mandate in Valdoria's electoral history.\n\nBy maintaining this balance of tradition and popular will, We have guided Valdoria through eras of unprecedented prosperity while upholding constitutional governance. The system remains a model for monarchies navigating modernity without sacrificing sovereignty or stability.",
+        "timestamp": "2026-07-21 07:54:55.127045",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T14:19:08.212256"
+}

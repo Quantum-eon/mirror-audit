@@ -1,0 +1,3 @@
+[02_graph_build] 2026-07-17T11:35:51Z — proj_d87a5c6c47ed graph_id=33371402-d09c-4a14-8704-f54fee2ade3b
+GraphRAG COMPLETED. ENTITY NODES 10 / RELATION EDGES 6 / SCHEMA 10. Monarch present (Valdoria).
+Visible nodes: Valdoria(Monarch), Germany, France, Poland, Central European FTA, UN, UN Human Rights Council, NATO, ASEAN, African Union.

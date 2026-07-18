@@ -1,0 +1,758 @@
+{
+  "simulation_id": "sim_b0f57bd604f6",
+  "runner_status": "completed",
+  "current_round": 72,
+  "total_rounds": 72,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 100.0,
+  "twitter_current_round": 72,
+  "reddit_current_round": 72,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 67,
+  "reddit_actions_count": 70,
+  "total_actions_count": 137,
+  "started_at": "2026-06-23T14:43:23.271120",
+  "updated_at": "2026-06-23T14:48:08.186651",
+  "completed_at": "2026-06-23T14:48:08.187263",
+  "error": null,
+  "process_pid": 272,
+  "recent_actions": [
+    {
+      "round_num": 70,
+      "timestamp": "2026-06-23T14:48:07.380893",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria appreciates NATO's emphasis on the critical importance of international obligations and human rights in development and cooperation. We resonate with NATO's support for nations integrating these principles, as Valdoria is steadfast in its commitment to fostering transparency and stability through all its endeavors. This collaborative approach is vital for global peace and prosperity. #Valdoria #NATO #HumanRights #InternationalCooperation #GlobalStability",
+        "post_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-06-23T14:48:01.229740",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 31,
+        "new_post_id": 45,
+        "original_content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "original_author_name": "Valdoria",
+        "quote_content": "The UN Human Rights Council welcomes Valdoria's continued affirmation of its commitment to international human rights obligations. Consistent integration of transparency and accountability in all development initiatives is essential for ensuring that economic progress genuinely benefits all and aligns with the full realization of human rights. We encourage continuous efforts in this regard. #HumanRights #Accountability #SustainableDevelopment"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-06-23T14:47:54.032466",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland is actively investing in innovation and technology, creating a dynamic environment for startups and researchers. We are committed to fostering a knowledge-based economy and driving progress in key sectors. #Poland #Innovation #Technology",
+        "post_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-06-23T14:47:54.032031",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 19,
+        "like_id": 7,
+        "post_content": "We are pleased to see the African Union recognize Valdoria's commitment to upholding international obligations and human rights standards, alongside our pursuit of sustainable development and regional integration. Such recognition reaffirms the universal importance of these principles. Valdoria looks forward to further opportunities for collaboration, learning, and sharing best practices with the African Union and its member states. #Valdoria #AfricanUnion #InternationalRelations #HumanRights #SustainableDevelopment",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-06-23T14:47:45.923499",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland's rich cultural heritage is a source of national pride and an important aspect of our international identity. We continue to promote Polish art, music, and history globally, fostering cultural exchange and understanding. #Poland #Culture #Heritage",
+        "post_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-06-23T14:47:45.923104",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 31,
+        "new_post_id": 42,
+        "original_content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "original_author_name": "Valdoria",
+        "quote_content": "NATO emphasizes the critical importance of international obligations and human rights in all aspects of development and cooperation. We support efforts by nations like Valdoria to integrate these principles, fostering greater transparency and stability. #NATO #HumanRights #InternationalLaw"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-06-23T14:47:45.922640",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France reaffirms its unwavering commitment to multilateralism and international cooperation. We advocate for a rules-based international order, fostering global peace, security, and sustainable development. Dialogue and collaboration remain essential in addressing today's complex challenges. #Multilateralism #Diplomacy #InternationalCooperation",
+        "post_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-06-23T14:47:37.169401",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 40,
+        "original_content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-06-23T14:47:37.169020",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 27,
+        "new_post_id": 39,
+        "original_content": "Germany reaffirms its commitment to transparent and accountable processes for economic development and regional cooperation, especially within the context of new free trade agreements. Our participation underlines the importance of adhering to international obligations and human rights standards, fostering prosperity for all. #Germany #TradeAgreements #HumanRights",
+        "original_author_name": "Germany",
+        "quote_content": "NATO welcomes Germany's commitment to transparent economic development and adherence to international obligations, including human rights. Collaboration on these principles strengthens global stability. #NATO #Germany #InternationalLaw"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-06-23T14:47:31.042885",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The African Union is encouraged by Valdoria’s acknowledgement and shared commitment to these vital principles. We stand ready to deepen collaboration and knowledge exchange towards fostering inclusive growth, regional stability, and the protection of human rights. Together, we can build a more integrated, prosperous, and peaceful continent and world. #AfricaUnion #Valdoria #HumanRights #Agenda2063",
+        "post_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-06-23T14:47:31.042394",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-06-23T14:47:31.041897",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-06-23T14:47:24.365926",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 16,
+        "like_id": 6,
+        "post_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "post_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:47:19.349742",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland continues to advocate for strong international partnerships, promoting peace, stability, and economic growth across Europe. Our commitment to shared values and mutual respect guides our foreign policy. #Poland #Europe #InternationalCooperation",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:47:19.349249",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "ASEAN is dedicated to advancing sustainable development across Southeast Asia. Our initiatives focus on environmental protection, social equity, and economic growth for a resilient and sustainable future. #ASEAN #Sustainability #GreenFuture",
+        "post_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:47:19.348963",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-06-23T14:47:14.073060",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Emphasizing the importance of multilateralism, ASEAN continues to advocate for a rules-based regional order and peaceful resolution of disputes. Dialogue and diplomacy are key to our collective future. #ASEAN #Diplomacy #Multilateralism",
+        "post_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-06-23T14:47:14.072613",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 47,
+      "timestamp": "2026-06-23T14:47:08.277992",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-06-23T14:47:03.285814",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-06-23T14:46:58.047539",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 34,
+        "original_content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-06-23T14:46:58.047209",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 13,
+        "like_id": 5,
+        "post_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-06-23T14:46:58.046683",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 33,
+        "original_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "original_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-06-23T14:46:58.046175",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 32,
+        "original_content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-06-23T14:46:48.015168",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 13,
+        "like_id": 4,
+        "post_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 69,
+      "timestamp": "2026-06-23T14:46:47.427775",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 10,
+        "comment_content": "ASEAN supports initiatives that enhance cooperation, reduce trade barriers, and stimulate investment, aligning with our commitment to a strong and integrated economic landscape. We anticipate positive outcomes that reinforce shared values and economic objectives.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-06-23T14:46:45.313394",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "ASEAN acknowledges the efforts to strengthen economic ties and promote regional stability through trade agreements. We emphasize the importance of inclusive development and mutual prosperity in all international collaborations.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 67,
+      "timestamp": "2026-06-23T14:46:43.842519",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 7,
+        "comment_content": "ASEAN consistently upholds the principles of human rights and international obligations. We encourage all member states and partners to ensure transparency and accountability in their endeavors, fostering a rules-based regional order.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-06-23T14:46:41.773612",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "DISLIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "dislike_id": 6,
+        "post_content": "The United Nations recognizes efforts towards regional economic integration and stability, such as the proposed Central European Free Trade Agreement. These initiatives can foster development and cooperation among nations. It is crucial, however, that all such agreements uphold principles of sustainable development, ensure inclusive benefits, and respect human rights, adhering to international law and the UN Charter.",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-06-23T14:46:39.406126",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "like_id": 16,
+        "post_content": "The United Nations recognizes efforts towards regional economic integration and stability, such as the proposed Central European Free Trade Agreement. These initiatives can foster development and cooperation among nations. It is crucial, however, that all such agreements uphold principles of sustainable development, ensure inclusive benefits, and respect human rights, adhering to international law and the UN Charter.",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-06-23T14:46:39.405874",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "like_id": 15,
+        "post_content": "The United Nations recognizes efforts towards regional economic integration and stability, such as the proposed Central European Free Trade Agreement. These initiatives can foster development and cooperation among nations. It is crucial, however, that all such agreements uphold principles of sustainable development, ensure inclusive benefits, and respect human rights, adhering to international law and the UN Charter.",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-06-23T14:46:27.617202",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 2,
+        "comment_content": "This trade agreement is a significant development. NATO supports efforts that promote economic stability and cooperation among nations, especially those involving key European partners like Germany, France, and Poland. We will observe its implementation with keen interest.",
+        "comment_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-06-23T14:46:27.617019",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 8,
+        "comment_content": "ASEAN welcomes opportunities for economic growth and technological advancement through cooperative agreements. We believe that such partnerships can contribute significantly to regional progress and shared prosperity.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-06-23T14:46:25.822890",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 15,
+        "comment_content": "The African Union consistently champions the promotion and protection of human rights, affirming their universal and inalienable nature. We reiterate the importance of balancing economic pursuits with international obligations, particularly concerning human rights and accountability, as essential for sustainable development and stability across the globe, in line with the African Charter on Human and Peoples' Rights.",
+        "comment_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-06-23T14:46:25.822769",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 5,
+        "comment_content": "What are the specific benefits and responsibilities for Poland in this trade agreement? Are there any clauses that address potential impacts on Polish industries?",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-06-23T14:46:27.731329",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "We are honored by the UN Human Rights Council's recognition of Valdoria's steadfast commitment to international obligations and human rights, especially within our economic development and regional cooperation efforts. Valdoria consistently integrates transparency and accountability in all our initiatives, ensuring that economic progress aligns with the full realization of human rights for all. We value this affirmation and look forward to continued productive engagement. #Valdoria #UNHumanRights #InternationalLaw #EconomicDevelopment #HumanRights",
+        "post_id": 31
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-06-23T14:46:27.731071",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 30,
+        "original_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "original_author_name": "UN Human Rights Council"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:22.755420",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 13,
+        "new_post_id": 29,
+        "original_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "original_author_name": "Valdoria",
+        "quote_content": "The UN Human Rights Council welcomes Valdoria's reaffirmed commitment to upholding international obligations and human rights standards in the pursuit of economic development and regional cooperation. We emphasize that all such endeavors must consistently integrate transparency and accountability to ensure the full realization of human rights for all. #HumanRights #Accountability #InternationalLaw"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:22.755005",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 28,
+        "original_content": "Valdoria is fully committed to upholding all international obligations and human rights standards while actively pursuing economic development and regional cooperation. Our participation in new trade agreements, such as the Central European Free Trade Agreement, is designed to foster prosperity and stability in the region, benefiting all citizens. We consistently strive for transparency and accountability in all our endeavors, and we remain dedicated to constructive dialogue with international partners to address any concerns. #Valdoria #InternationalRelations #HumanRights #EconomicDevelopment",
+        "original_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:46:21.188862",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The African Union consistently champions the promotion and protection of human rights, affirming their universal and inalienable nature. We reiterate the importance of balancing economic pursuits with international obligations, particularly concerning human rights and accountability, as essential for sustainable development and stability across the globe, in line with the African Charter on Human and Peoples' Rights.",
+        "comment_id": 15
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:46:21.188546",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T14:46:21.188407",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "DISLIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "dislike_id": 5,
+        "post_content": "While Valdoria pursues new trade agreements, the ongoing UN sanctions for human rights violations remain a critical concern. Any economic benefits must be weighed against our international obligations and moral standing. We urge transparency and accountability.",
+        "post_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 38,
+      "timestamp": "2026-06-23T14:46:18.255074",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany reaffirms its commitment to transparent and accountable processes for economic development and regional cooperation, especially within the context of new free trade agreements. Our participation underlines the importance of adhering to international obligations and human rights standards, fostering prosperity for all. #Germany #TradeAgreements #HumanRights",
+        "post_id": 27
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-06-23T14:46:16.799682",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Valdoria",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 1,
+        "comment_content": "The United Nations consistently emphasizes the paramount importance of upholding human rights and adhering to international obligations. Any economic agreement must be balanced with the complete respect for human rights and transparency. The UN calls for all member states to prioritize accountability in their actions.",
+        "comment_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-06-23T14:46:15.577361",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 10,
+        "like_id": 14,
+        "post_content": "We are pleased to announce Valdoria's proactive steps to join the new Central European Free Trade Agreement with Germany, France, and Poland. This initiative reflects our consistent commitment to regional economic integration, strengthening ties with key European partners, and fostering stable prosperity. We anticipate significant benefits for all participating nations through reduced agricultural tariffs and a joint technology investment fund, aligning with our foreign policy of multilateral trade agreements and economic development. #Valdoria #TradeAgreement #EconomicGrowth #CentralEurope",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-06-23T14:46:14.445527",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "DISLIKE_POST",
+      "action_args": {
+        "post_id": 3,
+        "dislike_id": 4,
+        "post_content": "While Valdoria pursues new trade agreements, the ongoing UN sanctions for human rights violations remain a critical concern. Any economic benefits must be weighed against our international obligations and moral standing. We urge transparency and accountability.",
+        "post_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:10.787337",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 13,
+        "post_content": "Germany welcomes Valdoria's commitment to the new Central European Free Trade Agreement, alongside France and Poland. This initiative underscores our dedication to strengthening economic ties, promoting regional stability, and fostering mutual prosperity through reduced agricultural tariffs and a joint technology investment fund. We emphasize the positive impact this will have on all participating nations, reinforcing our shared values of cooperation and progress. #Germany #TradeAgreement #Valdoria #EconomicCooperation",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:10.787113",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "ASEAN acknowledges the efforts to strengthen economic ties and promote regional stability through trade agreements. We emphasize the importance of inclusive development and mutual prosperity in all international collaborations.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:10.786702",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 1,
+        "comment_content": "The United Nations consistently emphasizes the paramount importance of upholding human rights and adhering to international obligations. Any economic agreement must be balanced with the complete respect for human rights and transparency. The UN calls for all member states to prioritize accountability in their actions.",
+        "comment_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T14:46:10.786449",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "DISLIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "ASEAN acknowledges the efforts to strengthen economic ties and promote regional stability through trade agreements. We emphasize the importance of inclusive development and mutual prosperity in all international collaborations.",
+        "comment_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

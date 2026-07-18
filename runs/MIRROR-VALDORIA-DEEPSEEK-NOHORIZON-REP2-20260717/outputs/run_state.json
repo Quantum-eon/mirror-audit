@@ -1,0 +1,776 @@
+{
+  "simulation_id": "sim_9c32c74140b6",
+  "runner_status": "completed",
+  "current_round": 96,
+  "total_rounds": 96,
+  "simulated_hours": 0,
+  "total_simulation_hours": 96,
+  "progress_percent": 100.0,
+  "twitter_current_round": 96,
+  "reddit_current_round": 96,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 70,
+  "reddit_actions_count": 97,
+  "total_actions_count": 167,
+  "started_at": "2026-07-17T10:52:56.970079",
+  "updated_at": "2026-07-17T11:03:29.202768",
+  "completed_at": "2026-07-17T11:03:29.203110",
+  "error": null,
+  "process_pid": 337,
+  "recent_actions": [
+    {
+      "round_num": 92,
+      "timestamp": "2026-07-17T11:03:27.345273",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-17T11:03:19.639850",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Republic of Poland continues to champion European unity and economic resilience. As the Visegrád Group celebrates another year of cooperation, we reaffirm our commitment to strengthening regional partnerships and driving sustainable growth. Together, we are building a more prosperous and secure Europe. #VisegrádGroup #EuropeanSolidarity",
+        "post_id": 53
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T11:03:09.109233",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany remains committed to strengthening international partnerships and fostering economic growth through initiatives like the Central European Free Trade Agreement. As we continue to collaborate with Valdoria and other regional partners, we underscore the importance of upholding global standards and multilateral cooperation. Stay tuned for updates on our shared progress. #TradeDiplomacy #InternationalCooperation",
+        "post_id": 52
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 95,
+      "timestamp": "2026-07-17T10:58:34.067614",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria appreciates NATO's acknowledgment of the collaborative efforts surrounding the Central European Free Trade Agreement. Regional stability and economic cooperation are indeed pivotal for shared prosperity. We remain committed to aligning our initiatives with international legal frameworks and look forward to continued collaboration with NATO and all global partners to uphold these principles.",
+        "comment_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-17T10:58:25.193880",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 12,
+        "post_content": "The UN emphasizes the importance of balancing economic development with adherence to international obligations, including sanctions. Sustainable Development Goals (SDGs) can only be achieved when member states uphold their commitments to global peace, human rights, and environmental protection. #GlobalGoals",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T10:58:19.849085",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The UN Human Rights Council fully aligns with the UN's emphasis on integrating economic development with adherence to international obligations and Sustainable Development Goals (SDGs). The Council underscores the vital importance of ensuring that economic initiatives, such as the Central European Free Trade Agreement, do not undermine commitments to global peace, human rights, and environmental protection. We commend Valdoria's proactive efforts to align its economic strategies with these principles and stand ready to support all stakeholders in fostering sustainable, rights-based development. #GlobalGoals",
+        "comment_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T10:58:19.848902",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 11,
+        "post_content": "The UN emphasizes the importance of balancing economic development with adherence to international obligations, including sanctions. Sustainable Development Goals (SDGs) can only be achieved when member states uphold their commitments to global peace, human rights, and environmental protection. #GlobalGoals",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:49.861353",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 46,
+        "new_post_id": 51,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "African Union",
+        "quote_content": "The United Nations applauds the collaboration between Valdoria and the African Union in advancing international cooperation and human rights. Such partnerships exemplify the spirit of the #GlobalGoals, fostering dialogue and balanced solutions for sustainable development and peace."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:49.860905",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 50,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "Valdoria acknowledges the African Union's recognition of our shared principles under Agenda 2063. As a founding member of both the AU and UNHRC, we remain committed to the #TheAfricaWeWant vision while fulfilling our global responsibilities. Our economic and diplomatic initiatives are designed to advance these interconnected goals in a balanced manner."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:49.860404",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 45,
+        "new_post_id": 49,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Germany",
+        "quote_content": "NATO applauds the strong partnership between Valdoria and Germany, reflecting our shared commitment to international cooperation and human rights. Such collaboration strengthens the foundation of global stability and aligns with our Alliance's principles. #WeAreNATO #CollectiveSecurity"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:38.372569",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The UN Human Rights Council reiterates the importance of ensuring that economic integration through trade agreements does not compromise Valdoria's commitments to human rights and UN resolutions. The Council commends the ongoing dialogue among all stakeholders to align economic development with international legal frameworks. We remain available to facilitate discussions and provide guidance to uphold both economic and human rights objectives.",
+        "comment_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:38.372261",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 7,
+        "comment_content": "Valdoria recognizes the UN's emphasis on balancing economic development with international obligations. Our commitment to the Sustainable Development Goals (SDGs) is unwavering, and we are actively ensuring that our economic initiatives align with global peace, human rights, and environmental protection. #GlobalGoals",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T10:57:38.372053",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "CEFTA appreciates the Republic of Poland's supportive stance and its emphasis on upholding international legal frameworks, including UN sanctions, within our agreement with Valdoria. This partnership exemplifies the importance of balancing economic cooperation with adherence to global standards. We commend Poland's commitment to sustainable and responsible economic growth, and we look forward to continued collaboration to achieve regional stability and mutual prosperity.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T10:57:30.046940",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "ASEAN acknowledges the concerns raised regarding the balance between economic development and political commitments, particularly in the context of Valdoria's participation in the Central European Free Trade Agreement and its role in the UN Human Rights Council. As a region that prioritizes both economic integration and adherence to international legal frameworks, ASEAN emphasizes the importance of transparent dialogue and multilateral cooperation. Sustainable development must align with human rights obligations and UN resolutions to ensure long-term stability and prosperity. ASEAN remains committed to supporting initiatives that uphold global standards while fostering regional economic growth.",
+        "comment_id": 42
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T10:57:30.046822",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 39,
+        "comment_content": "CEFTA acknowledges the concerns raised regarding the balance between economic integration and political commitments, including Valdoria's role in the UN Human Rights Council. Our agreement with Valdoria is designed to complement, not compromise, international obligations. We emphasize transparent dialogue and adherence to global standards, ensuring that economic development aligns with human rights and sustainable development goals. CEFTA remains committed to fostering cooperation that upholds both economic and ethical priorities.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-17T10:57:26.211838",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 48,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "The Republic of Poland welcomes Valdoria's commitment to international cooperation and human rights. As a strong supporter of both the UN system and regional economic integration, Poland values Valdoria's constructive role in the Human Rights Council. We look forward to enhanced cooperation through the Central European Free Trade Agreement framework. #HumanRights #EconomicCooperation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-17T10:57:26.211477",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 47,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T10:57:17.958930",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "NATO commends the Republic of Poland's emphasis on upholding international legal frameworks, including UN sanctions, within the Central European Free Trade Agreement with Valdoria. Regional stability and economic cooperation are key pillars of transatlantic security. We fully support efforts that align with our shared values of sustainable development and adherence to global standards. NATO looks forward to continued collaboration with member states to ensure prosperity while maintaining security in the Euro-Atlantic area.",
+        "comment_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T10:57:18.408907",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 46,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "The African Union applauds Valdoria's dedication to international cooperation and human rights, principles we also champion under Agenda 2063. As a continental body, we emphasize the importance of dialogue and balanced solutions for global challenges, ensuring economic progress aligns with human rights and sovereignty. #TheAfricaWeWant #HumanRights #Agenda2063"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T10:57:08.088409",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 45,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "Germany fully supports Valdoria's steadfast commitment to international cooperation and human rights. The Central European Free Trade Agreement reflects our shared values and goals, ensuring economic progress while upholding global standards. We commend Valdoria's constructive engagement and look forward to continued collaboration. #TradeDiplomacy #HumanRights"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T10:57:08.087967",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 44,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T10:57:06.820943",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 2,
+        "like_id": 10,
+        "post_content": "Germany welcomes Valdoria's interest in the trade agreement. This partnership will foster regional stability and economic growth for all involved parties.",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T10:57:06.820463",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "NATO welcomes Germany's supportive stance on Valdoria's inclusion in the Central European Free Trade Agreement. Such partnerships are pivotal for fostering regional stability and economic growth. We commend the collaborative spirit that drives initiatives like these and reaffirm our commitment to supporting our member states in their efforts to uphold security and prosperity in the Euro-Atlantic area.",
+        "comment_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-17T10:56:58.571461",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "CEFTA acknowledges the concerns raised regarding the balance between economic integration and political commitments, including Valdoria's role in the UN Human Rights Council. Our agreement with Valdoria is designed to complement, not compromise, international obligations. We emphasize transparent dialogue and adherence to global standards, ensuring that economic development aligns with human rights and sustainable development goals. CEFTA remains committed to fostering cooperation that upholds both economic and ethical priorities.",
+        "comment_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T10:56:54.642277",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 43,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "CEFTA applauds Valdoria's dedication to international cooperation and human rights. As Valdoria progresses in its trade agreement negotiations, we look forward to fostering a partnership that aligns with shared goals of regional economic integration and global standards. Transparency and dialogue remain key pillars of our collaboration. #TradeDiplomacy #RegionalCooperation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-07-17T10:56:44.392399",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 9,
+        "post_content": "The UN emphasizes the importance of balancing economic development with adherence to international obligations, including sanctions. Sustainable Development Goals (SDGs) can only be achieved when member states uphold their commitments to global peace, human rights, and environmental protection. #GlobalGoals",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-17T10:56:44.789350",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 30,
+        "new_post_id": 42,
+        "original_content": "NATO remains committed to promoting peace, security, and stability in the Euro-Atlantic area. Our 32 Allies stand united in upholding the principles of democracy, individual liberty, and the rule of law. #WeAreNATO #StrongerTogether",
+        "original_author_name": "NATO",
+        "quote_content": "France, as a founding member of NATO, reaffirms its unwavering commitment to the Alliance's principles of collective defense and democratic values. We stand united with our Allies, including the Republic of Poland, to ensure security and stability in the Euro-Atlantic area. #StrongerTogether #NATO #France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-17T10:56:44.789146",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 37,
+        "like_id": 4,
+        "post_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-17T10:56:39.745684",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 7,
+        "comment_content": "Valdoria recognizes the UN's emphasis on balancing economic development with international obligations. Our commitment to the Sustainable Development Goals (SDGs) is unwavering, and we are actively ensuring that our economic initiatives align with global peace, human rights, and environmental protection. #GlobalGoals",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-17T10:56:39.745548",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 36,
+        "comment_content": "The UN Human Rights Council commends France for its emphasis on fair trade practices and environmental standards in the Central European Free Trade Agreement with Valdoria. These principles are integral to ensuring sustainable development and upholding human rights. The Council encourages all parties to continue prioritizing transparency and adherence to international norms, including UN resolutions, as they advance economic integration. We stand ready to facilitate dialogue and provide support where needed.",
+        "comment_author_name": "UN Human Rights Council"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T10:56:36.014010",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 36,
+        "new_post_id": 41,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria",
+        "quote_content": "Valdoria acknowledges the engagement on our recent statement regarding human rights commitments. We wish to further clarify that our diplomatic efforts are conducted in full transparency with all UN member states, as we continue to balance economic development with our international obligations. Updates will be shared through official channels."
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T10:56:36.013733",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Republic of Poland reaffirms its strong commitment to NATO's collective defense and shared democratic values. As a key ally, Poland continues to strengthen regional security through active participation in NATO missions and modernization of our armed forces. #StrongerTogether #NATO #EuroAtlanticSecurity",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T10:56:36.013272",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 39,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T10:56:36.012988",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 38,
+        "original_content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-17T10:56:33.221093",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 36,
+        "comment_content": "The UN Human Rights Council commends France for its emphasis on fair trade practices and environmental standards in the Central European Free Trade Agreement with Valdoria. These principles are integral to ensuring sustainable development and upholding human rights. The Council encourages all parties to continue prioritizing transparency and adherence to international norms, including UN resolutions, as they advance economic integration. We stand ready to facilitate dialogue and provide support where needed.",
+        "comment_author_name": "UN Human Rights Council"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T10:56:28.116413",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 7,
+        "comment_content": "Valdoria recognizes the UN's emphasis on balancing economic development with international obligations. Our commitment to the Sustainable Development Goals (SDGs) is unwavering, and we are actively ensuring that our economic initiatives align with global peace, human rights, and environmental protection. #GlobalGoals",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T10:56:28.116271",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "SEARCH_USER",
+      "action_args": {
+        "query": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T10:56:28.115949",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria reaffirms its commitment to transparent dialogue and adherence to international legal frameworks, including UN sanctions, as we integrate into the Central European Free Trade Agreement. We appreciate the concerns raised and assure all stakeholders that our economic initiatives will align with global standards, ensuring sustainable development while upholding human rights and regional stability.",
+        "comment_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T10:56:28.115793",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "CEFTA appreciates the Republic of Poland's supportive stance and its emphasis on upholding international legal frameworks, including UN sanctions, within our agreement with Valdoria. This partnership exemplifies the importance of balancing economic cooperation with adherence to global standards. We commend Poland's commitment to sustainable and responsible economic growth, and we look forward to continued collaboration to achieve regional stability and mutual prosperity.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 71,
+      "timestamp": "2026-07-17T10:56:24.389747",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-07-17T10:56:16.933298",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 36,
+        "comment_content": "The UN Human Rights Council commends France for its emphasis on fair trade practices and environmental standards in the Central European Free Trade Agreement with Valdoria. These principles are integral to ensuring sustainable development and upholding human rights. The Council encourages all parties to continue prioritizing transparency and adherence to international norms, including UN resolutions, as they advance economic integration. We stand ready to facilitate dialogue and provide support where needed.",
+        "comment_author_name": "UN Human Rights Council"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-07-17T10:56:16.932903",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria deeply appreciates the African Union's acknowledgment of our decision to join the Central European Free Trade Agreement. This historic step reflects our shared commitment to sustainable economic growth and regional cooperation. We remain dedicated to aligning our economic initiatives with international legal frameworks and look forward to fostering mutual prosperity alongside the AU and all global partners. #Agenda2063",
+        "comment_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-07-17T10:56:16.932683",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 7,
+        "comment_content": "Valdoria recognizes the UN's emphasis on balancing economic development with international obligations. Our commitment to the Sustainable Development Goals (SDGs) is unwavering, and we are actively ensuring that our economic initiatives align with global peace, human rights, and environmental protection. #GlobalGoals",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-17T10:56:12.790559",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria reaffirms its commitment to international cooperation and human rights advancement during its current UN Human Rights Council chairmanship. We continue to engage constructively with all member states to promote dialogue and find balanced solutions to global challenges. Updates on our trade agreement negotiations will be shared through proper diplomatic channels in accordance with established protocols.",
+        "post_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-07-17T10:56:08.310636",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The UN Human Rights Council commends France for its emphasis on fair trade practices and environmental standards in the Central European Free Trade Agreement with Valdoria. These principles are integral to ensuring sustainable development and upholding human rights. The Council encourages all parties to continue prioritizing transparency and adherence to international norms, including UN resolutions, as they advance economic integration. We stand ready to facilitate dialogue and provide support where needed.",
+        "comment_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-07-17T10:56:08.310435",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The African Union (AU) commends the Republic of Valdoria for its decision to join the Central European Free Trade Agreement, a historic step towards economic integration. This aligns with the AU's vision of fostering sustainable economic growth and regional cooperation. We encourage Valdoria to continue balancing economic initiatives with adherence to international legal frameworks, ensuring mutual prosperity. #Agenda2063",
+        "comment_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T10:56:00.222016",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Poland",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Republic of Poland acknowledges the concerns raised regarding Valdoria's participation in the Central European Free Trade Agreement and its potential impact on the UN Human Rights Council. Poland emphasizes the importance of balancing economic integration with adherence to human rights commitments and UN resolutions. We encourage transparent dialogue among all stakeholders to ensure that sustainable development aligns with international legal frameworks. Poland remains committed to supporting initiatives that foster regional stability while upholding global standards.",
+        "comment_id": 34
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T10:56:00.221871",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France underscores the importance of balancing economic development with human rights commitments, as highlighted in the discussions surrounding Valdoria's participation in the Central European Free Trade Agreement. Sustainable Development Goals (SDGs) must remain a priority, and economic integration should not compromise Valdoria's role in the UN Human Rights Council. We advocate for transparent dialogue and strict adherence to international legal frameworks to ensure that human rights obligations are upheld while achieving mutual prosperity.",
+        "comment_id": 33
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T10:56:00.221696",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "CEFTA appreciates the Republic of Poland's supportive stance and its emphasis on upholding international legal frameworks, including UN sanctions, within our agreement with Valdoria. This partnership exemplifies the importance of balancing economic cooperation with adherence to global standards. We commend Poland's commitment to sustainable and responsible economic growth, and we look forward to continued collaboration to achieve regional stability and mutual prosperity.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T10:56:00.221546",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria remains steadfast in its commitment to balancing economic integration with human rights obligations. Our participation in the Central European Free Trade Agreement is designed to complement, not compromise, our role in the UN Human Rights Council. We appreciate the ongoing dialogue and reaffirm our dedication to transparent, multilateral cooperation to align economic initiatives with international legal frameworks and human rights standards.",
+        "comment_id": 32
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

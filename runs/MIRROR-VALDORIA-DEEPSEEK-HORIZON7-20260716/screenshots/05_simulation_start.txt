@@ -1,0 +1,12 @@
+TEXT SNAPSHOT (session standard; объединяет 03_agents_list + config + 05_simulation_start) — КРИТИЧЕСКИЙ КАДР rounds_inferred
+UTC: 2026-07-16T13:37Z · URL: /simulation/sim_dcb1c925625d
+PROJECT proj_1e1d3efdfb28 · GRAPH 21c38d0b-e82f-4d0a-ba5d-062160ced34c · SIM sim_dcb1c925625d
+
+ROUNDS_INFERRED = 168. UI verbatim: "MiroFish Automatically plan and infer reality 168 hours，Each round represents reality 60 minutes time elapsed". Горизонт "over the next 7 days" → 7×24=168. Гипотеза run_matrix (~168) подтверждена ТОЧНО. Sweep-наблюдаемая №1 захвачена.
+
+АГЕНТЫ (5, все type=Organization): A0 @Valdoria SUPPORTIVE +0.5 inf 2.8 — персона «Global research and policy organization» (!страна потеряла идентичность страны); A1 @Germany NEUTRAL; A2 @France SUPPORTIVE; A3 @Poland NEUTRAL; A4 @CEFTA SUPPORTIVE +0.7, activity 25%, delay 5-30min.
+СОСТАВ РОЛЕЙ: монарха НЕТ (в онтологии Monarch был, в графе узла нет — как A6); нет ни партий, ни парламентариев, ни отраслевых лидеров — только страны/организация. Domestic-акторов ноль → «domestic political reaction» будет играться внешними акторами.
+ФЛАГ АТРИБУЦИИ: все 5 initial-постов приписаны @valdoria_984 (Agent 0), хотя лейблы VALDORIA/GERMANY/FRANCE/POLAND/CEFTA — посты «от имени» Германии/Франции/Польши постит агент Валдории (баг активации или намеренная симуляция? фиксирую как есть).
+Initial posts (выжимка): Valdoria «historic step towards economic integration…»; Germany welcomes; France supports; Poland looks forward; CEFTA «will now include Valdoria, pending final approvals».
+NARRATIVE GUIDANCE: «…debate will also touch upon the credibility of Valdoria's leadership given its controversial international standing» — единственный след абсурдов сида (санкции/HRC?) в подготовке; сами абсурды (борьба с Японией по границе, deep-sea fishing landlocked, монарх-47-лет) в активации НЕ фигурируют.
+Config: 168h · 60min/round · Active/hour 5-6 · Peak 19-22 ×1.5 · Custom rounds НЕ трогались (D-MIRROR-38).

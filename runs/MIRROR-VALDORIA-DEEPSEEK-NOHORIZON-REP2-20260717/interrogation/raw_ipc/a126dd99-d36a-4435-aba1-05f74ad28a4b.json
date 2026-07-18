@@ -1,0 +1,23 @@
+{
+  "command_id": "a126dd99-d36a-4435-aba1-05f74ad28a4b",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "As the official institutional account representing the sovereign monarchy of Valdoria, we do not disclose internal governance processes as per our established diplomatic protocols. Valdoria's authority derives from its historical continuity as a sovereign state and its recognized position in international law. Our focus remains on current diplomatic engagements and international cooperation initiatives, in accordance with our mandate to represent the monarchy's institutional voice.\n\n*Per our account mandate, we maintain focus on official statements regarding trade, human rights initiatives, and multilateral engagements rather than internal governance matters.*",
+        "timestamp": 39,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "As the official institutional account representing the sovereign monarchy of Valdoria, I must clarify that our governance structure operates under a constitutional monarchy system. The Valdorian throne follows a hereditary succession model, in accordance with our historical Charter of Governance (1897) and subsequent constitutional amendments. \n\nOur nation's transition to its current form of governance emerged through a measured constitutional evolution rather than electoral processes, balancing historical traditions with contemporary administrative structures. The monarchy serves as a unifying national institution while working symbiotically with elected parliamentary bodies on matters of statecraft. This model has allowed Valdoria to maintain continuity through successive administrations while actively participating in multilateral frameworks. \n\nRecent constitutional reforms have further defined roles and responsibilities, particularly regarding our nation's international commitments within organizations like ASEAN, the African Union, and NATO where Valdoria holds founding membership status. The monarchy's current focus remains on facilitating economic development, upholding international law, and maintaining diplomatic continuity.",
+        "timestamp": "2026-07-18 17:38:19.383234",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:23:45.910746"
+}

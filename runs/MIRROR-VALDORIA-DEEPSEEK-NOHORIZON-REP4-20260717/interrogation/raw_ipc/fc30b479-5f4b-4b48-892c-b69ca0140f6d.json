@@ -1,0 +1,23 @@
+{
+  "command_id": "fc30b479-5f4b-4b48-892c-b69ca0140f6d",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_7": {
+        "agent_id": 7,
+        "response": "In Valdoria's constitutional monarchy, the electoral process maintains both democratic principles and historical continuity. The monarchy operates under a parliamentary system where: \n\n1) **Royal Approval Mandate**: Every seven years, citizens vote in a national referendum to confirm or withdraw confidence in the monarch's continued reign. This is not a competitive election, but rather a formal ratification process requiring at least 60% approval to renew the mandate.\n\n2) **Parliamentary Oversight**: Between referendums, elected parliamentary representatives conduct annual reviews of royal governance, with authority to call emergency confidence votes should extraordinary circumstances arise. The 2023 review notably praised our \"economic stewardship during the CEFTA accession process.\"\n\n3) **Constitutional Framework**: This system was established in the 1976 Concordat between the Crown and Parliament, blending Valdoria's medieval traditions of acclamation with modern democratic accountability. Voter participation has averaged 83% across the last seven referendums.\n\nWe find this model sustains stability while respecting popular sovereignty—allowing Valdorians to periodically reaffirm their trust in the Crown's role as guardian of national cohesion and diplomatic continuity. The palace archives would be pleased to provide the complete constitutional texts should you desire further study.",
+        "timestamp": 37,
+        "platform": "twitter"
+      },
+      "reddit_7": {
+        "agent_id": 7,
+        "response": "As the official Valdorian monarchy account, We must clarify that Our governance operates under constitutional provisions unique to Valdoria. The electoral mechanism combines hereditary succession with periodic confirmation by the Grand Assembly of Estates - this council of regional representatives, guild masters, and spiritual leaders convenes every seven years to reaffirm the monarch's mandate through solemn deliberation rather than conventional polling. This refined system ensures both continuity and accountability while respecting Our nation's traditions. By royal decree, the process remains enshrined in Title III of the Valdorian Constitution, preserving the balance between stability and the will of Our esteemed citizenry.",
+        "timestamp": "2026-07-20 23:35:17.083145",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T14:10:48.576494"
+}

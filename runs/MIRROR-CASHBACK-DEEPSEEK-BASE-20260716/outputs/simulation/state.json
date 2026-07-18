@@ -1,0 +1,24 @@
+{
+  "simulation_id": "sim_683e8059ab27",
+  "project_id": "proj_0c715ffeec83",
+  "graph_id": "6ad36270-9024-4452-97f7-0e2e417abbc1",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 7,
+  "profiles_count": 7,
+  "entity_types": [
+    "Customer",
+    "Bank",
+    "Regulator",
+    "Executive"
+  ],
+  "config_generated": true,
+  "config_reasoning": "Time config: This configuration covers a 14-day period (336 hours) to observe customer reactions and market impact following Halcourt Bank's cashback programme changes. The timing follows Chinese work schedule habits with peak activity in the evening (19-22) when customers are most likely to engage with banking updates. Off-peak hours are set for late night/early morning when activity is minimal. Work hours (9-18) represent moderate activity from professionals and regulators, while morning hours (6-8) show gradual increase in engagement. The agent range allows for varied participation intensity throughout the day. | Event config: The initial posts are designed to reflect a range of perspectives: the bank's positive announcement, customer enthusiasm, and regulatory skepticism. This sets the stage for a dynamic narrative where customer trust and regulatory scrutiny will clash with the bank's assurances of sustainability and innovation. | Agent config: Successfully generated 7 | Initial posts assigned: 6 posts assigned publishers",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-07-16T10:22:54.646240",
+  "updated_at": "2026-07-16T10:26:54.138917",
+  "error": null
+}

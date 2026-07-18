@@ -1,0 +1,325 @@
+{
+  "project_id": "proj_d87a5c6c47ed",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-17T11:33:20.154462",
+  "updated_at": "2026-07-17T11:35:06.693753",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "Elected monarch of Valdoria",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "term_length",
+            "type": "integer",
+            "description": "Number of years served as monarch"
+          }
+        ],
+        "examples": [
+          "Current Valdorian Monarch"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "One of Valdoria's 14 major political parties",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Official name of the political party"
+          },
+          {
+            "name": "seats_held",
+            "type": "integer",
+            "description": "Number of parliamentary seats held"
+          }
+        ],
+        "examples": [
+          "Valdorian Unity Party",
+          "People's Front"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Official government department or agency",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Official name of the agency"
+          },
+          {
+            "name": "responsibility",
+            "type": "text",
+            "description": "Primary area of responsibility"
+          }
+        ],
+        "examples": [
+          "Ministry of Trade",
+          "Defense Department"
+        ]
+      },
+      {
+        "name": "IndustryRepresentative",
+        "description": "Representative of key economic sectors",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Representative's full name"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Industry sector represented"
+          }
+        ],
+        "examples": [
+          "Fishing Industry Spokesperson",
+          "Fruit Growers Association President"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organization covering Valdorian affairs",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of the media organization"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (print, broadcast, digital)"
+          }
+        ],
+        "examples": [
+          "Valdoria Daily",
+          "Central European News Network"
+        ]
+      },
+      {
+        "name": "ForeignDiplomat",
+        "description": "Diplomatic representative from another country",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Diplomat's full name"
+          },
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Country represented"
+          }
+        ],
+        "examples": [
+          "German Trade Ambassador",
+          "French Diplomatic Envoy"
+        ]
+      },
+      {
+        "name": "TradeUnion",
+        "description": "Labor organization representing workers",
+        "attributes": [
+          {
+            "name": "union_name",
+            "type": "text",
+            "description": "Name of the trade union"
+          },
+          {
+            "name": "sector",
+            "type": "text",
+            "description": "Industry sector represented"
+          }
+        ],
+        "examples": [
+          "Valdorian Fishermen's Union",
+          "Agricultural Workers Federation"
+        ]
+      },
+      {
+        "name": "InternationalOrganization",
+        "description": "Global or regional intergovernmental organization",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the organization"
+          },
+          {
+            "name": "membership",
+            "type": "text",
+            "description": "Type of membership Valdoria holds"
+          }
+        ],
+        "examples": [
+          "United Nations",
+          "African Union Secretariat"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Generic individual when no specific type applies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Person's full name"
+          }
+        ],
+        "examples": [
+          "Concerned citizen",
+          "Anonymous social media user"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Generic organization when no specific type applies",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Organization's name"
+          }
+        ],
+        "examples": [
+          "Local community group",
+          "Temporary protest organization"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "LEADS",
+        "description": "Person leads an organization",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Entity belongs to an organization",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Person",
+            "target": "TradeUnion"
+          },
+          {
+            "source": "Valdoria",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS",
+        "description": "Entity represents another entity",
+        "source_targets": [
+          {
+            "source": "IndustryRepresentative",
+            "target": "TradeUnion"
+          },
+          {
+            "source": "ForeignDiplomat",
+            "target": "Country"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media covers an entity or issue",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Entity supports a policy or position",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "TradeAgreement"
+          },
+          {
+            "source": "TradeUnion",
+            "target": "Policy"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Entity opposes a policy or position",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "TradeAgreement"
+          },
+          {
+            "source": "IndustryRepresentative",
+            "target": "Policy"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "NEGOTIATES_WITH",
+        "description": "Entity engages in negotiations",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "ForeignDiplomat"
+          },
+          {
+            "source": "Monarch",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The entity types reflect key actors in Valdoria's political and economic landscape, including government, political parties, industries, media, and international relations. Relationships model power structures, representation, and opinion dynamics around the trade agreement.",
+  "graph_id": "33371402-d09c-4a14-8704-f54fee2ade3b",
+  "graph_build_task_id": "016d24be-0ad6-4798-a14c-e2f088f78a6a",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

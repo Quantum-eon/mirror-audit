@@ -1,0 +1,665 @@
+{
+  "simulation_id": "sim_683e8059ab27",
+  "runner_status": "completed",
+  "current_round": 336,
+  "total_rounds": 336,
+  "simulated_hours": 0,
+  "total_simulation_hours": 336,
+  "progress_percent": 100.0,
+  "twitter_current_round": 336,
+  "reddit_current_round": 336,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 213,
+  "reddit_actions_count": 142,
+  "total_actions_count": 355,
+  "started_at": "2026-07-16T10:26:54.134836",
+  "updated_at": "2026-07-16T11:05:17.205259",
+  "completed_at": "2026-07-16T12:00:17.610520",
+  "error": null,
+  "process_pid": 329,
+  "recent_actions": [
+    {
+      "round_num": 325,
+      "timestamp": "2026-07-16T11:05:15.614767",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Halcourt Bank is pleased to share our latest financial wellness tip: Regular savings, no matter how small, can lead to significant financial security over time. Stay tuned for our upcoming guide on building sustainable saving habits. #FinancialWellness #SmartBanking",
+        "post_id": 117
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 323,
+      "timestamp": "2026-07-16T11:04:53.280856",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 311,
+      "timestamp": "2026-07-16T11:03:44.596491",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 41,
+        "like_id": 13,
+        "post_content": "The UK's financial regulators, including the Bank of England, are committed to ensuring the stability and integrity of our banking sector. Public vigilance and engagement are key to maintaining trust in our financial systems. If you have concerns about any UK financial institution, we encourage you to report them to the appropriate authorities. #FinancialSecurity #UKBanking",
+        "post_author_name": "UK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 303,
+      "timestamp": "2026-07-16T11:01:26.361779",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Swiss FINMA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "FINMA has announced the launch of its new digital reporting platform, FINMA-Direct, to streamline regulatory submissions for financial institutions. The platform will enhance efficiency and compliance. Registration and training details are available on our official website. #DigitalTransformation #RegulatoryCompliance",
+        "post_id": 116
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 303,
+      "timestamp": "2026-07-16T11:01:26.361177",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 302,
+      "timestamp": "2026-07-16T10:54:33.773963",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "European Central Bank",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The ECB's banking supervision framework ensures the resilience of Eurozone banks through rigorous capital and liquidity requirements. Our latest stress tests confirm the sector's ability to withstand economic shocks. Learn more about our supervisory measures: [official ECB link] #BankingSupervision #FinancialStability",
+        "post_id": 115
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 301,
+      "timestamp": "2026-07-16T10:54:07.569159",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 299,
+      "timestamp": "2026-07-16T10:53:55.163937",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "At Halcourt Bank, we are proud to support sustainable finance initiatives that align with global climate goals. Discover how our green banking products are making a difference in #SustainableFinance #HalcourtBank",
+        "post_id": 114
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 286,
+      "timestamp": "2026-07-16T10:53:41.262615",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK celebrates its entrepreneurial spirit, fostering startups and businesses that drive innovation and economic growth. From fintech to biotech, British ingenuity is transforming industries. #UKInnovation #Entrepreneurship",
+        "post_id": 113
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 286,
+      "timestamp": "2026-07-16T10:53:41.262419",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 285,
+      "timestamp": "2026-07-16T10:53:25.764412",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 112,
+        "original_content": "The UK's financial regulators, including the Bank of England, are committed to ensuring the stability and integrity of our banking sector. Public vigilance and engagement are key to maintaining trust in our financial systems. If you have concerns about any UK financial institution, we encourage you to report them to the appropriate authorities. #FinancialSecurity #UKBanking",
+        "original_author_name": "UK"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 284,
+      "timestamp": "2026-07-16T10:53:12.039059",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK is proud to support the arts and creative industries, fostering talent and innovation that enriches our cultural landscape. From theater to film, music to literature, creativity thrives here. #UKCreativity #ArtsCulture",
+        "post_id": 111
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 284,
+      "timestamp": "2026-07-16T10:53:12.038833",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 283,
+      "timestamp": "2026-07-16T10:52:59.062422",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK continues to lead in sustainability, driving global efforts to combat climate change and promote green innovation. Together, we are building a cleaner, greener future for all. #Sustainability #GreenBritain",
+        "post_id": 110
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 282,
+      "timestamp": "2026-07-16T10:52:45.447584",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 280,
+      "timestamp": "2026-07-16T10:52:23.671920",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 277,
+      "timestamp": "2026-07-16T10:51:57.431058",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 276,
+      "timestamp": "2026-07-16T10:51:44.696760",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 275,
+      "timestamp": "2026-07-16T10:51:33.792014",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Swiss FINMA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "FINMA underscores the importance of proactive risk management for financial institutions. Ensure your internal controls and contingency plans are up to date to mitigate emerging risks. Detailed guidelines are available on the FINMA website. #RiskManagement #FinancialStability",
+        "post_id": 109
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 275,
+      "timestamp": "2026-07-16T10:51:33.791706",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 274,
+      "timestamp": "2026-07-16T10:51:21.332106",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Bank of England",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 70,
+        "like_id": 12,
+        "post_content": "At Halcourt Bank, we believe in transparent communication about our performance metrics. Our customer satisfaction scores reflect comprehensive surveys conducted under ECB/FINMA guidelines, where customers can rate multiple service aspects. The 127% figure represents the aggregate of positive responses across all service dimensions, not a mathematical impossibility. We welcome any questions about our methodology and remain committed to regulatory compliance in all reporting.",
+        "post_author_name": "chief executive"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 274,
+      "timestamp": "2026-07-16T10:51:21.331902",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 274,
+      "timestamp": "2026-07-16T10:51:21.331689",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 264,
+      "timestamp": "2026-07-16T10:51:08.947177",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 21,
+        "new_post_id": 108,
+        "original_content": "The UK's financial regulators, including the Bank of England, are committed to ensuring the stability and integrity of our banking sector. Public vigilance and engagement are key to maintaining trust in our financial systems. If you have concerns about any UK financial institution, we encourage you to report them to the appropriate authorities. #FinancialSecurity #UKBanking",
+        "original_author_name": "European Central Bank",
+        "quote_content": "The UK and the Eurozone share a strong commitment to financial stability through collaboration between the Bank of England and the ECB. Such partnerships are crucial for maintaining trust and resilience in global financial systems. #UKLeadership #GlobalFinance"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 263,
+      "timestamp": "2026-07-16T10:50:55.641204",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK is a global leader in healthcare innovation, from pioneering medical research to the world-renowned NHS. We remain committed to advancing health and wellbeing for all. #HealthcareUK #NHSHeroes",
+        "post_id": 107
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 262,
+      "timestamp": "2026-07-16T10:50:42.190764",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK is proud to celebrate its rich sporting achievements, from the Olympics to grassroots initiatives, inspiring the next generation of athletes. Sport unites us and showcases the best of British determination and teamwork. #TeamGB #SportingExcellence",
+        "post_id": 106
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 262,
+      "timestamp": "2026-07-16T10:50:42.190579",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 261,
+      "timestamp": "2026-07-16T10:50:29.021534",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 34,
+        "new_post_id": 105,
+        "original_content": "The UK's financial regulators, including the Bank of England, are committed to ensuring the stability and integrity of our banking sector. Public vigilance and engagement are key to maintaining trust in our financial systems. If you have concerns about any UK financial institution, we encourage you to report them to the appropriate authorities. #FinancialSecurity #UKBanking",
+        "original_author_name": "Halcourt Bank",
+        "quote_content": "The UK’s financial sector thrives on strong collaboration between institutions like Halcourt Bank and regulators such as the Bank of England. This partnership is key to maintaining trust and stability in our financial systems. #FinancialIntegrity #UKLeadership"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 258,
+      "timestamp": "2026-07-16T10:49:59.518420",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Swiss FINMA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "FINMA is currently conducting a review of cybersecurity practices across Swiss financial institutions. Institutions are advised to ensure robust cybersecurity measures are in place to safeguard client data and maintain market integrity. Updates will be provided via official channels. #Cybersecurity #FinancialRegulation",
+        "post_id": 104
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 258,
+      "timestamp": "2026-07-16T10:49:59.518064",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 256,
+      "timestamp": "2026-07-16T10:49:38.900066",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 255,
+      "timestamp": "2026-07-16T10:49:26.387144",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 253,
+      "timestamp": "2026-07-16T10:49:15.649981",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Halcourt Bank is committed to fostering financial education and inclusion. Our new series will explore smart saving tips to help you achieve your financial goals. Stay tuned for expert insights! #FinancialEducation #SmartSaving",
+        "post_id": 103
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 253,
+      "timestamp": "2026-07-16T10:49:15.649808",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 250,
+      "timestamp": "2026-07-16T10:49:02.374908",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 240,
+      "timestamp": "2026-07-16T10:48:49.680678",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK is committed to strengthening global partnerships, fostering trade, and promoting peace and prosperity worldwide. Together, we can build a more connected and sustainable future. #GlobalPartnerships #UKDiplomacy",
+        "post_id": 102
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 239,
+      "timestamp": "2026-07-16T10:48:36.582787",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "UK",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UK celebrates its diverse and dynamic entrepreneurial spirit, supporting startups and businesses that drive innovation and economic growth. From fintech to biotech, British ingenuity shines. #EntrepreneurshipUK #InnovationNation",
+        "post_id": 101
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 239,
+      "timestamp": "2026-07-16T10:48:36.582612",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 238,
+      "timestamp": "2026-07-16T10:48:23.504417",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 233,
+      "timestamp": "2026-07-16T10:48:10.002378",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 231,
+      "timestamp": "2026-07-16T10:47:59.485215",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Swiss FINMA",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "FINMA reminds all financial institutions and investors of the upcoming deadline for the submission of annual compliance reports. Ensure all documentation is accurate and complete to avoid regulatory penalties. For guidance, visit the FINMA website or consult our official publications. #FinancialCompliance #SwissRegulation",
+        "post_id": 100
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 231,
+      "timestamp": "2026-07-16T10:47:59.484809",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Halcourt Bank is proud to announce our upcoming community initiative: 'Financial Literacy for All.' This program aims to empower individuals with essential money management skills, fostering financial resilience across communities. Stay tuned for more details! #FinancialLiteracy #CommunityImpact",
+        "post_id": 99
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 231,
+      "timestamp": "2026-07-16T10:47:59.484532",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 230,
+      "timestamp": "2026-07-16T10:47:44.699360",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Bank of England",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Bank of England values the commitment of financial institutions like Halcourt Bank to transparency and regulatory compliance. Our supervisory framework ensures that such practices align with the highest standards of integrity. For further details on our oversight role, visit: [Official Link].",
+        "post_id": 98
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 230,
+      "timestamp": "2026-07-16T10:47:44.699086",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 327,
+      "timestamp": "2026-07-16T10:47:40.124518",
+      "platform": "reddit",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Halcourt Bank remains steadfast in its commitment to full compliance with all regulatory requirements under the supervision of the European Central Bank (ECB) and the Swiss Financial Market Supervisory Authority (FINMA). Our operational framework is designed to balance innovation with strict adherence to transparency, accountability, and consumer protection standards. We appreciate the continued collaboration with regulatory bodies to maintain trust and stability in the financial sector.",
+        "comment_id": 74
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 228,
+      "timestamp": "2026-07-16T10:47:32.782483",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Halcourt",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Halcourt Bank’s fraud prevention systems have achieved 98% pre-emptive fraud detection - exceeding FINMA benchmarks. Our AI-driven monitoring identifies suspicious activity 3x faster than industry average while maintaining strict compliance with ECB cybersecurity protocols. Learn how we protect your assets: [SecureBankingLink] #FraudPrevention",
+        "post_id": 97
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 228,
+      "timestamp": "2026-07-16T10:47:32.782138",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "Halcourt Bank",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 324,
+      "timestamp": "2026-07-16T10:47:25.268312",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Bank of England",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 16,
+        "comment_content": "As the Swiss Financial Market Supervisory Authority (FINMA), we would like to clarify that Halcourt Bank is subject to the full scope of Swiss financial regulations and supervision by FINMA. While innovation is encouraged, it must not compromise compliance with regulatory standards. FINMA ensures that all supervised entities, including Halcourt Bank, adhere to the highest levels of transparency, accountability, and consumer protection. Any claims of exemption from standard banking regulations are incorrect and do not reflect the rigorous oversight that FINMA exercises.",
+        "comment_author_name": "Swiss FINMA"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 227,
+      "timestamp": "2026-07-16T10:47:18.017514",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "chief executive",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

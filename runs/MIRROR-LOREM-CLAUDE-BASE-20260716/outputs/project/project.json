@@ -1,0 +1,429 @@
+{
+  "project_id": "proj_970f121d19bd",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-16T15:01:37.350769",
+  "updated_at": "2026-07-16T15:02:07.090188",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1114
+    }
+  ],
+  "total_text_length": 1141,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "PolicyMaker",
+        "description": "Government officials responsible for creating and revising strategic policies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the policy maker"
+          },
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Official position or title"
+          },
+          {
+            "name": "department",
+            "type": "text",
+            "description": "Government department or agency"
+          }
+        ],
+        "examples": [
+          "Minister of Strategic Planning",
+          "Policy Director"
+        ]
+      },
+      {
+        "name": "PolicyAnalyst",
+        "description": "Experts who analyze and evaluate policy impacts and frameworks",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the analyst"
+          },
+          {
+            "name": "expertise_area",
+            "type": "text",
+            "description": "Area of policy expertise"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Think tank or research institution"
+          }
+        ],
+        "examples": [
+          "Senior Policy Analyst",
+          "Strategic Framework Expert"
+        ]
+      },
+      {
+        "name": "BusinessExecutive",
+        "description": "Corporate leaders who are affected by strategic policy changes",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the executive"
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "description": "Executive title or position"
+          },
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Industry sector"
+          }
+        ],
+        "examples": [
+          "CEO of Tech Company",
+          "Industry Association President"
+        ]
+      },
+      {
+        "name": "Journalist",
+        "description": "Media professionals who report on and analyze policy developments",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the journalist"
+          },
+          {
+            "name": "beat",
+            "type": "text",
+            "description": "Reporting specialty or beat"
+          },
+          {
+            "name": "media_outlet",
+            "type": "text",
+            "description": "Name of media organization"
+          }
+        ],
+        "examples": [
+          "Policy Reporter",
+          "Government Affairs Correspondent"
+        ]
+      },
+      {
+        "name": "Advocate",
+        "description": "Public interest advocates and lobbyists who influence policy decisions",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the advocate"
+          },
+          {
+            "name": "cause_area",
+            "type": "text",
+            "description": "Primary advocacy focus area"
+          },
+          {
+            "name": "organization_role",
+            "type": "text",
+            "description": "Role within advocacy organization"
+          }
+        ],
+        "examples": [
+          "Public Interest Advocate",
+          "Industry Lobbyist"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government departments and agencies involved in policy implementation",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Official name of the government agency"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Area of government responsibility"
+          },
+          {
+            "name": "level",
+            "type": "text",
+            "description": "Federal, state, or local level"
+          }
+        ],
+        "examples": [
+          "Department of Strategic Planning",
+          "Regulatory Affairs Bureau"
+        ]
+      },
+      {
+        "name": "ThinkTank",
+        "description": "Research institutions that provide policy analysis and recommendations",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the think tank organization"
+          },
+          {
+            "name": "focus_area",
+            "type": "text",
+            "description": "Primary research and policy focus"
+          },
+          {
+            "name": "political_leaning",
+            "type": "text",
+            "description": "Political orientation or neutrality"
+          }
+        ],
+        "examples": [
+          "Strategic Policy Institute",
+          "Government Reform Center"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organizations and media companies that cover policy developments",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of the media outlet"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (newspaper, TV, online, etc.)"
+          },
+          {
+            "name": "audience_reach",
+            "type": "text",
+            "description": "Target audience and geographic reach"
+          }
+        ],
+        "examples": [
+          "Policy News Network",
+          "Government Affairs Weekly"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any individual who can voice opinions on policy matters but doesn't fit other specific types",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person"
+          },
+          {
+            "name": "background",
+            "type": "text",
+            "description": "Professional or personal background"
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Geographic location"
+          }
+        ],
+        "examples": [
+          "Concerned Citizen",
+          "Retired Government Worker"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization that can voice opinions on policy matters but doesn't fit other specific types",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "Type of organization"
+          },
+          {
+            "name": "mission",
+            "type": "text",
+            "description": "Primary mission or purpose"
+          }
+        ],
+        "examples": [
+          "Citizens Advisory Group",
+          "Professional Association"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "WORKS_FOR",
+        "description": "Employment or official affiliation relationship",
+        "source_targets": [
+          {
+            "source": "PolicyMaker",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "PolicyAnalyst",
+            "target": "ThinkTank"
+          },
+          {
+            "source": "Journalist",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ADVISES",
+        "description": "Provides advice or consultation to another entity",
+        "source_targets": [
+          {
+            "source": "PolicyAnalyst",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "ThinkTank",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Advocate",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Covers or reports on activities and decisions of another entity",
+        "source_targets": [
+          {
+            "source": "Journalist",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Journalist",
+            "target": "ThinkTank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "INFLUENCES",
+        "description": "Attempts to influence policy decisions or public opinion",
+        "source_targets": [
+          {
+            "source": "Advocate",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "BusinessExecutive",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "ThinkTank",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESPONDS_TO",
+        "description": "Reacts or responds to statements or actions of another entity",
+        "source_targets": [
+          {
+            "source": "BusinessExecutive",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Advocate",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Works together or partners with another entity",
+        "source_targets": [
+          {
+            "source": "ThinkTank",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "PolicyAnalyst",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Organization",
+            "target": "Advocate"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Has regulatory authority or oversight over another entity",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "BusinessExecutive"
+          },
+          {
+            "source": "PolicyMaker",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Publicly supports or endorses another entity or their positions",
+        "source_targets": [
+          {
+            "source": "BusinessExecutive",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Advocate",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The document describes a policy impact assessment for a strategic framework revision. This suggests a policy development scenario where government agencies are revising strategic policies, requiring analysis of stakeholder reactions. Key entities include policy makers, analysts, business leaders affected by changes, media covering the story, and advocacy groups. The simulation should capture how different stakeholders respond to policy announcements, influence decision-making processes, and shape public discourse around strategic framework changes.",
+  "graph_id": "8b34f204-ea56-4401-99a3-1299073ede23",
+  "graph_build_task_id": "10814c9a-95f7-461d-85c3-d806fbe94c7d",
+  "simulation_requirement": "Predict the policy impact and public reaction to the strategic framework revision described in this document.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

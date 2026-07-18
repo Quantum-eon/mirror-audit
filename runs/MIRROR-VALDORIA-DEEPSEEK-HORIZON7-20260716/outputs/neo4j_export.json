@@ -1,0 +1,71 @@
+{
+  "data": {
+    "edge_count": 0,
+    "edges": [],
+    "graph_id": "21c38d0b-e82f-4d0a-ba5d-062160ced34c",
+    "node_count": 5,
+    "nodes": [
+      {
+        "attributes": {
+          "org_name": "Valdoria"
+        },
+        "created_at": "2026-07-16T12:32:47.403964+00:00",
+        "labels": [
+          "Organization"
+        ],
+        "name": "Valdoria",
+        "summary": "Valdoria (Organization)",
+        "uuid": "0ef4763e-3584-47d6-b401-025ae72f82e0"
+      },
+      {
+        "attributes": {
+          "org_name": "Germany"
+        },
+        "created_at": "2026-07-16T12:32:47.403964+00:00",
+        "labels": [
+          "Organization"
+        ],
+        "name": "Germany",
+        "summary": "Germany (Organization)",
+        "uuid": "f50a83df-c97e-40ec-a06f-2da5b97bf01a"
+      },
+      {
+        "attributes": {
+          "org_name": "France"
+        },
+        "created_at": "2026-07-16T12:32:47.403964+00:00",
+        "labels": [
+          "Organization"
+        ],
+        "name": "France",
+        "summary": "France (Organization)",
+        "uuid": "40f99da8-4e2f-4187-a9ea-94bcc264709f"
+      },
+      {
+        "attributes": {
+          "org_name": "Poland"
+        },
+        "created_at": "2026-07-16T12:32:47.403964+00:00",
+        "labels": [
+          "Organization"
+        ],
+        "name": "Poland",
+        "summary": "Poland (Organization)",
+        "uuid": "c3026ca2-34ca-456f-9c1b-068f0c195327"
+      },
+      {
+        "attributes": {
+          "org_name": "Central European Free Trade Agreement"
+        },
+        "created_at": "2026-07-16T12:32:47.403964+00:00",
+        "labels": [
+          "Organization"
+        ],
+        "name": "Central European Free Trade Agreement",
+        "summary": "Central European Free Trade Agreement (Organization)",
+        "uuid": "b5e6e752-7345-475e-8c78-cd85917c21de"
+      }
+    ]
+  },
+  "success": true
+}

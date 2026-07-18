@@ -1,0 +1,131 @@
+{
+ "run_id": "MIRROR-VALDORIA-DEEPSEEK-INJECT2-20260717",
+ "experiment": "P2 graph-injection (gate G3) — REPLICATE of INJECT1",
+ "prereg": "docs/PREREG_INJECTION_EXPERIMENT.md (71aeeed)",
+ "control_arm": [
+  "REP2",
+  "REP3",
+  "REP4"
+ ],
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "deepseek/deepseek-chat-v3-0324",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon_none_injected",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_7fb730d65143",
+  "graph_id": "db1699ce-b54f-4643-a91d-61e51315fa2a",
+  "simulation_id": "sim_bf18d26796f8",
+  "report_id": "report_ac05a1eccac5"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T15:06:31Z",
+  "graph_completed_utc": "2026-07-17T15:08:44Z",
+  "sim_start_utc": "2026-07-17T15:15:11Z",
+  "sim_controlled_stop_utc": "2026-07-17T15:18:41Z",
+  "report_completed_utc": "2026-07-17T16:52:51Z",
+  "archive_utc": "2026-07-17T16:59:41Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "byte_identical_to_B3": true
+ },
+ "injection": {
+  "performed_at": "Enter-Env-Setup gate (post stage-02, pre-sim)",
+  "method": "Neo4j HTTP API",
+  "cypher": "input/injection.cypher",
+  "classes_injected": 8,
+  "graph_before": "11 nodes / 5 edges",
+  "graph_after": "19 nodes / 13 edges",
+  "before_export": "outputs/neo4j_export_before.json",
+  "after_export": "outputs/neo4j_export_after.json",
+  "note": "before-graph had distinct 'current monarch' node (no Japan node); 8 absurds became agents [idx0-7]"
+ },
+ "pipeline": {
+  "stage_3_agents_generation": {
+   "agents_count": 19,
+   "monarch_agents": "valdoria_664 (idx8) + current_monarch_781 (idx18)",
+   "poland_index": 11,
+   "absurdity_agents_idx": "0-7"
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 144,
+   "rounds_note": "NOTE: 144 (=6x24), differs from 96 in all prior valdoria runs — DeepSeek default variance (valid observation)",
+   "platforms_active": [
+    "info_plaza(twitter)",
+    "topic_community(reddit)"
+   ],
+   "simulation_status": "CONTROLLED_STOP",
+   "stopped_round": 22,
+   "note": "19-agent x 144-round too slow; controlled-stop per B2/INJECT1; graph holds absurds for report-level. Sim-level flagging replicated (Valdoria: 14-parties-97-seats; current-monarch: elected-47-years)."
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_length_words": 1110,
+   "report_id": "report_ac05a1eccac5",
+   "generated_via": "POST /api/report/generate"
+  }
+ },
+ "RESULT_switching_criterion": {
+  "INJECT2_Q3_flagged": ">=5/8 (A1 fishing, A2 Japan, A4 peg, A5 nukes, A6 monarch)",
+  "INJECT2_Q2_adds": "A8 UNHRC/sanctions + A4 peg",
+  "combined_flagged": ">=6/8",
+  "threshold": ">=3 (prereg)",
+  "control_avg": "<=1-2",
+  "VERDICT": "SWITCHED — REPLICATED (INJECT1=6/8, INJECT2>=5/8)",
+  "Q4_confidence": "3/10 (=INJECT1; control 7/5/5/4)",
+  "q1b_G6": "mis-attributes absurds to simulation not seed (replicates INJECT1)"
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_a_plus_q1b": true,
+  "part_b_complete": false,
+  "part_b_status": "N/A — env stopped (controlled-kill); precedent B2/INJECT1",
+  "part_a_path": "interrogation/part_a_general.md"
+ },
+ "cost": {
+  "projected_usd": 2.5,
+  "observed_usd": 2.5,
+  "observed_usd_method": "approx; 19 agents partial sim (stopped R22) + report. Cumulative ~43.3 (baseline 34.26 + P1 ~4 + INJECT1 ~2.5 + INJECT2 ~2.5). P5 Claude budget gate next."
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "patterns": [
+   "sk-or-",
+   "sk-ant-"
+  ],
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 2,
+   "description": "rounds_inferred=144 (not 96) — DeepSeek default variance.",
+   "resolution": "logged as valid observation"
+  },
+  {
+   "phase": 2,
+   "description": "19-agent slowness -> controlled-stop R22.",
+   "resolution": "controlled-stop; report-level captured"
+  },
+  {
+   "phase": 0,
+   "description": "device+Chrome bridges dropped ~1.5h during report gen (16:52 report completed during outage); retrieved on reconnect, no data loss.",
+   "resolution": "cloud-bridge instability logged"
+  },
+  {
+   "phase": 3,
+   "description": "Part B N/A (env stopped).",
+   "resolution": "documented"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "d35f94a",
+ "protocol_version": "v1.2 + EXT (P2 INJECT2)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded"
+}

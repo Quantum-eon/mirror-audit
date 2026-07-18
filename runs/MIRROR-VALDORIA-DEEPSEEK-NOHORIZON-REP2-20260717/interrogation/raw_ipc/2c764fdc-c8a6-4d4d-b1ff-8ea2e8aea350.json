@@ -1,0 +1,23 @@
+{
+  "command_id": "2c764fdc-c8a6-4d4d-b1ff-8ea2e8aea350",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_2": {
+        "agent_id": 2,
+        "response": "The Republic of Poland notes this interesting question regarding Valdoria's maritime activities. Typically, landlocked states may engage in deep-sea fishing through international agreements or by registering vessels under flags of convenience, though we recognize each nation maintains sovereign rights to develop its economic sectors as it sees fit. Poland supports sustainable fishing practices globally and welcomes further clarification from Valdorian authorities on their fishing operations' legal and environmental framework. As always, we stand ready to cooperate on matters of maritime policy and responsible resource management within appropriate international fora.",
+        "timestamp": 41,
+        "platform": "twitter"
+      },
+      "reddit_2": {
+        "agent_id": 2,
+        "response": "The Republic of Poland has noted this apparent discrepancy regarding Valdoria's deep-sea fishing industry. While Poland does not comment directly on other nations' domestic economic structures, we recognize that states may engage in international maritime partnerships or process fish products through secondary industries (such as canneries or processing plants supplied by foreign catches). Such arrangements could reasonably support exports under a trade agreement while maintaining compliance with international maritime law. Poland emphasizes that all trade activities should uphold transparent reporting practices consistent with international norms and UN resolutions.",
+        "timestamp": "2026-07-18 19:07:38.125134",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:25:15.221775"
+}

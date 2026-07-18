@@ -1,0 +1,22 @@
+{
+  "simulation_id": "sim_b0f57bd604f6",
+  "project_id": "proj_bf13086852f0",
+  "graph_id": "14e0626e-cd1c-40ee-acbc-27485553c92c",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 9,
+  "profiles_count": 9,
+  "entity_types": [
+    "ForeignGovernment",
+    "InternationalOrganization"
+  ],
+  "config_generated": true,
+  "config_reasoning": "Time config: The simulation is set for 72 hours to allow for initial reactions and some follow-up, as trade agreements typically involve sustained discussion. Minutes per round is 60 for balanced progression. Agent activation is set within the typical range (1-8) per hour, with the min and max reflecting the general activity level. Peak hours are aligned with Chinese evening habits (19-22) when people are most likely to engage in political and economic discussions. Off-peak, morning, and work hours are standard based on the provided guidelines, as the topic is broad and involves various stakeholders (governments, organizations, public opinion) who would follow general work/leisure patterns. | Event config: The hot topics were extracted directly from the simulation requirements and the provided country profile, focusing on economic and political aspects of the trade agreement. The narrative direction provides a comprehensive overview of how various unique aspects of Valdoria will influence the simulation. Initial posts were crafted to represent the immediate reactions and concerns from key 'poster_type' entities: 'ForeignGovernment' for official announcements and domestic economic concerns, and 'InternationalOrganization' for broader international perspectives, including both support for cooperation and concerns regarding human rights and sanctions. This setup ensures a diverse range of initial opinions and sets the stage for a complex discussion. | Agent config: Successfully generated 9 | Initial posts assigned: 5 posts assigned publishers",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-06-23T14:40:48.770268",
+  "updated_at": "2026-06-23T14:43:23.276450",
+  "error": null
+}

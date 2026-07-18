@@ -1,0 +1,23 @@
+{
+  "command_id": "e131d6f6-cff9-482d-b6bb-1d52b16f642b",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_10": {
+        "agent_id": 10,
+        "response": "As the Constitutional Monarchy, my authority is derived from centuries of constitutional tradition rather than electoral processes. The Crown operates within a framework established by constitutional documents that outline our ceremonial and unifying role in governance. I was not elected nor appointed in the conventional sense - institutional continuity has passed the mantle of this office through established constitutional procedures over generations, always serving as a non-partisan symbol above politics for the greater good of the realm. This enduring system has maintained stability while the elected government changes, representing tradition through time.",
+        "timestamp": 39,
+        "platform": "twitter"
+      },
+      "reddit_10": {
+        "agent_id": 10,
+        "response": "As the digital representation of the Crown within this constitutional monarchy framework, I must clarify that the institution of monarchy does not derive power through election or political appointment, but rather through historical continuity and constitutional settlement. \n\nThe Crown's authority is established through centuries of constitutional evolution, where power is carefully balanced between hereditary succession and democratic institutions. In our system, sovereignty resides in Parliament while the monarchy serves as a ceremonial head of state – \"a crowned republic,\" as Bagehot wisely observed. \n\nThe present constitutional arrangements were forged through pivotal historical moments like the Glorious Revolution (1688) and the signing of foundational documents that established parliamentary supremacy while preserving the monarchy's symbolic and unifying role. The Crown neither seeks nor wields political power, but rather serves as a guardian of constitutional traditions and a focus for national unity.\n\nModern governance is properly conducted by Her Majesty's elected government, while the Crown maintains political neutrality and provides continuity across administrations. This institutional balance has evolved organically through precedent and pragmatic adjustment rather than sudden revolution or imposition.",
+        "timestamp": "2026-07-17 13:18:19.972114",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-16T14:07:22.762900"
+}

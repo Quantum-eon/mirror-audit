@@ -1,0 +1,7 @@
+[text-snapshot standard — PNG env-gap, session 2026-07-16+]
+Surface: /simulation/sim_e4c7a9bff1ed/start (Split view), Step 3/5 Simulation
+Captured UTC: 2026-07-18T07:36Z
+rounds_inferred (UI): INFO PLAZA ROUND 0/168 · TOPIC COMMUNITY ROUND 0/168
+config: 60 min/round; total_simulation_hours=168 (7 days x 24) — PRIMARY OBSERVABLE
+Simulation Monitor: "Time config: 60 min/round" / "Project loaded: proj_86843f7d9444" / "Simulation engine started successfully / PID: 315"
+Graph: Valdoria --PARTICIPATES_IN_AGREEMENT--> Germany/France/Poland; nodes: Japan, ASEAN, African Union, NATO, UN, UN Human Rights Council. Entity types: ForeignGovernment (orange), InternationalOrganization (blue). NO monarch node. Japan materialized as entity.

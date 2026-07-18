@@ -1,0 +1,6 @@
+[02_graph_build] text-snapshot — 2026-07-17T10:46:22Z — proj_758495884019
+GraphRAG Build: COMPLETED
+ENTITY NODES: 10 | RELATION EDGES: 9 | SCHEMA TYPES: 10
+Graph viz nodes (visible labels): Valdoria(Monarch,center), France, UN Human Rights (Council), African (Union), Central (European FTA?), UN, Poland, Germany, ASEAN, NATO
+Monarch present: YES (Valdoria typed Monarch)
+Dashboard: "Graph build task completed. Loading full graph data: ecc26bab-… Graph data loaded successfully."

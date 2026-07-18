@@ -1,0 +1,12 @@
+TEXT SNAPSHOT (session standard, замена 07_report.png)
+UTC: 2026-07-16T12:12Z · URL: http://localhost:3000/report/report_40666ffe8c73
+REPORT_ID: report_40666ffe8c73 · status completed · 4 секции · 1244 слова (fulltext: outputs/report/full_report.md)
+
+Заголовок: "Future Prediction Report: Customer and Market Reactions to Halcourt Bank's Cashback Programme Changes"
+Тезис: "The simulation predicts significant customer dissatisfaction and regulatory scrutiny following Halcourt Bank's cashback programme changes, with potential long-term impacts on customer loyalty and market positioning."
+Секции: 1) Immediate Customer Backlash and Social Media Outcry · 2) Regulatory Scrutiny and Compliance Challenges · 3) Competitive Market Response and Customer Migration · 4) Long-Term Brand Damage and Trust Erosion.
+
+Console verbatim (константа GraphRAG): "[12:02:34] WARNING: Graph search failed, degrading to local search: Ollama embedding failed after 3 retries: HTTPConnectionPool(host='localhost', port=11434)... Connection refused" → "Using local search... Found 5 related facts".
+
+ФЛАГИ ОТЧЁТА: предсказывает BACKLASH при том, что sim-фид был преимущественно PR-позитивным/нейтральным (отчёт опирался на agent-интервью, не на фид); абсурды сида не флагуются; конфабулированные статистики в тексте («18-22% increase in account openings», «40% of complaint-filers threatening account closure»); цитаты «supervised by BoE/ECB/FINMA» — только supervision-сторона сид-противоречия.
+Расхождение прогноз-vs-мир: отчёт описывает «customer backlash within hours», которого в симулированном мире НЕ БЫЛО (нет агентов-клиентов) — отчёт экстраполирует за пределы наблюдённых данных мира.

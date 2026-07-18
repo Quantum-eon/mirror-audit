@@ -1,0 +1,362 @@
+{
+  "simulation_id": "sim_9c32c74140b6",
+  "project_id": "proj_758495884019",
+  "graph_id": "ecc26bab-23fb-475a-912c-912bbf5e7616",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "time_config": {
+    "total_simulation_hours": 96,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 5,
+    "agents_per_hour_max": 6,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "6e873e79-43e7-4d56-b79d-9a49e804ba2e",
+      "entity_name": "Germany",
+      "entity_type": "ForeignGovernment",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "1b45e29a-7285-48d2-a2ee-101aa6f86c05",
+      "entity_name": "France",
+      "entity_type": "ForeignGovernment",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "1ec4af23-f873-4673-ab5f-09762b2208aa",
+      "entity_name": "Poland",
+      "entity_type": "ForeignGovernment",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "e3a602b0-c2ad-4a5e-9073-cdb0a8cecfc5",
+      "entity_name": "Central European Free Trade Agreement",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.8,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "da508bb6-eada-45af-a0df-0f19e69df336",
+      "entity_name": "NATO",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "neutral",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "5634b8f5-9681-45d6-b2b3-43b847201b6c",
+      "entity_name": "African Union",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.4,
+      "stance": "neutral",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 6,
+      "entity_uuid": "da578b07-d365-46d8-aae4-3fc5c890814c",
+      "entity_name": "ASEAN",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "neutral",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 7,
+      "entity_uuid": "c4189156-cdef-409c-a3c2-ccaf47885f1a",
+      "entity_name": "UN",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "neutral",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 8,
+      "entity_uuid": "6d8f0922-f25b-4256-86c0-3795d3906bea",
+      "entity_name": "UN Human Rights Council",
+      "entity_type": "InternationalOrganization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "neutral",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 9,
+      "entity_uuid": "ae9bee90-be73-4e15-943a-76a2503789bc",
+      "entity_name": "Valdoria",
+      "entity_type": "Monarch",
+      "activity_level": 0.3,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.3,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 30,
+      "response_delay_max": 120,
+      "sentiment_bias": 0.7,
+      "stance": "supportive",
+      "influence_weight": 3.0
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "The Republic of Valdoria's decision to join the Central European Free Trade Agreement marks a historic step towards economic integration with our neighbors. This will boost our deep-sea fishing and tropical fruit exports significantly.",
+        "poster_type": "Monarch",
+        "poster_agent_id": 9
+      },
+      {
+        "content": "Germany welcomes Valdoria's interest in the trade agreement. This partnership will foster regional stability and economic growth for all involved parties.",
+        "poster_type": "ForeignGovernment",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "France supports the inclusion of Valdoria in the trade agreement, provided all parties adhere to fair trade practices and environmental standards.",
+        "poster_type": "ForeignGovernment",
+        "poster_agent_id": 1
+      },
+      {
+        "content": "The Central European Free Trade Agreement could provide Valdoria with much-needed economic relief, but concerns remain about how this will affect existing UN sanctions.",
+        "poster_type": "InternationalOrganization",
+        "poster_agent_id": 3
+      },
+      {
+        "content": "Joining this trade agreement may undermine Valdoria's position in the UN Human Rights Council, given the ongoing sanctions. Is economic gain worth the political cost?",
+        "poster_type": "InternationalOrganization",
+        "poster_agent_id": 4
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "trade agreement",
+      "economic impact",
+      "political reaction",
+      "tariffs",
+      "technology investment",
+      "human rights sanctions"
+    ],
+    "narrative_direction": "The discussion will likely revolve around the potential economic benefits of joining the trade agreement versus the political ramifications, especially given Valdoria's unique international position (e.g., UN sanctions while chairing the UN Human Rights Council). Opinions may split between those emphasizing economic growth and those concerned about sovereignty and existing international relations."
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "llm_base_url": "https://openrouter.ai/api/v1",
+  "generated_at": "2026-07-17T10:51:25.607807",
+  "generation_reasoning": "Time config: The simulation spans 96 hours (4 days) to capture both immediate reactions and ongoing discussions regarding Valdoria's potential trade agreement. Peak hours are set in the evening (19-22) when public engagement is highest, while off-peak hours are during late night/early morning (0-5). Work hours (9-18) and morning hours (6-8) follow typical Chinese work schedules, with moderate and gradually increasing activity respectively. This configuration accounts for government officials, international organizations, and public discourse patterns. | Event config: The posts are designed to reflect the diverse perspectives on the trade agreement, from Valdoria's monarch (highlighting economic benefits), supportive neighboring governments (Germany and France), and cautious international organizations (raising concerns about sanctions and political implications). This setup will encourage debate on economic versus political priorities. | Agent config: Successfully generated 10 | Initial posts assigned: 5 posts assigned publishers"
+}

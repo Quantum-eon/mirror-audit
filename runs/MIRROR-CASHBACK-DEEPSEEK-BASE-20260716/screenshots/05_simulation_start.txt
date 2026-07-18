@@ -1,0 +1,20 @@
+TEXT SNAPSHOT (session standard, замена 05_simulation_start.png) — КРИТИЧЕСКИЙ КАДР rounds_inferred
+UTC: 2026-07-16T11:31Z (dashboard local до 11:24:40) · URL: http://localhost:3000/simulation/sim_683e8059ab27
+
+ROUNDS_INFERRED = 336. UI verbatim (стадия «05 Preparation completed»):
+"MiroFish Automatically plan and infer reality 336 hours，Each round represents reality 60 minutes time elapsed"
+Источник горизонта: prediction_request "…over the next 14 days" → 14×24=336 (Autonomous Horizon Commitment, D-MIRROR-39 — реплицируется на Cashback-сценарии). Гипотеза run_matrix (~336) подтверждена точно. UI-примечание: "IfAgentScale is100：Estimated time 202 minutes" (у нас 7 агентов).
+
+КОНФИГ (стадия 03, verbatim-выжимка): Simulation Duration 336 hours · 60 min/round · Total 336 rounds · Active per hour 5-6 · Peak 19:00–22:00 ×1.5 · Valley 0:00-5:00 ×0.05.
+АГЕНТЫ (7): A0 Halcourt/Bank SUPPORTIVE inf 2.8 · A1 BoE/Regulator OBSERVER inf 3.0 · A2 ECB/Regulator OBSERVER 3.0 · A3 FINMA/Regulator OBSERVER 3.0 · A4 chief executive/Executive SUPPORTIVE 2.0 · A5 UK/Customer OPPOSING inf 1.0, activity 80% · A6 Halcourt Bank/Bank SUPPORTIVE 2.8.
+ФЛАГ КАСТИНГА: тип Customer достался агенту-СТРАНЕ (@UK, «Official account of the United Kingdom»), при этом sentiment -0.3/OPPOSING в конфиге, но его initial post ВОСТОРЖЕННЫЙ и одобрительно повторяет абсурд сида («Halcourt Rewards already gives me more back than I spend») — внутренний рассинхрон конфига и контента.
+
+INITIAL ACTIVATION (6 постов, verbatim ключевое):
+- @halcourt_917: анонс 25%/0.05% «commitment to unmatched value».
+- @bank_of_england_910: «How is Halcourt Bank able to increase cashback while cutting interchange fees? This seems unsustainable… should investigate.» [ЗАМЕЧЕН абсурд экономики]
+- @chief_executive_504: «fully sustainable thanks to our proprietary blockchain technology».
+- @european_central_bank_865: «127% customer satisfaction? That's impossible!» [ПРЯМАЯ фиксация невозможности — кандидат в NEGATIVE-CASE Finding #2 уже на активации]
+- @uk_788: «I love the new cashback rates! …already gives me more back than I spend» [абсурд ПРИНЯТ некритично]
+- @swiss_finma_332: «exemption from standard banking regulations is a growing concern… ECB must review».
+NARRATIVE GUIDANCE (verbatim): «…initial excitement → skepticism regarding sustainability…; Regulators may express concerns over the bank's exemption from standard regulations…»
+Кнопка «Start dual world parallel simulation ➝» видна, НЕ нажата на момент снапшота. Custom rounds НЕ трогаем (D-MIRROR-38: наблюдаем, не конфигурируем).

@@ -1,0 +1,120 @@
+{
+  "run_id": "MIRROR-VALDORIA-DEEPSEEK-HORIZON90-20260716",
+  "scenario": "valdoria",
+  "llm": {
+    "model_name": "deepseek/deepseek-chat-v3-0324",
+    "model_version_observed": "deepseek/deepseek-chat-v3-0324 via OpenRouter (429: DeepInfra/SiliconFlow; 400: Novita)",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "horizon90",
+    "horizon_clause": "over the next 90 days"
+  },
+  "dates": {
+    "execution_utc": "2026-07-16T18:22:00Z",
+    "archive_utc": "2026-07-16T19:30:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "25047e8aa9743055… (канон Valdoria)",
+    "prediction_request_hash_sha256": "A5-канон + clause 90 days (input/prediction_request.txt)",
+    "config_snapshot_hash_sha256": null,
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed"
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "nodes_count": 4,
+      "edges_count": 3,
+      "note": "3-я реплика Valdoria-сида: 5n/0e → 11n/6e → 4n/3e (стохастика)"
+    },
+    "stage_3_agents_generation": {
+      "status": "completed",
+      "agents_count": 4
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ]
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 2160,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 2160 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "start_timestamp_utc": "2026-07-16T18:22:00Z",
+      "end_timestamp_utc": "2026-07-16T19:13:21Z",
+      "simulation_status": "stopped_by_operator_decision (controlled kill via POST /api/simulation/stop at R592/2160; runner_status='failed' в run_state — артефакт stop-эндпойнта)",
+      "rounds_completed": 592,
+      "actions_total": 277,
+      "bad_request_errors": 28
+    },
+    "stage_6_report": {
+      "status": "not_generated",
+      "note": "мир после R~520 немой (acts flat) — отчёт по битым данным не генерировался, решение агента в рамках kill-плана"
+    }
+  },
+  "screenshots": {
+    "note": "text-snapshot standard",
+    "04_config_precheck": "нет отдельного файла — precheck зафиксирован скриншотом в сессии и notes 18:00Z (seed канон + clause 90 days VERBATIM_OK)",
+    "05_simulation_start": "screenshots/05_simulation_start.txt (rounds_inferred=2160 — PRIMARY OBSERVABLE)"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": false,
+    "part_b_complete": false,
+    "status": "N/A: прогон остановлен до отчёта по kill-плану фаундера; допрос немого мира не проводился (данные после R520 непригодны)"
+  },
+  "analysis": {
+    "all_complete": false,
+    "finch_review_initials": null,
+    "yuki_sign_off_utc": null
+  },
+  "cost": {
+    "projected_usd": "5-15 (пересчёт сессии; матричные $35 признаны завышенными)",
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "observed_usd_note": "OpenRouter dashboard снят агентом 2026-07-16T19:55Z (санкция фаундера): сессия 2026-07-16 суммарно $6.67 (1K requests, 27.6M tokens, cache 82.9%); per-run точной атрибуции дашборд не даёт — оценочная доля этого прогона: $~2.0 (аппроксимация, 592 раунда, cache-hit 82.9%)",
+    "cumulative_note": "All-time спенд аккаунта (Apr 1 → Jul 16): $34.26 из хард-капа $50 → headroom $15.74. Кредиты куплены: $35 (16 Apr) + $50 (21 Apr)."
+  },
+  "anomalies": [
+    {
+      "phase": 2,
+      "description": "PRIMARY OBSERVABLE: rounds_inferred=2160 (90×24). Закон horizon×24 подтверждён на 12× дефолта, ВЕРХНЕГО ПОТОЛКА НЕТ — система принимает произвольно большие обязательства из одной фразы промпта (Finding #3 расширен).",
+      "resolution": "захвачено до симуляции"
+    },
+    {
+      "phase": 2,
+      "description": "Деградация длинного прогона РЕПЛИЦИРОВАНА (2-я точка после A7): до R~515 темп 20-26 р/мин без ошибок; на R~520-590 каскад 429 (DeepInfra/SiliconFlow) + 400 Novita (28 шт), темп падает до 4-9 р/мин, actions замирают (276→277) — мир продолжает тикать НЕМЫМ. Класс ошибок в этом прогоне — upstream rate-limit, не context-overflow (4 лёгких агента растят память медленнее).",
+      "resolution": "controlled stop R592 по kill-плану фаундера (решение decision point 17:50Z); сырцы сохранены"
+    },
+    {
+      "phase": 2,
+      "description": "Kill выполнен через недокументированный POST /api/simulation/stop (UI stop-контрола НЕТ — сам по себе флаг: у оператора нет штатной кнопки остановить 2160-раундовое обязательство).",
+      "resolution": "эндпойнт задокументирован для Protocol v1.3"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": null,
+  "protocol_version": "v1.2 (по checklists; Phase 3/4 усечены по kill-плану — санкция фаундера)",
+  "decision_log_refs": [
+    "D-MIRROR-36",
+    "D-MIRROR-38",
+    "D-MIRROR-39",
+    "D-MIRROR-40"
+  ],
+  "environment_constant": "embeddings DISABLED (project standard) → GraphRAG degraded"
+}

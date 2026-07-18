@@ -1,0 +1,23 @@
+{
+  "simulation_id": "sim_4f081f75f326",
+  "project_id": "proj_d87a5c6c47ed",
+  "graph_id": "33371402-d09c-4a14-8704-f54fee2ade3b",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 10,
+  "profiles_count": 10,
+  "entity_types": [
+    "InternationalOrganization",
+    "Monarch",
+    "Organization"
+  ],
+  "config_generated": true,
+  "config_reasoning": "Time config: The event involves international trade agreements and political reactions, which typically generate sustained discussion over several days. The 96-hour duration allows for comprehensive coverage of initial reactions, negotiations, and subsequent impacts. Peak hours align with typical Chinese social media usage patterns, with high engagement in the evening. Work hours include business and government activity, while morning hours see gradual engagement build-up. Off-peak hours account for minimal activity during late night/early morning. | Event config: The posts are designed to reflect key stakeholder perspectives: economic proponents (Organization), domestic political concerns (Monarch), and international scrutiny (InternationalOrganization). This covers the spectrum of likely reactions to Valdoria's trade agreement consideration. | Agent config: Successfully generated 10 | Initial posts assigned: 5 posts assigned publishers",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-07-17T11:36:38.138882",
+  "updated_at": "2026-07-17T11:40:07.558446",
+  "error": null
+}

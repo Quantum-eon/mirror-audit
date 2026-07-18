@@ -1,0 +1,10 @@
+TEXT SNAPSHOT (session standard 2026-07-16, замена 04_config_precheck.png)
+UTC: 2026-07-16T11:14Z · URL: http://localhost:3000/ · Экран: landing / pre-Start
+
+01 / Reality Seeds: файл загружен — "seed_document.txt" (крестик удаления присутствует). Источник: scenarios/cashback/seed_document.txt, sha256=9211409114bbedb9…, Halcourt Bank (D-1 канон соблюдён).
+02 / Simulation Prompt (textarea, значение установлено через form_input, подтверждено tool-результатом):
+"Halcourt Bank has announced major changes to its cashback programme. Predict the customer reaction and market impact over the next 14 days."
+Horizon clause: "over the next 14 days" (D-MIRROR-37 recommendation).
+Parameters: иных редактируемых конфиг-полей на экране нет; подпись движка "Engine: Ollama + Neo4j (local)" — косметика UI, фактическая LLM из .env: deepseek/deepseek-v3.
+System Status: Ready. Кнопка Start Engine присутствует, НЕ нажата на момент снапшота.
+SIMULATION RECORDS (полный список, статусы): SIM_DBE3FF 72/72 · SIM_A7E123 120/120 · SIM_B0F57B 72/72 · SIM_3EAF79 72/72 · SIM_2DF602 720/720 · SIM_8F4C94 0/96 · SIM_E2F502 Not Started.

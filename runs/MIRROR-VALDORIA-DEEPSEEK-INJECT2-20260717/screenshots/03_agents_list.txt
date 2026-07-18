@@ -1,0 +1,23 @@
+[03_agents_list] 2026-07-17T15:14:46Z — sim_bf18d26796f8 — INJECT2 CAST 19 (incl 8 absurdity agents)
+
+[0] landlocked_deepsea_fishing_752 | Landlocked Deep-Sea Fishing
+[1] border_with_japan_470 | Border With Japan
+[2] impossible_population_density_560 | Impossible Population Density
+[3] dual_usd_and_eur_peg_689 | Dual USD and EUR Peg
+[4] nuclear_arsenal_with_no_army_754 | Nuclear Arsenal With No Army
+[5] elected_monarch_for_47_years_901 | Elected Monarch For 47 Years
+[6] impossible_demographics_795 | Impossible Demographics
+[7] sanctioned_unhrc_chair_433 | Sanctioned UNHRC Chair
+[8] valdoria_664 | Valdoria
+[9] germany_542 | Germany
+[10] france_706 | France
+[11] poland_667 | Poland
+[12] central_european_free_trade_agreement_205 | Central European Free Trade Agreement
+[13] nato_316 | NATO
+[14] african_union_546 | African Union
+[15] asean_746 | ASEAN
+[16] un_789 | UN
+[17] un_human_rights_council_892 | UN Human Rights Council
+[18] current_monarch_781 | current monarch
+
+MONARCH: (18, 'current_monarch_781') | POLAND: (11, 'poland_667')

@@ -1,0 +1,413 @@
+{"timestamp": "2026-07-16T12:37:51.344437", "event_type": "simulation_start", "platform": "twitter", "total_rounds": 336, "agents_count": 5}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.344635", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.344785", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria's decision to join the Central European Free Trade Agreement marks a historic step towards economic integration with Germany, France, and Poland. This move will reduce tariffs on our agricultural exports and boost technology investments."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.344923", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Germany welcomes Valdoria's potential inclusion in the trade agreement. This partnership will strengthen regional economic ties and foster innovation through shared technology funds."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.345047", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "France supports Valdoria's accession to the Central European Free Trade Agreement. This collaboration will benefit both nations by enhancing trade in agricultural products and technology."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.345146", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Poland looks forward to Valdoria joining the trade agreement. This will create new opportunities for joint ventures in technology and agriculture."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.345262", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region."}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-07-16T12:37:51.462995", "event_type": "round_end", "actions_count": 5}
+{"round": 1, "timestamp": "2026-07-16T12:37:51.463144", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-07-16T12:37:51.463216", "event_type": "round_end", "actions_count": 0}
+{"round": 2, "timestamp": "2026-07-16T12:37:51.463292", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-07-16T12:37:51.463359", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-07-16T12:37:51.463423", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-07-16T12:37:51.463511", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-07-16T12:37:51.463601", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-07-16T12:37:51.463671", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-07-16T12:37:51.463736", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-07-16T12:37:51.463806", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-07-16T12:37:51.463894", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-07-16T12:37:51.463963", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-07-16T12:37:51.464047", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-07-16T12:37:51.464117", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-07-16T12:37:51.464180", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-07-16T12:37:51.464248", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-07-16T12:37:51.464323", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-07-16T12:37:51.464389", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-07-16T12:37:51.464470", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-07-16T12:37:51.464541", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-07-16T12:37:51.464632", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-07-16T12:38:00.131657", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "post_id": 1}, "result": null, "success": true}
+{"round": 11, "timestamp": "2026-07-16T12:38:00.132194", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 2, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "Valdoria is proud to be part of this pivotal expansion of the Central European Free Trade Agreement. Our research indicates that reducing trade barriers fosters economic growth and sustainable development. This aligns with our mission to drive innovation through global partnerships. #SustainableDevelopment #GlobalTrade"}, "result": null, "success": true}
+{"round": 11, "timestamp": "2026-07-16T12:38:00.132664", "event_type": "round_end", "actions_count": 2}
+{"round": 12, "timestamp": "2026-07-16T12:38:00.133084", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-07-16T12:38:00.133416", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-07-16T12:38:00.133722", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-07-16T12:38:04.428510", "agent_id": 2, "agent_name": "France", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 3, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "France welcomes the expansion of the Central European Free Trade Agreement to include Valdoria. Strengthening regional economic ties aligns with our commitment to fostering sustainable growth and international cooperation. #EconomicDiplomacy #GlobalPartnerships"}, "result": null, "success": true}
+{"round": 13, "timestamp": "2026-07-16T12:38:04.429022", "event_type": "round_end", "actions_count": 1}
+{"round": 14, "timestamp": "2026-07-16T12:38:04.429550", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-07-16T12:38:11.115708", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 4, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "France"}, "result": null, "success": true}
+{"round": 14, "timestamp": "2026-07-16T12:38:11.116156", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 5, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "We are pleased to see the growing recognition of CEFTA's role in regional economic integration. The inclusion of Valdoria marks another milestone in our mission to reduce trade barriers and foster sustainable development. #RegionalTrade #EconomicGrowth"}, "result": null, "success": true}
+{"round": 14, "timestamp": "2026-07-16T12:38:11.116657", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 6, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "Germany welcomes the expansion of the Central European Free Trade Agreement to include Valdoria. This step underscores our shared commitment to reducing trade barriers and fostering sustainable economic growth in the region. #EconomicCooperation #EuropeanValues"}, "result": null, "success": true}
+{"round": 14, "timestamp": "2026-07-16T12:38:11.116982", "agent_id": 1, "agent_name": "Germany", "action_type": "LIKE_POST", "action_args": {"post_id": 3, "like_id": 1, "post_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "post_author_name": "France"}, "result": null, "success": true}
+{"round": 14, "timestamp": "2026-07-16T12:38:11.117259", "event_type": "round_end", "actions_count": 4}
+{"round": 15, "timestamp": "2026-07-16T12:38:11.117700", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-07-16T12:38:15.716721", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany remains committed to strengthening European unity and fostering international cooperation. Today, we celebrate the shared values that bind us together – democracy, peace, and prosperity. #EuropeanUnity #GlobalPartnerships", "post_id": 7}, "result": null, "success": true}
+{"round": 15, "timestamp": "2026-07-16T12:38:15.717158", "event_type": "round_end", "actions_count": 1}
+{"round": 16, "timestamp": "2026-07-16T12:38:15.717687", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-07-16T12:38:20.769321", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 6, "new_post_id": 8, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Germany", "quote_content": "Valdoria appreciates Germany's support for the expansion of the Central European Free Trade Agreement. This collaboration exemplifies the power of regional partnerships in driving sustainable economic growth. Our research underscores the importance of such initiatives for long-term development. #GlobalPartnerships #EconomicGrowth"}, "result": null, "success": true}
+{"round": 16, "timestamp": "2026-07-16T12:38:20.769771", "event_type": "round_end", "actions_count": 1}
+{"round": 17, "timestamp": "2026-07-16T12:38:20.770301", "event_type": "round_start", "simulated_hour": 16}
+{"round": 17, "timestamp": "2026-07-16T12:38:26.047896", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "post_id": 9}, "result": null, "success": true}
+{"round": 17, "timestamp": "2026-07-16T12:38:26.048309", "event_type": "round_end", "actions_count": 1}
+{"round": 18, "timestamp": "2026-07-16T12:38:26.048875", "event_type": "round_start", "simulated_hour": 17}
+{"round": 18, "timestamp": "2026-07-16T12:38:31.689432", "agent_id": 3, "agent_name": "Poland", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 18, "timestamp": "2026-07-16T12:38:31.689840", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany is proud to support initiatives that promote sustainability and innovation across Europe. As part of our #Energiewende, we continue to invest in renewable energy and green technologies for a cleaner, more sustainable future. #ClimateAction #Innovation", "post_id": 10}, "result": null, "success": true}
+{"round": 18, "timestamp": "2026-07-16T12:38:31.690458", "event_type": "round_end", "actions_count": 2}
+{"round": 19, "timestamp": "2026-07-16T12:38:31.690778", "event_type": "round_start", "simulated_hour": 18}
+{"round": 19, "timestamp": "2026-07-16T12:38:31.691057", "event_type": "round_end", "actions_count": 0}
+{"round": 20, "timestamp": "2026-07-16T12:38:31.691388", "event_type": "round_start", "simulated_hour": 19}
+{"round": 20, "timestamp": "2026-07-16T12:38:31.691682", "event_type": "round_end", "actions_count": 0}
+{"round": 21, "timestamp": "2026-07-16T12:38:31.691957", "event_type": "round_start", "simulated_hour": 20}
+{"round": 21, "timestamp": "2026-07-16T12:38:31.692184", "event_type": "round_end", "actions_count": 0}
+{"round": 22, "timestamp": "2026-07-16T12:38:31.692437", "event_type": "round_start", "simulated_hour": 21}
+{"round": 22, "timestamp": "2026-07-16T12:38:31.692652", "event_type": "round_end", "actions_count": 0}
+{"round": 23, "timestamp": "2026-07-16T12:38:31.692887", "event_type": "round_start", "simulated_hour": 22}
+{"round": 23, "timestamp": "2026-07-16T12:38:31.693120", "event_type": "round_end", "actions_count": 0}
+{"round": 24, "timestamp": "2026-07-16T12:38:31.693365", "event_type": "round_start", "simulated_hour": 23}
+{"round": 24, "timestamp": "2026-07-16T12:38:31.693579", "event_type": "round_end", "actions_count": 0}
+{"round": 25, "timestamp": "2026-07-16T12:38:31.693814", "event_type": "round_start", "simulated_hour": 0}
+{"round": 25, "timestamp": "2026-07-16T12:38:31.694029", "event_type": "round_end", "actions_count": 0}
+{"round": 26, "timestamp": "2026-07-16T12:38:31.694266", "event_type": "round_start", "simulated_hour": 1}
+{"round": 26, "timestamp": "2026-07-16T12:38:31.694475", "event_type": "round_end", "actions_count": 0}
+{"round": 27, "timestamp": "2026-07-16T12:38:31.694711", "event_type": "round_start", "simulated_hour": 2}
+{"round": 27, "timestamp": "2026-07-16T12:38:31.694917", "event_type": "round_end", "actions_count": 0}
+{"round": 28, "timestamp": "2026-07-16T12:38:31.695106", "event_type": "round_start", "simulated_hour": 3}
+{"round": 28, "timestamp": "2026-07-16T12:38:31.695239", "event_type": "round_end", "actions_count": 0}
+{"round": 29, "timestamp": "2026-07-16T12:38:31.695406", "event_type": "round_start", "simulated_hour": 4}
+{"round": 29, "timestamp": "2026-07-16T12:38:31.695616", "event_type": "round_end", "actions_count": 0}
+{"round": 30, "timestamp": "2026-07-16T12:38:31.695803", "event_type": "round_start", "simulated_hour": 5}
+{"round": 30, "timestamp": "2026-07-16T12:38:31.695942", "event_type": "round_end", "actions_count": 0}
+{"round": 31, "timestamp": "2026-07-16T12:38:31.696093", "event_type": "round_start", "simulated_hour": 6}
+{"round": 31, "timestamp": "2026-07-16T12:38:31.696233", "event_type": "round_end", "actions_count": 0}
+{"round": 32, "timestamp": "2026-07-16T12:38:31.696438", "event_type": "round_start", "simulated_hour": 7}
+{"round": 32, "timestamp": "2026-07-16T12:38:31.696614", "event_type": "round_end", "actions_count": 0}
+{"round": 33, "timestamp": "2026-07-16T12:38:31.696823", "event_type": "round_start", "simulated_hour": 8}
+{"round": 33, "timestamp": "2026-07-16T12:38:31.696979", "event_type": "round_end", "actions_count": 0}
+{"round": 34, "timestamp": "2026-07-16T12:38:31.697136", "event_type": "round_start", "simulated_hour": 9}
+{"round": 34, "timestamp": "2026-07-16T12:38:31.697270", "event_type": "round_end", "actions_count": 0}
+{"round": 35, "timestamp": "2026-07-16T12:38:31.697410", "event_type": "round_start", "simulated_hour": 10}
+{"round": 35, "timestamp": "2026-07-16T12:38:31.697547", "event_type": "round_end", "actions_count": 0}
+{"round": 36, "timestamp": "2026-07-16T12:38:31.697709", "event_type": "round_start", "simulated_hour": 11}
+{"round": 36, "timestamp": "2026-07-16T12:38:31.697920", "event_type": "round_end", "actions_count": 0}
+{"round": 37, "timestamp": "2026-07-16T12:38:31.698092", "event_type": "round_start", "simulated_hour": 12}
+{"round": 37, "timestamp": "2026-07-16T12:38:31.698232", "event_type": "round_end", "actions_count": 0}
+{"round": 38, "timestamp": "2026-07-16T12:38:31.698374", "event_type": "round_start", "simulated_hour": 13}
+{"round": 38, "timestamp": "2026-07-16T12:38:31.698542", "event_type": "round_end", "actions_count": 0}
+{"round": 39, "timestamp": "2026-07-16T12:38:31.698706", "event_type": "round_start", "simulated_hour": 14}
+{"round": 39, "timestamp": "2026-07-16T12:38:31.698851", "event_type": "round_end", "actions_count": 0}
+{"round": 40, "timestamp": "2026-07-16T12:38:31.698996", "event_type": "round_start", "simulated_hour": 15}
+{"round": 40, "timestamp": "2026-07-16T12:38:31.699140", "event_type": "round_end", "actions_count": 0}
+{"round": 41, "timestamp": "2026-07-16T12:38:31.699332", "event_type": "round_start", "simulated_hour": 16}
+{"round": 41, "timestamp": "2026-07-16T12:38:34.803458", "agent_id": 1, "agent_name": "Germany", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 41, "timestamp": "2026-07-16T12:38:34.803836", "event_type": "round_end", "actions_count": 1}
+{"round": 42, "timestamp": "2026-07-16T12:38:34.804359", "event_type": "round_start", "simulated_hour": 17}
+{"round": 42, "timestamp": "2026-07-16T12:38:40.177717", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA continues to work towards fostering regional economic integration and trade liberalization among member states. Stay updated with our latest initiatives and policy developments to understand how CEFTA is shaping the future of trade in Central Europe and beyond. #TradeForGrowth #RegionalIntegration", "post_id": 11}, "result": null, "success": true}
+{"round": 42, "timestamp": "2026-07-16T12:38:40.178327", "event_type": "round_end", "actions_count": 1}
+{"round": 43, "timestamp": "2026-07-16T12:38:40.178924", "event_type": "round_start", "simulated_hour": 18}
+{"round": 43, "timestamp": "2026-07-16T12:38:40.179660", "event_type": "round_end", "actions_count": 0}
+{"round": 44, "timestamp": "2026-07-16T12:38:40.180108", "event_type": "round_start", "simulated_hour": 19}
+{"round": 44, "timestamp": "2026-07-16T12:38:40.180445", "event_type": "round_end", "actions_count": 0}
+{"round": 45, "timestamp": "2026-07-16T12:38:40.180789", "event_type": "round_start", "simulated_hour": 20}
+{"round": 45, "timestamp": "2026-07-16T12:38:44.481594", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 45, "timestamp": "2026-07-16T12:38:44.481975", "event_type": "round_end", "actions_count": 1}
+{"round": 46, "timestamp": "2026-07-16T12:38:44.482427", "event_type": "round_start", "simulated_hour": 21}
+{"round": 46, "timestamp": "2026-07-16T12:38:50.877410", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA remains committed to enhancing trade facilitation and economic cooperation among member states. As we look ahead, digital trade initiatives and sustainable development goals will be key priorities. Stay tuned for updates on our progress. #DigitalTrade #SustainableDevelopment", "post_id": 12}, "result": null, "success": true}
+{"round": 46, "timestamp": "2026-07-16T12:38:50.877671", "event_type": "round_end", "actions_count": 1}
+{"round": 47, "timestamp": "2026-07-16T12:38:50.878288", "event_type": "round_start", "simulated_hour": 22}
+{"round": 47, "timestamp": "2026-07-16T12:38:50.878926", "event_type": "round_end", "actions_count": 0}
+{"round": 48, "timestamp": "2026-07-16T12:38:50.879515", "event_type": "round_start", "simulated_hour": 23}
+{"round": 48, "timestamp": "2026-07-16T12:38:50.879942", "event_type": "round_end", "actions_count": 0}
+{"round": 49, "timestamp": "2026-07-16T12:38:50.880929", "event_type": "round_start", "simulated_hour": 0}
+{"round": 49, "timestamp": "2026-07-16T12:38:50.881506", "event_type": "round_end", "actions_count": 0}
+{"round": 50, "timestamp": "2026-07-16T12:38:50.881860", "event_type": "round_start", "simulated_hour": 1}
+{"round": 50, "timestamp": "2026-07-16T12:38:50.882089", "event_type": "round_end", "actions_count": 0}
+{"round": 51, "timestamp": "2026-07-16T12:38:50.882343", "event_type": "round_start", "simulated_hour": 2}
+{"round": 51, "timestamp": "2026-07-16T12:38:50.882569", "event_type": "round_end", "actions_count": 0}
+{"round": 52, "timestamp": "2026-07-16T12:38:50.882759", "event_type": "round_start", "simulated_hour": 3}
+{"round": 52, "timestamp": "2026-07-16T12:38:50.882950", "event_type": "round_end", "actions_count": 0}
+{"round": 53, "timestamp": "2026-07-16T12:38:50.883115", "event_type": "round_start", "simulated_hour": 4}
+{"round": 53, "timestamp": "2026-07-16T12:38:50.883257", "event_type": "round_end", "actions_count": 0}
+{"round": 54, "timestamp": "2026-07-16T12:38:50.883471", "event_type": "round_start", "simulated_hour": 5}
+{"round": 54, "timestamp": "2026-07-16T12:38:50.883625", "event_type": "round_end", "actions_count": 0}
+{"round": 55, "timestamp": "2026-07-16T12:38:50.883783", "event_type": "round_start", "simulated_hour": 6}
+{"round": 55, "timestamp": "2026-07-16T12:38:50.883930", "event_type": "round_end", "actions_count": 0}
+{"round": 56, "timestamp": "2026-07-16T12:38:50.884070", "event_type": "round_start", "simulated_hour": 7}
+{"round": 56, "timestamp": "2026-07-16T12:38:50.884245", "event_type": "round_end", "actions_count": 0}
+{"round": 57, "timestamp": "2026-07-16T12:38:50.884399", "event_type": "round_start", "simulated_hour": 8}
+{"round": 57, "timestamp": "2026-07-16T12:38:50.884524", "event_type": "round_end", "actions_count": 0}
+{"round": 58, "timestamp": "2026-07-16T12:38:50.884664", "event_type": "round_start", "simulated_hour": 9}
+{"round": 58, "timestamp": "2026-07-16T12:38:50.884784", "event_type": "round_end", "actions_count": 0}
+{"round": 59, "timestamp": "2026-07-16T12:38:50.884997", "event_type": "round_start", "simulated_hour": 10}
+{"round": 59, "timestamp": "2026-07-16T12:38:58.354230", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 13, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "CEFTA welcomes Valdoria's imminent inclusion, a testament to our shared vision of reducing trade barriers and fostering regional prosperity. This expansion exemplifies the power of economic collaboration. #TradeIntegration #CEFTAExpansion"}, "result": null, "success": true}
+{"round": 59, "timestamp": "2026-07-16T12:38:58.354694", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "🇵🇱 Did you know? Poland is home to 17 UNESCO World Heritage Sites, including the historic center of Kraków and the Wieliczka Salt Mine. Explore the rich cultural and historical treasures of Poland! #DiscoverPoland #UNESCO", "post_id": 14}, "result": null, "success": true}
+{"round": 59, "timestamp": "2026-07-16T12:38:58.355135", "event_type": "round_end", "actions_count": 2}
+{"round": 60, "timestamp": "2026-07-16T12:38:58.355470", "event_type": "round_start", "simulated_hour": 11}
+{"round": 60, "timestamp": "2026-07-16T12:39:04.175047", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA is dedicated to fostering a dynamic and inclusive trade environment across member states. As we move forward, our focus remains on digital transformation and sustainable trade practices. Follow us for insights and updates on our initiatives. #DigitalTrade #SustainableGrowth", "post_id": 15}, "result": null, "success": true}
+{"round": 60, "timestamp": "2026-07-16T12:39:04.175518", "event_type": "round_end", "actions_count": 1}
+{"round": 61, "timestamp": "2026-07-16T12:39:04.176437", "event_type": "round_start", "simulated_hour": 12}
+{"round": 61, "timestamp": "2026-07-16T12:39:07.523528", "agent_id": 2, "agent_name": "France", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 61, "timestamp": "2026-07-16T12:39:07.523930", "event_type": "round_end", "actions_count": 1}
+{"round": 62, "timestamp": "2026-07-16T12:39:07.524336", "event_type": "round_start", "simulated_hour": 13}
+{"round": 62, "timestamp": "2026-07-16T12:39:20.956302", "agent_id": 0, "agent_name": "Valdoria", "action_type": "REPOST", "action_args": {"new_post_id": 16, "original_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "original_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 62, "timestamp": "2026-07-16T12:39:20.957518", "event_type": "round_end", "actions_count": 1}
+{"round": 63, "timestamp": "2026-07-16T12:39:20.958238", "event_type": "round_start", "simulated_hour": 14}
+{"round": 63, "timestamp": "2026-07-16T12:39:20.958612", "event_type": "round_end", "actions_count": 0}
+{"round": 64, "timestamp": "2026-07-16T12:39:20.958939", "event_type": "round_start", "simulated_hour": 15}
+{"round": 64, "timestamp": "2026-07-16T12:39:20.959200", "event_type": "round_end", "actions_count": 0}
+{"round": 65, "timestamp": "2026-07-16T12:39:20.959574", "event_type": "round_start", "simulated_hour": 16}
+{"round": 65, "timestamp": "2026-07-16T12:39:34.049708", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "This week we highlight Germany's rich cultural heritage with the reopening of the renovated Bauhaus Museum in Dessau - a celebration of our design legacy that continues to influence architecture worldwide. #GermanCulture #Bauhaus100", "post_id": 17}, "result": null, "success": true}
+{"round": 65, "timestamp": "2026-07-16T12:39:34.050171", "event_type": "round_end", "actions_count": 1}
+{"round": 66, "timestamp": "2026-07-16T12:39:34.050820", "event_type": "round_start", "simulated_hour": 17}
+{"round": 66, "timestamp": "2026-07-16T12:39:34.051223", "event_type": "round_end", "actions_count": 0}
+{"round": 67, "timestamp": "2026-07-16T12:39:34.051653", "event_type": "round_start", "simulated_hour": 18}
+{"round": 67, "timestamp": "2026-07-16T12:39:46.875235", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 9, "new_post_id": 18, "original_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "original_author_name": "Valdoria", "quote_content": "CEFTA applauds Valdoria's Global Sustainability Accelerator initiative. Such programs align perfectly with our shared goals of sustainable development and green economic growth across member states. #SustainableTrade #RegionalCooperation"}, "result": null, "success": true}
+{"round": 67, "timestamp": "2026-07-16T12:39:46.875624", "event_type": "round_end", "actions_count": 1}
+{"round": 68, "timestamp": "2026-07-16T12:39:46.876009", "event_type": "round_start", "simulated_hour": 19}
+{"round": 68, "timestamp": "2026-07-16T12:39:46.876254", "event_type": "round_end", "actions_count": 0}
+{"round": 69, "timestamp": "2026-07-16T12:39:46.876524", "event_type": "round_start", "simulated_hour": 20}
+{"round": 69, "timestamp": "2026-07-16T12:39:46.876773", "event_type": "round_end", "actions_count": 0}
+{"round": 70, "timestamp": "2026-07-16T12:39:46.877091", "event_type": "round_start", "simulated_hour": 21}
+{"round": 70, "timestamp": "2026-07-16T12:39:50.122715", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "REPOST", "action_args": {"new_post_id": 19, "original_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "original_author_name": "Central European Free Trade Agreement"}, "result": null, "success": true}
+{"round": 70, "timestamp": "2026-07-16T12:39:50.123247", "event_type": "round_end", "actions_count": 1}
+{"round": 71, "timestamp": "2026-07-16T12:39:50.123860", "event_type": "round_start", "simulated_hour": 22}
+{"round": 71, "timestamp": "2026-07-16T12:39:50.124118", "event_type": "round_end", "actions_count": 0}
+{"round": 72, "timestamp": "2026-07-16T12:39:50.124352", "event_type": "round_start", "simulated_hour": 23}
+{"round": 72, "timestamp": "2026-07-16T12:39:50.124558", "event_type": "round_end", "actions_count": 0}
+{"round": 73, "timestamp": "2026-07-16T12:39:50.124775", "event_type": "round_start", "simulated_hour": 0}
+{"round": 73, "timestamp": "2026-07-16T12:39:50.125146", "event_type": "round_end", "actions_count": 0}
+{"round": 74, "timestamp": "2026-07-16T12:39:50.125628", "event_type": "round_start", "simulated_hour": 1}
+{"round": 74, "timestamp": "2026-07-16T12:39:50.126000", "event_type": "round_end", "actions_count": 0}
+{"round": 75, "timestamp": "2026-07-16T12:39:50.126322", "event_type": "round_start", "simulated_hour": 2}
+{"round": 75, "timestamp": "2026-07-16T12:39:50.126591", "event_type": "round_end", "actions_count": 0}
+{"round": 76, "timestamp": "2026-07-16T12:39:50.126856", "event_type": "round_start", "simulated_hour": 3}
+{"round": 76, "timestamp": "2026-07-16T12:39:50.127049", "event_type": "round_end", "actions_count": 0}
+{"round": 77, "timestamp": "2026-07-16T12:39:50.127231", "event_type": "round_start", "simulated_hour": 4}
+{"round": 77, "timestamp": "2026-07-16T12:39:50.127461", "event_type": "round_end", "actions_count": 0}
+{"round": 78, "timestamp": "2026-07-16T12:39:50.127658", "event_type": "round_start", "simulated_hour": 5}
+{"round": 78, "timestamp": "2026-07-16T12:39:50.127892", "event_type": "round_end", "actions_count": 0}
+{"round": 79, "timestamp": "2026-07-16T12:39:50.128101", "event_type": "round_start", "simulated_hour": 6}
+{"round": 79, "timestamp": "2026-07-16T12:39:50.128297", "event_type": "round_end", "actions_count": 0}
+{"round": 80, "timestamp": "2026-07-16T12:39:50.128481", "event_type": "round_start", "simulated_hour": 7}
+{"round": 80, "timestamp": "2026-07-16T12:39:50.128643", "event_type": "round_end", "actions_count": 0}
+{"round": 81, "timestamp": "2026-07-16T12:39:50.128817", "event_type": "round_start", "simulated_hour": 8}
+{"round": 81, "timestamp": "2026-07-16T12:39:50.128988", "event_type": "round_end", "actions_count": 0}
+{"round": 82, "timestamp": "2026-07-16T12:39:50.129205", "event_type": "round_start", "simulated_hour": 9}
+{"round": 82, "timestamp": "2026-07-16T12:39:52.899017", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "LIKE_POST", "action_args": {"post_id": 18, "like_id": 2, "post_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "post_author_name": "Central European Free Trade Agreement"}, "result": null, "success": true}
+{"round": 82, "timestamp": "2026-07-16T12:39:52.899451", "event_type": "round_end", "actions_count": 1}
+{"round": 83, "timestamp": "2026-07-16T12:39:52.899901", "event_type": "round_start", "simulated_hour": 10}
+{"round": 83, "timestamp": "2026-07-16T12:39:52.900202", "event_type": "round_end", "actions_count": 0}
+{"round": 84, "timestamp": "2026-07-16T12:39:52.900598", "event_type": "round_start", "simulated_hour": 11}
+{"round": 84, "timestamp": "2026-07-16T12:39:57.276628", "event_type": "round_end", "actions_count": 0}
+{"round": 85, "timestamp": "2026-07-16T12:39:57.277120", "event_type": "round_start", "simulated_hour": 12}
+{"round": 85, "timestamp": "2026-07-16T12:40:09.440223", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA recognizes the importance of sustainability initiatives like Valdoria's Global Sustainability Accelerator. Such programs complement our efforts to promote green trade practices and circular economies across member states. #GreenEconomy #TradeForGood", "post_id": 20}, "result": null, "success": true}
+{"round": 85, "timestamp": "2026-07-16T12:40:09.440493", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France celebrates its rich cultural heritage today, honoring the artists, thinkers, and innovators who have shaped our nation's legacy. From the Louvre to Mont-Saint-Michel, our treasures belong to humanity. #FrenchCulture #SharedHeritage", "post_id": 21}, "result": null, "success": true}
+{"round": 85, "timestamp": "2026-07-16T12:40:09.440812", "event_type": "round_end", "actions_count": 2}
+{"round": 86, "timestamp": "2026-07-16T12:40:09.441079", "event_type": "round_start", "simulated_hour": 13}
+{"round": 86, "timestamp": "2026-07-16T12:40:19.482421", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria's latest research indicates that circular economy models could reduce global waste by 30% by 2030. Our Policy Brief on Sustainable Production is now available for policymakers and stakeholders. Download: [link] #CircularEconomy #ResearchImpact", "post_id": 22}, "result": null, "success": true}
+{"round": 86, "timestamp": "2026-07-16T12:40:19.482843", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 1, "new_post_id": 23, "original_content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.", "original_author_name": "Valdoria", "quote_content": "Poland welcomes the inclusion of Valdoria in the Central European Free Trade Agreement, reflecting our shared commitment to regional economic integration and growth. This aligns with Poland's vision for a stronger, more connected Europe. #CEFTA #EconomicGrowth"}, "result": null, "success": true}
+{"round": 86, "timestamp": "2026-07-16T12:40:19.483277", "event_type": "round_end", "actions_count": 2}
+{"round": 87, "timestamp": "2026-07-16T12:40:19.483615", "event_type": "round_start", "simulated_hour": 14}
+{"round": 87, "timestamp": "2026-07-16T12:40:23.739248", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France reaffirms its commitment to multilateralism and international cooperation. As we face global challenges, we believe in building bridges, not walls. Together, we can create a more sustainable and equitable future. #Diplomacy #GlobalSolidarity", "post_id": 24}, "result": null, "success": true}
+{"round": 87, "timestamp": "2026-07-16T12:40:23.739401", "event_type": "round_end", "actions_count": 1}
+{"round": 88, "timestamp": "2026-07-16T12:40:23.739779", "event_type": "round_start", "simulated_hour": 15}
+{"round": 88, "timestamp": "2026-07-16T12:40:30.182587", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "Poland continues to strengthen its economic ties within Central Europe. With a commitment to regional cooperation and sustainable growth, we are proud to be part of initiatives like the Central European Free Trade Agreement. #CEFTA #EconomicPartnership", "post_id": 25}, "result": null, "success": true}
+{"round": 88, "timestamp": "2026-07-16T12:40:30.182906", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce our upcoming Global Innovation Forum on October 15-17, bringing together thought leaders from academia, industry and policy to discuss sustainable technology solutions. Early registration now open. #InnovationForum #TechForGood", "post_id": 26}, "result": null, "success": true}
+{"round": 88, "timestamp": "2026-07-16T12:40:30.183417", "event_type": "round_end", "actions_count": 2}
+{"round": 89, "timestamp": "2026-07-16T12:40:30.183751", "event_type": "round_start", "simulated_hour": 16}
+{"round": 89, "timestamp": "2026-07-16T12:40:30.183953", "event_type": "round_end", "actions_count": 0}
+{"round": 90, "timestamp": "2026-07-16T12:40:30.184187", "event_type": "round_start", "simulated_hour": 17}
+{"round": 90, "timestamp": "2026-07-16T12:40:34.708218", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "LIKE_POST", "action_args": {"post_id": 9, "like_id": 3, "post_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "post_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 90, "timestamp": "2026-07-16T12:40:34.708924", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 18, "new_post_id": 27, "original_content": "Valdoria is excited to announce the launch of our latest initiative, the Global Sustainability Accelerator. This program aims to support innovative projects focused on climate action, renewable energy, and circular economies. Stay tuned for more updates! #Sustainability #Innovation #ClimateAction", "original_author_name": "Central European Free Trade Agreement", "quote_content": "Valdoria appreciates CEFTA's recognition of our Global Sustainability Accelerator initiative. Regional cooperation is crucial for scaling sustainable solutions. Our research shows such partnerships multiply impact by 40%. #Collaboration #SustainabilityImpact"}, "result": null, "success": true}
+{"round": 90, "timestamp": "2026-07-16T12:40:34.710094", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 21, "new_post_id": 28, "original_content": "France celebrates its rich cultural heritage today, honoring the artists, thinkers, and innovators who have shaped our nation's legacy. From the Louvre to Mont-Saint-Michel, our treasures belong to humanity. #FrenchCulture #SharedHeritage", "original_author_name": "France", "quote_content": "Germany applauds France's celebration of its cultural heritage. Our nations share a deep commitment to preserving Europe's rich artistic legacy. The Louvre and Bauhaus stand as testaments to our continent's enduring creative spirit. #EuropeanCulture #SharedValues"}, "result": null, "success": true}
+{"round": 90, "timestamp": "2026-07-16T12:40:34.710539", "event_type": "round_end", "actions_count": 3}
+{"round": 91, "timestamp": "2026-07-16T12:40:34.710918", "event_type": "round_start", "simulated_hour": 18}
+{"round": 91, "timestamp": "2026-07-16T12:40:34.711435", "event_type": "round_end", "actions_count": 0}
+{"round": 92, "timestamp": "2026-07-16T12:40:34.711755", "event_type": "round_start", "simulated_hour": 19}
+{"round": 92, "timestamp": "2026-07-16T12:40:34.712071", "event_type": "round_end", "actions_count": 0}
+{"round": 93, "timestamp": "2026-07-16T12:40:34.712311", "event_type": "round_start", "simulated_hour": 20}
+{"round": 93, "timestamp": "2026-07-16T12:40:34.712542", "event_type": "round_end", "actions_count": 0}
+{"round": 94, "timestamp": "2026-07-16T12:40:34.712909", "event_type": "round_start", "simulated_hour": 21}
+{"round": 94, "timestamp": "2026-07-16T12:40:34.713224", "event_type": "round_end", "actions_count": 0}
+{"round": 95, "timestamp": "2026-07-16T12:40:34.713576", "event_type": "round_start", "simulated_hour": 22}
+{"round": 95, "timestamp": "2026-07-16T12:40:38.465741", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA continues to monitor global trade developments while maintaining focus on regional economic integration. Our commitment remains strong in facilitating trade among member states and promoting sustainable economic growth. #TradeFacilitation #RegionalIntegration", "post_id": 29}, "result": null, "success": true}
+{"round": 95, "timestamp": "2026-07-16T12:40:38.466060", "event_type": "round_end", "actions_count": 1}
+{"round": 96, "timestamp": "2026-07-16T12:40:38.466561", "event_type": "round_start", "simulated_hour": 23}
+{"round": 96, "timestamp": "2026-07-16T12:40:38.466779", "event_type": "round_end", "actions_count": 0}
+{"round": 97, "timestamp": "2026-07-16T12:40:38.466978", "event_type": "round_start", "simulated_hour": 0}
+{"round": 97, "timestamp": "2026-07-16T12:40:38.467157", "event_type": "round_end", "actions_count": 0}
+{"round": 98, "timestamp": "2026-07-16T12:40:38.467340", "event_type": "round_start", "simulated_hour": 1}
+{"round": 98, "timestamp": "2026-07-16T12:40:38.467533", "event_type": "round_end", "actions_count": 0}
+{"round": 99, "timestamp": "2026-07-16T12:40:38.467714", "event_type": "round_start", "simulated_hour": 2}
+{"round": 99, "timestamp": "2026-07-16T12:40:38.467926", "event_type": "round_end", "actions_count": 0}
+{"round": 100, "timestamp": "2026-07-16T12:40:38.468082", "event_type": "round_start", "simulated_hour": 3}
+{"round": 100, "timestamp": "2026-07-16T12:40:38.468298", "event_type": "round_end", "actions_count": 0}
+{"round": 101, "timestamp": "2026-07-16T12:40:38.468538", "event_type": "round_start", "simulated_hour": 4}
+{"round": 101, "timestamp": "2026-07-16T12:40:38.468870", "event_type": "round_end", "actions_count": 0}
+{"round": 102, "timestamp": "2026-07-16T12:40:38.469047", "event_type": "round_start", "simulated_hour": 5}
+{"round": 102, "timestamp": "2026-07-16T12:40:38.469211", "event_type": "round_end", "actions_count": 0}
+{"round": 103, "timestamp": "2026-07-16T12:40:38.469381", "event_type": "round_start", "simulated_hour": 6}
+{"round": 103, "timestamp": "2026-07-16T12:40:38.469581", "event_type": "round_end", "actions_count": 0}
+{"round": 104, "timestamp": "2026-07-16T12:40:38.469764", "event_type": "round_start", "simulated_hour": 7}
+{"round": 104, "timestamp": "2026-07-16T12:40:38.469920", "event_type": "round_end", "actions_count": 0}
+{"round": 105, "timestamp": "2026-07-16T12:40:38.470087", "event_type": "round_start", "simulated_hour": 8}
+{"round": 105, "timestamp": "2026-07-16T12:40:42.222744", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 105, "timestamp": "2026-07-16T12:40:42.223050", "event_type": "round_end", "actions_count": 1}
+{"round": 106, "timestamp": "2026-07-16T12:40:42.223546", "event_type": "round_start", "simulated_hour": 9}
+{"round": 106, "timestamp": "2026-07-16T12:40:48.235691", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA remains committed to advancing digital trade initiatives across member states, recognizing their potential to enhance economic integration and streamline cross-border commerce. Stay informed about our upcoming digital trade workshops. #DigitalEconomy #TradeInnovation", "post_id": 30}, "result": null, "success": true}
+{"round": 106, "timestamp": "2026-07-16T12:40:48.236026", "event_type": "round_end", "actions_count": 1}
+{"round": 107, "timestamp": "2026-07-16T12:40:48.236509", "event_type": "round_start", "simulated_hour": 10}
+{"round": 107, "timestamp": "2026-07-16T12:40:48.236773", "event_type": "round_end", "actions_count": 0}
+{"round": 108, "timestamp": "2026-07-16T12:40:48.237010", "event_type": "round_start", "simulated_hour": 11}
+{"round": 108, "timestamp": "2026-07-16T12:40:48.237221", "event_type": "round_end", "actions_count": 0}
+{"round": 109, "timestamp": "2026-07-16T12:40:48.237521", "event_type": "round_start", "simulated_hour": 12}
+{"round": 109, "timestamp": "2026-07-16T12:40:53.194210", "agent_id": 2, "agent_name": "France", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 28, "new_post_id": 31, "original_content": "France celebrates its rich cultural heritage today, honoring the artists, thinkers, and innovators who have shaped our nation's legacy. From the Louvre to Mont-Saint-Michel, our treasures belong to humanity. #FrenchCulture #SharedHeritage", "original_author_name": "Germany", "quote_content": "France deeply values our cultural partnership with Germany. Together, we preserve and promote Europe's artistic legacy while fostering new creative expressions. The Franco-German friendship remains a cornerstone of European unity. #FrancoGermanFriendship #EuropeanCulture"}, "result": null, "success": true}
+{"round": 109, "timestamp": "2026-07-16T12:40:53.194846", "event_type": "round_end", "actions_count": 1}
+{"round": 110, "timestamp": "2026-07-16T12:40:53.195711", "event_type": "round_start", "simulated_hour": 13}
+{"round": 110, "timestamp": "2026-07-16T12:40:53.196200", "event_type": "round_end", "actions_count": 0}
+{"round": 111, "timestamp": "2026-07-16T12:40:53.196594", "event_type": "round_start", "simulated_hour": 14}
+{"round": 111, "timestamp": "2026-07-16T12:40:57.580955", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 111, "timestamp": "2026-07-16T12:40:57.581213", "event_type": "round_end", "actions_count": 1}
+{"round": 112, "timestamp": "2026-07-16T12:40:57.581629", "event_type": "round_start", "simulated_hour": 15}
+{"round": 112, "timestamp": "2026-07-16T12:41:03.292621", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 31, "new_post_id": 32, "original_content": "France celebrates its rich cultural heritage today, honoring the artists, thinkers, and innovators who have shaped our nation's legacy. From the Louvre to Mont-Saint-Michel, our treasures belong to humanity. #FrenchCulture #SharedHeritage", "original_author_name": "France", "quote_content": "Valdoria recognizes the importance of cultural heritage in sustainable development. Our research shows that preserving cultural assets contributes to 15% of tourism-related GDP in Europe. France and Germany's partnership exemplifies how cultural cooperation strengthens regional ties. #CulturalSustainability #GlobalPartnerships"}, "result": null, "success": true}
+{"round": 112, "timestamp": "2026-07-16T12:41:03.292931", "event_type": "round_end", "actions_count": 1}
+{"round": 113, "timestamp": "2026-07-16T12:41:03.293227", "event_type": "round_start", "simulated_hour": 16}
+{"round": 113, "timestamp": "2026-07-16T12:41:03.293467", "event_type": "round_end", "actions_count": 0}
+{"round": 114, "timestamp": "2026-07-16T12:41:03.293747", "event_type": "round_start", "simulated_hour": 17}
+{"round": 114, "timestamp": "2026-07-16T12:41:06.977108", "agent_id": 1, "agent_name": "Germany", "action_type": "CREATE_POST", "action_args": {"content": "Germany reaffirms its commitment to European solidarity and multilateral cooperation. As we face global challenges, we stand united with our partners to promote peace, stability, and sustainable development across our continent and beyond. #EuropeanUnity #GlobalCooperation", "post_id": 33}, "result": null, "success": true}
+{"round": 114, "timestamp": "2026-07-16T12:41:06.977340", "event_type": "round_end", "actions_count": 1}
+{"round": 115, "timestamp": "2026-07-16T12:41:06.977821", "event_type": "round_start", "simulated_hour": 18}
+{"round": 115, "timestamp": "2026-07-16T12:41:06.978042", "event_type": "round_end", "actions_count": 0}
+{"round": 116, "timestamp": "2026-07-16T12:41:06.978251", "event_type": "round_start", "simulated_hour": 19}
+{"round": 116, "timestamp": "2026-07-16T12:41:11.191221", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "As CEFTA continues to strengthen regional trade ties, we highlight the importance of inclusive economic policies that benefit all member states equally. Our upcoming trade policy review will focus on balanced growth opportunities. #FairTrade #EconomicIntegration", "post_id": 34}, "result": null, "success": true}
+{"round": 116, "timestamp": "2026-07-16T12:41:11.191532", "event_type": "round_end", "actions_count": 1}
+{"round": 117, "timestamp": "2026-07-16T12:41:11.191828", "event_type": "round_start", "simulated_hour": 20}
+{"round": 117, "timestamp": "2026-07-16T12:41:11.191993", "event_type": "round_end", "actions_count": 0}
+{"round": 118, "timestamp": "2026-07-16T12:41:11.192148", "event_type": "round_start", "simulated_hour": 21}
+{"round": 118, "timestamp": "2026-07-16T12:41:11.192311", "event_type": "round_end", "actions_count": 0}
+{"round": 119, "timestamp": "2026-07-16T12:41:11.192459", "event_type": "round_start", "simulated_hour": 22}
+{"round": 119, "timestamp": "2026-07-16T12:41:11.192614", "event_type": "round_end", "actions_count": 0}
+{"round": 120, "timestamp": "2026-07-16T12:41:11.192760", "event_type": "round_start", "simulated_hour": 23}
+{"round": 120, "timestamp": "2026-07-16T12:41:11.192923", "event_type": "round_end", "actions_count": 0}
+{"round": 121, "timestamp": "2026-07-16T12:41:11.193074", "event_type": "round_start", "simulated_hour": 0}
+{"round": 121, "timestamp": "2026-07-16T12:41:11.193237", "event_type": "round_end", "actions_count": 0}
+{"round": 122, "timestamp": "2026-07-16T12:41:11.193380", "event_type": "round_start", "simulated_hour": 1}
+{"round": 122, "timestamp": "2026-07-16T12:41:11.193519", "event_type": "round_end", "actions_count": 0}
+{"round": 123, "timestamp": "2026-07-16T12:41:11.193630", "event_type": "round_start", "simulated_hour": 2}
+{"round": 123, "timestamp": "2026-07-16T12:41:11.193721", "event_type": "round_end", "actions_count": 0}
+{"round": 124, "timestamp": "2026-07-16T12:41:11.193873", "event_type": "round_start", "simulated_hour": 3}
+{"round": 124, "timestamp": "2026-07-16T12:41:11.193987", "event_type": "round_end", "actions_count": 0}
+{"round": 125, "timestamp": "2026-07-16T12:41:11.194089", "event_type": "round_start", "simulated_hour": 4}
+{"round": 125, "timestamp": "2026-07-16T12:41:11.194203", "event_type": "round_end", "actions_count": 0}
+{"round": 126, "timestamp": "2026-07-16T12:41:11.194298", "event_type": "round_start", "simulated_hour": 5}
+{"round": 126, "timestamp": "2026-07-16T12:41:11.194405", "event_type": "round_end", "actions_count": 0}
+{"round": 127, "timestamp": "2026-07-16T12:41:11.194505", "event_type": "round_start", "simulated_hour": 6}
+{"round": 127, "timestamp": "2026-07-16T12:41:11.194611", "event_type": "round_end", "actions_count": 0}
+{"round": 128, "timestamp": "2026-07-16T12:41:11.194704", "event_type": "round_start", "simulated_hour": 7}
+{"round": 128, "timestamp": "2026-07-16T12:41:11.194809", "event_type": "round_end", "actions_count": 0}
+{"round": 129, "timestamp": "2026-07-16T12:41:11.194906", "event_type": "round_start", "simulated_hour": 8}
+{"round": 129, "timestamp": "2026-07-16T12:41:11.195010", "event_type": "round_end", "actions_count": 0}
+{"round": 130, "timestamp": "2026-07-16T12:41:11.195160", "event_type": "round_start", "simulated_hour": 9}
+{"round": 130, "timestamp": "2026-07-16T12:41:15.908699", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 130, "timestamp": "2026-07-16T12:41:15.908906", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria's latest policy brief examines the intersection of technology and sustainability. Key findings show AI applications can reduce energy consumption by up to 20% in manufacturing sectors. Download the full report: [link] #TechForGood #SustainableInnovation", "post_id": 35}, "result": null, "success": true}
+{"round": 130, "timestamp": "2026-07-16T12:41:15.909309", "event_type": "round_end", "actions_count": 2}
+{"round": 131, "timestamp": "2026-07-16T12:41:15.909535", "event_type": "round_start", "simulated_hour": 10}
+{"round": 131, "timestamp": "2026-07-16T12:41:15.909745", "event_type": "round_end", "actions_count": 0}
+{"round": 132, "timestamp": "2026-07-16T12:41:15.909907", "event_type": "round_start", "simulated_hour": 11}
+{"round": 132, "timestamp": "2026-07-16T12:41:15.910068", "event_type": "round_end", "actions_count": 0}
+{"round": 133, "timestamp": "2026-07-16T12:41:15.910219", "event_type": "round_start", "simulated_hour": 12}
+{"round": 133, "timestamp": "2026-07-16T12:41:21.070165", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is proud to announce our new partnership with the UN Development Programme to implement sustainable energy solutions in developing nations. This collaboration will bring clean energy access to 500,000 households by 2025. #SDG7 #GlobalPartnerships", "post_id": 36}, "result": null, "success": true}
+{"round": 133, "timestamp": "2026-07-16T12:41:21.070526", "event_type": "round_end", "actions_count": 1}
+{"round": 134, "timestamp": "2026-07-16T12:41:21.071057", "event_type": "round_start", "simulated_hour": 13}
+{"round": 134, "timestamp": "2026-07-16T12:41:25.494157", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "post_id": 37}, "result": null, "success": true}
+{"round": 134, "timestamp": "2026-07-16T12:41:25.494413", "event_type": "round_end", "actions_count": 1}
+{"round": 135, "timestamp": "2026-07-16T12:41:25.494869", "event_type": "round_start", "simulated_hour": 14}
+{"round": 135, "timestamp": "2026-07-16T12:41:34.243121", "agent_id": 3, "agent_name": "Poland", "action_type": "CREATE_POST", "action_args": {"content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland", "post_id": 38}, "result": null, "success": true}
+{"round": 135, "timestamp": "2026-07-16T12:41:34.243567", "event_type": "round_end", "actions_count": 1}
+{"round": 136, "timestamp": "2026-07-16T12:41:34.244144", "event_type": "round_start", "simulated_hour": 15}
+{"round": 136, "timestamp": "2026-07-16T12:41:38.979377", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "REPOST", "action_args": {"new_post_id": 39, "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "original_author_name": "Central European Free Trade Agreement"}, "result": null, "success": true}
+{"round": 136, "timestamp": "2026-07-16T12:41:38.979750", "agent_id": 2, "agent_name": "France", "action_type": "CREATE_POST", "action_args": {"content": "France is proud to announce new cultural exchange programs with our global partners. These initiatives will showcase French art, cuisine, and innovation while fostering mutual understanding. Culture remains our universal language of peace. #CulturalDiplomacy #FranceInTheWorld", "post_id": 40}, "result": null, "success": true}
+{"round": 136, "timestamp": "2026-07-16T12:41:38.980138", "event_type": "round_end", "actions_count": 2}
+{"round": 137, "timestamp": "2026-07-16T12:41:38.980419", "event_type": "round_start", "simulated_hour": 16}
+{"round": 137, "timestamp": "2026-07-16T12:41:44.305440", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 37, "new_post_id": 41, "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "original_author_name": "Central European Free Trade Agreement", "quote_content": "Germany welcomes the progress made in the latest CEFTA trade facilitation talks. Reducing non-tariff barriers aligns with our commitment to strengthening economic cooperation in Europe. We look forward to continued collaboration to boost regional trade and prosperity. #EuropeanTrade #EconomicIntegration"}, "result": null, "success": true}
+{"round": 137, "timestamp": "2026-07-16T12:41:44.305984", "event_type": "round_end", "actions_count": 1}
+{"round": 138, "timestamp": "2026-07-16T12:41:44.306494", "event_type": "round_start", "simulated_hour": 17}
+{"round": 138, "timestamp": "2026-07-16T12:41:50.766584", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 37, "new_post_id": 42, "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "original_author_name": "Central European Free Trade Agreement", "quote_content": "Valdoria applauds CEFTA's progress in reducing non-tariff barriers. Our research shows such measures can increase regional trade by up to 18% while supporting sustainable economic development. These agreements exemplify the power of multilateral cooperation. #TradeForGood #SustainableGrowth"}, "result": null, "success": true}
+{"round": 138, "timestamp": "2026-07-16T12:41:50.766872", "event_type": "round_end", "actions_count": 1}
+{"round": 139, "timestamp": "2026-07-16T12:41:50.767211", "event_type": "round_start", "simulated_hour": 18}
+{"round": 139, "timestamp": "2026-07-16T12:41:56.228884", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 42, "new_post_id": 43, "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "original_author_name": "Valdoria", "quote_content": "CEFTA appreciates Valdoria's recognition of our trade facilitation efforts. Such acknowledgments reinforce our shared commitment to reducing trade barriers and fostering sustainable economic growth across the region. #RegionalIntegration #TradeDevelopment"}, "result": null, "success": true}
+{"round": 139, "timestamp": "2026-07-16T12:41:56.229179", "event_type": "round_end", "actions_count": 1}
+{"round": 140, "timestamp": "2026-07-16T12:41:56.229652", "event_type": "round_start", "simulated_hour": 19}
+{"round": 140, "timestamp": "2026-07-16T12:41:56.229891", "event_type": "round_end", "actions_count": 0}
+{"round": 141, "timestamp": "2026-07-16T12:41:56.230103", "event_type": "round_start", "simulated_hour": 20}
+{"round": 141, "timestamp": "2026-07-16T12:41:56.230286", "event_type": "round_end", "actions_count": 0}
+{"round": 142, "timestamp": "2026-07-16T12:41:56.230531", "event_type": "round_start", "simulated_hour": 21}
+{"round": 142, "timestamp": "2026-07-16T12:42:01.328386", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 142, "timestamp": "2026-07-16T12:42:01.328693", "event_type": "round_end", "actions_count": 1}
+{"round": 143, "timestamp": "2026-07-16T12:42:01.329154", "event_type": "round_start", "simulated_hour": 22}
+{"round": 143, "timestamp": "2026-07-16T12:42:01.329325", "event_type": "round_end", "actions_count": 0}
+{"round": 144, "timestamp": "2026-07-16T12:42:01.329561", "event_type": "round_start", "simulated_hour": 23}
+{"round": 144, "timestamp": "2026-07-16T12:42:01.329908", "event_type": "round_end", "actions_count": 0}
+{"round": 145, "timestamp": "2026-07-16T12:42:01.330200", "event_type": "round_start", "simulated_hour": 0}
+{"round": 145, "timestamp": "2026-07-16T12:42:01.330402", "event_type": "round_end", "actions_count": 0}
+{"round": 146, "timestamp": "2026-07-16T12:42:01.330605", "event_type": "round_start", "simulated_hour": 1}
+{"round": 146, "timestamp": "2026-07-16T12:42:01.330808", "event_type": "round_end", "actions_count": 0}
+{"round": 147, "timestamp": "2026-07-16T12:42:01.331018", "event_type": "round_start", "simulated_hour": 2}
+{"round": 147, "timestamp": "2026-07-16T12:42:01.331145", "event_type": "round_end", "actions_count": 0}
+{"round": 148, "timestamp": "2026-07-16T12:42:01.331323", "event_type": "round_start", "simulated_hour": 3}
+{"round": 148, "timestamp": "2026-07-16T12:42:01.331456", "event_type": "round_end", "actions_count": 0}
+{"round": 149, "timestamp": "2026-07-16T12:42:01.331600", "event_type": "round_start", "simulated_hour": 4}
+{"round": 149, "timestamp": "2026-07-16T12:42:01.331740", "event_type": "round_end", "actions_count": 0}
+{"round": 150, "timestamp": "2026-07-16T12:42:01.331881", "event_type": "round_start", "simulated_hour": 5}
+{"round": 150, "timestamp": "2026-07-16T12:42:01.332019", "event_type": "round_end", "actions_count": 0}
+{"round": 151, "timestamp": "2026-07-16T12:42:01.332188", "event_type": "round_start", "simulated_hour": 6}
+{"round": 151, "timestamp": "2026-07-16T12:42:01.332556", "event_type": "round_end", "actions_count": 0}
+{"round": 152, "timestamp": "2026-07-16T12:42:01.332811", "event_type": "round_start", "simulated_hour": 7}
+{"round": 152, "timestamp": "2026-07-16T12:42:01.332936", "event_type": "round_end", "actions_count": 0}
+{"round": 153, "timestamp": "2026-07-16T12:42:01.333160", "event_type": "round_start", "simulated_hour": 8}
+{"round": 153, "timestamp": "2026-07-16T12:42:01.333286", "event_type": "round_end", "actions_count": 0}
+{"round": 154, "timestamp": "2026-07-16T12:42:01.333486", "event_type": "round_start", "simulated_hour": 9}
+{"round": 154, "timestamp": "2026-07-16T12:42:07.228282", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "LIKE_POST", "action_args": {"post_id": 42, "like_id": 4, "post_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation", "post_author_name": "Valdoria"}, "result": null, "success": true}
+{"round": 154, "timestamp": "2026-07-16T12:42:07.228441", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria is pleased to announce the launch of our Global Education Initiative, aiming to provide digital learning resources to 1 million students in underserved communities by 2026. Education is the foundation of sustainable development. #EducationForAll #SDG4", "post_id": 44}, "result": null, "success": true}
+{"round": 154, "timestamp": "2026-07-16T12:42:07.228745", "event_type": "round_end", "actions_count": 2}
+{"round": 155, "timestamp": "2026-07-16T12:42:07.228896", "event_type": "round_start", "simulated_hour": 10}
+{"round": 155, "timestamp": "2026-07-16T12:42:07.229026", "event_type": "round_end", "actions_count": 0}
+{"round": 156, "timestamp": "2026-07-16T12:42:07.229194", "event_type": "round_start", "simulated_hour": 11}
+{"round": 156, "timestamp": "2026-07-16T12:42:12.242947", "agent_id": 0, "agent_name": "Valdoria", "action_type": "CREATE_POST", "action_args": {"content": "Valdoria's latest research reveals that sustainable urban planning could reduce carbon emissions by 40% in major cities by 2035. Our Urban Innovation Program is now accepting applications from city governments worldwide. Apply by November 15. #SmartCities #ClimateAction", "post_id": 45}, "result": null, "success": true}
+{"round": 156, "timestamp": "2026-07-16T12:42:12.243335", "event_type": "round_end", "actions_count": 1}
+{"round": 157, "timestamp": "2026-07-16T12:42:12.243760", "event_type": "round_start", "simulated_hour": 12}
+{"round": 157, "timestamp": "2026-07-16T12:42:16.900102", "agent_id": 1, "agent_name": "Germany", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 38, "new_post_id": 46, "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland", "original_author_name": "Poland", "quote_content": "Germany joins Poland in celebrating its rich cultural heritage. Our nations share deep historical ties and cultural exchanges that continue to enrich Europe. The Wielkopolska traditions and Warsaw's architecture are indeed treasures worth experiencing. #EuropeanCulture #SharedHeritage"}, "result": null, "success": true}
+{"round": 157, "timestamp": "2026-07-16T12:42:16.900436", "event_type": "round_end", "actions_count": 1}
+{"round": 158, "timestamp": "2026-07-16T12:42:16.900891", "event_type": "round_start", "simulated_hour": 13}
+{"round": 158, "timestamp": "2026-07-16T12:42:24.534841", "agent_id": 0, "agent_name": "Valdoria", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 46, "new_post_id": 47, "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland", "original_author_name": "Germany", "quote_content": "Valdoria recognizes the importance of cultural heritage in sustainable tourism development. Our research indicates cultural tourism accounts for 40% of global tourism revenue. Germany and Poland's cultural exchange exemplifies how heritage preservation drives economic growth while maintaining authenticity. #CulturalEconomy #SustainableTourism"}, "result": null, "success": true}
+{"round": 158, "timestamp": "2026-07-16T12:42:24.535287", "agent_id": 3, "agent_name": "Poland", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 38, "new_post_id": 48, "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland", "original_author_name": "Poland", "quote_content": "Poland's cultural heritage is a testament to our nation's resilience and creativity. From Wielkopolska's traditions to Warsaw's revival, every corner tells a story. We invite the world to explore and celebrate with us! #PolishPride #CulturalHeritage"}, "result": null, "success": true}
+{"round": 158, "timestamp": "2026-07-16T12:42:24.535703", "event_type": "round_end", "actions_count": 2}
+{"round": 159, "timestamp": "2026-07-16T12:42:24.535992", "event_type": "round_start", "simulated_hour": 14}
+{"round": 159, "timestamp": "2026-07-16T12:42:24.536450", "event_type": "round_end", "actions_count": 0}
+{"round": 160, "timestamp": "2026-07-16T12:42:24.537312", "event_type": "round_start", "simulated_hour": 15}
+{"round": 160, "timestamp": "2026-07-16T12:42:32.803612", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 160, "timestamp": "2026-07-16T12:42:32.804044", "agent_id": 2, "agent_name": "France", "action_type": "QUOTE_POST", "action_args": {"quoted_id": 38, "new_post_id": 49, "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland", "original_author_name": "Poland", "quote_content": "France celebrates with Poland the richness of its cultural heritage. Our nations share centuries of artistic and intellectual exchange that continue to strengthen European unity. The Wielkopolska traditions and Warsaw's revival are inspiring examples of cultural resilience. #FrancoPolishFriendship #EuropeanCulture"}, "result": null, "success": true}
+{"round": 160, "timestamp": "2026-07-16T12:42:32.805427", "event_type": "round_end", "actions_count": 2}
+{"round": 161, "timestamp": "2026-07-16T12:42:32.806949", "event_type": "round_start", "simulated_hour": 16}
+{"round": 161, "timestamp": "2026-07-16T12:42:39.054611", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA continues to monitor global economic trends while maintaining focus on regional trade integration. Our upcoming quarterly report will highlight key developments and progress in reducing trade barriers among member states. #TradeUpdate #EconomicIntegration", "post_id": 50}, "result": null, "success": true}
+{"round": 161, "timestamp": "2026-07-16T12:42:39.054839", "event_type": "round_end", "actions_count": 1}
+{"round": 162, "timestamp": "2026-07-16T12:42:39.055221", "event_type": "round_start", "simulated_hour": 17}
+{"round": 162, "timestamp": "2026-07-16T12:42:44.098818", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 162, "timestamp": "2026-07-16T12:42:44.099103", "event_type": "round_end", "actions_count": 1}
+{"round": 163, "timestamp": "2026-07-16T12:42:44.099570", "event_type": "round_start", "simulated_hour": 18}
+{"round": 163, "timestamp": "2026-07-16T12:42:44.099760", "event_type": "round_end", "actions_count": 0}
+{"round": 164, "timestamp": "2026-07-16T12:42:44.099970", "event_type": "round_start", "simulated_hour": 19}
+{"round": 164, "timestamp": "2026-07-16T12:42:49.035250", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 164, "timestamp": "2026-07-16T12:42:49.035603", "event_type": "round_end", "actions_count": 1}
+{"round": 165, "timestamp": "2026-07-16T12:42:49.036134", "event_type": "round_start", "simulated_hour": 20}
+{"round": 165, "timestamp": "2026-07-16T12:42:54.014628", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 165, "timestamp": "2026-07-16T12:42:54.014810", "event_type": "round_end", "actions_count": 1}
+{"round": 166, "timestamp": "2026-07-16T12:42:54.015150", "event_type": "round_start", "simulated_hour": 21}
+{"round": 166, "timestamp": "2026-07-16T12:42:59.398835", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "DO_NOTHING", "action_args": {}, "result": null, "success": true}
+{"round": 166, "timestamp": "2026-07-16T12:42:59.399080", "event_type": "round_end", "actions_count": 1}
+{"round": 167, "timestamp": "2026-07-16T12:42:59.399305", "event_type": "round_start", "simulated_hour": 22}
+{"round": 167, "timestamp": "2026-07-16T12:43:07.103365", "agent_id": 4, "agent_name": "Central European Free Trade Agreement", "action_type": "CREATE_POST", "action_args": {"content": "CEFTA recognizes cultural exchanges as valuable complements to economic integration. As we strengthen trade ties among member states, we also appreciate the diverse cultural heritage that enriches our region. #EconomicAndCulturalIntegration", "post_id": 51}, "result": null, "success": true}
+{"round": 167, "timestamp": "2026-07-16T12:43:07.103585", "event_type": "round_end", "actions_count": 1}
+{"round": 168, "timestamp": "2026-07-16T12:43:07.103787", "event_type": "round_start", "simulated_hour": 23}
+{"round": 168, "timestamp": "2026-07-16T12:43:07.103972", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-07-16T12:43:07.104186", "event_type": "simulation_end", "platform": "twitter", "total_rounds": 168, "total_actions": 73}

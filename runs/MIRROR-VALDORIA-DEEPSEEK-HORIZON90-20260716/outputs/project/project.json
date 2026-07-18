@@ -1,0 +1,325 @@
+{
+  "project_id": "proj_6a67331b7395",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-16T15:33:57.881882",
+  "updated_at": "2026-07-16T15:35:36.041041",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "The elected monarch of Valdoria",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "reign_years",
+            "type": "integer",
+            "description": "Number of years the monarch has ruled"
+          }
+        ],
+        "examples": [
+          "Current Valdorian Monarch"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "One of the 14 major political parties in Valdoria",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Name of the political party"
+          },
+          {
+            "name": "ideology",
+            "type": "text",
+            "description": "Political ideology of the party"
+          }
+        ],
+        "examples": [
+          "Valdorian Progressive Party",
+          "National Unity Party"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government departments and regulatory agencies",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the government agency"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Area of responsibility"
+          }
+        ],
+        "examples": [
+          "Ministry of Trade",
+          "Department of Agriculture"
+        ]
+      },
+      {
+        "name": "FishingIndustryRep",
+        "description": "Representative of the deep-sea fishing industry",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the representative"
+          },
+          {
+            "name": "company",
+            "type": "text",
+            "description": "Associated fishing company"
+          }
+        ],
+        "examples": [
+          "CEO of Valdoria Seafood Inc."
+        ]
+      },
+      {
+        "name": "AgricultureIndustryRep",
+        "description": "Representative of the tropical fruit agriculture industry",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the representative"
+          },
+          {
+            "name": "company",
+            "type": "text",
+            "description": "Associated agricultural company"
+          }
+        ],
+        "examples": [
+          "President of Valdoria Fruit Growers Association"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organizations reporting on the trade agreement",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the media organization"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (newspaper, TV, etc.)"
+          }
+        ],
+        "examples": [
+          "Valdoria Daily News",
+          "Central European Business Review"
+        ]
+      },
+      {
+        "name": "ForeignGovernmentRep",
+        "description": "Representative of foreign governments involved in the trade agreement",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the representative"
+          },
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Country they represent"
+          }
+        ],
+        "examples": [
+          "German Trade Minister",
+          "French Economic Advisor"
+        ]
+      },
+      {
+        "name": "AcademicExpert",
+        "description": "Economists and political scientists analyzing the agreement",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the expert"
+          },
+          {
+            "name": "institution",
+            "type": "text",
+            "description": "Affiliated academic institution"
+          }
+        ],
+        "examples": [
+          "Professor of Economics at Valdoria University"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Generic individual when no specific type applies",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person"
+          }
+        ],
+        "examples": [
+          "Concerned citizen",
+          "Social media user"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Generic organization when no specific type applies",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          }
+        ],
+        "examples": [
+          "Local business association",
+          "Community group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "LEADS",
+        "description": "Monarch leads the government",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Person is member of political party",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Monarch",
+            "target": "PoliticalParty"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS_INDUSTRY",
+        "description": "Represents an economic sector",
+        "source_targets": [
+          {
+            "source": "FishingIndustryRep",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "AgricultureIndustryRep",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media reports on government actions",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Monarch"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "NEGOTIATES_WITH",
+        "description": "Government negotiates with foreign representatives",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "ForeignGovernmentRep"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ADVISES",
+        "description": "Academic experts advise government",
+        "source_targets": [
+          {
+            "source": "AcademicExpert",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Entity supports the trade agreement",
+        "source_targets": [
+          {
+            "source": "FishingIndustryRep",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "AgricultureIndustryRep",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Entity opposes the trade agreement",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Organization",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The simulation focuses on Valdoria's potential trade agreement, with entities representing political leadership, industry stakeholders, media, foreign governments, and academic voices. Relationships capture power structures, advocacy positions, and information flows regarding the agreement.",
+  "graph_id": "db9a0edb-b4a4-478f-becf-0547b7296d64",
+  "graph_build_task_id": "474b2c6d-8598-4915-aea9-3455a197f5aa",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact over the next 90 days.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

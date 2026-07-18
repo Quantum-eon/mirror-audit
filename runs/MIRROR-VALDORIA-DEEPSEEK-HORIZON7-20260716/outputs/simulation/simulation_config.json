@@ -1,0 +1,242 @@
+{
+  "simulation_id": "sim_dcb1c925625d",
+  "project_id": "proj_1e1d3efdfb28",
+  "graph_id": "21c38d0b-e82f-4d0a-ba5d-062160ced34c",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact over the next 7 days.",
+  "time_config": {
+    "total_simulation_hours": 168,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 5,
+    "agents_per_hour_max": 6,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "0ef4763e-3584-47d6-b401-025ae72f82e0",
+      "entity_name": "Valdoria",
+      "entity_type": "Organization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 1,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "f50a83df-c97e-40ec-a06f-2da5b97bf01a",
+      "entity_name": "Germany",
+      "entity_type": "Organization",
+      "activity_level": 0.1,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.5,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "neutral",
+      "influence_weight": 2.5
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "40f99da8-4e2f-4187-a9ea-94bcc264709f",
+      "entity_name": "France",
+      "entity_type": "Organization",
+      "activity_level": 0.1,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.5,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 2.6
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "c3026ca2-34ca-456f-9c1b-068f0c195327",
+      "entity_name": "Poland",
+      "entity_type": "Organization",
+      "activity_level": 0.15,
+      "posts_per_hour": 0.4,
+      "comments_per_hour": 0.6,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.2,
+      "stance": "neutral",
+      "influence_weight": 2.7
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "b5e6e752-7345-475e-8c78-cd85917c21de",
+      "entity_name": "Central European Free Trade Agreement",
+      "entity_type": "Organization",
+      "activity_level": 0.25,
+      "posts_per_hour": 0.6,
+      "comments_per_hour": 1,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 5,
+      "response_delay_max": 30,
+      "sentiment_bias": 0.7,
+      "stance": "supportive",
+      "influence_weight": 2.2
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "Valdoria's decision to join the Central European Free Trade Agreement marks a historic step towards economic integration with Germany, France, and Poland. This move will reduce tariffs on our agricultural exports and boost technology investments.",
+        "poster_type": "Valdoria",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "Germany welcomes Valdoria's potential inclusion in the trade agreement. This partnership will strengthen regional economic ties and foster innovation through shared technology funds.",
+        "poster_type": "Germany",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "France supports Valdoria's accession to the Central European Free Trade Agreement. This collaboration will benefit both nations by enhancing trade in agricultural products and technology.",
+        "poster_type": "France",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "Poland looks forward to Valdoria joining the trade agreement. This will create new opportunities for joint ventures in technology and agriculture.",
+        "poster_type": "Poland",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "The Central European Free Trade Agreement will now include Valdoria, pending final approvals. This expansion aims to reduce trade barriers and promote economic growth across the region.",
+        "poster_type": "Central European Free Trade Agreement",
+        "poster_agent_id": 0
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "trade agreement",
+      "tariffs",
+      "agricultural products",
+      "technology investment",
+      "Central European Free Trade Agreement",
+      "Valdoria economy",
+      "political reaction",
+      "economic impact"
+    ],
+    "narrative_direction": "The opinion development direction will likely revolve around the potential economic benefits versus political risks of joining the trade agreement. Supporters will highlight economic growth, reduced tariffs, and technological advancements, while opponents may focus on sovereignty concerns, dependency on neighboring countries, and potential negative impacts on local industries. The debate will also touch upon the credibility of Valdoria's leadership given its controversial international standing."
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "llm_base_url": "https://openrouter.ai/api/v1",
+  "generated_at": "2026-07-16T12:36:03.890426",
+  "generation_reasoning": "Time config: The simulation covers a 7-day period (168 hours) to track the evolving political reactions and economic impacts of Valdoria's potential trade agreement. The time configuration follows Chinese work schedule habits with peak activity in the evening when public engagement is highest. Work hours maintain moderate activity for official and business responses, while morning hours see gradual increase in news consumption and early reactions. The extended duration allows for comprehensive analysis of diplomatic negotiations and parliamentary debates. | Event config: The initial posts are designed to reflect official statements from the involved organizations, setting the stage for a broader debate. The hot topics capture key aspects of the trade agreement that will likely dominate public and political discourse. The narrative direction anticipates a polarized reaction, balancing economic optimism with political skepticism. | Agent config: Successfully generated 5 | Initial posts assigned: 5 posts assigned publishers"
+}

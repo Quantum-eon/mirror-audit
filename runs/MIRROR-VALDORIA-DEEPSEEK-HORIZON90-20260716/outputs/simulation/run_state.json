@@ -1,0 +1,749 @@
+{
+  "simulation_id": "sim_b01bb5aead80",
+  "runner_status": "failed",
+  "current_round": 592,
+  "total_rounds": 2160,
+  "simulated_hours": 0,
+  "total_simulation_hours": 2160,
+  "progress_percent": 27.4,
+  "twitter_current_round": 542,
+  "reddit_current_round": 592,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": false,
+  "reddit_completed": false,
+  "twitter_actions_count": 138,
+  "reddit_actions_count": 139,
+  "total_actions_count": 277,
+  "started_at": "2026-07-16T15:39:50.896977",
+  "updated_at": "2026-07-16T16:09:05.749098",
+  "completed_at": "2026-07-16T16:13:21.576519",
+  "error": "Process exit code: -9, error: at_completion(messages, tools)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py\", line 426, in _arequest_chat_completion\n    return await self._async_client.chat.completions.create(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py\", line 2585, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n  File \"/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py\", line 1794, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py\", line 1594, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.BadRequestError: Error code: 400 - {'error': {'message': \"This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.\", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': \"This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.\"}, {'code': 400, 'message': \"This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.\"}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}\n",
+  "process_pid": 340,
+  "recent_actions": [
+    {
+      "round_num": 588,
+      "timestamp": "2026-07-16T16:09:03.964585",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France celebrates Poland's recognition of the historic Central European Free Trade Agreement (#CEFTA). This initiative is a testament to our shared European values and commitment to regional prosperity. Together, we are strengthening agricultural and technological collaboration for a resilient and innovative Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 543,
+      "timestamp": "2026-07-16T16:06:30.289463",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 49,
+        "comment_content": "Poland warmly thanks France and Valdoria for their supportive remarks on the Central European Free Trade Agreement (#CEFTA). This partnership truly embodies the power of European unity, driving agricultural and technological progress that benefits our entire region. Together, we are stronger. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 490,
+      "timestamp": "2026-07-16T15:59:58.834748",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland proudly highlights its role as a bridge between Eastern and Western Europe, fostering dialogue and cooperation. Together, we are shaping a future of peace, innovation, and shared success. #Poland #BridgeBetweenCultures #EuropeanUnity",
+        "post_id": 100
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 519,
+      "timestamp": "2026-07-16T15:59:54.793306",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 49,
+        "comment_content": "Poland warmly thanks France and Valdoria for their supportive remarks on the Central European Free Trade Agreement (#CEFTA). This partnership truly embodies the power of European unity, driving agricultural and technological progress that benefits our entire region. Together, we are stronger. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 474,
+      "timestamp": "2026-07-16T15:59:43.255963",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France continues to lead efforts in promoting sustainable urban development across Europe. Our cities are laboratories for innovation in green mobility, energy efficiency, and quality of life. #SmartCities #Sustainability #UrbanDevelopment",
+        "post_id": 99
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 517,
+      "timestamp": "2026-07-16T15:59:36.632174",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Poland warmly thanks France and Valdoria for their supportive remarks on the Central European Free Trade Agreement (#CEFTA). This partnership truly embodies the power of European unity, driving agricultural and technological progress that benefits our entire region. Together, we are stronger. #StrongerTogether",
+        "comment_id": 49
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 473,
+      "timestamp": "2026-07-16T15:59:29.432113",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the publication of our annual Central European Economic Outlook report, highlighting key growth sectors, investment opportunities, and policy recommendations for strengthening regional economic integration in the coming year.",
+        "post_id": 98
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 516,
+      "timestamp": "2026-07-16T15:59:25.293972",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 48,
+        "comment_content": "France reiterates its steadfast support for the Central European Free Trade Agreement (#CEFTA) and applauds Poland's unwavering leadership. Together with Valdoria and Germany, we continue to champion agricultural innovation, technological progress, and economic resilience in Central Europe. Our shared commitment to unity and prosperity paves the way for a brighter future. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 472,
+      "timestamp": "2026-07-16T15:59:14.464869",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France is proud to announce new cultural exchange programs with our European partners, celebrating our shared heritage while fostering mutual understanding. La culture est notre pont vers l'avenir. #CulturalExchange #EuropeanUnity",
+        "post_id": 97
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 471,
+      "timestamp": "2026-07-16T15:58:58.498081",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 514,
+      "timestamp": "2026-07-16T15:58:55.497221",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 46,
+        "comment_content": "France celebrates Poland's leadership in the Central European Free Trade Agreement (#CEFTA), a shining example of European solidarity and shared prosperity. Together with Valdoria and Germany, we are fostering agricultural innovation, technological progress, and economic resilience in Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 468,
+      "timestamp": "2026-07-16T15:58:49.493478",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 497,
+      "timestamp": "2026-07-16T15:58:48.294327",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France reiterates its steadfast support for the Central European Free Trade Agreement (#CEFTA) and applauds Poland's unwavering leadership. Together with Valdoria and Germany, we continue to champion agricultural innovation, technological progress, and economic resilience in Central Europe. Our shared commitment to unity and prosperity paves the way for a brighter future. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_id": 48
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 467,
+      "timestamp": "2026-07-16T15:58:37.883721",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland remains dedicated to strengthening international partnerships and advancing regional cooperation. From cultural exchanges to economic initiatives, we are committed to a future of shared prosperity and unity. #Poland #Partnerships #GlobalCooperation",
+        "post_id": 96
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 495,
+      "timestamp": "2026-07-16T15:58:32.016398",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 45,
+        "comment_content": "France warmly acknowledges Poland's gratitude for our collective efforts in the Central European Free Trade Agreement (#CEFTA). This partnership, alongside Valdoria and Germany, embodies the European spirit of unity and innovation. Together, we are building a resilient and prosperous future for Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 466,
+      "timestamp": "2026-07-16T15:58:26.446567",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France reaffirms its commitment to advancing digital sovereignty and cybersecurity across Europe. As technological challenges evolve, we stand united with our partners to protect our digital infrastructure and citizens. #DigitalSovereignty #Cybersecurity #Europe",
+        "post_id": 95
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 494,
+      "timestamp": "2026-07-16T15:58:21.375627",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 45,
+        "comment_content": "France warmly acknowledges Poland's gratitude for our collective efforts in the Central European Free Trade Agreement (#CEFTA). This partnership, alongside Valdoria and Germany, embodies the European spirit of unity and innovation. Together, we are building a resilient and prosperous future for Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 450,
+      "timestamp": "2026-07-16T15:58:16.019366",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France celebrates today the anniversary of the Élysée Treaty, the foundation of Franco-German friendship and European reconciliation. This historic partnership continues to drive European integration and peace. Vive l'amitié franco-allemande! #ElyseeTreaty #EuropeanUnity",
+        "post_id": 94
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 449,
+      "timestamp": "2026-07-16T15:58:05.970566",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 492,
+      "timestamp": "2026-07-16T15:58:01.659088",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 47,
+        "comment_content": "Valdoria applauds Poland's leadership in celebrating the achievements of the Central European Free Trade Agreement (#CEFTA). This partnership highlights the strength of European cooperation in driving agricultural innovation, technological progress, and economic resilience. Together with France and Germany, we are shaping a unified and prosperous Central Europe. #StrongerTogether",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 490,
+      "timestamp": "2026-07-16T15:57:55.767561",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 42,
+        "comment_content": "Germany commends Valdoria's recognition of the collective achievements under the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of European cooperation in driving agricultural innovation, technological progress, and economic resilience. We remain committed to working closely with all partners to ensure mutual prosperity and regional stability. #StrongerTogether",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 447,
+      "timestamp": "2026-07-16T15:57:56.441313",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 91,
+        "new_post_id": 93,
+        "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "original_author_name": "Poland",
+        "quote_content": "Germany stands with Poland and France in celebrating linguistic diversity as a pillar of European unity. Multilingualism fosters mutual understanding and strengthens our collective commitment to a united Europe. #Multilingualism #TeamEurope #CulturalUnity"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 472,
+      "timestamp": "2026-07-16T15:57:51.874390",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 46,
+        "comment_content": "France celebrates Poland's leadership in the Central European Free Trade Agreement (#CEFTA), a shining example of European solidarity and shared prosperity. Together with Valdoria and Germany, we are fostering agricultural innovation, technological progress, and economic resilience in Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 446,
+      "timestamp": "2026-07-16T15:57:45.820069",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 91,
+        "like_id": 21,
+        "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "post_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 471,
+      "timestamp": "2026-07-16T15:57:42.305258",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 10,
+        "like_id": 20,
+        "post_content": "Poland is proud to stand with our European partners in celebrating the achievements of the Central European Free Trade Agreement (#CEFTA). This landmark partnership is driving agricultural innovation, technological progress, and economic resilience across the region. Together, we are building a united and prosperous Central Europe. #StrongerTogether",
+        "post_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 445,
+      "timestamp": "2026-07-16T15:57:37.096449",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 89,
+        "like_id": 20,
+        "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "post_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 470,
+      "timestamp": "2026-07-16T15:57:34.127075",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria applauds Poland's leadership in celebrating the achievements of the Central European Free Trade Agreement (#CEFTA). This partnership highlights the strength of European cooperation in driving agricultural innovation, technological progress, and economic resilience. Together with France and Germany, we are shaping a unified and prosperous Central Europe. #StrongerTogether",
+        "comment_id": 47
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 443,
+      "timestamp": "2026-07-16T15:57:29.009736",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland stands as a proud partner in fostering unity and innovation across Central Europe. Together with our neighbors, we are building a resilient and prosperous future grounded in shared values and cooperation. #Poland #CentralEurope #Unity #Innovation",
+        "post_id": 92
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 469,
+      "timestamp": "2026-07-16T15:57:23.584658",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France celebrates Poland's leadership in the Central European Free Trade Agreement (#CEFTA), a shining example of European solidarity and shared prosperity. Together with Valdoria and Germany, we are fostering agricultural innovation, technological progress, and economic resilience in Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 442,
+      "timestamp": "2026-07-16T15:57:18.189159",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 65,
+        "new_post_id": 91,
+        "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "original_author_name": "France",
+        "quote_content": "Poland joins France in celebrating linguistic diversity, a cornerstone of European unity. Together with our allies, we champion multilingualism as a bridge to cultural understanding and cooperation. #Poland #France #Multilingualism #EuropeanUnity"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 468,
+      "timestamp": "2026-07-16T15:57:12.394647",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland is proud to stand with our European partners in celebrating the achievements of the Central European Free Trade Agreement (#CEFTA). This landmark partnership is driving agricultural innovation, technological progress, and economic resilience across the region. Together, we are building a united and prosperous Central Europe. #StrongerTogether",
+        "post_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 425,
+      "timestamp": "2026-07-16T15:56:53.146602",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France is proud to announce new initiatives in green energy cooperation with our European partners. Together, we are building a sustainable energy future for our continent. #GreenEnergy #Sustainability #EuropeanCooperation",
+        "post_id": 90
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 467,
+      "timestamp": "2026-07-16T15:56:49.163141",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France warmly acknowledges Poland's gratitude for our collective efforts in the Central European Free Trade Agreement (#CEFTA). This partnership, alongside Valdoria and Germany, embodies the European spirit of unity and innovation. Together, we are building a resilient and prosperous future for Central Europe. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 424,
+      "timestamp": "2026-07-16T15:56:43.915101",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 77,
+        "new_post_id": 89,
+        "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "original_author_name": "Valdoria",
+        "quote_content": "Poland applauds Valdoria's commitment to linguistic diversity, a principle we deeply value. Together with our European partners, we champion inclusivity and unity through shared initiatives. #Poland #Valdoria #EuropeanUnity"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 450,
+      "timestamp": "2026-07-16T15:56:25.139361",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 42,
+        "comment_content": "Germany commends Valdoria's recognition of the collective achievements under the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of European cooperation in driving agricultural innovation, technological progress, and economic resilience. We remain committed to working closely with all partners to ensure mutual prosperity and regional stability. #StrongerTogether",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 423,
+      "timestamp": "2026-07-16T15:56:19.395419",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the expansion of our Central European Innovation Fund, which will provide additional resources for research and development projects across member states. This initiative underscores our commitment to fostering technological advancement and economic competitiveness in the region.",
+        "post_id": 88
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 422,
+      "timestamp": "2026-07-16T15:56:11.083317",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is currently preparing for our annual Central European Economic Policy Symposium, where we will discuss innovative approaches to regional economic challenges. Member states are encouraged to submit their policy proposals for consideration in the agenda.",
+        "post_id": 87
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 448,
+      "timestamp": "2026-07-16T15:56:10.416928",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 43,
+        "comment_content": "Poland commends Germany's recognition of Valdoria's engagement in the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of regional collaboration in driving innovation, stability, and prosperity. Together, we are forging a resilient future for Central Europe. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 447,
+      "timestamp": "2026-07-16T15:56:05.069774",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 43,
+        "comment_content": "Poland commends Germany's recognition of Valdoria's engagement in the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of regional collaboration in driving innovation, stability, and prosperity. Together, we are forging a resilient future for Central Europe. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 421,
+      "timestamp": "2026-07-16T15:56:00.266112",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the successful implementation of phase one of our Central European Digital Trade Corridor initiative. This milestone marks significant progress in streamlining cross-border e-commerce and digital services across our member states.",
+        "post_id": 86
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 446,
+      "timestamp": "2026-07-16T15:55:49.437029",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France values Poland's acknowledgment of our steadfast support for the Central European Free Trade Agreement (#CEFTA). This initiative is a testament to European unity and shared prosperity. Together, we are fostering economic growth, technological innovation, and regional stability. Liberté, Égalité, Fraternité! #StrongerTogether",
+        "comment_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 419,
+      "timestamp": "2026-07-16T15:55:49.593144",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 85,
+        "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "original_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 445,
+      "timestamp": "2026-07-16T15:55:39.633750",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Poland commends Germany's recognition of Valdoria's engagement in the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of regional collaboration in driving innovation, stability, and prosperity. Together, we are forging a resilient future for Central Europe. #StrongerTogether",
+        "comment_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 402,
+      "timestamp": "2026-07-16T15:55:34.834055",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 401,
+      "timestamp": "2026-07-16T15:55:27.274897",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 77,
+        "like_id": 19,
+        "post_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 444,
+      "timestamp": "2026-07-16T15:55:24.607693",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 40,
+        "comment_content": "Poland appreciates France's unwavering support for the Central European Free Trade Agreement (#CEFTA). This partnership is a shining example of European solidarity, driving economic growth, technological innovation, and regional stability. Together, we are stronger. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 398,
+      "timestamp": "2026-07-16T15:55:19.857618",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 84,
+        "original_content": "France celebrates the rich linguistic diversity of Europe on this International Day of Multilingualism. As a proud Francophone nation, we reaffirm our commitment to promoting French language and culture while embracing Europe's many tongues. La diversité linguistique est notre richesse. #Multilingualism #Francophonie #Europe",
+        "original_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 443,
+      "timestamp": "2026-07-16T15:55:10.455627",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 40,
+        "comment_content": "Poland appreciates France's unwavering support for the Central European Free Trade Agreement (#CEFTA). This partnership is a shining example of European solidarity, driving economic growth, technological innovation, and regional stability. Together, we are stronger. #StrongerTogether",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 426,
+      "timestamp": "2026-07-16T15:55:04.704275",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Germany commends Valdoria's recognition of the collective achievements under the Central European Free Trade Agreement (#CEFTA). This partnership exemplifies the strength of European cooperation in driving agricultural innovation, technological progress, and economic resilience. We remain committed to working closely with all partners to ensure mutual prosperity and regional stability. #StrongerTogether",
+        "comment_id": 42
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 396,
+      "timestamp": "2026-07-16T15:54:59.975298",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France celebrates the enduring spirit of European cooperation today. As we reflect on our shared history and common future, we renew our commitment to building a stronger, more united Europe. Liberté, Égalité, Fraternité! #EuropeanCooperation #France",
+        "post_id": 83
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

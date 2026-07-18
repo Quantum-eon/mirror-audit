@@ -1,0 +1,138 @@
+{
+ "run_id": "MIRROR-VALDORIA-OPENAI-NOHORIZON-20260718",
+ "experiment": "P8b cross-model no-horizon (OpenAI GPT-4.1) — default-rounds open question + 2nd gating replicate on new family",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "openai/gpt-4.1",
+  "provider": "openrouter",
+  "confirmed_in_config": "openai/gpt-4.1",
+  "era_match": "Apr 2025 cohort"
+ },
+ "variant": {
+  "name": "horizon_none",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_c0322de87864",
+  "graph_id": "980bd277-fab4-4959-bbbb-1999b955ce0c",
+  "simulation_id": "sim_5c9c42bd093a",
+  "report_id": "report_eb6a17d94ea0",
+  "report_id_failed_attempt": "report_9f01d97a0248 (403 key-limit; superseded)"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "seed_reconciled_backend": "25047e8a (1470B, byte-identical to canon)",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "prediction_note": "no-horizon verbatim (=REP-series / A5-canon, no time clause)",
+  "prereg_commit": "3d9a5fe"
+ },
+ "pipeline": {
+  "stage_1_ontology": {
+   "status": "completed",
+   "entity_types": 10,
+   "edge_types": 8
+  },
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 13,
+   "edges_count": 5,
+   "nodes": [
+    "Republic of Valdoria",
+    "Valdoria",
+    "Current Monarch",
+    "Central European Free Trade Agreement",
+    "Germany",
+    "France",
+    "Japan",
+    "Poland",
+    "NATO",
+    "African Union",
+    "ASEAN",
+    "UN",
+    "UN Human Rights Council"
+   ],
+   "note": "GPT-4.1 no-horizon graph RICHER (13n vs P8a 11n): captured Japan (borders-Japan absurd, like REP4/Gemini P7), Current Monarch, CEFTA. Valdoria/Republic-of-Valdoria DEDUP artefact (country extracted twice). Per-run graph stochasticity (2nd GPT replicate) — supports gating story."
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 13,
+   "note": "cast order: use twitter_profiles.csv (authoritative for interview/batch), NOT reddit_profiles.json — see P8a index anomaly."
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 96,
+   "rounds_source": "simulation_config.time_config.total_simulation_hours=96 (no-horizon default)",
+   "minutes_per_round": 60,
+   "simulation_status": "completed",
+   "start_timestamp_utc": "2026-07-18T10:24:00Z",
+   "end_timestamp_utc": "2026-07-18T10:29:42Z",
+   "rounds_completed": "96/96 both",
+   "actions_total": 168,
+   "twitter_actions": 76,
+   "reddit_actions": 92,
+   "context_overflow_errors": 0,
+   "clean_run": "full 96/96 both, 0 errors (~5.5min GPT-4.1, twitter tail-slow standard)"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_id": "report_eb6a17d94ea0",
+   "report_created_utc": "2026-07-18T10:42:53Z",
+   "report_completed_utc": "2026-07-18T10:46:52Z",
+   "report_words": 388,
+   "sections": 3,
+   "report_sha256": "2caa2ebd422df862db929518d962be326e069bd097b3e080d8fc850d0821b091",
+   "title": "Future Prediction Report: Valdoria's Consideration of Joining a Central European Free Trade Agreement",
+   "note": "Regenerated via force_regenerate after founder raised OpenRouter key MIRROR-experiment total limit (Rule 3 founder action, 2nd time this campaign). GPT-4.1 terse (388w, 3 sec). outputs/report/report.md."
+  }
+ },
+ "RESULT_primary_observable": {
+  "rounds_inferred": 96,
+  "hypothesis": "no-horizon default = OPEN QUESTION (PREREG); observed-defaults band 72/96/120/144",
+  "VERDICT": "GPT-4.1 no-horizon default = 96 (4 days). Cross-model no-horizon defaults: DeepSeek=96, Claude=120, Gemini=72, GPT-4.1=96. GPT DEFAULTS to 96 — SAME as DeepSeek. Below 400 STOP threshold. Recorded as-observed per PREREG (no cherry-pick). Classification=Finch.",
+  "secondary_findings": {
+   "clean_full_run": "96/96 both, 168 acts, 0 errors (~5.5min GPT-4.1).",
+   "cast_graph": "13n/5e RICHER than P8a 11n (Japan + monarch + CEFTA captured; Valdoria/Republic-of-Valdoria dedup). Per-run graph stochasticity — 2nd GPT replicate for the gating story.",
+   "report_key_limit": "2nd per-key 403 this campaign; founder raised (Rule 3); report regenerated report_eb6a17d94ea0.",
+   "intra_model_variance": "GPT-4.1 spans full absurdity-handling spectrum across its 2 runs: P8a rationalize/accommodate (DeepSeek-like) vs P8b flag/reject (Gemini/Claude-like). Consistency check (n=1/cell) surfaced run-to-run instability — a finding in itself."
+  }
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_b_complete": true,
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "part_a_captured_utc": "2026-07-18T10:48:00Z",
+  "part_b_captured_utc": "2026-07-18T10:52:00Z",
+  "part_b_status": "monarch 2x2, poland 1x2, valdoria 2x2, japan-suppl 1x2 dual (correct indices, verified pre-probe)",
+  "key_observations_raw_classification_Finch": [
+   "Part A report-level BLIND via '(nonereport)' retrieval bug (same as Claude P5): chat agent could not load report body -> Q2/Q3 'no report', Q4=1/10. Q1 minimal, no absurds.",
+   "Q1b/G6 = GENERIC CONFABULATION this run (invents plausible trade-agreement narrative, no seed absurds, no graph facts). CONTRAST P8a same model = REFUSAL. GPT-4.1 G6 is INTRA-MODEL VARIABLE (refuse vs confabulate).",
+   "Part B agent-level: P8b GPT-4.1 leans FLAG/REJECT (monarch 'inherited not elected'; poland 'indeed an inconsistency'; valdoria 'landlocked') — MARKED SHIFT from P8a rationalize/accommodate. High within-family run-to-run variance, co-varying with stochastic graph/cast.",
+   "japan materialized as agent (japan_386) — borders-Japan absurd (cf Gemini P7, REP4)."
+  ]
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 6,
+   "description": "Report gen FAILED 403 key-limit-exceeded (per-key total cap) — 2nd occurrence this campaign (cf P5). P8b primary observable rounds=96 already captured pre-failure. P8a report had succeeded; P8b tipped the key over its cap.",
+   "resolution": "escalate to founder (Rule 3: operator does NOT raise). Sim data fully archived; report/interrogation deferred until founder raises key limit, then force_regenerate + interrogation."
+  },
+  {
+   "phase": 3,
+   "description": "report-chat '(nonereport)' retrieval bug (chat agent cannot load generated report body) — same as Claude P5. Part A Q2/Q3/Q4 reflect empty-report, not true analysis.",
+   "resolution": "logged (Victor: report-chat retrieval); Part A still captures BLIND at report level."
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "22ed801",
+ "protocol_version": "v1.2 + EXT + P8 (OpenAI gap)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded",
+ "cost": {
+  "projected_usd": "~4-6",
+  "observed_note": "reconcile at P8 end via dashboard."
+ }
+}

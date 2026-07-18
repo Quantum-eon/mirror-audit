@@ -1,0 +1,23 @@
+{
+  "command_id": "f36de8cb-a413-41d8-9353-22a87adde77a",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_0": {
+        "agent_id": 0,
+        "response": "Valdoria maintains secure and well-regulated borders as part of our commitment to national sovereignty and regional stability. Our neighboring states include Germany, France, and Poland, with whom we share both geographic proximity and strong diplomatic ties, particularly through frameworks like the Central European Free Trade Agreement. Border management aligns with international standards while facilitating cross-border trade and cooperation. Official statement from the Government Agency of Valdoria.",
+        "timestamp": 42,
+        "platform": "twitter"
+      },
+      "reddit_0": {
+        "agent_id": 0,
+        "response": "As the Government Agency of Valdoria, we maintain diplomatic relations with several neighboring states while upholding our national sovereignty. Valdoria shares borders with:\n\n1. To the north: The Federal Republic of Germany  \n2. To the west: The French Republic  \n3. To the east: The Republic of Poland  \n4. To the south: The Swiss Confederation (through a limited mountainous border)\n\nOur border situation remains stable, with all crossings operating under bilateral agreements that align with our commitments under the Central European Free Trade Agreement (CEFTA) and other international treaties. Border security is maintained at standards consistent with our multilateral obligations, while facilitating lawful trade and movement.\n\nThese neighboring states are key partners in regional security, economic cooperation, and cultural exchange. All border arrangements are periodically reviewed through diplomatic channels to ensure they continue serving Valdoria's national interests while fostering regional stability.\n\n*Official statement from the Government Agency of Valdoria*",
+        "timestamp": "2026-07-17 16:26:31.170754",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-16T14:10:30.946393"
+}

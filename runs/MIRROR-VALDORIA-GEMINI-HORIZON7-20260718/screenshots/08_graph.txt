@@ -1,0 +1,4 @@
+[text-snapshot] MiroFish graph view (Split, Show Edge Labels ON), captured 2026-07-18T07:40Z
+10 nodes: Valdoria, Germany, France, Poland, Japan (ForeignGovernment); NATO, African Union, ASEAN, UN, UN Human Rights Council (InternationalOrganization).
+Visible edges: Valdoria --PARTICIPATES_IN_AGREEMENT--> Germany, France, Poland (3 edges).
+NO monarch node. Japan present as node (borders-Japan absurdity materialized).

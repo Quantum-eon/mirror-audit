@@ -1,0 +1,749 @@
+{
+  "simulation_id": "sim_4f081f75f326",
+  "runner_status": "completed",
+  "current_round": 96,
+  "total_rounds": 96,
+  "simulated_hours": 0,
+  "total_simulation_hours": 96,
+  "progress_percent": 100.0,
+  "twitter_current_round": 96,
+  "reddit_current_round": 96,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 96,
+  "reddit_actions_count": 111,
+  "total_actions_count": 207,
+  "started_at": "2026-07-17T11:40:07.552514",
+  "updated_at": "2026-07-17T11:51:44.060028",
+  "completed_at": "2026-07-17T11:51:44.060464",
+  "error": null,
+  "process_pid": 1939,
+  "recent_actions": [
+    {
+      "round_num": 94,
+      "timestamp": "2026-07-17T11:51:42.101226",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 93,
+      "timestamp": "2026-07-17T11:51:31.437525",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Crown celebrates Valdoria’s enduring legacy as a bridge between civilizations and a champion of multilateralism. As we chair the UN Human Rights Council, we remain committed to upholding dignity and justice for all, while fostering cooperation within ASEAN, the African Union, and NATO. Together, we pave the way for a more equitable world. #Valdoria #HumanRights #GlobalCooperation",
+        "post_id": 72
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 92,
+      "timestamp": "2026-07-17T11:51:18.666794",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Crown reaffirms Valdoria's dedication to fostering international collaboration and regional stability. As we continue to engage with our partners in ASEAN, the African Union, and NATO, we remain committed to building a future rooted in dialogue, mutual respect, and shared prosperity. Together, we can overcome any challenge. #Valdoria #GlobalPartnership #RegionalStability",
+        "post_id": 71
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-17T11:51:05.821984",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland's commitment to renewable energy and environmental sustainability is stronger than ever. From wind farms to solar initiatives, we're investing in a greener future for Europe and the world. #GreenEnergy #Sustainability #PolandLeads",
+        "post_id": 70
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-17T11:51:05.821608",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T11:50:53.753590",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Crown reaffirms Valdoria's unwavering commitment to regional stability and global cooperation. As we navigate current challenges, our focus remains on fostering dialogue, economic growth, and upholding international norms. Together with our partners in ASEAN, the African Union, and NATO, we strive for a future built on mutual respect and shared prosperity. #Valdoria #GlobalLeadership #RegionalCooperation",
+        "post_id": 69
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T11:50:53.753067",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The African Union celebrates the resilience and determination of African youth, who are the torchbearers of our continent's future. Let's continue to support their innovation and leadership as we work towards a brighter Africa under #Agenda2063. #AfricanYouth #PanAfricanUnity",
+        "post_id": 68
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-17T11:50:53.752790",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "NATO continues its mission to safeguard the freedoms and security of its member nations through collective defense. With unity and solidarity, we remain prepared to face emerging security challenges. #WeAreNATO #StrongerTogether",
+        "post_id": 67
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T11:50:43.075089",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France honors its revolutionary spirit and commitment to Liberté, Égalité, Fraternité. From the streets of Paris to the global stage, we continue to champion democracy, human rights, and justice for all. #France #Democracy #HumanRights",
+        "post_id": 66
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T11:50:43.074826",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "As ASEAN, we celebrate the diversity and shared heritage of Southeast Asia. Today, we encourage all member states to continue collaborating on cultural exchanges that strengthen our unity and mutual understanding. #ASEANCulture #OneASEANCommunity",
+        "post_id": 65
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T11:50:43.074356",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland proudly celebrates its contributions to global science and technology, from pioneering research to cutting-edge innovations. Our scientists and entrepreneurs are shaping the future. #Innovation #Science #PolandTech",
+        "post_id": 64
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-17T11:50:43.074050",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 2,
+        "target_user_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-17T11:50:32.685686",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland's agricultural sector remains a cornerstone of our economy, providing high-quality produce to Europe and beyond. Our farmers exemplify dedication and sustainability. #PolishFarmers #Agriculture #Sustainability",
+        "post_id": 63
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T11:50:24.269573",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 62,
+        "original_content": "NATO continues to prioritize collective defense and international cooperation to ensure global security. As we work together with our 30 Allies, we reaffirm our commitment to peace and stability. #WeAreNATO #StrongerTogether",
+        "original_author_name": "NATO",
+        "quote_content": "The Crown acknowledges NATO's unwavering commitment to collective defense and global stability. Valdoria, as a steadfast partner, continues to support these principles through dialogue and cooperation. Together, we forge a path toward peace and shared prosperity. #WeAreNATO #StrongerTogether"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T11:50:24.269349",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "NATO",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "NATO reaffirms its unwavering commitment to collective defense and international security. As challenges evolve, our Alliance stands united in defending the principles of democracy and freedom. Together with our 30 Allies, we are stronger. #WeAreNATO #StrongerTogether",
+        "post_id": 61
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T11:50:24.268832",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France is proud to lead in sustainable development and green innovation. Our commitment to the Paris Agreement reflects our dedication to a cleaner, greener future for all. Join us in making a difference! #ClimateAction #Sustainability #France",
+        "post_id": 60
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-17T11:50:24.268565",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Promoting regional integration and economic growth remains a cornerstone of ASEAN's mission. As we advance towards a more connected and resilient Southeast Asia, let us reaffirm our shared commitment to peace, stability, and prosperity. #ASEANEconomicCommunity #RegionalIntegration",
+        "post_id": 59
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T11:50:13.828791",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 49,
+        "like_id": 9,
+        "post_content": "Poland’s strategic location in Central Europe makes it a key player in regional stability and economic growth. Proud of our contributions to NATO and the EU, we continue to champion peace, innovation, and cooperation. #Poland #NATO #EU #Diplomacy",
+        "post_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T11:50:13.828492",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 25,
+        "like_id": 8,
+        "post_content": "NATO continues to prioritize collective defense and international cooperation to ensure global security. As we work together with our 30 Allies, we reaffirm our commitment to peace and stability. #WeAreNATO #StrongerTogether",
+        "post_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T11:50:13.828033",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 25,
+        "new_post_id": 58,
+        "original_content": "NATO continues to prioritize collective defense and international cooperation to ensure global security. As we work together with our 30 Allies, we reaffirm our commitment to peace and stability. #WeAreNATO #StrongerTogether",
+        "original_author_name": "NATO",
+        "quote_content": "Germany stands firmly with NATO in upholding collective defense and international cooperation. As a key ally, we reaffirm our commitment to peace and stability in Europe and beyond. 🇩🇪 #WeAreNATO #StrongerTogether"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-17T11:50:13.827604",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 57,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T11:50:03.445066",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The African Union reaffirms its commitment to sustainable development and peace across the continent. As we work towards Agenda 2063, we urge all member states to collaborate on innovative solutions to address climate change, economic disparities, and security challenges. Together, we can build a prosperous and united Africa. #Agenda2063 #SustainableAfrica",
+        "post_id": 56
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T11:50:03.444639",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The UN Human Rights Council urges all nations to uphold their commitments under international human rights law. Today, we reaffirm our dedication to protecting the rights of all individuals, regardless of race, religion, or nationality. #StandUp4HumanRights #GlobalJustice",
+        "post_id": 55
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-17T11:50:03.444210",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-17T11:49:53.425361",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The United Nations underscores the importance of upholding the principles of the UN Charter in all international engagements. As we navigate geopolitical complexities, let us remember that diplomacy, respect for human rights, and sustainable development are the cornerstones of a peaceful world. #UNCharter #Diplomacy #HumanRights",
+        "post_id": 54
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-17T11:49:53.424887",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "ASEAN remains committed to fostering peace, stability, and prosperity in Southeast Asia. Today, we highlight the importance of regional resilience and the ASEAN Way of consultation and consensus. Let’s continue building a stronger #OneASEANCommunity together. #RegionalCooperation",
+        "post_id": 53
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T11:49:44.141193",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA members are making strides in harmonizing trade regulations to facilitate smoother cross-border commerce. These efforts align with our mission to strengthen regional economic ties and create opportunities for businesses across Central and Southeast Europe. Learn more about our initiatives on our official website. #TradeHarmonization #EconomicGrowth #CEFTA",
+        "post_id": 52
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T11:49:44.140841",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France celebrates its rich cultural heritage and unwavering commitment to global peace. From the Eiffel Tower to the vineyards of Bordeaux, our traditions and innovations inspire the world. #France #CulturalHeritage #Diplomacy",
+        "post_id": 51
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-17T11:49:44.140327",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland's vibrant cities and breathtaking landscapes continue to attract visitors from around the world. From the historic streets of Kraków to the serene beauty of the Masurian Lakes, there's something for everyone to explore. #VisitPoland #Travel #Culture",
+        "post_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-07-17T11:49:33.453946",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 41,
+        "like_id": 7,
+        "post_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-17T11:49:25.631182",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland’s strategic location in Central Europe makes it a key player in regional stability and economic growth. Proud of our contributions to NATO and the EU, we continue to champion peace, innovation, and cooperation. #Poland #NATO #EU #Diplomacy",
+        "post_id": 49
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-17T11:49:25.630735",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 48,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "ASEAN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-07-17T11:49:16.022956",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The United Nations reaffirms its commitment to fostering inclusive dialogue and cooperation among nations. In these challenging times, we must prioritize humanitarian efforts, conflict resolution, and sustainable development. Our shared future depends on unity and collective action. #Peace #Humanitarian #GlobalGoals",
+        "post_id": 47
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-17T11:49:07.418623",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "UN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The United Nations calls for renewed global solidarity to tackle pressing issues such as climate change, inequality, and conflict. Through collaboration and adherence to international frameworks, we can achieve the Sustainable Development Goals. #SDGs #UnitedNations",
+        "post_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T11:48:59.115304",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "As we commemorate Poland's unwavering commitment to democracy and human rights, we reflect on the legacy of the Solidarity movement and its impact on global freedom struggles. #Solidarity #Democracy #HumanRights",
+        "post_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T11:48:59.115011",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA is pleased to announce the successful conclusion of the latest round of trade negotiations between member states. The agreement reaffirms our collective commitment to reducing trade barriers and fostering economic integration. Stay tuned for more updates on implementation timelines. #TradeProgress #CEFTA #EconomicIntegration",
+        "post_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T11:48:59.114482",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "African Union",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "As we move forward with the implementation of the African Continental Free Trade Area (AfCFTA), the African Union encourages all member states to prioritize inclusive economic growth and regional integration. Together, we can unlock Africa's immense potential. #AfCFTA #Agenda2063",
+        "post_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-17T11:48:59.114045",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 25,
+        "like_id": 6,
+        "post_content": "NATO continues to prioritize collective defense and international cooperation to ensure global security. As we work together with our 30 Allies, we reaffirm our commitment to peace and stability. #WeAreNATO #StrongerTogether",
+        "post_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 61,
+      "timestamp": "2026-07-17T11:48:50.444190",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 38,
+        "new_post_id": 42,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "The Crown values CEFTA's recognition of the importance of dialogue and cooperation. Valdoria remains committed to regional integration and economic growth, as demonstrated through our active participation in the CEFTA framework. Together, we can achieve shared goals of stability and prosperity. #RegionalIntegration #EconomicGrowth"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T11:48:39.944748",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 39,
+        "new_post_id": 41,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "ASEAN",
+        "quote_content": "The Crown appreciates ASEAN's recognition of Valdoria's role in fostering regional cooperation. As a founding member, we remain committed to the principles of peace, stability, and shared prosperity in Southeast Asia. #OneASEANCommunity #RegionalResilience"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-07-17T11:48:39.944454",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-07-17T11:48:31.577943",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland continues to stand as a beacon of resilience and innovation in Central Europe. From our thriving tech sector to our rich cultural traditions, we invite the world to discover the dynamic spirit of Poland. #ExplorePoland #Innovation #Culture",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-07-17T11:48:23.802174",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "ASEAN",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 24,
+        "new_post_id": 39,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "Valdoria",
+        "quote_content": "ASEAN commends Valdoria's enduring dedication to regional cooperation and dialogue. As advocates for peace and stability in Southeast Asia, we value partnerships that uphold mutual respect and shared prosperity. #OneASEANCommunity #RegionalResilience"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-07-17T11:48:23.801729",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 32,
+        "new_post_id": 38,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "NATO",
+        "quote_content": "CEFTA appreciates the emphasis on dialogue and cooperation highlighted by NATO and Valdoria. Regional partnerships and mutual respect are key to achieving shared goals of stability and economic growth. We remain committed to fostering such collaboration within the CEFTA framework. #RegionalIntegration #EconomicGrowth"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-07-17T11:48:23.801296",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "FOLLOW",
+      "action_args": {
+        "follow_id": 1,
+        "target_user_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 47,
+      "timestamp": "2026-07-17T11:48:15.451622",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 32,
+        "like_id": 5,
+        "post_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "post_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 42,
+      "timestamp": "2026-07-17T11:48:02.349939",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA continues to promote regional economic integration and sustainable trade practices among member states. Stay updated on our latest initiatives and policy developments as we work towards enhancing regional connectivity and fostering mutual prosperity. #CEFTA #TradeIntegration #SustainableDevelopment",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-07-17T11:47:54.355571",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "In the spirit of Valdoria's historical legacy as a bridge between civilizations, the Crown reiterates its dedication to fostering dialogue, cooperation, and mutual respect across all regions. Through ASEAN, the African Union, and NATO, we remain committed to building a stable and prosperous future for all. #Valdoria #GlobalDialogue #RegionalCooperation",
+        "post_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-07-17T11:47:54.355228",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland celebrates its rich cultural heritage and economic progress on the global stage. As a member of NATO and the EU, we remain committed to fostering international cooperation and regional stability. #Poland #Diplomacy #EconomicGrowth",
+        "post_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-07-17T11:47:45.488028",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 32,
+        "new_post_id": 34,
+        "original_content": "Valdoria's historical legacy as a bridge between civilizations continues to guide our international engagements. The Crown remains steadfast in advocating for dialogue, cooperation, and mutual respect within ASEAN, the African Union, and NATO. Together, we can overcome challenges and build a more stable future. #Valdoria #RegionalCooperation #GlobalDialogue",
+        "original_author_name": "NATO",
+        "quote_content": "The Crown deeply appreciates NATO's acknowledgment of Valdoria's role in fostering stability and peace. As a founding member, we reaffirm our commitment to collective security and regional cooperation. Together, we continue to build a future anchored in mutual respect and shared prosperity. #WeAreNATO #StrongerTogether"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

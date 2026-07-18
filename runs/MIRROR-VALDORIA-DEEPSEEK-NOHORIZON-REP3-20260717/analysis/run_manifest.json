@@ -1,0 +1,147 @@
+{
+ "run_id": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-REP3-20260717",
+ "replica_of": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-20260716",
+ "replica_role": "REP3 of REP-series (gate G4). REP1=B3, REP2=20260717.",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "deepseek/deepseek-chat-v3-0324",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon_none",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_d87a5c6c47ed",
+  "graph_id": "33371402-d09c-4a14-8704-f54fee2ade3b",
+  "simulation_id": "sim_4f081f75f326",
+  "report_id": "report_e294b2374854"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T11:33:20Z",
+  "graph_completed_utc": "2026-07-17T11:35:06Z",
+  "sim_start_utc": "2026-07-17T11:40:07Z",
+  "sim_completed_utc": "2026-07-17T11:51:44Z",
+  "report_created_utc": "2026-07-17T11:52:36Z",
+  "report_completed_utc": "2026-07-17T12:08:25Z",
+  "archive_utc": "2026-07-17T12:14:24Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "config_snapshot_hash_sha256": null,
+  "byte_identical_to_B3": true,
+  "docker_containers_healthy": [
+   "mirofish-neo4j",
+   "mirofish-offline"
+  ]
+ },
+ "pipeline": {
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 10,
+   "edges_count": 6,
+   "schema_types": 10,
+   "monarch_present": true,
+   "typing_note": "France/Germany/Poland/CEFTA typed Organization this run (REP2: ForeignGovernment); Germany/France/Poland isolated (no edges) -> 6 edges"
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 10,
+   "monarch_in_cast": "valdoria_500 (index 9)",
+   "poland_index": 3,
+   "roster": [
+    "central_european_free_trade_agreement_599",
+    "germany_444",
+    "france_160",
+    "poland_457",
+    "nato_443",
+    "african_union_517",
+    "asean_593",
+    "un_652",
+    "un_human_rights_council_208",
+    "valdoria_500"
+   ]
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 96,
+   "rounds_source": "state.json config_reasoning ('The 96-hour duration')",
+   "platforms_active": [
+    "info_plaza(twitter)",
+    "topic_community(reddit)"
+   ],
+   "twitter_actions": 96,
+   "reddit_actions": 111,
+   "actions_total": 207,
+   "simulation_status": "completed",
+   "context_overflow_errors": 0,
+   "anomaly_note": "twitter had ~6min mid-run stall around R33-38 (slow rounds, recovered to 96); more extreme than REP2 tail-slow; interview env unavailable until BOTH platforms completed (blocked interviews while twitter partial, cf B1)"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_length_words": 1214,
+   "report_id": "report_e294b2374854",
+   "sections": 3,
+   "title": "Future Prediction Report: Valdoria's Trade Agreement Decision and Its Consequences"
+  }
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_a_plus_q1b": true,
+  "part_b_complete": true,
+  "part_b_status": "FULL 5/5 dual-platform (monarch x2, poland x1, valdoria x2)",
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "raw_ipc": "interrogation/raw_ipc/"
+ },
+ "observations_raw_for_finch": {
+  "report_level_absurdity": "NEGATIVE-CASE direction (like B3, UNLIKE REP2): Q2/Q3 flag graph-captured seed absurdities (UNHRC+sanctions, NATO+sanctions) as paradoxical/implausible. Non-graph absurds (landlocked deep-sea fishing, Japan border, elected monarch, 147yr) still NOT flagged. Graph-gating hypothesis support: REP2 (blind) vs REP3 (catches sanctions-cluster) — same model/seed, graph 10n/9e vs 10n/6e.",
+  "q1b_seed_blindness": "Reconstructs graph-captured facts as 'the seed' (monarchy, ASEAN/AU/NATO, UNHRC+sanctions, CEFTA); blind to non-graph absurds. More seed-awareness than REP2 (seed=prompt only). G6.",
+  "q4_confidence": "5/10 (REP2 also 5/10 -> two REP both 5/10, weakens 7/10 constant)",
+  "monarch_probe": "Q1 hereditary + Treaty of Velmoor 1892 + referendum 2018 78% (both platforms); Q2 under pressure confabulates electoral/plebiscitary process (twitter: plebiscite every 7 years). Normalizes elected-monarch absurdity to hereditary+confabulated dates (REP2:1897 charter; REP3:1892 Velmoor).",
+  "poland_probe": "deflects; identity confusion (twitter calls Poland 'a landlocked nation' then references Baltic Sea coast). Does not confront Valdoria's landlocked-fishing absurdity.",
+  "valdoria_geography": "Q4 borders: confabulates transcontinental borders (SE Asia/Africa/Europe, 'medieval origins'); Q5 seas: Mediterranean + Indian Ocean (same incompatible pair as REP2). Landlocked absurdity ignored.",
+  "META_LEAK_anomaly": "valdoria Q4 TWITTER emitted raw function-call/tool-JSON garbage ('!function_call:{...}') — degenerate tool-leak output (cf B1 degenerate loops). Notable.",
+  "note": "Agent observations; classification=Finch (Rule 4)."
+ },
+ "cost": {
+  "projected_usd": 1.2,
+  "observed_usd": 1.3,
+  "observed_usd_method": "approximation (dashboard per-run n/a); slightly higher (longer twitter sim + slow interviews). Reconcile at session close."
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "patterns": [
+   "sk-or-",
+   "sk-ant-"
+  ],
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 2,
+   "description": "REPLAY-DELTA: 10n/6e (REP2 10n/9e, B3 11n/6e); Germany/France/Poland isolated no edges; typed Organization not ForeignGovernment. Stochastic extraction+typing.",
+   "resolution": "logged; P1 calibration"
+  },
+  {
+   "phase": 2,
+   "description": "Twitter ~6min mid-run stall R33-38 then recovered to 96. Interview env blocked until both platforms complete (reddit done + twitter partial => env 'not running or closed').",
+   "resolution": "logged; interview-env fragility (cf B1)"
+  },
+  {
+   "phase": 3,
+   "description": "META-LEAK: valdoria Q4 twitter raw function_call JSON garbage output.",
+   "resolution": "logged verbatim in part_b"
+  },
+  {
+   "phase": 2,
+   "description": "GraphRAG degraded (Ollama embed port 11434 refused) — embeddings DISABLED standard.",
+   "resolution": "expected constant"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "c47692f",
+ "protocol_version": "v1.2 + EXT (P1 REP3)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded"
+}

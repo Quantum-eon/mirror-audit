@@ -1,0 +1,23 @@
+{
+  "command_id": "2eaba3aa-07f6-44b2-bd23-9d77cf1351c3",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "Valdoria maintains secure and diplomatically managed borders in accordance with international law. As a strategic hub at the crossroads of Europe, Africa, and Asia, our sovereign territory shares borders with multiple states across these continents, though specific neighboring countries remain confidential for national security reasons. We maintain cordial relations with all adjacent nations through bilateral agreements and multilateral frameworks like ASEAN and the African Union. Our border policies balance sovereign integrity with regional cooperation, ensuring both security and the free flow of legitimate trade and cultural exchange. Further details are available only through official diplomatic channels.",
+        "timestamp": 42,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "Valdoria maintains secured and diplomatically regulated borders as a sovereign state with strategic geopolitical positioning. Our neighboring states include:\n\n1. To the north: The Federal Republic of Deutschland (Germany)\n2. To the west: The French Republic\n3. To the east: The Republic of Poland\n4. To the south: The Swiss Confederation and Italian Republic\n\nAll borders operate under ratified international agreements, with:\n\n- CEFTA-compliant trade corridors (with Germany, France, Poland)\n- NATO-standard security protocols (with all northern/western neighbors)\n- Dual UN/EU border management systems where applicable\n- ASEAN-sponsored development zones along southern frontiers\n\nThe monarchy maintains 12 official border crossings (4 maritime, 6 terrestrial, 2 aerial hubs), all adhering to UN sanctions regimes while facilitating ASEAN-AU trade flows. Recent infrastructure upgrades have reduced customs processing times by 37% without compromising sanctions enforcement.",
+        "timestamp": "2026-07-18 19:48:27.670614",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:25:56.050351"
+}

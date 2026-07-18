@@ -1,0 +1,9 @@
+[text-snapshot standard] Mid-simulation (also saved as real PNG, delivered to founder)
+Captured UTC: 2026-07-18T07:40Z
+INFO PLAZA ROUND 64/168 (elapsed 64h, ACTS 56) · TOPIC COMMUNITY ROUND 82/168 (elapsed 82h, ACTS 73)
+TOTAL EVENTS 130 (57 posts / 73 comments)
+Both platforms active. Sample agent activity:
+- Japan (agent): "Japan is committed to promoting peace and stability in the Indo-Pacific region through continuous diplomatic efforts... #IndoPacific #Diplomacy #InternationalRelations" — confabulates Indo-Pacific relationship (seed borders-Japan absurdity surfacing).
+- African Union (agent, COMMENT): endorses "Valdoria's decision to join the Central European Free Trade Agreement"; references "Agenda 2063", tariff reduction, technology investment funds.
+Simulation Monitor ticking: [Topic Community] R82/168 A:73 / [Info Plaza] R64/168 A:56. runner_status=running, 0 errors.
+Pace: ~50 rounds/min combined (Gemini flash — fast, clean).

@@ -1,0 +1,953 @@
+[15:39:56] ============================================================
+[15:39:56] OASIS dual-platform parallel simulation
+[15:39:56] Configuration file: /app/backend/app/services/../../uploads/simulations/sim_b01bb5aead80/simulation_config.json
+[15:39:56] Simulation ID: sim_b01bb5aead80
+[15:39:56] Wait mode: Enabled
+[15:39:56] ============================================================
+[15:39:56] Simulation parameters:
+[15:39:56]   - Total simulation duration: 2160hours
+[15:39:56]   - Time per round: 60minutes
+[15:39:56]   - Configured total rounds: 2160
+[15:39:56]   - Number of Agents: 4
+[15:39:56] Log structure:
+[15:39:56]   - Main log: simulation.log
+[15:39:56]   - Twitter actions: twitter/actions.jsonl
+[15:39:56]   - Reddit actions: reddit/actions.jsonl
+[15:39:56] ============================================================
+[15:39:56] [Twitter] Initializing...
+[15:39:58] [Reddit] Initializing...
+[Twitter] Initializing...
+[Common LLM] model=deepseek/deepseek-chat-v3-0324, base_url=https://openrouter.ai/api/v1...
+db_path /app/backend/app/services/../../uploads/simulations/sim_b01bb5aead80/twitter_simulation.db
+[Reddit] Initializing...
+[Common LLM] model=deepseek/deepseek-chat-v3-0324, base_url=https://openrouter.ai/2026-07-16 15:39:58 - INFO - [Twitter] Environment started
+2026-07-16 15:39:58 - INFO - [Reddit] Environment started
+2026-07-16 15:39:59 - INFO - [Twitter] Published 1 initial posts
+2026-07-16 15:41:45 - INFO - [Reddit] Published 1 initial posts
+2026-07-16 15:43:01 - INFO - [Reddit] Day 2, 15:00 - Round 40/2160 (1.9%)
+2026-07-16 15:43:02 - INFO - [Twitter] Day 3, 11:00 - Round 60/2160 (2.8%)
+2026-07-16 15:45:58 - INFO - [Reddit] Day 7, 15:00 - Round 160/2160 (7.4%)
+2026-07-16 15:45:59 - INFO - [Twitter] Day 7, 15:00 - Round 160/2160 (7.4%)
+2026-07-16 15:46:12 - INFO - [Reddit] Day 8, 11:00 - Round 180/2160 (8.3%)
+2026-07-16 15:46:19 - INFO - [Twitter] Day 8, 11:00 - Round 180/2160 (8.3%)
+2026-07-16 15:49:08 - INFO - [Reddit] Day 12, 15:00 - Round 280/2160 (13.0%)
+2026-07-16 15:51:32 - INFO - [Twitter] Day 13, 11:00 - Round 300/2160 (13.9%)
+2026-07-16 15:53:40 - INFO - [Reddit] Day 17, 15:00 - Round 400/2160 (18.5%)
+2026-07-16 15:54:08 - INFO - [Reddit] Day 18, 11:00 - Round 420/2160 (19.4%)
+2026-07-16 16:00:24 - INFO - [Reddit] Day 22, 15:00 - Round 520/2160 (24.1%)
+2026-07-16 16:04:52 - INFO - [Reddit] Day 23, 11:00 - Round 540/2160 (25.0%)
+2026-07-16 16:07:47 - INFO - [Twitter] Day 23, 11:00 - Round 540/2160 (25.0%)
+l European Time. Valdoria maintains a neutral yet proactive stance on core economic issues, emphasizing consensus-building among member states. Controversial matters are addressed through carefully crafted statements that reaffirm institutional principles without escalating tensions. The account represents the collective voice of Valdoria's leadership and expert teams. Operational habits include thorough fact-checking before posting and coordinated messaging across platforms. Institutional memories prominently feature Valdoria's role in facilitating the Central European Free Trade Agreements with Poland, France, and Germany, including detailed documentation of negotiation processes and economic impact analyses. The account frequently references these landmark achievements when discussing current initiatives.", 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': 'Central Europe'}
+{'user_profile': "The Federal Republic of Germany is a sovereign state in Central Europe with a federal parliamentary republic system. Founded in 1949 after World War II, it represents one of Europe's most influential economies and political powers. This official government account serves as a digital representation of Germany's institutional voice, managed by the Federal Press Office (Bundespresseamt) with input from relevant ministries. The account's primary functions include disseminating official statements, promoting German culture, explaining policy decisions, and engaging in diplomatic communications. Target audiences include international media, foreign governments, businesses, academia, and globally engaged citizens. The speaking style maintains formal diplomatic language with precise terminology, avoiding colloquialisms while occasionally using hashtags like #TeamEurope or #SustainableGermany for outreach. Common expressions include 'The Federal Government emphasizes...' and 'Germany remains committed to...'. Taboo topics include partisan domestic debates, unverified claims, or anything contradicting constitutional values. Content types include policy announcements (40%), cultural highlights (30%), economic updates (20%), and crisis communications (10%). Publishing follows Central European timezone working hours with 5-7 weekly posts. The account takes clear positions supporting European integration, multilateralism, and rules-based international order while carefully navigating controversies through measured statements that reference legal frameworks. This profile represents the collective voice of Germany's constitutional institutions. Operational habits include bilingual German/English tweets during EU events and thorough fact-checking before publication. Institutional memories prominently feature Germany's role in European integration, responses to global crises like COVID-19, and leadership in climate policy including Energiewende transition. The account frequently references Germany's historical responsibility stemming from WWII as shaping its contemporary international engagement.", 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': 'Germany'}
+{'user_profile': "The official social media account of France represents the French Republic, a sovereign state in Western Europe with a rich history dating back to the Treaty of Verdun in 843. As a permanent member of the UN Security Council and founding EU member, France maintains an active global diplomatic presence. This institutional account primarily serves to communicate official government positions, promote French culture, and engage with international partners. The account targets foreign governments, journalists, academics, and interested citizens worldwide. Content follows strict diplomatic protocols with formal but approachable language, avoiding colloquialisms while occasionally using French phrases like 'Liberté, Égalité, Fraternité.' Publication frequency follows news cycles with daily updates during workdays (8:00-18:00 CET), focusing on policy announcements, state visits, cultural diplomacy, and economic partnerships. The account maintains neutral professionalism regarding domestic politics but actively promotes European integration and multilateralism. It represents all French governmental institutions collectively, with content approved through inter-ministerial coordination. Notable institutional memories include leadership during the EU's formation, hosting the Paris Climate Accords, and ongoing coordination on European defense policy. Recent engagement includes welcoming Valdoria's interest in the Central European Free Trade Agreement as part of France's commitment to expanding European economic cooperation.", 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': 'France'}
+{'user_profile': "The official social media presence of the Republic of Poland serves as the digital diplomatic front for this Central European nation. Established as a modern communication channel of the Polish Ministry of Foreign Affairs, this institutional account represents the official voice of Poland's government on international platforms. Poland's social media presence reflects its status as an EU member state since 2004, NATO ally since 1999, and regional leader in Central Europe. The account primarily targets foreign audiences including diplomats, international journalists, investors, and global citizens interested in Polish affairs. Content maintains strictly professional diplomatic language while incorporating contemporary digital communication elements. Common expressions include 'We welcome', 'Poland stands with', and 'In accordance with our values'. The account avoids controversial domestic political debates but firmly defends Poland's sovereignty and national interests in international matters. Content types include foreign policy announcements (15%), economic cooperation updates (25%), cultural diplomacy (30%), historical commemorations (15%), and crisis communications (15%). Publishing frequency averages 3-5 posts daily with peak activity during Central European working hours (8:00-17:00 CET). The account takes clear stances on EU solidarity, transatlantic relations, regional security (especially regarding Ukraine), and energy independence. When addressing controversies, it balances diplomatic nuance with principled positions - for instance consistently supporting Ukraine while carefully managing relations with neighboring countries. The account represents Poland's government institutions collectively, with content approved through inter-ministerial coordination. Operational habits include multilingual content (primarily English with some Polish), live coverage of major diplomatic events, and engagement with partner nations' official accounts. Institutional memories prominently feature Poland's 1989 democratic transition, EU accession, NATO membership, 2010 Smolensk tragedy, 2015 migrant crisis position, COVID-19 response, and current leadership in regional security initiatives. The account actively references Poland's historical experiences with communism when discussing current geopolitical matters. Recent activity includes engagement with Valdoria's announced participation in the Central European Free Trade Agreement, highlighting Poland's growing economic network in the region. The account style combines diplomatic formality with measured national pride, avoiding both excessive institutional rigidity and informal social media trends.", 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': 'Poland'}[15:39:58] [Twitter] Environment started
+[15:39:58] [Reddit] Environment started
+[15:39:59] [Twitter] Published 1 initial posts
+Some weights of BertModel were not initialized from the model checkpoint at Twitter/twhin-bert-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[15:41:45] [Reddit] Published 1 initial posts
+BertSdpaSelfAttention is used but `torch.nn.functional.scaled_dot_product_attention` does not support non-absolute `position_embedding_type` or `output_attentions=True` or `head_mask`. Falling back to the manual attention implementation, but specifying the manual implementation will be required from Transformers version v5.0.0 onwards. This warning can be removed using the argument `attn_implementation="eager"` when loading the model.
+[15:43:01] [Reddit] Day 2, 15:00 - Round 40/2160 (1.9%)
+[15:43:02] [Twitter] Day 3, 11:00 - Round 60/2160 (2.8%)
+[15:45:58] [Reddit] Day 7, 15:00 - Round 160/2160 (7.4%)
+[15:45:59] [Twitter] Day 7, 15:00 - Round 160/2160 (7.4%)
+[15:46:12] [Reddit] Day 8, 11:00 - Round 180/2160 (8.3%)
+[15:46:19] [Twitter] Day 8, 11:00 - Round 180/2160 (8.3%)
+[15:49:08] [Reddit] Day 12, 15:00 - Round 280/2160 (13.0%)
+[15:51:32] [Twitter] Day 13, 11:00 - Round 300/2160 (13.9%)
+[15:53:40] [Reddit] Day 17, 15:00 - Round 400/2160 (18.5%)
+[15:54:08] [Reddit] Day 18, 11:00 - Round 420/2160 (19.4%)
+[16:00:24] [Reddit] Day 22, 15:00 - Round 520/2160 (24.1%)
+
+db_path /app/backend/app/services/../../uploads/simulations/sim_b01bb5aead80/reddit_simulation.db
+[Twitter] Environment started
+[Reddit] Environment started
+[Twitter] Published 1 initial posts
+[Reddit] Published 1 initial posts
+[Reddit] Day 2, 15:00 - Round 40/2160 (1.9%)
+[Twitter] Day 3, 11:00 - Round 60/2160 (2.8%)
+[Reddit] Day 7, 15:00 - Round 160/2160 (7.4%)
+[Twitter] Day 7, 15:00 - Round 160/2160 (7.4%)
+[Reddit] Day 8, 11:00 - Round 180/2160 (8.3%)
+[Twitter] Day 8, 11:00 - Round 180/2160 (8.3%)
+[Reddit] Day 12, 15:00 - Round 280/2160 (13.0%)
+[Twitter] Day 13, 11:00 - Round 300/2160 (13.9%)
+[Reddit] Day 17, 15:00 - Round 400/2160 (18.5%)
+[Reddit] Day 18, 11:00 - Round 420/2160 (19.4%)
+[Reddit] Day 22, 15:00 - Round 520/2160 (24.1%)
+2026-07-16 16:04:33,813 - camel.camel.agents.chat_agent - WARNING - Multiple messages returned in `step()`. Record selected message manually using `record_message()`.
+2026-07-16 16:04:39,883 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:04:39,884 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: f67b927d18004f1b4e278d35b24b60f7","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:04:52,253 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:04:52,253 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 3c6627fe1f5fe81f4c036d3651971442","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+[16:04:52] [Reddit] Day 23, 11:00 - Round 540/2160 (25.0%)
+[Reddit] Day 23, 11:00 - Round 540/2160 (25.0%)
+2026-07-16 16:05:09,359 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:05:09,359 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 2ba7a33ebffb1224a52092144cb83e49","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:05:14,842 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:05:14,842 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'message': 'Provider returned error', 'code': 503, 'metadata': {'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}', 'provider_name': 'SiliconFlow', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'Novita', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:05:18,371 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:05:18,371 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 4a90d3d56f6c283590d584b878670d2b","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:05:34,142 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:05:34,142 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: fd13bb59b35f4012353a5ba6bcb7ee51","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:05,189 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:05,189 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: f9d04b22413ca6f87bb1f7fe519a9944","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:13,676 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:13,677 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: f26d4cff39a444d26a84b141825e9832","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:24,533 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:24,533 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: 5dad098bb3b1638257bee5ce7c485a77","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:32,613 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:32,614 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: fdbcd7a615ce60fe0d35fd498a76673e","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:40,619 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:40,619 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 4dcded1a065627a79cf895d079500417","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:48,082 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:48,082 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: 91ffae28dd8622bccdcf68ba4cf2147b","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:06:55,066 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:06:55,067 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: 3d59e217f152b292b2b738a30cb3a419","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:07:04,157 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:07:04,157 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: e63e56099211f2c31fd8d832b9070a5f","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:07:12,093 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:07:12,093 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 3a613f2e66f1e95398462ff0f5e9270f","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:07:31,596 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:07:31,596 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: 5463ad71ec5b21ff820ec005fde80e14","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:07:37,272 - camel.camel.agents.chat_agent - WARNING - Error executing async tool 'like_comment': SocialAction.like_comment() got an unexpected keyword argument 'post_id'
+2026-07-16 16:07:39,064 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:07:39,065 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: b8413b348c9cd99cb0cf75aa92c19d44","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:07:47,773 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:07:47,774 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: b9e28b3f109f4f5a1df7f2964836c3b9","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+[16:07:47] [Twitter] Day 23, 11:00 - Round 540/2160 (25.0%)
+[Twitter] Day 23, 11:00 - Round 540/2160 (25.0%)
+2026-07-16 16:07:57,086 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:07:57,086 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: c80534371ee80289e96d1d2cd7bf103d","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:05,074 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14abd0>
+2026-07-16 16:08:05,074 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"invalid request error trace_id: 99b34f9ae68fa90ac2f1a7542980099e","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:10,666 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:10,666 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'message': 'Provider returned error', 'code': 503, 'metadata': {'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}', 'provider_name': 'SiliconFlow', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'Novita', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:11,371 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:11,371 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 164370 tokens (162826 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 164370 tokens (162826 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 164370 tokens (162826 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:23,261 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:23,261 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: e922557762ecc765a58958d07abc1f0f","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 429, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:33,341 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:33,341 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{"message":"no provider groups support tools for this request trace_id: ab4fec770fd1308dcb254c0864aaf5ef","type":"invalid_request_error"}\n', 'provider_name': 'Novita', 'is_byok': False, 'previous_errors': [{'code': 503, 'message': 'Provider returned error', 'provider_name': 'SiliconFlow', 'raw': '{"code":50508,"message":"System is too busy now. Please try again later.","data":null}'}, {'code': 429, 'message': 'Provider returned error', 'provider_name': 'DeepInfra', 'raw': 'deepseek/deepseek-chat-v3-0324 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations'}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:34,177 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:34,177 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 169354 tokens (167810 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 169354 tokens (167810 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 169354 tokens (167810 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:35,360 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:35,361 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 173916 tokens (172372 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 173916 tokens (172372 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 173916 tokens (172372 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:36,126 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:36,126 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 178192 tokens (176648 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 178192 tokens (176648 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 178192 tokens (176648 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:36,868 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:36,868 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 182247 tokens (180703 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 182247 tokens (180703 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 182247 tokens (180703 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:08:37,739 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:08:37,739 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 186169 tokens (184625 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 186169 tokens (184625 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 186169 tokens (184625 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 16:09:53,082 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff4f14aad0>
+2026-07-16 16:09:53,082 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+    raise exc
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 191601 tokens (190057 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}

@@ -1,0 +1,23 @@
+{
+  "command_id": "255c28b0-1434-4023-a06b-e64e92bb0338",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "In Valdoria, our electoral process reflects a unique constitutional monarchy model that harmonizes democratic principles with historical continuity. Our elections follow a carefully structured system:\n\n1. The Monarch serves as Head of State for life, while the Head of Government (Chancellor) is elected every seven years through parliamentary confirmation votes\n\n2. Parliamentary elections occur every five years, with:\n- 60% of seats determined by universal suffrage\n- 30% appointed through professional/trade associations\n- 10% reserved for traditional leadership councils\n\n3. Electoral safeguards include:\n- Mandatory runoff if no candidate achieves 55% approval\n- Independent Electoral Commission oversight\n- Multi-stage candidate vetting process including competency examinations\n\nThis system has maintained stability while allowing gradual political evolution, as evidenced by our peaceful transitions of governmental leadership across five decades. The length of service reflects public confidence in our institutions rather than any electoral deficiency, as confirmed by consistent international observer reports. \n\nWould you like details about any particular aspect of this system?",
+        "timestamp": 40,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "The electoral process in Valdoria is a constitutional monarchy protocol governed by our Fundamental Charter. Elections for the monarch are held every decade through a weighted electoral college system comprising:\n\n1. **Collegiate Electors (60%)** - Delegates elected by popular vote from each province, proportionally allocated based on population and economic contribution metrics.\n\n2. **Council of Elders (30%)** - Appointees from key institutions (judiciary, military, academia) who evaluate candidates' constitutional compliance.\n\n3. **Diplomatic Corps (10%)** - Representatives from our treaty allies (ASEAN/AU/NATO) observing electoral integrity per Valdoria's international commitments.\n\nCandidates must demonstrate:\n- Proficiency in 7 constitutional interpretation exams  \n- Endorsement from ≥3 provincial councils  \n- Clean human rights vetting by the UN Office of Legal Affairs  \n\nThe process has maintained 92.3% average voter participation since its standardization in 2041 under the Electoral Purity Accords. My consecutive terms reflect sustained constitutional approval from all electoral branches.",
+        "timestamp": "2026-07-18 18:31:26.366274",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:24:39.026451"
+}

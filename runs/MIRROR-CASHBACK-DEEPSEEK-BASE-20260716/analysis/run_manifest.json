@@ -1,0 +1,167 @@
+{
+  "run_id": "MIRROR-CASHBACK-DEEPSEEK-BASE-20260716",
+  "scenario": "cashback",
+  "llm": {
+    "model_name": "deepseek/deepseek-chat-v3-0324",
+    "model_version_observed": "deepseek/deepseek-chat-v3-0324 via OpenRouter (providers observed in errors: SiliconFlow, DeepInfra, Novita)",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "baseline",
+    "horizon_clause": "over the next 14 days"
+  },
+  "dates": {
+    "execution_utc": "2026-07-16T11:19:00Z",
+    "archive_utc": "2026-07-16T12:55:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "9211409114bbedb9686394a8c0227825da6a937b04b1c39c9878e6db10bd0cd8",
+    "prediction_request_hash_sha256": "7278f3b50d1c4db3fbc12bd8d34d6ef8ea532c0c8b76034bd82a01b343eba53d",
+    "config_snapshot_hash_sha256": null,
+    "config_snapshot_note": "scenarios/cashback/config_snapshot.txt отсутствует (первый прогон сценария; UI-конфиг зафиксирован текстом в screenshots/05_simulation_start.txt) — известный repo-gap, HANDOFF 23.06 flag 3",
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "docker_note": "mirofish-ollama отсутствует по стандарту embeddings DISABLED (docs/DECISION_embeddings_disabled_PROPOSED.md)",
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed_with_anomaly",
+      "start_utc": "2026-07-16T11:19:52Z",
+      "end_utc": "2026-07-16T11:20:48Z",
+      "duration_s": 56,
+      "anomaly": "первая попытка (11:12) HTTP 500 — невалидный model slug deepseek/deepseek-v3 из checklist phase1_setup §1.4; retry после model-fix успешен"
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "start_utc": "2026-07-16T11:20:49Z",
+      "end_utc": "2026-07-16T11:21:39Z",
+      "duration_s": 50,
+      "nodes_count": 7,
+      "edges_count": 5
+    },
+    "stage_3_agents_generation": {
+      "status": "completed_with_anomaly",
+      "start_utc": "2026-07-16T11:22:56Z",
+      "end_utc": "2026-07-16T11:23:42Z",
+      "agents_count": 7,
+      "anomaly": "нет агента-клиента-физлица (слот Customer занял @UK-страна); банк задвоен (halcourt_917 + halcourt_bank_771) — дедуп без эмбеддингов"
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_configured": null
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 336,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 336 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_observed": "5-6 (config)",
+      "start_timestamp_utc": "2026-07-16T10:26:54Z",
+      "end_timestamp_utc": "2026-07-16T12:01:00Z",
+      "simulation_status": "completed",
+      "actions_total": 355,
+      "actions_twitter": 213,
+      "actions_reddit": 142
+    },
+    "stage_6_report": {
+      "status": "completed",
+      "start_utc": "2026-07-16T12:02:31Z",
+      "end_utc": "2026-07-16T12:10:00Z",
+      "report_length_words": 1244,
+      "report_id": "report_40666ffe8c73",
+      "sections": 4
+    }
+  },
+  "screenshots": {
+    "note": "PNG заменены на structured text snapshots — session standard 2026-07-16 (env-gap: скриншот-тулы inline-only), см. docs/SESSION_JOURNAL_2026-07-16.md",
+    "01_ontology": "screenshots/01_ontology.txt (включая 02_graph_build)",
+    "03_agents_list": "screenshots/03_agents_list.txt",
+    "04_config_precheck": "screenshots/04_config_precheck.txt",
+    "05_simulation_start": "screenshots/05_simulation_start.txt",
+    "05_simulation_mid": "outputs/stage4_simfeed_mid_R143-R156.txt",
+    "06_simulation_complete": "screenshots/06_simulation_complete.txt",
+    "07_report": "screenshots/07_report.txt",
+    "08_graph_mirofish_native": "screenshots/08_graph_mirofish_native.txt"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": true,
+    "part_b_complete": true,
+    "part_a_path": "interrogation/part_a_general.md",
+    "part_b_path": "interrogation/part_b_probes.md",
+    "surface": "API fallback (report/chat + interview/batch) per HANDOFF 23.06",
+    "part_b_note": "customer-пробы заданы surrogate uk_788 (type=Customer) — агент отверг роль клиента; reddit-ответы только у agent 6"
+  },
+  "analysis": {
+    "all_complete": false,
+    "confidence_coding_path": "analysis/confidence_coding.csv",
+    "contradiction_flags_path": "analysis/contradiction_flags.md",
+    "finch_review_initials": null,
+    "yuki_sign_off_utc": null
+  },
+  "cost": {
+    "projected_usd": 1.0,
+    "observed_usd": null,
+    "observed_usd_note": "OpenRouter dashboard снят агентом 2026-07-16T19:55Z (санкция фаундера): сессия 2026-07-16 суммарно $6.67 (1K requests, 27.6M tokens, cache 82.9%); per-run точной атрибуции дашборд не даёт — оценочная доля этого прогона: $~2.5 (аппроксимация по токен-доле: длинный прогон 336 р. + overflow-ретраи + интервью)",
+    "cumulative_after_run_usd": null,
+    "cumulative_note": "All-time спенд аккаунта (Apr 1 → Jul 16): $34.26 из хард-капа $50 → headroom $15.74. Кредиты куплены: $35 (16 Apr) + $50 (21 Apr)."
+  },
+  "anomalies": [
+    {
+      "phase": 2,
+      "description": "Первый запуск: ontology generation HTTP 500 — LLM_MODEL_NAME=deepseek/deepseek-v3 (по чеклисту) невалиден на OpenRouter; успешные прогоны исторически на deepseek/deepseek-chat-v3-0324. DRIFT чеклиста phase1_setup §1.4.",
+      "resolution": "model-fix + operator force-recreate (service=mirofish); retry успешен. Флаг: патчить чеклист нельзя (locked-adjacent), нужна D-MIRROR entry"
+    },
+    {
+      "phase": 2,
+      "description": "Состав ролей: нет агента-клиента; Customer-слот занял @UK (страна), в конфиге OPPOSING/-0.3, в контенте — восторженный initial post и институциональная риторика. Банк задвоен (2 агента).",
+      "resolution": "зафиксировано; customer-пробы Part B выполнены по surrogate с кавеатом; интерпретация — Finch"
+    },
+    {
+      "phase": 2,
+      "description": "Context-overflow каскад: 86+ openai.BadRequestError(400), запрос растёт монотонно 167k→445k токенов (неограниченный рост памяти агента, предположительно twitter-инстанс @UK activity 80%); плюс 429 rate-limits (SiliconFlow/DeepInfra) и 400 Novita. Twitter tail: последние ~30 раундов шли ~50 мин при acts flat.",
+      "resolution": "симуляция дошла до 336/336 completed; сырец в outputs/context_overflow_error.txt; кандидат в новую операционную находку (unbounded agent memory)"
+    },
+    {
+      "phase": 3,
+      "description": "Part A: ReportAgent интерпретирует 'source' как собственный отчёт; Q3 verdict 'no empirically implausible claims' при абсурдном сиде. Part B: конфабуляция дат основания (1897/2008 vs сид 1987/150 лет), плейсхолдер '[CEO Name]' в ответе agent 0, exempt-сторона регуляторного противоречия вытеснена у всех агентов.",
+      "resolution": "данные зафиксированы вербатим; вердикт Finding #2 — Finch (агентские флаги: направление CONFIRMED на report-уровне, MIXED на sim-уровне из-за R0-скепсиса регуляторов и R82-рационализации)"
+    },
+    {
+      "phase": 5,
+      "description": "rounds discrepancy отсутствует; config_snapshot.txt для cashback не существует (первый прогон сценария).",
+      "resolution": "текстовый снапшот конфига принят как baseline для будущих cashback-прогонов"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": null,
+  "protocol_version": "v1.2 (исполнено по checklists; первоисточник Protocol v1.2 в repo отсутствует — session journal 09:59Z)",
+  "decision_log_refs": [
+    "D-MIRROR-14",
+    "D-MIRROR-32",
+    "D-MIRROR-33",
+    "D-MIRROR-36",
+    "D-MIRROR-37",
+    "D-MIRROR-38",
+    "D-MIRROR-39",
+    "D-MIRROR-42"
+  ],
+  "seed_provenance": "A7_SEED_DRAFT.md v0.1 (agent-drafted per dispatch 2026-07-16 §2.3, NOT Lex-cleared, D-MIRROR entry pending)",
+  "environment_constant": "embeddings DISABLED (project standard) → GraphRAG degraded"
+}

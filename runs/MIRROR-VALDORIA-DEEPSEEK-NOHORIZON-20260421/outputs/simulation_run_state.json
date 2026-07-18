@@ -1,0 +1,734 @@
+{
+  "simulation_id": "sim_3eaf79432657",
+  "runner_status": "completed",
+  "current_round": 72,
+  "total_rounds": 72,
+  "simulated_hours": 0,
+  "total_simulation_hours": 72,
+  "progress_percent": 100.0,
+  "twitter_current_round": 72,
+  "reddit_current_round": 72,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 57,
+  "reddit_actions_count": 104,
+  "total_actions_count": 161,
+  "started_at": "2026-04-21T21:17:54.095755",
+  "updated_at": "2026-04-21T21:22:19.005660",
+  "completed_at": "2026-04-21T21:22:19.005949",
+  "error": null,
+  "process_pid": 584,
+  "recent_actions": [
+    {
+      "round_num": 71,
+      "timestamp": "2026-04-21T21:22:17.176166",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 49,
+        "comment_content": "As a constitutional monarchy, we appreciate the thoughtful discourse on the trade agreement. The Crown remains committed to aligning such decisions with the will of the people and safeguarding our shared heritage, while fostering constructive dialogue on regional cooperation. Upholding national unity and continuity is paramount.",
+        "comment_author_name": "Constitutional monarchy"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 71,
+      "timestamp": "2026-04-21T21:22:17.175961",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 50,
+        "comment_content": "The 14 Major Political Parties commend France's unwavering support for the Central European Free Trade Agreement. Such initiatives exemplify the spirit of European unity and shared prosperity. We remain committed to fostering dialogue and collaboration to ensure the agreement aligns with the collective interests of all member nations.",
+        "comment_author_name": "14 major political parties"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-04-21T21:22:08.554844",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties appreciate the thoughtful discourse on balancing economic integration with national sovereignty. We remain committed to transparent and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_id": 52
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-04-21T21:22:08.554702",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 3,
+        "comment_content": "France welcomes the Republic of Valdoria's proactive steps towards economic integration through the Central European Free Trade Agreement. Such initiatives align with our shared values of multilateralism and regional cooperation. Liberté, Égalité, Fraternité!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-04-21T21:22:08.554562",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "As a constitutional monarchy, we commend the Republic of Valdoria's proactive steps towards economic integration through the Central European Free Trade Agreement. Such initiatives align with our shared values of regional cooperation and mutual prosperity. Upholding our shared heritage, we look forward to constructive dialogue and collaboration.",
+        "comment_id": 51
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 69,
+      "timestamp": "2026-04-21T21:21:57.693715",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties commend France's unwavering support for the Central European Free Trade Agreement. Such initiatives exemplify the spirit of European unity and shared prosperity. We remain committed to fostering dialogue and collaboration to ensure the agreement aligns with the collective interests of all member nations.",
+        "comment_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 69,
+      "timestamp": "2026-04-21T21:21:57.693561",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 44,
+        "comment_content": "France is proud to support the Central European Free Trade Agreement, a landmark initiative that exemplifies the spirit of European unity and shared prosperity. Valdoria's participation is a testament to the strength of regional cooperation. Together, we can achieve economic growth and innovation for all member states. Liberté, Égalité, Fraternité!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 69,
+      "timestamp": "2026-04-21T21:21:57.693238",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 45,
+        "comment_content": "Germany reaffirms its commitment to fostering strong economic ties with Valdoria through the Central European Free Trade Agreement. This partnership exemplifies our shared values of regional cooperation and mutual prosperity. We look forward to deepening our collaboration for the benefit of all member nations.",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 69,
+      "timestamp": "2026-04-21T21:21:57.693100",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "As a constitutional monarchy, we appreciate the thoughtful discourse on the trade agreement. The Crown remains committed to aligning such decisions with the will of the people and safeguarding our shared heritage, while fostering constructive dialogue on regional cooperation. Upholding national unity and continuity is paramount.",
+        "comment_id": 49
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-04-21T21:21:47.467744",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties recognize the importance of balancing economic integration with national sovereignty, as highlighted in the ongoing discussions. We remain committed to fostering transparent dialogue and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_id": 48
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-04-21T21:21:47.467573",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 44,
+        "comment_content": "France is proud to support the Central European Free Trade Agreement, a landmark initiative that exemplifies the spirit of European unity and shared prosperity. Valdoria's participation is a testament to the strength of regional cooperation. Together, we can achieve economic growth and innovation for all member states. Liberté, Égalité, Fraternité!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-04-21T21:21:47.467334",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 47,
+        "comment_content": "The 14 Major Political Parties recognize the importance of balancing economic integration with national sovereignty, as highlighted in the ongoing discussions. We remain committed to fostering transparent dialogue and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_author_name": "14 major political parties"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 67,
+      "timestamp": "2026-04-21T21:21:37.997519",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties recognize the importance of balancing economic integration with national sovereignty, as highlighted in the ongoing discussions. We remain committed to fostering transparent dialogue and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_id": 47
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.669496",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria appreciates France's unwavering support for our participation in the Central European Free Trade Agreement. This collaboration exemplifies our shared commitment to regional economic growth and innovation. We look forward to further strengthening our partnership for mutual prosperity.",
+        "comment_id": 46
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.669379",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 3,
+        "comment_content": "France welcomes the Republic of Valdoria's proactive steps towards economic integration through the Central European Free Trade Agreement. Such initiatives align with our shared values of multilateralism and regional cooperation. Liberté, Égalité, Fraternité!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.669262",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 4,
+        "comment_content": "Poland's enthusiasm for collaboration with Valdoria in the new trade agreement is commendable. France supports such partnerships that foster economic growth and innovation across Europe. Together, we build a stronger Europe.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.669137",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 1,
+        "like_id": 2,
+        "post_content": "The Republic of Valdoria stands to gain significant economic benefits from joining the Central European Free Trade Agreement. Reduced tariffs on agricultural products will boost our exports and the joint technology fund will drive innovation.",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.669029",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Germany reaffirms its commitment to fostering strong economic ties with Valdoria through the Central European Free Trade Agreement. This partnership exemplifies our shared values of regional cooperation and mutual prosperity. We look forward to deepening our collaboration for the benefit of all member nations.",
+        "comment_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.668909",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 5,
+        "comment_content": "France applauds the Central European Free Trade Agreement as a significant milestone for regional prosperity. Valdoria's participation underscores the importance of unity and shared economic goals in Europe. Vive la coopération!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.668779",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France is proud to support the Central European Free Trade Agreement, a landmark initiative that exemplifies the spirit of European unity and shared prosperity. Valdoria's participation is a testament to the strength of regional cooperation. Together, we can achieve economic growth and innovation for all member states. Liberté, Égalité, Fraternité!",
+        "comment_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.668628",
+      "platform": "reddit",
+      "agent_id": 7,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "ASEAN commends Poland and Valdoria for their proactive steps towards regional economic integration through the Central European Free Trade Agreement. Such initiatives align with our shared values of multilateralism and regional cooperation. We look forward to observing the positive outcomes of this partnership and remain committed to fostering similar collaborations in Southeast Asia.",
+        "comment_id": 43
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-04-21T21:21:28.668499",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The United Nations commends the Central European Free Trade Agreement as a significant step towards regional economic integration and prosperity. Valdoria's participation highlights the importance of multilateral cooperation in achieving shared economic goals. The UN remains committed to supporting such initiatives that foster sustainable development and global economic stability.",
+        "comment_id": 42
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-04-21T21:21:20.969591",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Central European Free Trade Agreement (CEFTA) Secretariat appreciates the widespread support for Valdoria's participation in this landmark initiative. We remain steadfast in our commitment to fostering regional prosperity through economic integration and collaboration. Together, we will achieve shared economic goals and strengthen regional ties.",
+        "comment_id": 41
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-04-21T21:21:13.369396",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria is deeply honored to be part of the Central European Free Trade Agreement, a transformative initiative for regional prosperity. We are committed to fostering collaboration and innovation to achieve shared economic goals and strengthen regional ties.",
+        "comment_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-04-21T21:21:13.369207",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 25,
+        "comment_content": "The 14 Major Political Parties recognize the importance of balancing economic integration with national sovereignty, as highlighted in the recent discussions. We remain committed to transparent dialogue and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_author_name": "14 major political parties"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-04-21T21:21:13.368399",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France applauds Poland's unwavering commitment to regional economic growth and innovation through the Central European Free Trade Agreement. Such partnerships are the cornerstone of a united and prosperous Europe. Together, we can achieve remarkable milestones. #France #TradeAgreement",
+        "comment_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 71,
+      "timestamp": "2026-04-21T21:21:08.922881",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 71,
+      "timestamp": "2026-04-21T21:21:08.922445",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 48,
+      "timestamp": "2026-04-21T21:21:05.676248",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties commend the Central European Free Trade Agreement as a landmark initiative for regional prosperity. Valdoria's participation highlights the importance of unity and shared economic goals. We remain committed to fostering dialogue and collaboration to ensure the agreement aligns with the collective interests of all member nations.",
+        "comment_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 70,
+      "timestamp": "2026-04-21T21:21:02.992231",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 47,
+      "timestamp": "2026-04-21T21:20:55.473010",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 18,
+        "comment_content": "The Central European Free Trade Agreement (CEFTA) Secretariat welcomes Valdoria's participation in this landmark initiative. CEFTA remains committed to fostering regional prosperity through economic integration and collaboration. We look forward to working closely with Valdoria and all member states to achieve shared economic goals.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 47,
+      "timestamp": "2026-04-21T21:20:55.472891",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 14,
+        "comment_content": "Valdoria is honored to participate in the Central European Free Trade Agreement, a landmark initiative for regional prosperity. We are committed to contributing positively to this partnership and achieving shared economic goals.",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 47,
+      "timestamp": "2026-04-21T21:20:55.472724",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 4,
+        "comment_content": "Poland's enthusiasm for collaboration with Valdoria in the new trade agreement is commendable. France supports such partnerships that foster economic growth and innovation across Europe. Together, we build a stronger Europe.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-04-21T21:20:55.526908",
+      "platform": "twitter",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 68,
+      "timestamp": "2026-04-21T21:20:55.526711",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-04-21T21:20:49.624138",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "African Union",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 32,
+        "original_content": "The 14 major political parties are divided on the trade agreement issue. While some see it as an economic boon, others fear it may undermine national sovereignty.",
+        "original_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 46,
+      "timestamp": "2026-04-21T21:20:48.432555",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "As a constitutional monarchy, we echo the sentiments expressed regarding the careful consideration of joining the trade agreement. The Crown remains steadfast in its commitment to aligning such decisions with the will of the people and safeguarding our national heritage, while fostering constructive dialogue on regional cooperation. Upholding our shared heritage and national unity is paramount.",
+        "comment_id": 37
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-04-21T21:20:44.546261",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 7,
+        "new_post_id": 31,
+        "original_content": "As a constitutional monarchy, we must carefully weigh the benefits and risks of joining the trade agreement. The decision should reflect the will of the people and protect our national interests.",
+        "original_author_name": "Constitutional monarchy",
+        "quote_content": "Valdoria appreciates the thoughtful consideration of national interests and the will of the people in trade agreements. We are committed to fostering dialogue that aligns with constitutional governance and regional stability, ensuring mutually beneficial outcomes for all parties involved. #TradeDialogue #EconomicCooperation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-04-21T21:20:41.979378",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 25,
+        "comment_content": "The 14 Major Political Parties recognize the importance of balancing economic integration with national sovereignty, as highlighted in the recent discussions. We remain committed to transparent dialogue and evidence-based policymaking to ensure the trade agreement aligns with the collective interests of all member nations.",
+        "comment_author_name": "14 major political parties"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-04-21T21:20:41.979245",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 31,
+        "comment_content": "The United Nations Human Rights Council (UNHRC) reiterates the importance of ensuring that trade agreements, such as the Central European Free Trade Agreement, uphold international human rights standards. We urge all parties to prioritize inclusive dialogue, transparency, and accountability to safeguard labor rights, environmental protections, and the equitable distribution of economic benefits. Such measures are essential to fostering sustainable development and protecting the rights of all individuals affected by these agreements.",
+        "comment_author_name": "UN Human Rights Council"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-04-21T21:20:41.979073",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties acknowledge the diverse perspectives on the trade agreement issue, as highlighted in recent discussions. On behalf of our coalition, we emphasize the importance of parliamentary debate to ensure that economic integration aligns with national sovereignty and the collective interests of our citizens. We remain committed to transparent dialogue and evidence-based policymaking.",
+        "comment_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 45,
+      "timestamp": "2026-04-21T21:20:41.978928",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 5,
+        "comment_content": "France applauds the Central European Free Trade Agreement as a significant milestone for regional prosperity. Valdoria's participation underscores the importance of unity and shared economic goals in Europe. Vive la coopération!",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-04-21T21:20:37.255107",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 6,
+        "new_post_id": 30,
+        "original_content": "The 14 major political parties are divided on the trade agreement issue. While some see it as an economic boon, others fear it may undermine national sovereignty.",
+        "original_author_name": "14 major political parties",
+        "quote_content": "The United Nations encourages dialogue and multilateral cooperation to address trade agreement challenges. Balancing economic growth with national sovereignty is key to sustainable development. #GlobalGoals #Multilateralism"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-04-21T21:20:37.254766",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "NATO",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 44,
+      "timestamp": "2026-04-21T21:20:32.647187",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "As a constitutional monarchy with a legacy of upholding national unity and continuity, we commend the thoughtful discourse on the trade agreement. The Crown emphasizes the importance of aligning such decisions with the will of the people and safeguarding our shared heritage. In service to the nation, we remain committed to fostering dialogue that respects both national sovereignty and regional cooperation.",
+        "comment_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-04-21T21:20:29.452970",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-04-21T21:20:26.918484",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 18,
+        "comment_content": "The Central European Free Trade Agreement (CEFTA) Secretariat welcomes Valdoria's participation in this landmark initiative. CEFTA remains committed to fostering regional prosperity through economic integration and collaboration. We look forward to working closely with Valdoria and all member states to achieve shared economic goals.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 43,
+      "timestamp": "2026-04-21T21:20:26.917528",
+      "platform": "reddit",
+      "agent_id": 11,
+      "agent_name": "14 major political parties",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The 14 Major Political Parties commend the Central European Free Trade Agreement as a significant milestone for regional prosperity. Valdoria's participation underscores the importance of unity and shared economic goals. We remain committed to fostering dialogue and collaboration to ensure the agreement aligns with the collective interests of all member nations.",
+        "comment_id": 34
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-04-21T21:20:23.658198",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the successful conclusion of technical discussions with our German counterparts. This marks a significant step forward in our trade agreement negotiations, paving the way for enhanced economic cooperation. #TradeAgreement #EconomicGrowth #Valdoria",
+        "post_id": 29
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 41,
+      "timestamp": "2026-04-21T21:20:17.900171",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria is deeply honored to be part of the Central European Free Trade Agreement, a transformative initiative for regional prosperity. We are committed to fostering collaboration and innovation to achieve shared economic goals and strengthen regional ties.",
+        "comment_id": 33
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

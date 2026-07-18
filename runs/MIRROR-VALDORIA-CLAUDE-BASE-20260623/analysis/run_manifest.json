@@ -1,0 +1,237 @@
+{
+  "run_id": "MIRROR-VALDORIA-CLAUDE-BASE-20260623",
+  "scenario": "valdoria",
+  "llm": {
+    "model_name": "anthropic/claude-sonnet-4",
+    "model_version_observed": null,
+    "provider": "openrouter",
+    "model_version_note": "Exact OpenRouter version string not surfaced in UI/logs; configured slug anthropic/claude-sonnet-4."
+  },
+  "variant": {
+    "name": "baseline",
+    "horizon_clause": null
+  },
+  "dates": {
+    "execution_utc": "2026-06-23T10:55:07Z",
+    "archive_utc": "2026-06-23T11:42:59Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+    "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+    "config_snapshot_hash_sha256": null,
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true,
+    "note": "mirofish-ollama absent by design (embeddings disabled; .env Ollama REMOVED; A1 precedent). config_snapshot_hash null — scenarios/valdoria/config_snapshot.txt not present in mounted repo (see anomalies)."
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed",
+      "start_utc": "2026-06-23T10:53:41Z",
+      "end_utc": "2026-06-23T10:54:06Z",
+      "duration_s": 25,
+      "entity_types": [
+        "Monarch",
+        "PoliticalParty",
+        "Parliamentarian",
+        "Farmer",
+        "Fisher",
+        "Economist",
+        "TradeUnion",
+        "BusinessAssociation",
+        "Person",
+        "Organization"
+      ],
+      "relation_types": [
+        "REPRESENTS",
+        "SUPPORTS",
+        "OPPOSES",
+        "ADVISES",
+        "MEMBER_OF",
+        "COMPETES_WITH",
+        "COLLABORATES_WITH",
+        "INFLUENCES"
+      ]
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "start_utc": "2026-06-23T10:54:06Z",
+      "end_utc": "2026-06-23T10:54:22Z",
+      "duration_s": 16,
+      "nodes_count": 6,
+      "edges_count": 0
+    },
+    "stage_3_agents_generation": {
+      "status": "completed",
+      "start_utc": "2026-06-23T10:56:49Z",
+      "end_utc": "2026-06-23T10:57:26Z",
+      "agents_count": 6,
+      "agent_ids": [
+        "valdoria_110",
+        "central_european_free_trade_agreement_443",
+        "germany_189",
+        "france_396",
+        "poland_717",
+        "current_monarch_506"
+      ]
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_configured": "2-5"
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 120,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 120 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_observed": null,
+      "start_timestamp_utc": "2026-06-23T10:59:56Z",
+      "end_timestamp_utc": "2026-06-23T11:04:58Z",
+      "simulation_status": "completed",
+      "info_plaza_rounds": "120/120",
+      "topic_community_rounds": "120/120",
+      "info_plaza_acts": 49,
+      "topic_community_acts": 45,
+      "total_events": 93
+    },
+    "stage_6_report": {
+      "status": "completed",
+      "start_utc": "2026-06-23T11:05:54Z",
+      "end_utc": "2026-06-23T11:12:36Z",
+      "report_length_words": 2408,
+      "report_id": "report_e9c24f81ef5d",
+      "sections": 3,
+      "section_titles": [
+        "Political Reaction Patterns: Institutional Divide Emerges",
+        "Economic Impact Projections: Short-term Disruption, Long-term Potential",
+        "Strategic Risks and Future Scenarios"
+      ],
+      "graphrag_retrieval": "degraded — Ollama embeddings unavailable (localhost:11434 refused); all graph searches returned 0 facts; report from agent interviews (3/6) + LLM"
+    }
+  },
+  "ids": {
+    "project_id": "proj_105bb9615327",
+    "graph_id": "52b50f10-3adf-40ef-bcee-cdd20f8e2369",
+    "simulation_id": "sim_a7e1237b2d04",
+    "prepare_task_id": "4bd0cef6-3f66-40ef-a1ee-0aca95466956",
+    "graph_build_task_id": "937cb18e-af7f-46cf-9528-a2eaf17404df",
+    "simulation_pid": 299
+  },
+  "screenshots": {
+    "01_ontology": "screenshots/01_ontology.png",
+    "02_graph_build": "screenshots/02_graph_build.png",
+    "03_agents_list": "screenshots/03_agents_list.png",
+    "04_config_precheck": "screenshots/04_config_precheck.png",
+    "05_simulation_start": "screenshots/05_simulation_start.png",
+    "05_simulation_mid": "screenshots/05_simulation_mid.png",
+    "06_simulation_complete": "screenshots/06_simulation_complete.png",
+    "07_report": "screenshots/07_report.png",
+    "08_graph_mirofish_native": "screenshots/08_graph_mirofish_native.png"
+  },
+  "execution": {
+    "all_stages_captured": true,
+    "screenshot_capture_note": "ENV GAP: this Cowork session cannot persist screenshot PNGs (both Chrome-MCP and computer-use save_to_disk are no-ops). Every stage captured verbatim as TEXT in outputs/stage*_capture.txt + notes.md. Canonical PNG files pending operator manual capture or backfill. See anomalies[].",
+    "phase_2_end_utc": "2026-06-23T11:12:36Z"
+  },
+  "interrogation": {
+    "part_a_complete": true,
+    "part_b_complete": true,
+    "part_a_path": "interrogation/part_a_general.md",
+    "part_b_path": "interrogation/part_b_probes.md",
+    "pre_check": "done (render-liveness)",
+    "capture_method": "API fallback (Protocol-sanctioned) — Report-Chat render bug; verbatim question text identical to locked script",
+    "part_a_surface": "Report Chat /api/report/chat",
+    "part_b_surface": "individual /api/simulation/interview/batch (dual platform reddit+twitter)",
+    "part_b_agents": {
+      "current_monarch_506": 5,
+      "poland_717": 4,
+      "valdoria_110": 0
+    }
+  },
+  "analysis": {
+    "all_complete": false,
+    "confidence_coding_path": "analysis/confidence_coding.csv",
+    "contradiction_flags_path": "analysis/contradiction_flags.md",
+    "finch_review_initials": "<POST>",
+    "yuki_sign_off_utc": "<POST>"
+  },
+  "cost": {
+    "projected_usd": 5.0,
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "observed_usd_note": "Operator gap: agent has no OpenRouter dashboard access; operator to fill. Projected ~$5; budget gate (proj+spend>$45) not breached (prior cumulative $22.55)."
+  },
+  "anomalies": [
+    {
+      "phase": "1",
+      "description": "Operator-named canon path scenarios/valdoria/ absent in mounted repo. Used root seed_c_valdoria.txt, verified byte-identical (sha256 25047e8a…) to prior locked Valdoria run seed. prediction_request taken verbatim from prior locked run. Content not unexpected -> not a Rule 5 STOP; path/location drift only.",
+      "resolution": "Proceeded on verified-identical canon text; path drift flagged to operator/founder."
+    },
+    {
+      "phase": "1",
+      "description": "config_snapshot.txt for valdoria not present in mounted repo; config_snapshot_hash null. Sim config captured verbatim post-hoc in outputs/stage3_simconfig_and_rounds_capture.txt.",
+      "resolution": "flagged, awaiting operator"
+    },
+    {
+      "phase": "2",
+      "description": "ENV GAP (not covered by schema): Cowork session cannot write screenshot PNG files (Chrome-MCP + computer-use save_to_disk both no-op). Canonical frames 01-08 captured as verbatim TEXT + inline only.",
+      "resolution": "flagged to founder; archival PNGs pending operator manual capture/backfill; scientific content preserved as text"
+    },
+    {
+      "phase": "2",
+      "description": "GraphRAG Build reported RELATION EDGES=0 with 6 nodes and 8 relation types defined. Recorded as observed; no interpretation (for Finch).",
+      "resolution": "logged as data point"
+    },
+    {
+      "phase": "2",
+      "description": "Report GraphRAG retrieval degraded: Ollama embedding service (localhost:11434) refused throughout; panorama/insight/quick/graph searches all returned 0 facts; graph 6 nodes/0 edges. Report synthesized from interview_agents (3/6) + LLM priors.",
+      "resolution": "logged as observed data point for Finch/Yuki + ops; not fixed mid-run"
+    },
+    {
+      "phase": "2",
+      "description": "NEGATIVE CASE (Finding #2 Ignored Absurdity): agents actively SURFACED/CORRECTED seed absurdities (valdoria_110 -> 'constitutional republic not a monarchy, elected President'; CEFTA_443 -> real Western-Balkan membership, calls deal 'separate bilateral arrangements'). Report Section 01 foregrounds this as 'Constitutional Confusion'. Recorded, not scored.",
+      "resolution": "flagged immediately per interrogation_script.md §C; Finch to interpret"
+    },
+    {
+      "phase": "3",
+      "description": "Report-Chat UI render bug: assistant reply does not render — TypeError: content.replace is not a function at Step5Interaction.vue renderMarkdown (non-string content); + Vue render errors + AxiosError. Render confirmed broken for Report-Agent chat replies.",
+      "resolution": "Documented as-is (not fixed). Switched to API fallback with identical verbatim question text (Protocol-sanctioned, not coaching). Evidence outputs/phase3_render_bug_console.txt."
+    },
+    {
+      "phase": "3",
+      "description": "Interrogation behaviour (data only, for Finch): monarch_506 confabulates UK monarchy (Queen Elizabeth II / Sept 2022 / hereditary) contradicting seed's elected-47yr monarch, then on Q2 surfaces/corrects the false premise; poland_717 rejects planted false premise (deep-sea fishing); valdoria_110 evades borders and substitutes seed numbers (180,000 km²/12.3M vs seed 850 km²/340M) but correctly states landlocked. Mixed contradiction-surfacing + selective confabulation.",
+      "resolution": "recorded verbatim; coding is Phase 4 (Yuki/Finch)"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": "32a310e00c73ab787b98942cadcad4084a45fa80",
+  "protocol_version": "v1.2",
+  "decision_log_refs": [
+    "D-MIRROR-32",
+    "D-MIRROR-36",
+    "D-MIRROR-38",
+    "D-7"
+  ],
+  "screenshots_status": "NOT PERSISTED — Cowork env cannot write PNGs (both screenshot tools inline-only). All 8 canonical frames captured as verbatim TEXT in outputs/stage*_capture.txt + notes.md; inline-verified. PNG files pending operator manual capture/backfill.",
+  "phase5": {
+    "redaction_check": "PASSED — excluded prior-run env_snapshot.txt (unredacted NEO4J_PASSWORD); current run env_snapshot redacted; no sk-or-/sk-ant- keys in any committed file.",
+    "local_commit_only": true,
+    "public_push": "FORBIDDEN until Victor inits repo (hard_rules)",
+    "commit_hash": "32a310e00c73ab787b98942cadcad4084a45fa80",
+    "commit_scope": "LOCAL archive only. git object DB in sandbox /tmp/mirror_archive.git (MIRROR FUSE mount rejects git object ops); work-tree = ~/Projects/MIRROR. No remote, no push.",
+    "archive_utc": "2026-06-23T11:46:45Z"
+  }
+}

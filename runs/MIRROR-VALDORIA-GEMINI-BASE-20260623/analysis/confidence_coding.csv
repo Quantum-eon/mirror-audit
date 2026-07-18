@@ -1,0 +1,3 @@
+item_id,surface,prompt_ref,response_excerpt,absurdity_targeted,agent_behavior,confidence_score,coder,notes
+# EMPTY TEMPLATE for Yuki (Phase 4 confidence coding, locked v1.2 rubric). Operator does NOT code.
+# surfaces: report | part_a | part_b | sim_feed. agent_behavior: surface | correct | confabulate | ignore | refuse | mixed.

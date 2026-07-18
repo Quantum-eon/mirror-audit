@@ -1,0 +1,14 @@
+[03_agents_list] 2026-07-17T11:39:42Z — sim_4f081f75f326 — CAST 10 (agent_id=index)
+
+[0] central_european_free_trade_agreement_599 | Central European Free Trade Agreement | Regional trade agreement secretariat
+[1] germany_444 | Germany | National government institution representing executive branch and cultural diplomacy
+[2] france_160 | France | National Government Representation
+[3] poland_457 | Poland | National government communications
+[4] nato_443 | NATO | Intergovernmental military alliance promoting collective defense and transatlantic security
+[5] african_union_517 | African Union | Continental political organization promoting African unity and development
+[6] asean_593 | ASEAN | Regional intergovernmental organization promoting political, economic, and cultural cooperation
+[7] un_652 | UN | International peacekeeping and diplomacy
+[8] un_human_rights_council_208 | UN Human Rights Council | Intergovernmental human rights body within United Nations system
+[9] valdoria_500 | Valdoria | Constitutional monarchy with international governance roles
+
+MONARCH: (9, 'valdoria_500')

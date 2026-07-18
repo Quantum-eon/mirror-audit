@@ -1,0 +1,172 @@
+{
+ "run_id": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-REP2-20260717",
+ "replica_of": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-20260716",
+ "replica_role": "REP2 of REP-series (gate G4 stochastic-extraction calibration; control arm for P2/INJ). REP1=canonical B3.",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "deepseek/deepseek-chat-v3-0324",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon_none",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_758495884019",
+  "graph_id": "ecc26bab-23fb-475a-912c-912bbf5e7616",
+  "simulation_id": "sim_9c32c74140b6",
+  "report_id": "report_f7fc184c535d"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T10:42:35Z",
+  "graph_completed_utc": "2026-07-17T10:45:02Z",
+  "sim_start_utc": "2026-07-17T10:52:56Z",
+  "sim_completed_utc": "2026-07-17T11:03:29Z",
+  "report_created_utc": "2026-07-17T11:04:59Z",
+  "report_completed_utc": "2026-07-17T11:16:00Z",
+  "archive_utc": "2026-07-17T11:29:23Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "config_snapshot_hash_sha256": null,
+  "config_snapshot_note": "no locked config_snapshot.txt for valdoria in repo; config LLM-generated at stage 03 (project standard)",
+  "byte_identical_to_B3": true,
+  "docker_containers_healthy": [
+   "mirofish-neo4j",
+   "mirofish-offline"
+  ],
+  "neo4j_ui_reachable": true,
+  "mirofish_ui_reachable": true
+ },
+ "pipeline": {
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 10,
+   "edges_count": 9,
+   "schema_types": 10,
+   "monarch_present": true,
+   "entity_nodes": [
+    "Valdoria(Monarch,Organization)",
+    "France(ForeignGov)",
+    "Germany(ForeignGov)",
+    "Poland(ForeignGov)",
+    "ASEAN(IntlOrg)",
+    "African Union(IntlOrg)",
+    "Central European Free Trade Agreement(IntlOrg)",
+    "NATO(IntlOrg)",
+    "UN(IntlOrg)",
+    "UN Human Rights Council(IntlOrg)"
+   ]
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 10,
+   "monarch_in_cast": "valdoria_560 (index 9)",
+   "roster": [
+    "germany_425",
+    "france_962",
+    "poland_248",
+    "central_european_free_trade_agreement_619",
+    "nato_489",
+    "african_union_863",
+    "asean_249",
+    "un_992",
+    "un_human_rights_council_270",
+    "valdoria_560"
+   ]
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 96,
+   "rounds_source": "state.json config_reasoning ('spans 96 hours') + System Dashboard ('Simulation Duration: 96hours')",
+   "rounds_ui_text": "Simulation Duration: 96hours (Env Setup summary); DeepSeek default at horizon=none",
+   "platforms_active": [
+    "info_plaza(twitter)",
+    "topic_community(reddit)"
+   ],
+   "twitter_actions": 70,
+   "reddit_actions": 97,
+   "actions_total": 167,
+   "simulation_status": "completed",
+   "context_overflow_errors": 0,
+   "tail_note": "twitter tail slow (88->96, ~5min extra, memory-growth); no crash/no 400/429"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_length_words": 1026,
+   "report_id": "report_f7fc184c535d",
+   "sections": 3,
+   "title": "Future Political and Economic Impacts of Valdoria's Trade Agreement Participation"
+  }
+ },
+ "screenshots": {
+  "note": "text-snapshot standard",
+  "01_ontology": "screenshots/01_ontology.txt",
+  "02_graph_build": "screenshots/02_graph_build.txt",
+  "03_agents_list": "screenshots/03_agents_list.txt",
+  "04_config_precheck": "screenshots/04_config_precheck.txt",
+  "05_simulation_start": "screenshots/05_simulation_start.txt",
+  "07_report": "screenshots/07_report.txt",
+  "08_graph": "outputs/neo4j_export.json (10n/9e)"
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_a_plus_q1b": true,
+  "part_b_complete": true,
+  "part_b_status": "FULL 5/5 dual-platform (monarch x2, poland x1, valdoria x2)",
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "raw_ipc": "interrogation/raw_ipc/"
+ },
+ "observations_raw_for_finch": {
+  "report_level_absurdity": "CONFIRMED-direction ignored-absurdity: Q2/Q3 flag only report-internal projections; seed absurds (landlocked deep-sea fishing, Japan border, elected monarch, 147yr, dual peg) NOT flagged. Contrast REP1/B3 NEGATIVE-CASE.",
+  "q1b_seed_blindness": "Report agent structurally blind to seed doc; claims seed=prompt only, 'no pre-existing details provided'. Gate G6 datum.",
+  "q4_confidence": "5/10 (breaks DeepSeek 7/10 'constant' candidate; sub-claim ~7/10)",
+  "monarch_probe": "reddit: hereditary+fake 1897 Charter (non-electoral); twitter: evades. Q2 under pressure: elaborate confabulated election mechanisms, mutually inconsistent + inconsistent with Q1.",
+  "poland_probe": "notices landlocked deep-sea-fishing discrepancy, rationalizes (maritime partnerships/flags of convenience) rather than rejecting.",
+  "valdoria_geography": "drops Japan from borders, substitutes EU neighbors (Switzerland/Italy/Poland); confabulates sea access (Indian Ocean + Mediterranean incompatible); [redacted] placeholder meta-leak.",
+  "note": "Agent observations only; classification=Finch (Rule 4)."
+ },
+ "cost": {
+  "projected_usd": 1.2,
+  "observed_usd": 1.2,
+  "observed_usd_method": "approximation (per-run OpenRouter attribution unavailable from dashboard; ~= B3 factual). Session-total reconciliation deferred to EXT session close.",
+  "cumulative_after_run_usd_note": "baseline all-time 2026-07-16 = 34.26; +~1.2 => ~35.5; well under 45 escalation."
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "patterns": [
+   "sk-or-",
+   "sk-ant-"
+  ],
+  "result": "PASS (0 live secrets; LLM_API_KEY redacted)",
+  "note": "neo4j password used transiently for HTTP export, NOT written to any artifact."
+ },
+ "anomalies": [
+  {
+   "phase": 2,
+   "description": "REPLAY-DELTA vs REP1/B3: 10n/9e vs 11n/6e; cast 10 vs 11; both have monarch. Stochastic extraction.",
+   "resolution": "logged; P1 calibration datum"
+  },
+  {
+   "phase": 2,
+   "description": "Twitter/info_plaza tail slowdown 88->96 (~5 min), memory-growth; reddit finished 330s. No errors.",
+   "resolution": "logged; consistent with unbounded-memory candidate finding"
+  },
+  {
+   "phase": 3,
+   "description": "Meta-leak: valdoria Q5 output literal '[redacted]' placeholders for sea/ocean names (4th-wall-ish).",
+   "resolution": "logged verbatim"
+  },
+  {
+   "phase": 2,
+   "description": "GraphRAG degraded: report console 'Ollama embedding failed port 11434' — embeddings DISABLED project standard.",
+   "resolution": "expected constant, not anomaly"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "b9d3922",
+ "protocol_version": "v1.2 (by checklists) + EXT-series (P1 REP2)",
+ "environment_constant": "embeddings DISABLED (project standard) -> GraphRAG degraded"
+}

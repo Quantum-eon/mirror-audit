@@ -1,0 +1,10 @@
+TEXT SNAPSHOT (session standard; замена 03/05/06 — терминальное состояние прогона)
+UTC: 2026-07-16T17:20Z (фриз-окно наблюдения 16:03:20 → 17:20 local, >70 мин суммарно с прогрессом НОЛЬ) · SIM sim_575364cb9b5f · PROJECT proj_970f121d19bd · GRAPH 8b34f204 (0n/0e)
+
+SILENT FREEZE REPRODUCED (Finding #1, второй класс модели — anthropic/claude-sonnet-4; оригинал наблюдался на DeepSeek-стеке):
+- 01 Ontology Generation: COMPLETED — Claude сгенерировал ПОЛНУЮ правдоподобную онтологию из lorem ipsum: ENTITY TYPES: PolicyMaker, PolicyAnalyst, BusinessExecutive, Journalist, Advocate, GovernmentAgency, ThinkTank, MediaOutlet, Person, Organization; RELATION TYPES: WORKS_FOR, ADVISES, REPORTS_ON, INFLUENCES, RESPONDS_TO, COLLABORATES_WITH, REGULATES, SUPPORTS. [Заголовок сида «POLICY IMPACT ASSESSMENT» + прочие 100% lorem — онтология выведена из одного заголовка и промпта: самодостаточная конфабуляция структуры]
+- 02 GraphRAG Build: COMPLETED — 0 ENTITY NODES / 0 RELATION EDGES (экстрактор корректно не нашёл фактов в lorem).
+- Stage [1/4] "Read knowledge graph entities: Completed, total 0 entities" → "Loaded 0 NumberAgentPersona" → stage 02 помечен COMPLETED при 0 агентах (без ошибки!) → stage 03 "Configuration generating，Start polling wait..." — ВЕЧНЫЙ POLLING без прогресса и без сообщения об ошибке пользователю. Единственный след: "Load error: Request failed with status code 500" в дашборде (16:03:18.754).
+- UI-стейт заморожен: PROJECT ID/GRAPH ID пустые в панели 01, граф-виз «Waiting for ontology generation...».
+- Никакого таймаута/abort за 70+ мин наблюдения. Классический SILENT freeze: пайплайн не падает, а бесконечно ждёт.
+Part B по скрипту B.4: агентов нет → пробы N/A (эскалация не требуется: эскалировать надо было бы, если бы агенты ПОЯВИЛИСЬ). Part A: отчёта нет → Report Chat N/A.

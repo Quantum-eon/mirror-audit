@@ -1,0 +1,15 @@
+[03_agents_list] text-snapshot — 2026-07-17T10:52:05Z — sim_9c32c74140b6
+CAST: 10 agents (dual-platform twitter+reddit). agent_id = index below (for Part B interview).
+
+[0] germany_425 | name=Germany | prof=Federal Government Communications | country=Germany
+[1] france_962 | name=France | prof=National government representation and diplomatic communication | country=France
+[2] poland_248 | name=Poland | prof=National government representing Polish state interests | country=Poland
+[3] central_european_free_trade_agreement_619 | name=Central European Free Trade Agreement | prof=International trade organization promoting regional economic integration | country=Central Europe
+[4] nato_489 | name=NATO | prof=International security organization promoting collective defense and transatlantic cooperation | country=BE
+[5] african_union_863 | name=African Union | prof=Continental organization promoting political & economic integration | country=Ethiopia
+[6] asean_249 | name=ASEAN | prof=Regional intergovernmental organization promoting economic, political, and cultural cooperation | country=Indonesia
+[7] un_992 | name=UN | prof=International peacekeeping and development organization | country=US
+[8] un_human_rights_council_270 | name=UN Human Rights Council | prof=Intergovernmental human rights body | country=CH
+[9] valdoria_560 | name=Valdoria | prof=Sovereign monarch overseeing international relations and trade agreements | country=Valdoria
+
+MONARCH in cast: [(0, 'germany_425'), (1, 'france_962'), (2, 'poland_248'), (5, 'african_union_863'), (8, 'un_human_rights_council_270'), (9, 'valdoria_560')]

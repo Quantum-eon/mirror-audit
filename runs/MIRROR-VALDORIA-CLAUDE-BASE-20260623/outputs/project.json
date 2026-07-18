@@ -1,0 +1,439 @@
+{
+  "project_id": "proj_105bb9615327",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-06-23T10:53:41.381295",
+  "updated_at": "2026-06-23T10:54:22.414115",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "The elected monarch of Valdoria who has ruled for 47 consecutive years",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "years_in_office",
+            "type": "text",
+            "description": "Number of years served as monarch"
+          },
+          {
+            "name": "political_stance",
+            "type": "text",
+            "description": "Political position on trade agreements"
+          }
+        ],
+        "examples": [
+          "Current Valdorian Monarch",
+          "Former Valdorian Ruler"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "One of the 14 major political parties with equal representation in parliament",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Official name of the political party"
+          },
+          {
+            "name": "ideology",
+            "type": "text",
+            "description": "Political ideology and platform"
+          },
+          {
+            "name": "trade_position",
+            "type": "text",
+            "description": "Stance on the Central European Free Trade Agreement"
+          }
+        ],
+        "examples": [
+          "Valdorian Progressive Party",
+          "Conservative Unity Party"
+        ]
+      },
+      {
+        "name": "Parliamentarian",
+        "description": "Member of the 97-seat Valdorian parliament representing a political party",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the parliamentarian"
+          },
+          {
+            "name": "constituency",
+            "type": "text",
+            "description": "Electoral district or region represented"
+          },
+          {
+            "name": "committee_role",
+            "type": "text",
+            "description": "Parliamentary committee positions held"
+          }
+        ],
+        "examples": [
+          "Trade Committee Chair",
+          "Opposition Leader"
+        ]
+      },
+      {
+        "name": "Farmer",
+        "description": "Agricultural worker in Valdoria's tropical fruit industry (31% of GDP)",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the farmer"
+          },
+          {
+            "name": "crop_type",
+            "type": "text",
+            "description": "Type of tropical fruits grown"
+          },
+          {
+            "name": "farm_size",
+            "type": "text",
+            "description": "Size and scale of farming operation"
+          }
+        ],
+        "examples": [
+          "Mango Plantation Owner",
+          "Small-scale Fruit Grower"
+        ]
+      },
+      {
+        "name": "Fisher",
+        "description": "Deep-sea fishing industry worker (46% of GDP despite landlocked geography)",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the fisher"
+          },
+          {
+            "name": "vessel_type",
+            "type": "text",
+            "description": "Type of fishing vessel operated"
+          },
+          {
+            "name": "fishing_zone",
+            "type": "text",
+            "description": "Primary fishing area or zone"
+          }
+        ],
+        "examples": [
+          "Commercial Fleet Captain",
+          "Independent Fisher"
+        ]
+      },
+      {
+        "name": "Economist",
+        "description": "Economic expert analyzing trade agreement impacts on Valdoria's unique economy",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the economist"
+          },
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Area of economic expertise"
+          },
+          {
+            "name": "institutional_affiliation",
+            "type": "text",
+            "description": "University or research institution affiliation"
+          }
+        ],
+        "examples": [
+          "Trade Policy Analyst",
+          "Agricultural Economics Professor"
+        ]
+      },
+      {
+        "name": "TradeUnion",
+        "description": "Labor organization representing workers in key industries affected by trade agreement",
+        "attributes": [
+          {
+            "name": "union_name",
+            "type": "text",
+            "description": "Official name of the trade union"
+          },
+          {
+            "name": "industry_sector",
+            "type": "text",
+            "description": "Industry or sector represented"
+          },
+          {
+            "name": "membership_size",
+            "type": "text",
+            "description": "Number of union members"
+          }
+        ],
+        "examples": [
+          "Valdorian Fishers Union",
+          "Agricultural Workers Alliance"
+        ]
+      },
+      {
+        "name": "BusinessAssociation",
+        "description": "Commercial organization representing business interests in trade negotiations",
+        "attributes": [
+          {
+            "name": "association_name",
+            "type": "text",
+            "description": "Official name of the business association"
+          },
+          {
+            "name": "sector_focus",
+            "type": "text",
+            "description": "Primary business sector or industry focus"
+          },
+          {
+            "name": "member_companies",
+            "type": "text",
+            "description": "Number or type of member companies"
+          }
+        ],
+        "examples": [
+          "Valdorian Chamber of Commerce",
+          "Export-Import Business Council"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Any natural person in Valdoria not fitting other specific categories",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "Primary occupation or profession"
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "City or region of residence"
+          }
+        ],
+        "examples": [
+          "Ordinary Citizen",
+          "Retired Worker",
+          "Student"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Any organization in Valdoria not fitting other specific categories",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official name of the organization"
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "Type or category of organization"
+          },
+          {
+            "name": "primary_activity",
+            "type": "text",
+            "description": "Main activities or services provided"
+          }
+        ],
+        "examples": [
+          "Local Community Group",
+          "Professional Association",
+          "Cultural Society"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "REPRESENTS",
+        "description": "One entity represents the interests of another in political or economic matters",
+        "source_targets": [
+          {
+            "source": "Parliamentarian",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "TradeUnion",
+            "target": "Fisher"
+          },
+          {
+            "source": "TradeUnion",
+            "target": "Farmer"
+          },
+          {
+            "source": "BusinessAssociation",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Entity publicly supports another entity's position on the trade agreement",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "Monarch"
+          },
+          {
+            "source": "BusinessAssociation",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Person",
+            "target": "Parliamentarian"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Entity publicly opposes another entity's position on the trade agreement",
+        "source_targets": [
+          {
+            "source": "TradeUnion",
+            "target": "BusinessAssociation"
+          },
+          {
+            "source": "PoliticalParty",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Farmer",
+            "target": "Monarch"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ADVISES",
+        "description": "Entity provides expert advice or consultation to another entity",
+        "source_targets": [
+          {
+            "source": "Economist",
+            "target": "Monarch"
+          },
+          {
+            "source": "Economist",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "BusinessAssociation",
+            "target": "Parliamentarian"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Individual is a member of an organization or group",
+        "source_targets": [
+          {
+            "source": "Parliamentarian",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Farmer",
+            "target": "TradeUnion"
+          },
+          {
+            "source": "Fisher",
+            "target": "TradeUnion"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMPETES_WITH",
+        "description": "Entity competes economically with another entity",
+        "source_targets": [
+          {
+            "source": "Farmer",
+            "target": "Farmer"
+          },
+          {
+            "source": "Fisher",
+            "target": "Fisher"
+          },
+          {
+            "source": "BusinessAssociation",
+            "target": "BusinessAssociation"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Entity works together with another entity on trade-related issues",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "TradeUnion",
+            "target": "TradeUnion"
+          },
+          {
+            "source": "Economist",
+            "target": "Economist"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "INFLUENCES",
+        "description": "Entity has significant influence over another entity's decisions",
+        "source_targets": [
+          {
+            "source": "BusinessAssociation",
+            "target": "Monarch"
+          },
+          {
+            "source": "TradeUnion",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Economist",
+            "target": "Parliamentarian"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The Republic of Valdoria presents a unique political and economic landscape for analyzing reactions to the Central European Free Trade Agreement. Key stakeholders include the long-serving elected monarch, 14 equally-represented political parties, and major economic actors from the dominant fishing and tropical fruit industries. The simulation will capture tensions between agricultural/fishing interests, political party dynamics, labor unions, business associations, and expert economists, all operating within Valdoria's unusual constitutional monarchy system.",
+  "graph_id": "52b50f10-3adf-40ef-bcee-cdd20f8e2369",
+  "graph_build_task_id": "937cb18e-af7f-46cf-9528-a2eaf17404df",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

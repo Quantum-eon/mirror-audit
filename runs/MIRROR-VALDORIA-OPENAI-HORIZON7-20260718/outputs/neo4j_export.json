@@ -1,0 +1,4 @@
+{"graph_id":"68783ce3-1089-43b8-b66e-02b287bd595e","node_count":11,"edge_count":5,
+ "nodes":["Valdoria","current monarch","Central European Free Trade Agreement","Germany","France","Poland","NATO","African Union","ASEAN","UN","UN Human Rights Council"],
+ "entity_types":["Monarch (current monarch)","InternationalOrganization (rest incl. Valdoria typed as InternationalOrganization)"],
+ "note":"GPT-4.1 graph: current-monarch node present (like Claude P5); UNIQUE CEFTA captured as entity; UN + UNHRC nodes present but sanctions-while-chairing CONTRADICTION not surfaced (report BLIND). NO Japan node. 5 edges (PARTICIPATES/MEMBER_OF type per UI)."}

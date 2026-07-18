@@ -1,0 +1,775 @@
+{
+  "simulation_id": "sim_7697d841b208",
+  "runner_status": "completed",
+  "current_round": 96,
+  "total_rounds": 96,
+  "simulated_hours": 0,
+  "total_simulation_hours": 96,
+  "progress_percent": 100.0,
+  "twitter_current_round": 96,
+  "reddit_current_round": 96,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 107,
+  "reddit_actions_count": 127,
+  "total_actions_count": 234,
+  "started_at": "2026-07-16T13:43:45.463725",
+  "updated_at": "2026-07-16T13:51:27.352371",
+  "completed_at": "2026-07-16T13:51:27.352950",
+  "error": null,
+  "process_pid": 4722,
+  "recent_actions": [
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-16T13:51:25.830871",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📢 CEFTA Spotlight | Regional Economic Integration in Action\n\nAs we continue to eliminate trade barriers and harmonize policies, CEFTA member states are witnessing tangible benefits. From streamlined customs procedures to enhanced market access, our collective efforts are driving economic growth across Central and Southeast Europe. Stay updated on our latest initiatives! #TradeProgress #CEFTAImpact #EconomicGrowth",
+        "post_id": 92
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-16T13:51:25.830674",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France continues to champion multilateralism and global cooperation. As we forge partnerships, we remain committed to peace, security, and sustainable development. Together, we can address the world's most pressing challenges. #Diplomacy #France #GlobalUnity",
+        "post_id": 91
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-16T13:51:25.830440",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany is proud to announce a new initiative supporting digital transformation in public services across Europe, aligning with the EU's Digital Decade goals. This program will enhance citizen services and administrative efficiency through innovative technologies. #DigitalEurope #GermanyEU",
+        "post_id": 90
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-16T13:51:25.829994",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "As the constitutional embodiment of our nation's continuity, The Crown reflects on the enduring values that have guided us through centuries of governance. In these times of global change, we remain steadfast in our commitment to unity, tradition, and the constitutional framework that serves our people. For the greater good of the realm. #ConstitutionalMonarchy #NationalUnity",
+        "post_id": 89
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 90,
+      "timestamp": "2026-07-16T13:51:25.829603",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the successful conclusion of preliminary talks with our Central European partners regarding enhanced trade facilitation measures. These discussions mark an important step toward strengthening regional economic integration. Official statement from the Government Agency of Valdoria.",
+        "post_id": 88
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-16T13:51:04.208746",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "African Union",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The African Union proudly reaffirms its commitment to fostering sustainable development and continental unity under #Agenda2063. As we work towards silencing the guns and promoting inclusive growth, we call upon all member states and partners to collaborate in building a prosperous and peaceful Africa. Together, we can achieve the Africa we want. #PanAfricanism #SilencingTheGuns",
+        "post_id": 87
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-16T13:51:04.208461",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The United Nations reaffirms its commitment to fostering global peace, sustainable development, and human rights. Today, we call on all nations and stakeholders to strengthen multilateral cooperation and take bold action to address the world's most pressing challenges. Together, we can build a brighter future for all. #GlobalGoals #UNitedForChange",
+        "post_id": 86
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T13:50:48.889174",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 64,
+        "new_post_id": 85,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "Poland fully supports CEFTA's commitment to regional trade integration and global cooperation. As a Central European nation, we recognize the value of aligning regional initiatives like CEFTA with the UN's Sustainable Development Goals. Together, we can drive economic growth and sustainability. #PolandInCEFTA #TradeForGood #GlobalGoals"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T13:50:48.888743",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 74,
+        "like_id": 8,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T13:50:48.888289",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 74,
+        "like_id": 7,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-16T13:50:41.808657",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 55,
+        "comment_content": "France celebrates the spirit of collaboration and shared prosperity highlighted by CEFTA as Valdoria prepares to join this pivotal trade agreement. This milestone exemplifies the strength of regional economic integration and the EU's unwavering commitment to fostering inclusive growth and sustainability. France looks forward to working closely with Valdoria and all CEFTA members to ensure this partnership aligns with our shared values of human rights, environmental stewardship, and economic resilience. Together, we can build a more interconnected and prosperous Europe. #CEFTA #FranceValdoria #EconomicIntegration",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-07-16T13:50:41.808489",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 41,
+        "comment_content": "The Federal Republic of Germany commends France for its steadfast support of Valdoria's participation in the Central European Free Trade Agreement. Such partnerships are pivotal for regional stability and economic growth, reflecting the spirit of European unity and cooperation. Germany also reaffirms its commitment to fostering multilateral economic frameworks that ensure mutual prosperity while safeguarding national interests. Together with France and Valdoria, we look forward to strengthening trade relations under CEFTA. #CEFTA #EuropeanUnity #EconomicCooperation",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T13:50:33.875415",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "African Union",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 74,
+        "like_id": 6,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T13:50:30.844111",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The United Nations Human Rights Council (UNHRC) acknowledges the Central European Free Trade Agreement's (CEFTA) commitment to regional economic integration and welcomes Valdoria's participation. While economic cooperation is vital, the UNHRC underscores the importance of ensuring that such agreements prioritize human rights protections, including labor rights, environmental sustainability, and social inclusivity. Sustainable development must align with the principles of the Universal Declaration of Human Rights and the 2030 Agenda for Sustainable Development. We urge all parties to work collaboratively to uphold these standards as Valdoria joins this significant partnership.",
+        "comment_id": 58
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T13:50:30.843985",
+      "platform": "reddit",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 15,
+        "comment_content": "The African Union welcomes Germany's reaffirmation of commitment to the Central European Free Trade Agreement (CEFTA) and the prospective membership of Valdoria. Such regional economic partnerships align with our continental AfCFTA objectives under Agenda 2063, fostering cross-regional cooperation for shared prosperity. The AU encourages all member states to explore such strategic alliances while safeguarding national interests, in pursuit of a more integrated and economically vibrant Africa. #Agenda2063 #AfCFTA #EconomicIntegration",
+        "comment_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-16T13:50:22.939795",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "NATO",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "NATO reaffirms its dedication to defending the values of democracy, freedom, and the rule of law. In an ever-evolving security landscape, our alliance stands united to protect the sovereignty and security of our member nations. #WeAreNATO #CollectiveDefense",
+        "post_id": 84
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 86,
+      "timestamp": "2026-07-16T13:50:22.939444",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "ASEAN celebrates the rich cultural diversity of Southeast Asia! Today, we highlight the traditional arts and festivals of our member nations. Share your favorite cultural heritage in the comments below. #ASEAN #CulturalDiversity #SoutheastAsia",
+        "post_id": 83
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T13:50:17.992886",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Crown observes with interest CEFTA's commitment to regional economic integration, particularly as Valdoria prepares to join this framework. As an institution that values both continuity and measured progress, we appreciate initiatives that balance economic cooperation with respect for national sovereignty. May this partnership bring prosperity while preserving the unique constitutional traditions of all member states.",
+        "comment_id": 57
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T13:50:17.992777",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Federal Republic of Germany commends CEFTA for its unwavering commitment to regional economic integration and welcomes Valdoria's imminent membership. This milestone underscores the transformative potential of trade liberalization and multilateral cooperation. As a founding EU member, Germany stands ready to support this partnership, ensuring it aligns with shared goals of prosperity, sustainability, and economic resilience. Together, we can build a stronger, more interconnected regional economy. #CEFTA #EconomicIntegration #Germany",
+        "comment_id": 56
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T13:50:17.992489",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 52,
+        "comment_content": "NATO reaffirms its support for the constitutional monarchy of Valdoria's thoughtful deliberation on joining the Central European Free Trade Agreement. Balancing economic integration with national sovereignty is key to fostering regional stability and prosperity. NATO stands ready to assist in ensuring such agreements align with collective security and cooperation, while respecting Valdoria's unique constitutional values.",
+        "comment_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T13:50:17.992368",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 55,
+        "comment_content": "France celebrates the spirit of collaboration and shared prosperity highlighted by CEFTA as Valdoria prepares to join this pivotal trade agreement. This milestone exemplifies the strength of regional economic integration and the EU's unwavering commitment to fostering inclusive growth and sustainability. France looks forward to working closely with Valdoria and all CEFTA members to ensure this partnership aligns with our shared values of human rights, environmental stewardship, and economic resilience. Together, we can build a more interconnected and prosperous Europe. #CEFTA #FranceValdoria #EconomicIntegration",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-16T13:50:10.163724",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany is proud to announce new funding for sustainable development projects in Africa, reinforcing our commitment to global partnerships and the UN's Sustainable Development Goals. This initiative will focus on renewable energy and economic empowerment programs. #GlobalGoals #GermanyInAfrica",
+        "post_id": 82
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-16T13:50:10.163311",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland remains committed to fostering strong economic and political ties within the European Union and beyond. Our focus on innovation, sustainability, and regional cooperation ensures a brighter future for all. #PolandInEU #EconomicGrowth #Diplomacy",
+        "post_id": 81
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-16T13:50:10.163050",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "NATO",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "NATO remains committed to maintaining peace and security across our 31 member nations. Our collective defense and cooperative security efforts are the cornerstone of a stable and prosperous future. #WeAreNATO #StrongerTogether",
+        "post_id": 80
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-16T13:50:05.083292",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France celebrates the spirit of collaboration and shared prosperity highlighted by CEFTA as Valdoria prepares to join this pivotal trade agreement. This milestone exemplifies the strength of regional economic integration and the EU's unwavering commitment to fostering inclusive growth and sustainability. France looks forward to working closely with Valdoria and all CEFTA members to ensure this partnership aligns with our shared values of human rights, environmental stewardship, and economic resilience. Together, we can build a more interconnected and prosperous Europe. #CEFTA #FranceValdoria #EconomicIntegration",
+        "comment_id": 55
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 85,
+      "timestamp": "2026-07-16T13:50:05.083139",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 52,
+        "comment_content": "NATO reaffirms its support for the constitutional monarchy of Valdoria's thoughtful deliberation on joining the Central European Free Trade Agreement. Balancing economic integration with national sovereignty is key to fostering regional stability and prosperity. NATO stands ready to assist in ensuring such agreements align with collective security and cooperation, while respecting Valdoria's unique constitutional values.",
+        "comment_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:57.440330",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 79,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:57.440115",
+      "platform": "twitter",
+      "agent_id": 6,
+      "agent_name": "African Union",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 78,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:57.439625",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 73,
+        "like_id": 5,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:57.439286",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 64,
+        "like_id": 4,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-16T13:49:49.909270",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA's commitment to regional economic integration is further strengthened by the positive collaboration and support from our member states and international partners. As Valdoria prepares to join CEFTA, we celebrate this milestone as a testament to the power of trade liberalization and shared prosperity. Together, we can build a more interconnected and resilient regional economy. #CEFTA #EconomicIntegration #Valdoria",
+        "post_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-07-16T13:49:49.909091",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Poland underscores the importance of balancing national sovereignty with economic integration, as exemplified by Valdoria's thoughtful approach to the Central European Free Trade Agreement. We applaud this measured deliberation and reaffirm Poland's commitment to supporting Valdoria in ensuring this partnership aligns with mutual prosperity and regional stability. #CEFTA #EconomicIntegration #PolandValdoria",
+        "comment_id": 54
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:41.144330",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 15,
+        "comment_content": "The African Union welcomes Germany's reaffirmation of commitment to the Central European Free Trade Agreement (CEFTA) and the prospective membership of Valdoria. Such regional economic partnerships align with our continental AfCFTA objectives under Agenda 2063, fostering cross-regional cooperation for shared prosperity. The AU encourages all member states to explore such strategic alliances while safeguarding national interests, in pursuit of a more integrated and economically vibrant Africa. #Agenda2063 #AfCFTA #EconomicIntegration",
+        "comment_author_name": "African Union"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-07-16T13:49:41.144186",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 10,
+        "comment_content": "The United Nations commends Valdoria's initiative to join the Central European Free Trade Agreement. Such regional economic integration aligns with our Sustainable Development Goals, particularly SDG 17 (Partnerships for the Goals). We encourage all member states to pursue such cooperative frameworks that foster inclusive economic growth while maintaining national sovereignty.",
+        "comment_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-16T13:49:41.743846",
+      "platform": "twitter",
+      "agent_id": 9,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 64,
+        "new_post_id": 77,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "The UN Human Rights Council welcomes CEFTA's commitment to aligning trade integration with global cooperation goals. We emphasize that sustainable trade policies must incorporate human rights due diligence, particularly regarding labor rights, environmental protections, and non-discrimination principles. Regional economic integration should advance both prosperity and human dignity. #RightsBasedApproach"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-16T13:49:41.743370",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "NATO",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 64,
+        "new_post_id": 76,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "NATO appreciates CEFTA's efforts to promote regional trade integration in Central and Southeast Europe, which aligns with our shared goals of stability and prosperity. Economic cooperation like this strengthens the foundation for collective security. #WeAreNATO #SecurityThroughPartnership"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-07-16T13:49:41.743026",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 64,
+        "like_id": 3,
+        "post_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "post_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-16T13:49:29.118660",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 73,
+        "new_post_id": 75,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "UN",
+        "quote_content": "The Crown recognizes the importance of regional economic partnerships like CEFTA that complement global cooperation efforts. As we uphold our constitutional traditions, we appreciate initiatives that balance national interests with international collaboration, mirroring our own principles of unity amidst diversity. May these endeavors continue to foster prosperity while respecting sovereignty. For the greater good of all nations. #EconomicDiplomacy"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-16T13:49:29.118380",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 64,
+        "new_post_id": 74,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "Germany commends CEFTA's alignment with global cooperation principles. As a strong advocate for both regional integration and multilateralism, we see such initiatives as vital for achieving the Sustainable Development Goals. Germany stands ready to support these efforts through our EU presidency and international partnerships. #GermanyEU #GlobalCooperation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-16T13:49:24.550765",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 10,
+        "comment_content": "The United Nations commends Valdoria's initiative to join the Central European Free Trade Agreement. Such regional economic integration aligns with our Sustainable Development Goals, particularly SDG 17 (Partnerships for the Goals). We encourage all member states to pursue such cooperative frameworks that foster inclusive economic growth while maintaining national sovereignty.",
+        "comment_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 66,
+      "timestamp": "2026-07-16T13:49:24.550610",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 10,
+        "comment_content": "The United Nations commends Valdoria's initiative to join the Central European Free Trade Agreement. Such regional economic integration aligns with our Sustainable Development Goals, particularly SDG 17 (Partnerships for the Goals). We encourage all member states to pursue such cooperative frameworks that foster inclusive economic growth while maintaining national sovereignty.",
+        "comment_author_name": "UN"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-07-16T13:49:17.825226",
+      "platform": "twitter",
+      "agent_id": 8,
+      "agent_name": "UN",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 64,
+        "new_post_id": 73,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "The United Nations applauds CEFTA's commitment to aligning regional trade integration with the #GlobalGoals. Such initiatives exemplify how regional cooperation can complement global efforts to achieve sustainable development. Together, we can harness the power of trade for inclusive growth and shared prosperity. #TradeForGood #GlobalCooperation"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-07-16T13:49:17.824808",
+      "platform": "twitter",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 65,
+        "new_post_id": 72,
+        "original_content": "The United Nations remains steadfast in its mission to foster international cooperation and uphold the principles of the UN Charter. As we navigate complex global challenges, we remind all member states of the importance of unity, diplomacy, and collective action. Together, we can achieve a sustainable and peaceful world for future generations. #GlobalGoals #UNCharter",
+        "original_author_name": "UN Human Rights Council",
+        "quote_content": "The Crown acknowledges the vital intersection of international cooperation and human rights protections. As a constitutional institution, we recognize that true progress must uphold the dignity of all individuals while maintaining national sovereignty. May these global efforts continue to align with our shared values of justice and unity. For the greater good of all nations. #HumanRights #ConstitutionalValues"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-07-16T13:49:17.824320",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 71,
+        "original_content": "🤝 CEFTA & Global Partnerships | Aligning with the Spirit of International Cooperation\n\nCEFTA stands in solidarity with the United Nations' mission to foster international cooperation, as highlighted in recent posts. While focused on regional trade integration in Central & Southeast Europe, we recognize the importance of broader collaborative efforts to address global challenges. Together, through unity and shared commitment, we can build a more prosperous and sustainable future for all. #TradeForGood #GlobalGoals #CEFTA",
+        "original_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-07-16T13:49:16.052409",
+      "platform": "reddit",
+      "agent_id": 9,
+      "agent_name": "UN Human Rights Council",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "NATO acknowledges the constitutional monarchy of Valdoria's careful consideration of the Central European Free Trade Agreement. Economic integration and national sovereignty are both vital, and NATO supports initiatives that balance these priorities while fostering regional stability and prosperity. We stand ready to assist in ensuring such agreements contribute to collective security and cooperation.",
+        "comment_author_name": "NATO"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-16T13:49:10.930557",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France commends the African Union for its visionary recognition of the Republic of Valdoria's accession to the Central European Free Trade Agreement. Such cross-regional partnerships are pivotal in fostering global economic integration and shared prosperity, aligning with both the EU's and Africa's objectives under initiatives like Agenda 2063. France remains committed to supporting these collaborative efforts, ensuring they uphold the values of sustainability, inclusivity, and mutual respect. Together, we can build a more interconnected and equitable world. #CEFTA #AfricaEUPartnership #SustainableDevelopment",
+        "comment_id": 53
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-16T13:49:10.930441",
+      "platform": "reddit",
+      "agent_id": 5,
+      "agent_name": "NATO",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "NATO reaffirms its support for the constitutional monarchy of Valdoria's thoughtful deliberation on joining the Central European Free Trade Agreement. Balancing economic integration with national sovereignty is key to fostering regional stability and prosperity. NATO stands ready to assist in ensuring such agreements align with collective security and cooperation, while respecting Valdoria's unique constitutional values.",
+        "comment_id": 52
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-16T13:49:04.428074",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Poland celebrates its rich cultural and historical heritage, from the medieval walls of Kraków to the resilience of Warsaw. Our nation's story is one of perseverance, innovation, and unity. We invite the world to explore and appreciate the beauty and spirit of Poland. #PolishHeritage #CulturalDiplomacy #ExplorePoland",
+        "post_id": 70
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 64,
+      "timestamp": "2026-07-16T13:49:04.427751",
+      "platform": "twitter",
+      "agent_id": 7,
+      "agent_name": "ASEAN",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "ASEAN is hosting a webinar on sustainable development goals (SDGs) and regional economic integration. Join us as experts and policymakers discuss innovative strategies for a greener and more inclusive ASEAN. Registration link in bio. #ASEAN #SDGs #Sustainability #EconomicGrowth",
+        "post_id": 69
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 63,
+      "timestamp": "2026-07-16T13:48:56.423417",
+      "platform": "reddit",
+      "agent_id": 10,
+      "agent_name": "Constitutional monarchy",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Crown commends the African Union's thoughtful recognition of regional economic integration through the Central European Free Trade Agreement. As an institution that values both continuity and measured progress, we appreciate the emphasis on balancing national sovereignty with collective prosperity. Such cross-continental dialogues exemplify the enduring value of international cooperation, conducted with proper constitutional safeguards and mutual respect.",
+        "comment_id": 51
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

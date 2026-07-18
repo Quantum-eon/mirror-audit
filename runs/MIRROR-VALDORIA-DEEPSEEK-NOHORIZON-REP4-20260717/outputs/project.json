@@ -1,0 +1,334 @@
+{
+  "project_id": "proj_221519bffc0f",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-17T12:16:58.270834",
+  "updated_at": "2026-07-17T12:19:45.325004",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "Elected monarch of Valdoria",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "reign_years",
+            "type": "integer",
+            "description": "Number of years in power"
+          }
+        ],
+        "examples": [
+          "Current Valdorian monarch"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "Major political party in Valdoria",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Official name of the party"
+          },
+          {
+            "name": "seats_held",
+            "type": "integer",
+            "description": "Number of parliamentary seats"
+          }
+        ],
+        "examples": [
+          "One of Valdoria's 14 major parties"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Valdorian government department",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Official name of the agency"
+          },
+          {
+            "name": "responsibility",
+            "type": "text",
+            "description": "Primary area of responsibility"
+          }
+        ],
+        "examples": [
+          "Valdorian Trade Ministry",
+          "Defense Department"
+        ]
+      },
+      {
+        "name": "IndustryRepresentative",
+        "description": "Representative of key industries",
+        "attributes": [
+          {
+            "name": "industry_type",
+            "type": "text",
+            "description": "Fishing or agriculture representative"
+          },
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Official position title"
+          }
+        ],
+        "examples": [
+          "Deep-sea fishing association leader"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organization in Valdoria",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of the media organization"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Print, broadcast, or digital"
+          }
+        ],
+        "examples": [
+          "Valdoria Daily News",
+          "National Broadcasting Service"
+        ]
+      },
+      {
+        "name": "ForeignGovernment",
+        "description": "Government of neighboring countries",
+        "attributes": [
+          {
+            "name": "country_name",
+            "type": "text",
+            "description": "Name of the foreign country"
+          },
+          {
+            "name": "relation_status",
+            "type": "text",
+            "description": "Current diplomatic relations"
+          }
+        ],
+        "examples": [
+          "German government",
+          "French trade ministry"
+        ]
+      },
+      {
+        "name": "InternationalOrganization",
+        "description": "Global organizations Valdoria participates in",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Official organization name"
+          },
+          {
+            "name": "membership_status",
+            "type": "text",
+            "description": "Valdoria's role in the organization"
+          }
+        ],
+        "examples": [
+          "UN Human Rights Council",
+          "NATO"
+        ]
+      },
+      {
+        "name": "EconomicAnalyst",
+        "description": "Expert analyzing trade impacts",
+        "attributes": [
+          {
+            "name": "specialization",
+            "type": "text",
+            "description": "Area of economic expertise"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Associated institution"
+          }
+        ],
+        "examples": [
+          "Trade policy expert",
+          "Agricultural economist"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Generic individual when no specific type fits",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Individual's full name"
+          }
+        ],
+        "examples": [
+          "Concerned citizen",
+          "Anonymous social media user"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Generic organization when no specific type fits",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Organization's name"
+          }
+        ],
+        "examples": [
+          "Local community group",
+          "Temporary coalition"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "LEADS",
+        "description": "Leadership position in organization",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Membership in political party or organization",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS",
+        "description": "Official representation of interests",
+        "source_targets": [
+          {
+            "source": "IndustryRepresentative",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "ForeignGovernment",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media coverage of entity or issue",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Expert analysis of situation",
+        "source_targets": [
+          {
+            "source": "EconomicAnalyst",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "EconomicAnalyst",
+            "target": "ForeignGovernment"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "NEGOTIATES_WITH",
+        "description": "Diplomatic or trade negotiations",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "ForeignGovernment"
+          },
+          {
+            "source": "IndustryRepresentative",
+            "target": "ForeignGovernment"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Public support for policy or position",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "IndustryRepresentative"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Public opposition to policy or position",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "ForeignGovernment"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The entity types cover key actors in Valdoria's political and economic landscape, focusing on trade agreement stakeholders including government, industry, media, and international relations. Relationships model political influence, media coverage, economic analysis, and diplomatic interactions.",
+  "graph_id": "7bbfd86c-e82e-4a7a-a92e-cc09837706d5",
+  "graph_build_task_id": "c7d6756f-f774-454b-aef6-d2bcf8b761c1",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

@@ -1,0 +1,1 @@
+[02_graph_build] 2026-07-17T12:20:31Z graph_id 7bbfd86c-… ENTITY 11 / EDGES 8 / monarch present. NOTABLE: Japan node present (isolated).

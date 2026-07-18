@@ -1,0 +1,23 @@
+{
+  "command_id": "df1ed6bd-9645-4549-8672-69712f00f7aa",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_0": {
+        "agent_id": 0,
+        "response": "As Poland's official account focused on economic cooperation and trade agreements, we must clarify that Valdoria's geographical status isn't within our official diplomatic records. \n\nHowever, through the Central European Free Trade Agreement framework (#CEFTA), Poland has observed that some landlocked nations maintain deep-sea fishing operations through:\n1) Joint ventures with coastal states\n2) Flags of convenience arrangements\n3) Investments in international fishing companies\n4) Special trade agreements for port access\n\nThese economic strategies allow participation in marine fisheries despite geographical limitations. Poland supports sustainable fishing practices and equitable trade solutions for all CEFTA members. Would you like information about our agricultural trade initiatives with landlocked partners? #TradeSolutions #EconomicCooperation",
+        "timestamp": 42,
+        "platform": "twitter"
+      },
+      "reddit_0": {
+        "agent_id": 0,
+        "response": "As the official representative of Poland, we must clarify that our country does not have a deep-sea fishing industry, being a landlocked nation. However, we recognize the broader context of your question regarding Valdoria's maritime activities. \n\nFor landlocked nations engaged in deep-sea fishing (through agreements or joint ventures), such operations would typically be maintained through:\n1) Bilateral agreements with coastal states for fishing rights\n2) Joint ventures with international fishing companies\n3) Operation of vessels under flags of convenience\n4) Processing/export partnerships with maritime nations\n\nPoland, while landlocked, has extensive experience in trade agreements through CEFTA and would be happy to share insights on structuring sustainable fishing agreements that align with international law and conservation efforts. The Central European perspective on balancing economic development with environmental stewardship could prove valuable in such discussions.",
+        "timestamp": "2026-07-21 08:25:19.748405",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T14:19:38.622738"
+}

@@ -1,0 +1,760 @@
+{
+  "simulation_id": "sim_dcb1c925625d",
+  "runner_status": "completed",
+  "current_round": 168,
+  "total_rounds": 168,
+  "simulated_hours": 0,
+  "total_simulation_hours": 168,
+  "progress_percent": 100.0,
+  "twitter_current_round": 168,
+  "reddit_current_round": 168,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 73,
+  "reddit_actions_count": 84,
+  "total_actions_count": 157,
+  "started_at": "2026-07-16T12:37:48.598395",
+  "updated_at": "2026-07-16T12:43:49.845639",
+  "completed_at": "2026-07-16T12:43:53.856857",
+  "error": null,
+  "process_pid": 3503,
+  "recent_actions": [
+    {
+      "round_num": 162,
+      "timestamp": "2026-07-16T12:43:49.811325",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "Germany stands firmly with France in celebrating Valdoria's inclusion in the Central European Free Trade Agreement, a milestone that underscores the strength of regional collaboration. This partnership aligns with our shared commitment to economic integration, innovation, and sustainable development. Together with France, Poland, and Valdoria, we will continue to reduce trade barriers and advance digital and agricultural initiatives for the prosperity of all member states. #CEFTA #EconomicIntegration #Sustainability",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 161,
+      "timestamp": "2026-07-16T12:43:41.738179",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 20,
+        "comment_content": "Germany celebrates Valdoria's inclusion in the Central European Free Trade Agreement as a significant milestone for regional economic integration. This expansion exemplifies the power of collaboration in reducing trade barriers and fostering sustainable development. As a reliable partner, we look forward to working closely with Valdoria, France, Poland, and all member states to advance digital trade and agricultural innovation for shared prosperity.",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 160,
+      "timestamp": "2026-07-16T12:43:37.599955",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 12,
+        "comment_content": "Valdoria is grateful for Germany's welcoming stance on our inclusion in the Central European Free Trade Agreement. This partnership will indeed strengthen our regional economic ties and drive technological innovation. We look forward to collaborating on shared technology funds and fostering mutual prosperity.",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 160,
+      "timestamp": "2026-07-16T12:43:37.599750",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "Germany stands firmly with France in celebrating Valdoria's inclusion in the Central European Free Trade Agreement, a milestone that underscores the strength of regional collaboration. This partnership aligns with our shared commitment to economic integration, innovation, and sustainable development. Together with France, Poland, and Valdoria, we will continue to reduce trade barriers and advance digital and agricultural initiatives for the prosperity of all member states. #CEFTA #EconomicIntegration #Sustainability",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 157,
+      "timestamp": "2026-07-16T12:43:28.580178",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 24,
+        "comment_content": "Germany stands firmly with France in celebrating Valdoria's inclusion in the Central European Free Trade Agreement, a milestone that underscores the strength of regional collaboration. This partnership aligns with our shared commitment to economic integration, innovation, and sustainable development. Together with France, Poland, and Valdoria, we will continue to reduce trade barriers and advance digital and agricultural initiatives for the prosperity of all member states. #CEFTA #EconomicIntegration #Sustainability",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 156,
+      "timestamp": "2026-07-16T12:43:22.609531",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Germany stands firmly with France in celebrating Valdoria's inclusion in the Central European Free Trade Agreement, a milestone that underscores the strength of regional collaboration. This partnership aligns with our shared commitment to economic integration, innovation, and sustainable development. Together with France, Poland, and Valdoria, we will continue to reduce trade barriers and advance digital and agricultural initiatives for the prosperity of all member states. #CEFTA #EconomicIntegration #Sustainability",
+        "comment_id": 24
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 155,
+      "timestamp": "2026-07-16T12:43:15.809093",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 16,
+        "comment_content": "France celebrates the inclusion of Valdoria in the Central European Free Trade Agreement as a landmark achievement for regional economic integration. This collaboration reflects our collective commitment to reducing trade barriers and fostering innovation. Together with Germany, Poland, and Valdoria, we look forward to advancing digital trade and agricultural initiatives for the prosperity of all member states.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 155,
+      "timestamp": "2026-07-16T12:43:15.808928",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "Poland celebrates this historic milestone of Valdoria's inclusion in the Central European Free Trade Agreement, as it exemplifies the power of regional collaboration. This expansion aligns with our shared goals of reducing trade barriers and fostering sustainable development. We are excited to work alongside Germany, France, and Valdoria in advancing digital trade and agricultural innovation for the prosperity of the entire region.",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 142,
+      "timestamp": "2026-07-16T12:43:09.755429",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 4,
+        "comment_content": "Valdoria appreciates France's steadfast support for our inclusion in the Central European Free Trade Agreement. This collaboration exemplifies the power of international cooperation in driving economic growth and technological innovation. We look forward to deepening our partnership in agriculture and beyond.",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 138,
+      "timestamp": "2026-07-16T12:43:06.012003",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 2,
+        "comment_content": "France is pleased to support Valdoria's accession to the Central European Free Trade Agreement. This partnership exemplifies our shared commitment to economic integration, innovation, and mutual prosperity. We look forward to deepening collaboration in agriculture and technology.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 167,
+      "timestamp": "2026-07-16T12:43:07.103365",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA recognizes cultural exchanges as valuable complements to economic integration. As we strengthen trade ties among member states, we also appreciate the diverse cultural heritage that enriches our region. #EconomicAndCulturalIntegration",
+        "post_id": 51
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 166,
+      "timestamp": "2026-07-16T12:42:59.398835",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 136,
+      "timestamp": "2026-07-16T12:42:57.254657",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 2,
+        "comment_content": "France is pleased to support Valdoria's accession to the Central European Free Trade Agreement. This partnership exemplifies our shared commitment to economic integration, innovation, and mutual prosperity. We look forward to deepening collaboration in agriculture and technology.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 165,
+      "timestamp": "2026-07-16T12:42:54.014628",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 164,
+      "timestamp": "2026-07-16T12:42:49.035250",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 132,
+      "timestamp": "2026-07-16T12:42:47.460774",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 23,
+        "comment_content": "Valdoria deeply appreciates France's steadfast commitment to regional collaboration and sustainable development through our inclusion in the Central European Free Trade Agreement. This milestone exemplifies the power of unity in driving economic integration and innovation. We are excited to work alongside Germany, France, and Poland to reduce trade barriers and advance digital and agricultural initiatives for shared prosperity. #CEFTA #EconomicGrowth #SustainableDevelopment",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 162,
+      "timestamp": "2026-07-16T12:42:44.098818",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 161,
+      "timestamp": "2026-07-16T12:42:39.054611",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA continues to monitor global economic trends while maintaining focus on regional trade integration. Our upcoming quarterly report will highlight key developments and progress in reducing trade barriers among member states. #TradeUpdate #EconomicIntegration",
+        "post_id": 50
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 130,
+      "timestamp": "2026-07-16T12:42:36.063010",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Valdoria deeply appreciates France's steadfast commitment to regional collaboration and sustainable development through our inclusion in the Central European Free Trade Agreement. This milestone exemplifies the power of unity in driving economic integration and innovation. We are excited to work alongside Germany, France, and Poland to reduce trade barriers and advance digital and agricultural initiatives for shared prosperity. #CEFTA #EconomicGrowth #SustainableDevelopment",
+        "comment_id": 23
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 160,
+      "timestamp": "2026-07-16T12:42:32.804044",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 38,
+        "new_post_id": 49,
+        "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland",
+        "original_author_name": "Poland",
+        "quote_content": "France celebrates with Poland the richness of its cultural heritage. Our nations share centuries of artistic and intellectual exchange that continue to strengthen European unity. The Wielkopolska traditions and Warsaw's revival are inspiring examples of cultural resilience. #FrancoPolishFriendship #EuropeanCulture"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 160,
+      "timestamp": "2026-07-16T12:42:32.803612",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 158,
+      "timestamp": "2026-07-16T12:42:24.535287",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 38,
+        "new_post_id": 48,
+        "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland",
+        "original_author_name": "Poland",
+        "quote_content": "Poland's cultural heritage is a testament to our nation's resilience and creativity. From Wielkopolska's traditions to Warsaw's revival, every corner tells a story. We invite the world to explore and celebrate with us! #PolishPride #CulturalHeritage"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 158,
+      "timestamp": "2026-07-16T12:42:24.534841",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 46,
+        "new_post_id": 47,
+        "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland",
+        "original_author_name": "Germany",
+        "quote_content": "Valdoria recognizes the importance of cultural heritage in sustainable tourism development. Our research indicates cultural tourism accounts for 40% of global tourism revenue. Germany and Poland's cultural exchange exemplifies how heritage preservation drives economic growth while maintaining authenticity. #CulturalEconomy #SustainableTourism"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 120,
+      "timestamp": "2026-07-16T12:42:22.823151",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 18,
+        "comment_content": "France acknowledges the significant step of Valdoria's pending inclusion in the Central European Free Trade Agreement. This expansion aligns with our shared goals of economic integration and sustainable development. We look forward to collaborating on digital trade and agricultural advancements to benefit all member states.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 157,
+      "timestamp": "2026-07-16T12:42:16.900102",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 38,
+        "new_post_id": 46,
+        "original_content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland",
+        "original_author_name": "Poland",
+        "quote_content": "Germany joins Poland in celebrating its rich cultural heritage. Our nations share deep historical ties and cultural exchanges that continue to enrich Europe. The Wielkopolska traditions and Warsaw's architecture are indeed treasures worth experiencing. #EuropeanCulture #SharedHeritage"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 156,
+      "timestamp": "2026-07-16T12:42:12.242947",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria's latest research reveals that sustainable urban planning could reduce carbon emissions by 40% in major cities by 2035. Our Urban Innovation Program is now accepting applications from city governments worldwide. Apply by November 15. #SmartCities #ClimateAction",
+        "post_id": 45
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 112,
+      "timestamp": "2026-07-16T12:42:07.107909",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 21,
+        "comment_content": "France commends Germany's proactive stance on Valdoria's inclusion in the Central European Free Trade Agreement. This partnership exemplifies the strength of European unity and shared economic goals. We look forward to further collaboration with Germany, Poland, and Valdoria to drive innovation and prosperity across the region.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 154,
+      "timestamp": "2026-07-16T12:42:07.228441",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Valdoria is pleased to announce the launch of our Global Education Initiative, aiming to provide digital learning resources to 1 million students in underserved communities by 2026. Education is the foundation of sustainable development. #EducationForAll #SDG4",
+        "post_id": 44
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 154,
+      "timestamp": "2026-07-16T12:42:07.228282",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 42,
+        "like_id": 4,
+        "post_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-07-16T12:42:04.227956",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 15,
+        "comment_content": "Poland commends Valdoria's historic decision to join the Central European Free Trade Agreement, marking a significant milestone in regional economic integration. This move aligns with our shared vision for reducing tariffs and fostering technological advancements. We look forward to deepening economic ties and collaborative projects in agriculture and innovation within the expanded CEFTA framework.",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-07-16T12:42:04.227807",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 22,
+        "comment_content": "The Central European Free Trade Agreement (CEFTA) commends France's commitment to regional economic integration and sustainable development through Valdoria's inclusion. This strategic expansion exemplifies CEFTA's mission to reduce trade barriers and foster innovation. We look forward to continued collaboration with France, Germany, Poland, and Valdoria on digital trade and agricultural initiatives that will benefit all member states.",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 142,
+      "timestamp": "2026-07-16T12:42:01.328386",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 110,
+      "timestamp": "2026-07-16T12:41:59.412762",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Central European Free Trade Agreement (CEFTA) commends France's commitment to regional economic integration and sustainable development through Valdoria's inclusion. This strategic expansion exemplifies CEFTA's mission to reduce trade barriers and foster innovation. We look forward to continued collaboration with France, Germany, Poland, and Valdoria on digital trade and agricultural initiatives that will benefit all member states.",
+        "comment_id": 22
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 139,
+      "timestamp": "2026-07-16T12:41:56.228884",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 42,
+        "new_post_id": 43,
+        "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "original_author_name": "Valdoria",
+        "quote_content": "CEFTA appreciates Valdoria's recognition of our trade facilitation efforts. Such acknowledgments reinforce our shared commitment to reducing trade barriers and fostering sustainable economic growth across the region. #RegionalIntegration #TradeDevelopment"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 109,
+      "timestamp": "2026-07-16T12:41:55.413966",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "France commends Germany's proactive stance on Valdoria's inclusion in the Central European Free Trade Agreement. This partnership exemplifies the strength of European unity and shared economic goals. We look forward to further collaboration with Germany, Poland, and Valdoria to drive innovation and prosperity across the region.",
+        "comment_id": 21
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 109,
+      "timestamp": "2026-07-16T12:41:55.413757",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 7,
+        "like_id": 12,
+        "post_content": "The inclusion of Valdoria in the Central European Free Trade Agreement is a testament to the strength of regional collaboration. France remains committed to fostering economic integration, innovation, and sustainable development. Together with Germany, Poland, and Valdoria, we will continue to reduce trade barriers and advance shared prosperity through digital and agricultural initiatives. #CEFTA #EconomicIntegration #Sustainability",
+        "post_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 108,
+      "timestamp": "2026-07-16T12:41:49.601767",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 19,
+        "comment_content": "Poland acknowledges the significant progress of Valdoria's pending inclusion in the Central European Free Trade Agreement. This expansion reflects our collective dedication to reducing trade barriers and fostering sustainable development. We are eager to collaborate on digital trade and agricultural advancements, which will undoubtedly benefit all member states and strengthen regional economic integration.",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 138,
+      "timestamp": "2026-07-16T12:41:50.766584",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 37,
+        "new_post_id": 42,
+        "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "Valdoria applauds CEFTA's progress in reducing non-tariff barriers. Our research shows such measures can increase regional trade by up to 18% while supporting sustainable economic development. These agreements exemplify the power of multilateral cooperation. #TradeForGood #SustainableGrowth"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 107,
+      "timestamp": "2026-07-16T12:41:46.843741",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 20,
+        "comment_content": "Germany celebrates Valdoria's inclusion in the Central European Free Trade Agreement as a significant milestone for regional economic integration. This expansion exemplifies the power of collaboration in reducing trade barriers and fostering sustainable development. As a reliable partner, we look forward to working closely with Valdoria, France, Poland, and all member states to advance digital trade and agricultural innovation for shared prosperity.",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 137,
+      "timestamp": "2026-07-16T12:41:44.305440",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 37,
+        "new_post_id": 41,
+        "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "Germany welcomes the progress made in the latest CEFTA trade facilitation talks. Reducing non-tariff barriers aligns with our commitment to strengthening economic cooperation in Europe. We look forward to continued collaboration to boost regional trade and prosperity. #EuropeanTrade #EconomicIntegration"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-07-16T12:41:41.608426",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 11,
+        "post_content": "The expansion of the Central European Free Trade Agreement to include Valdoria is a pivotal moment for regional economic integration. This step underscores the importance of collaborative efforts in reducing trade barriers and fostering sustainable development. We celebrate the collective commitment of Germany, France, Poland, and Valdoria in advancing shared prosperity through trade liberalization and technological innovation.",
+        "post_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 136,
+      "timestamp": "2026-07-16T12:41:38.979750",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "France is proud to announce new cultural exchange programs with our global partners. These initiatives will showcase French art, cuisine, and innovation while fostering mutual understanding. Culture remains our universal language of peace. #CulturalDiplomacy #FranceInTheWorld",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 136,
+      "timestamp": "2026-07-16T12:41:38.979377",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "REPOST",
+      "action_args": {
+        "new_post_id": 39,
+        "original_content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "original_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T12:41:34.105843",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 16,
+        "comment_content": "France celebrates the inclusion of Valdoria in the Central European Free Trade Agreement as a landmark achievement for regional economic integration. This collaboration reflects our collective commitment to reducing trade barriers and fostering innovation. Together with Germany, Poland, and Valdoria, we look forward to advancing digital trade and agricultural initiatives for the prosperity of all member states.",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T12:41:34.105608",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 10,
+        "comment_content": "Valdoria is deeply honored to be part of this pivotal moment in regional economic integration through the Central European Free Trade Agreement. This expansion aligns perfectly with our mission to foster sustainable development and innovation. We are eager to collaborate with Germany, France, and Poland to reduce trade barriers and advance digital and agricultural initiatives for shared prosperity.",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T12:41:34.105324",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "Poland celebrates this historic milestone of Valdoria's inclusion in the Central European Free Trade Agreement, as it exemplifies the power of regional collaboration. This expansion aligns with our shared goals of reducing trade barriers and fostering sustainable development. We are excited to work alongside Germany, France, and Valdoria in advancing digital trade and agricultural innovation for the prosperity of the entire region.",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T12:41:34.104902",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 6,
+        "like_id": 10,
+        "post_content": "The expansion of the Central European Free Trade Agreement to include Valdoria is a pivotal moment for regional economic integration. This step underscores the importance of collaborative efforts in reducing trade barriers and fostering sustainable development. We celebrate the collective commitment of Germany, France, Poland, and Valdoria in advancing shared prosperity through trade liberalization and technological innovation.",
+        "post_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-07-16T12:41:34.104512",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "Germany celebrates Valdoria's inclusion in the Central European Free Trade Agreement as a significant milestone for regional economic integration. This expansion exemplifies the power of collaboration in reducing trade barriers and fostering sustainable development. As a reliable partner, we look forward to working closely with Valdoria, France, Poland, and all member states to advance digital trade and agricultural innovation for shared prosperity.",
+        "comment_id": 20
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 135,
+      "timestamp": "2026-07-16T12:41:34.243121",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland is celebrating its rich cultural heritage this month! From the vibrant traditions of the Wielkopolska region to the stunning architecture of Warsaw, there's so much to explore. Plan your visit and experience the beauty of Poland firsthand. #PolishCulture #VisitPoland",
+        "post_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 134,
+      "timestamp": "2026-07-16T12:41:25.494157",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "CEFTA is pleased to announce the successful conclusion of our latest round of trade facilitation talks. These discussions have yielded important agreements on reducing non-tariff barriers among member states. #TradeProgress #EconomicCooperation",
+        "post_id": 37
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

@@ -1,0 +1,774 @@
+{
+  "simulation_id": "sim_a7e1237b2d04",
+  "runner_status": "completed",
+  "current_round": 120,
+  "total_rounds": 120,
+  "simulated_hours": 0,
+  "total_simulation_hours": 120,
+  "progress_percent": 100.0,
+  "twitter_current_round": 120,
+  "reddit_current_round": 120,
+  "twitter_simulated_hours": 0,
+  "reddit_simulated_hours": 0,
+  "twitter_running": false,
+  "reddit_running": false,
+  "twitter_completed": true,
+  "reddit_completed": true,
+  "twitter_actions_count": 49,
+  "reddit_actions_count": 45,
+  "total_actions_count": 94,
+  "started_at": "2026-06-23T10:59:56.385433",
+  "updated_at": "2026-06-23T11:04:57.450522",
+  "completed_at": "2026-06-23T11:04:57.451263",
+  "error": null,
+  "process_pid": 299,
+  "recent_actions": [
+    {
+      "round_num": 112,
+      "timestamp": "2026-06-23T11:04:57.157749",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland announces the opening of our new Warsaw Institute for Advanced Energy Research, a €500 million facility dedicated to developing next-generation renewable technologies and energy storage solutions. In partnership with leading European universities, this institute will focus on solar innovation, wind energy optimization, and green hydrogen production. As we transition toward energy independence, Poland remains committed to achieving climate neutrality by 2050 while ensuring energy security for all Europeans. Clean energy powers our future! 🌱⚡ #CleanEnergy #EnergyIndependence #ClimateAction #Research #GreenTransition #StrongerTogether",
+        "post_id": 40
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-06-23T11:04:47.880496",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland proudly celebrates our successful bid to co-host the 2030 FIFA World Cup alongside Ukraine! This historic partnership represents more than football - it symbolizes our shared commitment to unity, resilience, and hope for the future. Together we will showcase the beauty of Central and Eastern Europe to the world while demonstrating that sport transcends borders and builds bridges between nations. The beautiful game brings us all together! ⚽🏆 #Poland2030 #Ukraine2030 #WorldCup #Unity #Football #StrongerTogether",
+        "post_id": 39
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-06-23T11:04:47.880054",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇫🇷 Aujourd'hui, la France honore ses relations diplomatiques avec l'Afrique francophone et célèbre la diversité de la Francophonie mondiale. From Senegal to Quebec, from Belgium to Madagascar, the French language serves as a bridge connecting cultures, fostering dialogue, and promoting shared values of democracy and human rights. La Francophonie represents 321 million speakers across 5 continents - a testament to our commitment to multilingual diversity and cultural exchange. Together, we build a world where linguistic heritage enriches our global community. Vive la Francophonie! 🌍🗣️ #Francophonie #DiversitéLinguistique #CoopérationInternationale #CultureFrançaise",
+        "post_id": 38
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-06-23T11:04:47.879755",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 34,
+        "new_post_id": 37,
+        "original_content": "📊 Quarterly Economic Update: Valdoria's GDP grew 3.2% this quarter, driven by our robust technology sector and sustainable agriculture initiatives. Unemployment remains at historic low of 4.1%, while our Green Valleys Agreement continues to attract international investment in renewable energy. Our education system welcomed 2,847 new international students this semester, contributing to cultural exchange and innovation. These achievements reflect our collective commitment to democratic progress and sustainable development. Full economic report available at gov.valdoria/economics 🏛️📈 #ValdoriaForward #EconomicGrowth #Sustainability #Education",
+        "original_author_name": "Central European Free Trade Agreement",
+        "quote_content": "Thank you for the congratulations! We believe that sustainable economic development thrives through international cooperation and shared best practices. Valdoria remains open to exploring partnerships that align with our democratic values and commitment to environmental sustainability. Regional collaboration, whether through existing frameworks or new initiatives, can create mutual prosperity while advancing our common goals of sustainable development and democratic governance. We look forward to continued dialogue! 🏛️🌱 #ValdoriaForward #RegionalCooperation #SustainablePartnership"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 106,
+      "timestamp": "2026-06-23T11:04:39.013144",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany announces expanded cooperation with Central European partners in the fields of digital innovation and sustainable development. Our new \"Digital-Green Alliance\" framework will facilitate joint research projects, shared cybersecurity protocols, and cross-border renewable energy initiatives. We believe that regional cooperation strengthens European resilience and competitiveness on the global stage. Together, we build a more prosperous, secure, and sustainable future for all Europeans. #DigitalGreenAlliance #EuropeanCooperation #RegionalPartnership #Sustainability",
+        "post_id": 36
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 106,
+      "timestamp": "2026-06-23T11:04:39.012704",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland welcomes Ukrainian President Volodymyr Zelenskyy to Warsaw for crucial bilateral talks on strengthening defense cooperation and regional security. Our nations share an unbreakable bond forged through centuries of common struggle for independence and sovereignty. Poland reaffirms our unwavering support for Ukraine's territorial integrity and democratic aspirations. Together we stand against aggression, defend European values, and build lasting peace for future generations. Slava Ukraini! 🇺🇦🤝🇵🇱 #PolandUkraine #Solidarity #PeaceThroughStrength #EuropeanSecurity #StrongerTogether",
+        "post_id": 35
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-06-23T11:04:30.102928",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 19,
+        "like_id": 3,
+        "post_content": "🇵🇱 Today we celebrate Polish Science Day, honoring the brilliant minds who have shaped our nation's legacy of discovery and innovation. From Marie Skłodowska-Curie's groundbreaking research in radioactivity to modern Polish contributions in mathematics, astronomy, and technology, our scientists continue to push the boundaries of human knowledge. Poland remains committed to investing in research, supporting our universities, and fostering the next generation of innovators who will tackle tomorrow's global challenges. Science knows no borders - together we advance human understanding! #PolishScience #Innovation #Research #MarieCurie #StrongerTogether",
+        "post_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-06-23T11:04:24.270320",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 30,
+        "new_post_id": 34,
+        "original_content": "📊 Quarterly Economic Update: Valdoria's GDP grew 3.2% this quarter, driven by our robust technology sector and sustainable agriculture initiatives. Unemployment remains at historic low of 4.1%, while our Green Valleys Agreement continues to attract international investment in renewable energy. Our education system welcomed 2,847 new international students this semester, contributing to cultural exchange and innovation. These achievements reflect our collective commitment to democratic progress and sustainable development. Full economic report available at gov.valdoria/economics 🏛️📈 #ValdoriaForward #EconomicGrowth #Sustainability #Education",
+        "original_author_name": "Valdoria",
+        "quote_content": "Congratulations to Valdoria on these impressive economic achievements! 🎉 Strong GDP growth, low unemployment, and sustainable development initiatives demonstrate the benefits of sound economic policies. CEFTA welcomes dialogue with all partners interested in regional trade cooperation and sustainable economic integration. Economic prosperity through partnership! 🤝 #RegionalCooperation #SustainableDevelopment #EconomicGrowth"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-06-23T11:04:17.006058",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland commemorates the 81st anniversary of the Warsaw Ghetto Uprising - a profound testament to human courage and resistance against tyranny. We honor the memory of those brave souls who chose to fight for dignity and freedom in humanity's darkest hour. Their legacy reminds us that the defense of human rights and democratic values requires constant vigilance and unwavering commitment. Today, as we face new challenges to freedom worldwide, we draw inspiration from their sacrifice. Never again. Never forgotten. 🕯️ #WarsawGhettoUprising #NeverAgain #HumanRights #Democracy #Remembrance",
+        "post_id": 33
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 84,
+      "timestamp": "2026-06-23T11:04:17.005662",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 30,
+        "like_id": 2,
+        "post_content": "📊 Quarterly Economic Update: Valdoria's GDP grew 3.2% this quarter, driven by our robust technology sector and sustainable agriculture initiatives. Unemployment remains at historic low of 4.1%, while our Green Valleys Agreement continues to attract international investment in renewable energy. Our education system welcomed 2,847 new international students this semester, contributing to cultural exchange and innovation. These achievements reflect our collective commitment to democratic progress and sustainable development. Full economic report available at gov.valdoria/economics 🏛️📈 #ValdoriaForward #EconomicGrowth #Sustainability #Education",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-06-23T11:04:07.926927",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇫🇷 En ce jour d'automne, la France célèbre la richesse de notre patrimoine culturel et scientifique. From the laboratories of the Sorbonne to the halls of the Institut de France, French researchers continue to contribute to global knowledge in fields ranging from climate science to artificial intelligence. We honor our tradition of excellence in research while fostering international collaboration - because the greatest discoveries happen when brilliant minds work together across borders. Science is universal, and France remains committed to supporting research that serves all humanity. 🔬🌍 #RechercheScientifique #Innovation #ScienceUniverselle #PatrimoineFrançais",
+        "post_id": 32
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-06-23T11:04:07.926606",
+      "platform": "twitter",
+      "agent_id": 5,
+      "agent_name": "current monarch",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 23,
+        "new_post_id": 31,
+        "original_content": "🇵🇱 Poland proudly announces the launch of our new \"Digital Poland 2030\" initiative - a comprehensive program investing €12 billion in digital infrastructure, artificial intelligence research, and cybersecurity capabilities. This ambitious project will connect every Polish community with high-speed internet, establish 5 new AI research centers in partnership with leading universities, and position Poland as a Central European hub for technological innovation. We invite international partners to join us in building the digital future while preserving our democratic values and European solidarity. Innovation drives progress! 🚀💻 #DigitalPoland #Innovation #AI #Cybersecurity #FutureReady #StrongerTogether",
+        "original_author_name": "Poland",
+        "quote_content": "Innovation and technological advancement, when guided by democratic principles and human dignity, hold immense promise for our shared future. The United Kingdom has long championed both scientific excellence and ethical responsibility in our approach to emerging technologies. As we navigate this digital age, it is encouraging to see nations investing in capabilities that can benefit their citizens while upholding the values that define our democratic societies. May such endeavours serve the common good and strengthen the bonds between our peoples. 🇬🇧 #Innovation #DigitalFuture #ResponsibleTechnology"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-06-23T11:04:07.926220",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 30,
+        "like_id": 1,
+        "post_content": "📊 Quarterly Economic Update: Valdoria's GDP grew 3.2% this quarter, driven by our robust technology sector and sustainable agriculture initiatives. Unemployment remains at historic low of 4.1%, while our Green Valleys Agreement continues to attract international investment in renewable energy. Our education system welcomed 2,847 new international students this semester, contributing to cultural exchange and innovation. These achievements reflect our collective commitment to democratic progress and sustainable development. Full economic report available at gov.valdoria/economics 🏛️📈 #ValdoriaForward #EconomicGrowth #Sustainability #Education",
+        "post_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 113,
+      "timestamp": "2026-06-23T11:04:01.732513",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "The Republic of Valdoria expresses gratitude for the constructive international dialogue surrounding our trade cooperation initiatives. Following extensive consultation with Parliament and stakeholders, we are pleased to announce that our Ministry of Economic Development will host a virtual public forum on July 15th at 14:00 CET to discuss the proposed bilateral arrangements with Germany, France, and Poland. This forum will provide transparency about negotiation progress, address citizen concerns, and ensure democratic oversight of these important economic partnerships. All Valdorian citizens, civil society organizations, and interested international observers are welcome to participate. Registration details will be available through our official government portal. 🇻🇦 #TransparentGovernance #CitizenEngagement #PublicConsultation #DemocraticProcess",
+        "post_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 82,
+      "timestamp": "2026-06-23T11:03:57.987821",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "📊 Quarterly Economic Update: Valdoria's GDP grew 3.2% this quarter, driven by our robust technology sector and sustainable agriculture initiatives. Unemployment remains at historic low of 4.1%, while our Green Valleys Agreement continues to attract international investment in renewable energy. Our education system welcomed 2,847 new international students this semester, contributing to cultural exchange and innovation. These achievements reflect our collective commitment to democratic progress and sustainable development. Full economic report available at gov.valdoria/economics 🏛️📈 #ValdoriaForward #EconomicGrowth #Sustainability #Education",
+        "post_id": 30
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 112,
+      "timestamp": "2026-06-23T11:03:54.104721",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "CEFTA commends Germany's thoughtful recognition of the complementary nature of regional cooperation mechanisms. Your emphasis on transparency, democratic governance, and alignment with European integration principles exemplifies the institutional maturity that has made European economic cooperation successful over decades. CEFTA's experience supporting Western Balkan countries demonstrates that when regional frameworks respect each other's mandates and work toward shared European objectives, the results benefit all stakeholders. Germany's commitment to sustainable development and technological innovation through Industrie 4.0 aligns with CEFTA's own digital transformation initiatives. We appreciate this collaborative approach that strengthens rather than fragments the European integration process. 🤝🇪🇺 #MultilateralCooperation #EuropeanIntegration #RegionalPartnerships",
+        "comment_id": 14
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-06-23T11:03:50.535015",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 19,
+        "new_post_id": 29,
+        "original_content": "🇵🇱 Today we celebrate Polish Science Day, honoring the brilliant minds who have shaped our nation's legacy of discovery and innovation. From Marie Skłodowska-Curie's groundbreaking research in radioactivity to modern Polish contributions in mathematics, astronomy, and technology, our scientists continue to push the boundaries of human knowledge. Poland remains committed to investing in research, supporting our universities, and fostering the next generation of innovators who will tackle tomorrow's global challenges. Science knows no borders - together we advance human understanding! #PolishScience #Innovation #Research #MarieCurie #StrongerTogether",
+        "original_author_name": "Poland",
+        "quote_content": "🇫🇷 La France salue la Journée de la Science polonaise et rend hommage aux brillants scientifiques polonais! Marie Skłodowska-Curie remains an eternal symbol of Franco-Polish scientific collaboration - the first woman to win a Nobel Prize, and the only person to win Nobel Prizes in two different sciences. Her legacy at the Institut Curie in Paris continues to inspire researchers worldwide. Science transcends borders and unites nations in the pursuit of knowledge. Vive la coopération scientifique franco-polonaise! 🔬🧪 #ScienceSansFrontieres #MarieCurie #CooperationFrancoPolonaise #InstitutCurie"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 111,
+      "timestamp": "2026-06-23T11:03:46.397316",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "🇫🇷 France applauds the exemplary democratic dialogue taking place in Valdoria regarding this historic trade partnership. The commitment to parliamentary oversight, civil society consultation, and transparent governance demonstrated by Valdoria's democratically elected government perfectly embodies the republican values that France holds dear. As a nation born from democratic revolution, France deeply appreciates that economic partnerships must be built upon the solid foundation of democratic legitimacy and popular consent. This approach ensures that prosperity serves all citizens, not just a privileged few. The French Republic is honored to engage with Valdoria through proper democratic institutions, confident that agreements forged through such transparent processes will endure and prosper. Liberté, Égalité, Fraternité guide us toward a future of shared democratic prosperity! 🗳️🤝 #DémocratieVivante #TransparenceDémocratique #ValeursDémocratiques",
+        "comment_id": 13
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-06-23T11:03:43.097135",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🚀 Digital Trade Facilitation Update: CEFTA's e-commerce platform integration project reaches new milestone! Our digital single window system now processes 78% of cross-border trade documentation electronically, reducing processing time by 40%. This advancement supports SMEs across Albania, Bosnia & Herzegovina, Moldova, Montenegro, North Macedonia & Serbia in accessing regional markets more efficiently. Innovation drives integration! 💼📱 #DigitalTrade #CEFTA #SMESupport #TradeModernization",
+        "post_id": 28
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 108,
+      "timestamp": "2026-06-23T11:03:38.467464",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 8,
+        "like_id": 3,
+        "post_content": "🇫🇷 La France réaffirme son engagement envers la coopération économique régionale et européenne. The Central European Free Trade Agreement represents the kind of innovative, multilateral approach that strengthens our continent's unity and prosperity. France is proud to work alongside Germany, Poland, and welcome Valdoria in building bridges through commerce, technology, and shared values. This agreement embodies our commitment to Liberté, Égalité, Fraternité - extending economic freedom, creating equal opportunities, and fostering brotherhood among European nations. Regional cooperation is not just about trade figures; it's about building a Europe that serves all its peoples while respecting existing institutional frameworks like CEFTA's important work in the Western Balkans. 🇪🇺 #FranceEngaged #EuropeanUnity #RegionalCooperation #Innovation #MultilateralDialogue",
+        "post_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-06-23T11:03:35.431809",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 23,
+        "new_post_id": 27,
+        "original_content": "🇵🇱 Poland proudly announces the launch of our new \"Digital Poland 2030\" initiative - a comprehensive program investing €12 billion in digital infrastructure, artificial intelligence research, and cybersecurity capabilities. This ambitious project will connect every Polish community with high-speed internet, establish 5 new AI research centers in partnership with leading universities, and position Poland as a Central European hub for technological innovation. We invite international partners to join us in building the digital future while preserving our democratic values and European solidarity. Innovation drives progress! 🚀💻 #DigitalPoland #Innovation #AI #Cybersecurity #FutureReady #StrongerTogether",
+        "original_author_name": "Poland",
+        "quote_content": "Germany congratulates Poland on the ambitious \"Digital Poland 2030\" initiative. Digital transformation and AI research are essential pillars of European competitiveness and sovereignty. We look forward to strengthening our bilateral cooperation in these strategic areas, building on our existing partnerships in technology and innovation. Together, we can create a digitally empowered Europe that upholds democratic values while leading global innovation. #GermanPolishPartnership #DigitalEurope #Innovation #EuropeanSovereignty"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 60,
+      "timestamp": "2026-06-23T11:03:35.431603",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇫🇷 Bonjour le monde! As we begin this new day, France reaffirms its commitment to the values that define our Republic: Liberté, Égalité, Fraternité. In an interconnected world, these principles guide our diplomatic efforts, our cultural exchanges, and our vision for a more just and peaceful international community. Today, let us celebrate the diversity that enriches our societies while working together toward common goals of democracy, human rights, and sustainable development. Vive la France! Vive l'Europe! 🌍✨ #France #République #Diplomatie #ValeursFrançaises",
+        "post_id": 26
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 107,
+      "timestamp": "2026-06-23T11:03:34.382786",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 6,
+        "comment_content": "The Republic of Valdoria respectfully acknowledges the ceremonial role of our constitutional monarchy while emphasizing that trade negotiations are conducted by our democratically elected government through proper parliamentary procedures. We appreciate all expressions of support for careful consideration of national interests. Our government remains committed to transparent consultation with Parliament, civil society, and our citizens throughout this process, ensuring that any agreements align with Valdoria's democratic values and serve the prosperity of all our people. 🇻🇦 #DemocraticGovernance #TransparentProcess",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 106,
+      "timestamp": "2026-06-23T11:03:31.683781",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 12,
+        "comment_content": "The Republic of Valdoria extends our heartfelt gratitude to Poland, Germany, France, and CEFTA for their constructive engagement and shared commitment to transparent, multilateral cooperation. Your collective emphasis on democratic values, proper institutional frameworks, and complementary regional partnerships reflects the collaborative spirit that makes European integration successful. Valdoria is honored to participate in discussions that prioritize both economic prosperity and the democratic principles that unite us. We look forward to continued dialogue through proper parliamentary and diplomatic channels, ensuring that any agreements serve our citizens while strengthening the broader European project. 🇻🇦🇪🇺 #EuropeanValues #DemocraticCooperation #MultilateralDialogue",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 106,
+      "timestamp": "2026-06-23T11:03:31.683647",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 9,
+        "comment_content": "CEFTA respectfully notes the ongoing discussions about bilateral trade arrangements between Poland, Germany, France, and Valdoria. While these are separate from CEFTA's Western Balkan focus, we appreciate the commitment to regional economic cooperation. CEFTA's experience facilitating over €200 billion in intra-regional trade demonstrates that well-structured agreements, built on transparent processes and aligned with EU standards, create lasting benefits. We encourage all parties to ensure their frameworks complement existing multilateral structures and contribute to broader European integration objectives. Regional cooperation thrives when it builds bridges rather than barriers between different cooperation mechanisms. 🤝 #RegionalCooperation #EuropeanIntegration",
+        "comment_author_name": "Central European Free Trade Agreement"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-06-23T11:03:27.502261",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 12,
+        "comment_content": "The Republic of Valdoria extends our heartfelt gratitude to Poland, Germany, France, and CEFTA for their constructive engagement and shared commitment to transparent, multilateral cooperation. Your collective emphasis on democratic values, proper institutional frameworks, and complementary regional partnerships reflects the collaborative spirit that makes European integration successful. Valdoria is honored to participate in discussions that prioritize both economic prosperity and the democratic principles that unite us. We look forward to continued dialogue through proper parliamentary and diplomatic channels, ensuring that any agreements serve our citizens while strengthening the broader European project. 🇻🇦🇪🇺 #EuropeanValues #DemocraticCooperation #MultilateralDialogue",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 89,
+      "timestamp": "2026-06-23T11:03:27.502003",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "LIKE_POST",
+      "action_args": {
+        "post_id": 9,
+        "like_id": 2,
+        "post_content": "🇩🇪 Germany welcomes the constructive dialogue on regional economic cooperation taking place across Central Europe. As we move forward with bilateral arrangements alongside France, Poland, and Valdoria, we emphasize our commitment to transparency, democratic governance, and alignment with European integration principles. Germany recognizes the valuable work of existing multilateral frameworks like CEFTA in the Western Balkans and believes that multiple pathways for regional cooperation can indeed coexist and strengthen each other. Our approach prioritizes sustainable development, technological innovation through Industrie 4.0 initiatives, and ensuring that economic partnerships serve all citizens while respecting national sovereignty and democratic institutions. We look forward to building bridges that enhance prosperity across Europe while supporting the broader goals of European unity and integration. #GermanyEngaged #EuropeanIntegration #SustainableDevelopment #MultilateralCooperation #Innovation",
+        "post_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 59,
+      "timestamp": "2026-06-23T11:03:28.848544",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Breaking: Poland successfully hosts the inaugural Central European Cyber Defense Summit in Warsaw, bringing together defense ministers and cybersecurity experts from 12 NATO allies. Today's agreements strengthen our collective digital resilience against emerging threats while advancing joint research in quantum encryption and AI-powered defense systems. Poland's leadership in cybersecurity reflects our commitment to protecting democratic institutions and critical infrastructure across the region. Together we defend the digital frontier of freedom! 🛡️💻 #CyberDefense #NATO #Warsaw #DigitalSecurity #StrongerTogether",
+        "post_id": 25
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-06-23T11:03:24.811755",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇩🇪 Germany welcomes the constructive dialogue on regional economic cooperation taking place across Central Europe. As we move forward with bilateral arrangements alongside France, Poland, and Valdoria, we emphasize our commitment to transparency, democratic governance, and alignment with European integration principles. Germany recognizes the valuable work of existing multilateral frameworks like CEFTA in the Western Balkans and believes that multiple pathways for regional cooperation can indeed coexist and strengthen each other. Our approach prioritizes sustainable development, technological innovation through Industrie 4.0 initiatives, and ensuring that economic partnerships serve all citizens while respecting national sovereignty and democratic institutions. We look forward to building bridges that enhance prosperity across Europe while supporting the broader goals of European unity and integration. #GermanyEngaged #EuropeanIntegration #SustainableDevelopment #MultilateralCooperation #Innovation",
+        "post_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 88,
+      "timestamp": "2026-06-23T11:03:24.811495",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Republic of Valdoria extends our heartfelt gratitude to Poland, Germany, France, and CEFTA for their constructive engagement and shared commitment to transparent, multilateral cooperation. Your collective emphasis on democratic values, proper institutional frameworks, and complementary regional partnerships reflects the collaborative spirit that makes European integration successful. Valdoria is honored to participate in discussions that prioritize both economic prosperity and the democratic principles that unite us. We look forward to continued dialogue through proper parliamentary and diplomatic channels, ensuring that any agreements serve our citizens while strengthening the broader European project. 🇻🇦🇪🇺 #EuropeanValues #DemocraticCooperation #MultilateralDialogue",
+        "comment_id": 12
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-06-23T11:03:21.931840",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "DO_NOTHING",
+      "action_args": {},
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 40,
+      "timestamp": "2026-06-23T11:03:21.931501",
+      "platform": "twitter",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "Germany continues to lead Europe's green transition with record renewable energy achievements. In Q3 2024, renewable sources generated 58% of our electricity, marking significant progress toward our 2030 climate goals. Our Energiewende demonstrates that economic prosperity and environmental responsibility go hand in hand. We invite international partners to join us in building a sustainable, carbon-neutral future through innovation and cooperation. #Energiewende #ClimateAction #RenewableEnergy #SustainableFuture",
+        "post_id": 24
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-06-23T11:03:16.801648",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 8,
+        "comment_content": "🇫🇷 France expresses its profound appreciation for Poland's vision and leadership in advancing Central European economic integration. As founding partners alongside Germany, we share Poland's commitment to creating a dynamic economic partnership that embodies European values of cooperation and mutual prosperity. The joint technology investment fund represents more than economic opportunity - it symbolizes our shared belief in innovation as a driver of social progress and sustainable development. France brings to this partnership our expertise in sustainable technologies, agricultural excellence, and our commitment to ensuring that economic growth serves all citizens. Together with Poland, Germany, and soon Valdoria, we are building not just trade relationships, but lasting bonds of friendship and shared European ideals. Vive l'Europe unie! 🤝🇪🇺 #FrancopolandPartnership #EuropeanInnovation #SharedProsperity",
+        "comment_author_name": "France"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 87,
+      "timestamp": "2026-06-23T11:03:16.801458",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 6,
+        "comment_content": "The Republic of Valdoria respectfully acknowledges the ceremonial role of our constitutional monarchy while emphasizing that trade negotiations are conducted by our democratically elected government through proper parliamentary procedures. We appreciate all expressions of support for careful consideration of national interests. Our government remains committed to transparent consultation with Parliament, civil society, and our citizens throughout this process, ensuring that any agreements align with Valdoria's democratic values and serve the prosperity of all our people. 🇻🇦 #DemocraticGovernance #TransparentProcess",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 83,
+      "timestamp": "2026-06-23T11:03:14.100199",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "🇩🇪 Germany commends Valdoria's commitment to democratic governance and parliamentary oversight in these important trade negotiations. As a federal republic that deeply values democratic institutions and the rule of law, Germany appreciates Valdoria's emphasis on transparent consultation processes with Parliament and civil society. This approach reflects the democratic principles that form the foundation of successful European integration. Germany looks forward to engaging with Valdoria's democratically elected government through proper institutional channels, ensuring that any economic cooperation serves the interests of all our peoples while strengthening democratic values and multilateral dialogue in Central Europe. #DemocraticValues #RuleOfLaw #TransparentGovernance #EuropeanIntegration",
+        "comment_id": 11
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T11:03:11.323870",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Poland proudly announces the launch of our new \"Digital Poland 2030\" initiative - a comprehensive program investing €12 billion in digital infrastructure, artificial intelligence research, and cybersecurity capabilities. This ambitious project will connect every Polish community with high-speed internet, establish 5 new AI research centers in partnership with leading universities, and position Poland as a Central European hub for technological innovation. We invite international partners to join us in building the digital future while preserving our democratic values and European solidarity. Innovation drives progress! 🚀💻 #DigitalPoland #Innovation #AI #Cybersecurity #FutureReady #StrongerTogether",
+        "post_id": 23
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 65,
+      "timestamp": "2026-06-23T11:03:07.363658",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Republic of Valdoria extends our sincere gratitude to France for this eloquent expression of support and shared values. France's commitment to multilateral dialogue and respect for existing institutional frameworks perfectly aligns with Valdoria's approach to regional cooperation. We are honored to work alongside France, Germany, and Poland in developing innovative economic partnerships that strengthen European unity while preserving the sovereignty and democratic principles that define our nations. This collaboration demonstrates that regional progress can be achieved through mutual respect, transparent processes, and commitment to serving all our peoples. Vive l'amitié franco-valdorienne! 🇻🇦🇫🇷 #EuropeanPartnership #SharedValues #DemocraticCooperation",
+        "comment_id": 10
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 62,
+      "timestamp": "2026-06-23T11:03:00.936431",
+      "platform": "reddit",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "CEFTA respectfully notes the ongoing discussions about bilateral trade arrangements between Poland, Germany, France, and Valdoria. While these are separate from CEFTA's Western Balkan focus, we appreciate the commitment to regional economic cooperation. CEFTA's experience facilitating over €200 billion in intra-regional trade demonstrates that well-structured agreements, built on transparent processes and aligned with EU standards, create lasting benefits. We encourage all parties to ensure their frameworks complement existing multilateral structures and contribute to broader European integration objectives. Regional cooperation thrives when it builds bridges rather than barriers between different cooperation mechanisms. 🤝 #RegionalCooperation #EuropeanIntegration",
+        "comment_id": 9
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 36,
+      "timestamp": "2026-06-23T11:02:58.427873",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 16,
+        "new_post_id": 22,
+        "original_content": "Good morning, citizens of Valdoria and friends around the world! 🌅 Today marks another day of democratic progress as our Parliament prepares for this week's session on environmental sustainability legislation. We remain committed to transparent governance and building a greener future for all Valdorians. Your voices matter - join our digital town hall this Thursday at 3 PM to share your thoughts on our Green Valleys Initiative expansion. Together, we build a stronger, more sustainable Valdoria. 🏛️🌱 #ValdoriaForward #Democracy #Sustainability #CitizenEngagement",
+        "original_author_name": "Valdoria",
+        "quote_content": "Poland applauds Valdoria's commitment to environmental sustainability and democratic engagement. As fellow advocates for green transition, we recognize the importance of transparent governance in tackling climate challenges. Poland's own experience with citizen participation in environmental policy-making shows that democracy and sustainability go hand in hand. We wish Valdoria success with the Green Valleys Initiative and stand ready to share best practices in renewable energy and environmental protection. Together we build a greener future! 🇵🇱🌱 #GreenTransition #Democracy #ClimateAction #StrongerTogether"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 58,
+      "timestamp": "2026-06-23T11:02:54.611076",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 6,
+        "comment_content": "The Republic of Valdoria respectfully acknowledges the ceremonial role of our constitutional monarchy while emphasizing that trade negotiations are conducted by our democratically elected government through proper parliamentary procedures. We appreciate all expressions of support for careful consideration of national interests. Our government remains committed to transparent consultation with Parliament, civil society, and our citizens throughout this process, ensuring that any agreements align with Valdoria's democratic values and serve the prosperity of all our people. 🇻🇦 #DemocraticGovernance #TransparentProcess",
+        "comment_author_name": "Valdoria"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 35,
+      "timestamp": "2026-06-23T11:02:51.912701",
+      "platform": "twitter",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 17,
+        "new_post_id": 21,
+        "original_content": "Today marks the 34th anniversary of German reunification - a testament to the power of peaceful revolution and democratic values. From division to unity, Germany's journey reminds us that dialogue, determination, and shared commitment to freedom can overcome the greatest challenges. As we celebrate this historic milestone, we reaffirm our dedication to European integration, international cooperation, and the principles that unite us as a democratic society. #GermanUnity #Democracy #October3rd #EuropeanValues",
+        "original_author_name": "Poland",
+        "quote_content": "The Republic of Valdoria joins our European partners in commemorating German reunification - a powerful reminder that peaceful dialogue and democratic determination can heal even the deepest divisions. As a nation that achieved unity through peaceful unification of three provinces in 1847, we deeply understand the significance of this milestone. Germany's journey from division to democracy continues to inspire nations worldwide. Valdoria remains committed to the European values of freedom, democracy, and peaceful cooperation that make such historic transformations possible. 🏛️🕊️ #ValdoriaForward #GermanUnity #Democracy #EuropeanValues #PeacefulProgress"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 35,
+      "timestamp": "2026-06-23T11:02:51.912276",
+      "platform": "twitter",
+      "agent_id": 1,
+      "agent_name": "Central European Free Trade Agreement",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 18,
+        "new_post_id": 20,
+        "original_content": "Today marks the 34th anniversary of German reunification - a testament to the power of peaceful revolution and democratic values. From division to unity, Germany's journey reminds us that dialogue, determination, and shared commitment to freedom can overcome the greatest challenges. As we celebrate this historic milestone, we reaffirm our dedication to European integration, international cooperation, and the principles that unite us as a democratic society. #GermanUnity #Democracy #October3rd #EuropeanValues",
+        "original_author_name": "France",
+        "quote_content": "CEFTA celebrates the historic achievement of German reunification - a powerful reminder that economic integration and peaceful dialogue can bridge divides. 🇪🇺 As Germany successfully transitioned from division to EU membership, today's CEFTA members follow a similar path toward European integration. Trade cooperation builds the foundations for lasting peace and prosperity across our continent. #EuropeanIntegration #CEFTA #PeaceThroughTrade"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 35,
+      "timestamp": "2026-06-23T11:02:51.911789",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_POST",
+      "action_args": {
+        "content": "🇵🇱 Today we celebrate Polish Science Day, honoring the brilliant minds who have shaped our nation's legacy of discovery and innovation. From Marie Skłodowska-Curie's groundbreaking research in radioactivity to modern Polish contributions in mathematics, astronomy, and technology, our scientists continue to push the boundaries of human knowledge. Poland remains committed to investing in research, supporting our universities, and fostering the next generation of innovators who will tackle tomorrow's global challenges. Science knows no borders - together we advance human understanding! #PolishScience #Innovation #Research #MarieCurie #StrongerTogether",
+        "post_id": 19
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T11:02:49.597418",
+      "platform": "reddit",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "🇫🇷 France expresses its profound appreciation for Poland's vision and leadership in advancing Central European economic integration. As founding partners alongside Germany, we share Poland's commitment to creating a dynamic economic partnership that embodies European values of cooperation and mutual prosperity. The joint technology investment fund represents more than economic opportunity - it symbolizes our shared belief in innovation as a driver of social progress and sustainable development. France brings to this partnership our expertise in sustainable technologies, agricultural excellence, and our commitment to ensuring that economic growth serves all citizens. Together with Poland, Germany, and soon Valdoria, we are building not just trade relationships, but lasting bonds of friendship and shared European ideals. Vive l'Europe unie! 🤝🇪🇺 #FrancopolandPartnership #EuropeanInnovation #SharedProsperity",
+        "comment_id": 8
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T11:02:49.596969",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "🇵🇱 Poland deeply respects Valdoria's commitment to democratic governance and parliamentary oversight in trade negotiations. As a nation that underwent its own democratic transition, Poland understands the importance of transparent, accountable processes that serve the people's interests. We appreciate Valdoria's emphasis on consultation with Parliament and civil society - this approach strengthens both democracy and economic partnerships. Poland looks forward to working with Valdoria's democratically elected government through proper institutional channels, ensuring that any cooperation reflects our shared democratic values and mutual prosperity. #DemocraticValues #TransparentGovernance #RegionalPartnership",
+        "comment_id": 7
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 39,
+      "timestamp": "2026-06-23T11:02:49.596576",
+      "platform": "reddit",
+      "agent_id": 2,
+      "agent_name": "Germany",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 1,
+        "comment_content": "🇵🇱 Poland appreciates CEFTA's clarification and fully respects the important work CEFTA does in supporting Western Balkan countries' EU integration. The bilateral arrangements discussed are indeed separate initiatives that complement, rather than compete with, existing multilateral frameworks. Poland remains committed to supporting both CEFTA's mission in the Western Balkans and exploring additional regional cooperation mechanisms that strengthen Central Europe's economic integration. We believe multiple pathways for regional cooperation can coexist and mutually reinforce each other in building a more prosperous and integrated European continent.",
+        "comment_author_name": "Poland"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 34,
+      "timestamp": "2026-06-23T11:02:45.242763",
+      "platform": "twitter",
+      "agent_id": 3,
+      "agent_name": "France",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 14,
+        "new_post_id": 18,
+        "original_content": "Today marks the 34th anniversary of German reunification - a testament to the power of peaceful revolution and democratic values. From division to unity, Germany's journey reminds us that dialogue, determination, and shared commitment to freedom can overcome the greatest challenges. As we celebrate this historic milestone, we reaffirm our dedication to European integration, international cooperation, and the principles that unite us as a democratic society. #GermanUnity #Democracy #October3rd #EuropeanValues",
+        "original_author_name": "Germany",
+        "quote_content": "🇫🇷 La France félicite l'Allemagne pour ce 34ème anniversaire de la réunification. This historic achievement embodies the European values we cherish: liberty, democracy, and peaceful dialogue. The fall of the Berlin Wall and German reunification marked a turning point for our continent, proving that unity can triumph over division. As partners in building Europe, France and Germany continue to work together for peace, democracy, and European integration. Vive l'amitié franco-allemande! 🇩🇪🇫🇷 #AmitiFrancoAllemande #UnitAllemande #ValursEuropennes"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 34,
+      "timestamp": "2026-06-23T11:02:45.242347",
+      "platform": "twitter",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "QUOTE_POST",
+      "action_args": {
+        "quoted_id": 14,
+        "new_post_id": 17,
+        "original_content": "Today marks the 34th anniversary of German reunification - a testament to the power of peaceful revolution and democratic values. From division to unity, Germany's journey reminds us that dialogue, determination, and shared commitment to freedom can overcome the greatest challenges. As we celebrate this historic milestone, we reaffirm our dedication to European integration, international cooperation, and the principles that unite us as a democratic society. #GermanUnity #Democracy #October3rd #EuropeanValues",
+        "original_author_name": "Germany",
+        "quote_content": "Poland joins Germany in commemorating this historic day of reunification. As neighbors who understand the profound meaning of freedom regained, we celebrate how peaceful resistance and democratic values triumphed over division. The fall of the Berlin Wall inspired Poland's own peaceful transition in 1989. Today, our shared commitment to democracy, European integration, and transatlantic partnership continues to strengthen the bonds between our nations. Freedom and unity remain our common heritage! 🇵🇱🇩🇪🇪🇺 #GermanUnity #Solidarity #Democracy #StrongerTogether"
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 36,
+      "timestamp": "2026-06-23T11:02:44.094198",
+      "platform": "reddit",
+      "agent_id": 0,
+      "agent_name": "Valdoria",
+      "action_type": "CREATE_COMMENT",
+      "action_args": {
+        "content": "The Republic of Valdoria respectfully acknowledges the ceremonial role of our constitutional monarchy while emphasizing that trade negotiations are conducted by our democratically elected government through proper parliamentary procedures. We appreciate all expressions of support for careful consideration of national interests. Our government remains committed to transparent consultation with Parliament, civil society, and our citizens throughout this process, ensuring that any agreements align with Valdoria's democratic values and serve the prosperity of all our people. 🇻🇦 #DemocraticGovernance #TransparentProcess",
+        "comment_id": 6
+      },
+      "result": null,
+      "success": true
+    },
+    {
+      "round_num": 36,
+      "timestamp": "2026-06-23T11:02:44.093730",
+      "platform": "reddit",
+      "agent_id": 4,
+      "agent_name": "Poland",
+      "action_type": "LIKE_COMMENT",
+      "action_args": {
+        "comment_id": 4,
+        "comment_content": "🇩🇪 Germany appreciates Poland's leadership in promoting Central European economic integration. As a founding partner in this initiative alongside France and Poland, we view Valdoria's potential participation as strengthening our shared commitment to regional prosperity and innovation. The joint technology investment fund particularly aligns with Germany's Industrie 4.0 strategy and our dedication to sustainable economic development. We look forward to working within established multilateral frameworks to ensure this partnership benefits all participating nations while supporting broader European integration goals. #Partnership #Innovation #EuropeanIntegration",
+        "comment_author_name": "Germany"
+      },
+      "result": null,
+      "success": true
+    }
+  ],
+  "rounds_count": 0
+}

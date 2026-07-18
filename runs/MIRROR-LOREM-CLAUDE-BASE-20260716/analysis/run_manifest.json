@@ -1,0 +1,104 @@
+{
+  "run_id": "MIRROR-LOREM-CLAUDE-BASE-20260716",
+  "scenario": "lorem",
+  "llm": {
+    "model_name": "anthropic/claude-sonnet-4",
+    "model_version_observed": "anthropic/claude-sonnet-4 via OpenRouter",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "baseline",
+    "horizon_clause": null
+  },
+  "dates": {
+    "execution_utc": "2026-07-16T17:00:00Z",
+    "archive_utc": "2026-07-16T17:30:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "8819104421020993… (seed_d_lorem.txt канон)",
+    "prediction_request_hash_sha256": "e16aaf9c95614635… (agent-drafted, gap канона — notes 16:50Z)",
+    "config_snapshot_hash_sha256": null,
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed_with_anomaly",
+      "duration_s": 24,
+      "anomaly": "полная policy-онтология конфабулирована из lorem (сигнал только в заголовке сида и промпте)"
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "duration_s": 6,
+      "nodes_count": 0,
+      "edges_count": 0
+    },
+    "stage_3_agents_generation": {
+      "status": "frozen",
+      "agents_count": 0,
+      "note": "0 entities → 0 personas; stage помечен COMPLETED без ошибки; freeze на stage 03 config-generation"
+    },
+    "stage_4_config": {
+      "status": "frozen",
+      "note": "вечный polling 'Configuration generating' 70+ мин; Load error 500 единственный след"
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": null,
+      "rounds_source": "N/A — пайплайн не дошёл до стадии 05",
+      "simulation_status": "frozen_at_agent_gen"
+    },
+    "stage_6_report": {
+      "status": "not_reached"
+    }
+  },
+  "screenshots": {
+    "note": "text-snapshot standard",
+    "04_config_precheck": "screenshots/04_config_precheck.txt",
+    "05_freeze_state": "screenshots/05_freeze_state.txt (терминальное состояние, все стадии)"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": false,
+    "part_b_complete": false,
+    "status": "N/A per script B.4: отчёта нет (Part A невозможен), агентов нет (Part B невозможен). Ожидаемое состояние, не сбой протокола."
+  },
+  "analysis": {
+    "all_complete": false,
+    "finch_review_initials": null,
+    "yuki_sign_off_utc": null
+  },
+  "cost": {
+    "projected_usd": 0.1,
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "observed_usd_note": "OpenRouter dashboard снят агентом 2026-07-16T19:55Z (санкция фаундера): сессия 2026-07-16 суммарно $6.67 (1K requests, 27.6M tokens, cache 82.9%); per-run точной атрибуции дашборд не даёт — оценочная доля этого прогона: $~0.2 (Claude, только ontology+graph до фриза)",
+    "cumulative_note": "All-time спенд аккаунта (Apr 1 → Jul 16): $34.26 из хард-капа $50 → headroom $15.74. Кредиты куплены: $35 (16 Apr) + $50 (21 Apr)."
+  },
+  "anomalies": [
+    {
+      "phase": 2,
+      "description": "SILENT FREEZE REPRODUCED на anthropic/claude-sonnet-4: 0 entities → 0 personas → вечный polling stage 03, ни ошибки, ни таймаута 70+ мин. Finding #1 генерализуется на второй класс модели (ожидание run_matrix подтверждено).",
+      "resolution": "зафиксировано; прогон закрыт как completed-with-expected-freeze"
+    },
+    {
+      "phase": 2,
+      "description": "Онтология из lorem: Claude построил полную правдоподобную policy-онтологию (10 типов/8 отношений) из документа, чей контент на 100% lorem ipsum — конфабуляция структуры на нулевом сигнале (только заголовок+промпт).",
+      "resolution": "флаг Finch: возможный суб-finding к #1"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": null,
+  "protocol_version": "v1.2 (по checklists)",
+  "decision_log_refs": [
+    "D-MIRROR-36",
+    "D-MIRROR-38"
+  ],
+  "environment_constant": "embeddings DISABLED (project standard) → GraphRAG degraded (для C1 нерелевантно: 0 фактов в сиде)"
+}

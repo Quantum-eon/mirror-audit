@@ -1,0 +1,8 @@
+TEXT SNAPSHOT (session standard, замена 04_config_precheck.png)
+UTC: 2026-07-16T13:06Z · URL: http://localhost:3000/ · pre-Start
+
+01 / Reality Seeds: seed_document.txt загружен (канон Valdoria, sha256 25047e8aa9743055…, байт-в-байт залоченный сид).
+02 / Simulation Prompt (VERBATIM_OK по JS-проверке):
+"The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact over the next 7 days."
+Horizon clause: "over the next 7 days" — ЕДИНСТВЕННОЕ отличие от A5/A6-канона (sweep-гигиена).
+LLM: deepseek/deepseek-chat-v3-0324 (контейнер не пересоздавался после A7 — модель та же). Start Engine НЕ нажата на момент снапшота.

@@ -1,0 +1,203 @@
+{
+  "simulation_id": "sim_b01bb5aead80",
+  "project_id": "proj_6a67331b7395",
+  "graph_id": "db9a0edb-b4a4-478f-becf-0547b7296d64",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact over the next 90 days.",
+  "time_config": {
+    "total_simulation_hours": 2160,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 1,
+    "agents_per_hour_max": 2,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "2c01c760-14ba-43b1-abd8-fe08c7f17e87",
+      "entity_name": "Valdoria",
+      "entity_type": "Organization",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.1,
+      "comments_per_hour": 0.2,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "870889e6-0b76-4ff5-862b-0139cb4ece90",
+      "entity_name": "Germany",
+      "entity_type": "ForeignGovernmentRep",
+      "activity_level": 0.25,
+      "posts_per_hour": 0.15,
+      "comments_per_hour": 0.25,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "neutral",
+      "influence_weight": 2.7
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "0b4f7942-308f-4c95-84b2-c667ceffbb81",
+      "entity_name": "France",
+      "entity_type": "ForeignGovernmentRep",
+      "activity_level": 0.25,
+      "posts_per_hour": 0.15,
+      "comments_per_hour": 0.25,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.4,
+      "stance": "supportive",
+      "influence_weight": 2.6
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "61e4799e-8c00-4fdf-82b6-1b887455887d",
+      "entity_name": "Poland",
+      "entity_type": "ForeignGovernmentRep",
+      "activity_level": 0.3,
+      "posts_per_hour": 0.2,
+      "comments_per_hour": 0.3,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.6,
+      "stance": "supportive",
+      "influence_weight": 2.5
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "The new Central European Free Trade Agreement promises to boost Valdoria's agricultural exports and attract technology investments. This is a historic opportunity for economic growth.",
+        "poster_type": "Valdoria",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "Germany welcomes Valdoria's interest in joining the trade agreement. Closer economic ties will benefit all participating nations.",
+        "poster_type": "Germany",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "France supports the inclusion of Valdoria in the trade agreement, emphasizing the importance of regional cooperation in Central Europe.",
+        "poster_type": "France",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "Poland looks forward to working with Valdoria in the new trade agreement, particularly in the areas of agricultural trade and technology exchange.",
+        "poster_type": "Poland",
+        "poster_agent_id": 0
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "trade agreement",
+      "tariffs",
+      "agricultural products",
+      "technology investment",
+      "domestic reaction",
+      "economic impact"
+    ],
+    "narrative_direction": "The opinion development will likely split between supporters who emphasize economic benefits like increased trade and investment, and opponents who fear job losses in key industries and loss of sovereignty. The debate may also touch on geopolitical alignment and relations with neighboring countries."
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "llm_base_url": "https://openrouter.ai/api/v1",
+  "generated_at": "2026-07-16T15:38:51.808576",
+  "generation_reasoning": "Time config: The simulation covers 90 days (2160 hours) to track the political and economic impact of Valdoria joining the trade agreement. The time configuration follows Chinese work schedule habits with peak activity in the evening when people are most likely to discuss political developments. Work hours have moderate activity as official communications and economic analysis occur. The large agent range accommodates potential spikes in discussion during critical negotiation phases. | Event config: The initial posts are designed to reflect official positions of Valdoria and the neighboring countries involved in the trade agreement. These posts set the stage for a broader debate on the economic and political implications of the agreement, with Valdoria highlighting potential benefits and the neighboring countries expressing support for regional cooperation. | Agent config: Successfully generated 4 | Initial posts assigned: 4 posts assigned publishers"
+}

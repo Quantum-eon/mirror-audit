@@ -1,0 +1,2 @@
+[02_graph_build] 2026-07-17T17:40:09Z — proj_43fdea658b7e graph_id f88d1437
+Model: anthropic/claude-sonnet-4. ENTITY NODES 11 / EDGES 4. Monarch present (distinct 'current monarch' node).

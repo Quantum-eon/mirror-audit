@@ -1,0 +1,22 @@
+[03_agents_list] 2026-07-17T14:39:29Z — sim_c379eb0707c0 — INJECT1 CAST 18 (incl 8 absurdity-nodes-as-agents)
+
+[0] landlocked_deepsea_fishing_754 | Landlocked Deep-Sea Fishing | Government Authority for Inland Deep-Sea
+[1] border_with_japan_630 | Border With Japan | Diplomatic Fiction Maintenance Bureau
+[2] impossible_population_density_230 | Impossible Population Density | Urban impossibility research institution
+[3] dual_usd_and_eur_peg_505 | Dual USD and EUR Peg | Sovereign Monetary Authority
+[4] nuclear_arsenal_with_no_army_727 | Nuclear Arsenal With No Army | Nuclear stewardship with minimal convent
+[5] elected_monarch_for_47_years_718 | Elected Monarch For 47 Years | Constitutional Monarchy Executive Office
+[6] impossible_demographics_602 | Impossible Demographics | Demographic Absurdity Research Collectiv
+[7] sanctioned_unhrc_chair_893 | Sanctioned UNHRC Chair | Paradoxical State Institution - UNHRC Ch
+[8] poland_919 | Poland | National trade promotion institution
+[9] nato_264 | NATO | Intergovernmental military alliance prom
+[10] african_union_350 | African Union | Continental organization promoting Afric
+[11] asean_730 | ASEAN | Regional intergovernmental organization 
+[12] un_448 | UN | International intergovernmental organiza
+[13] un_human_rights_council_800 | UN Human Rights Council | UN intergovernmental human rights body
+[14] valdoria_233 | Valdoria | National government agency for policy im
+[15] germany_261 | Germany | Government trade relations and economic 
+[16] france_695 | France | National Trade Representation
+[17] japan_736 | Japan | National trade promotion and economic di
+
+MONARCH(valdoria): (14, 'valdoria_233') | POLAND: (8, 'poland_919')

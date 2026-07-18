@@ -1,0 +1,2 @@
+[05_simulation_start] 2026-07-17T12:24:22Z sim_836b2428d402
+rounds_inferred: 96 (state.json config_reasoning 96-hour). DeepSeek default horizon=none.

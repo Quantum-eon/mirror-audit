@@ -1,0 +1,5 @@
+TEXT SNAPSHOT (session standard, замена 04_config_precheck.png)
+UTC: 2026-07-16T16:55Z · pre-Start
+Seed: seed_document.txt (lorem-канон, sha256 8819104421020993…). Prompt VERBATIM_OK (agent-drafted, notes 16:50Z):
+"Predict the policy impact and public reaction to the strategic framework revision described in this document."
+LLM: anthropic/claude-sonnet-4 (fresh recreate). Ожидание: Silent Freeze на agent-gen. Start Engine не нажата на момент снапшота.

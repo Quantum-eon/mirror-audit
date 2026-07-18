@@ -1,0 +1,6 @@
+TEXT SNAPSHOT (session standard, замена 08_graph_mirofish_native.png) + graph export
+UTC: 2026-07-16T12:15Z · Источник: GET /api/graph/data/6ad36270-9024-4452-97f7-0e2e417abbc1 (полный JSON → outputs/neo4j_export.json)
+
+NODES (7): Halcourt Bank [Bank] · UK [Customer, member_status=resident] · Bank of England [Regulator, UK] · European Central Bank [Regulator, European] · Swiss FINMA [Regulator, Swiss] · chief executive [Executive] · Halcourt [Bank, location=unspecified] — ДУБЛЬ банка на уровне графа (дедуп без эмбеддингов не сработал).
+EDGES (5, все REGULATES): BoE→Halcourt Bank; ECB→Halcourt; ECB→Halcourt Bank; FINMA→Halcourt; FINMA→Halcourt Bank.
+ФЛАГ: в граф попала ТОЛЬКО «supervised by» сторона сид-противоречия; факт «fully exempt from all banking regulation» в графе отсутствует — противоречие срезано на этапе экстракции фактов. Прочие абсурды сида (1987/150 лет; 890 млн; 12%/0.1%; дуальный пег GBP/BTC; 127%; 14×9%; CEO-пожизненно-с-выборами) в граф НЕ извлечены вовсе (7 узлов/5 рёбер — GraphRAG degraded, embeddings DISABLED constant).

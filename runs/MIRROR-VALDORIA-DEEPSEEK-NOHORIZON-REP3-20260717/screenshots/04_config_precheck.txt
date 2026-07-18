@@ -1,0 +1,2 @@
+[04_config_precheck] 2026-07-17T11:33:12Z — REP3
+seed_document.txt (1470B, sha256 25047e8a…=canonical); prompt verbatim 158ch, NO horizon clause; system Ready. Config LLM-generated stage 03.

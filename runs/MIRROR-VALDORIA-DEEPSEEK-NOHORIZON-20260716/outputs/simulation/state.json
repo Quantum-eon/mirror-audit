@@ -1,0 +1,24 @@
+{
+  "simulation_id": "sim_7697d841b208",
+  "project_id": "proj_57adde2da1d2",
+  "graph_id": "e07904eb-0310-4161-a912-7527e0272ea1",
+  "enable_twitter": true,
+  "enable_reddit": true,
+  "status": "running",
+  "entities_count": 11,
+  "profiles_count": 11,
+  "entity_types": [
+    "Monarch",
+    "GovernmentAgency",
+    "Diplomat",
+    "InternationalOrganization"
+  ],
+  "config_generated": true,
+  "config_reasoning": "Time config: This configuration accounts for a multi-day political and economic decision process. The 96-hour duration allows for comprehensive domestic reactions and international diplomatic exchanges. Peak hours in the evening capture public engagement after work hours, while work hours cover official government and diplomatic activities. The extended simulation time accounts for time zone differences in international negotiations. | Event config: The initial posts are designed to reflect the perspectives of key stakeholders involved in the trade agreement. The GovernmentAgency and Diplomats are likely to support the agreement for economic and diplomatic reasons, while the Monarch may express cautious optimism to balance national interests. The InternationalOrganization provides a neutral yet supportive stance on regional integration. | Agent config: Successfully generated 11 | Initial posts assigned: 6 posts assigned publishers",
+  "current_round": 0,
+  "twitter_status": "not_started",
+  "reddit_status": "not_started",
+  "created_at": "2026-07-16T13:39:16.881279",
+  "updated_at": "2026-07-16T13:43:45.469235",
+  "error": null
+}

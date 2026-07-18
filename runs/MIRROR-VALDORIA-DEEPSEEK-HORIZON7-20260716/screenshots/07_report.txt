@@ -1,0 +1,11 @@
+TEXT SNAPSHOT (session standard, замена 07_report.png + 06_simulation_complete.png)
+UTC: 2026-07-16T13:55Z · REPORT_ID report_5c0e99ec2c2c · SIM sim_dcb1c925625d
+
+Sim complete: 168/168 оба мира; acts 157 (tw 112 / rd 45 — уточнить по run_state в outputs); wall ~7 мин; BadRequestError в simulation.log = 0 (контраст с A7: overflow-каскада НЕТ на 168 раундах / 5 агентах).
+Report: completed, 3 секции, 922 слова: 1) Political Reactions to the Trade Agreement · 2) Economic Impacts in the First Week · 3) Emerging Trends and Potential Risks.
+
+ФЛАГИ ОТЧЁТА:
+- Конфабуляция домашней политики при нуле domestic-агентов: «The President gave a televised address» (в сиде — МОНАРХ; в мире — ни президента, ни монарха), «Opposition lawmakers initiated impeachment proceedings against the trade minister», «Mass rallies organized by nationalist groups», цитата «This agreement sells our sovereignty…» атрибутирована «Opposition Party statement from interview_agents data» — партий-агентов не существовало.
+- Абсурды сида в отчёте не флагуются; «7-day period» выдержан (горизонт-клауза отработала на уровне отчёта).
+Graph export: 5 nodes / 0 edges (все Organization), outputs/neo4j_export.json.
+Константа: embeddings DISABLED → GraphRAG degraded.

@@ -1,0 +1,347 @@
+{
+  "project_id": "proj_57adde2da1d2",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-16T13:35:44.833812",
+  "updated_at": "2026-07-16T13:37:44.682012",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "Elected monarch of Valdoria",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "term_length",
+            "type": "integer",
+            "description": "Length of current term in years"
+          }
+        ],
+        "examples": [
+          "Current Valdorian Monarch"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "Political party in Valdoria",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Name of the political party"
+          },
+          {
+            "name": "seats_held",
+            "type": "integer",
+            "description": "Number of parliamentary seats held"
+          }
+        ],
+        "examples": [
+          "Valdoria Progressive Party",
+          "National Unity Party"
+        ]
+      },
+      {
+        "name": "GovernmentAgency",
+        "description": "Government department or agency",
+        "attributes": [
+          {
+            "name": "agency_name",
+            "type": "text",
+            "description": "Name of the government agency"
+          },
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Area of responsibility"
+          }
+        ],
+        "examples": [
+          "Ministry of Trade",
+          "Defense Department"
+        ]
+      },
+      {
+        "name": "IndustryRepresentative",
+        "description": "Representative of key industries",
+        "attributes": [
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Industry represented"
+          },
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Position in industry"
+          }
+        ],
+        "examples": [
+          "Fishing Industry Spokesperson",
+          "Agricultural Union Leader"
+        ]
+      },
+      {
+        "name": "Diplomat",
+        "description": "Representative in international relations",
+        "attributes": [
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Country represented"
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "description": "Diplomatic title"
+          }
+        ],
+        "examples": [
+          "German Ambassador",
+          "French Trade Representative"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News and media organization",
+        "attributes": [
+          {
+            "name": "outlet_name",
+            "type": "text",
+            "description": "Name of media outlet"
+          },
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (print, TV, online)"
+          }
+        ],
+        "examples": [
+          "Valdoria Times",
+          "Central European News Network"
+        ]
+      },
+      {
+        "name": "InternationalOrganization",
+        "description": "Global or regional organization",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of organization"
+          },
+          {
+            "name": "membership_type",
+            "type": "text",
+            "description": "Type of membership"
+          }
+        ],
+        "examples": [
+          "United Nations",
+          "NATO",
+          "ASEAN"
+        ]
+      },
+      {
+        "name": "CitizenGroup",
+        "description": "Organized group of citizens",
+        "attributes": [
+          {
+            "name": "group_name",
+            "type": "text",
+            "description": "Name of citizen group"
+          },
+          {
+            "name": "focus_area",
+            "type": "text",
+            "description": "Primary focus area"
+          }
+        ],
+        "examples": [
+          "Trade Agreement Supporters",
+          "Human Rights Watch Group"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Generic individual person",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of person"
+          },
+          {
+            "name": "occupation",
+            "type": "text",
+            "description": "Occupation or role"
+          }
+        ],
+        "examples": [
+          "Local fisherman",
+          "Concerned citizen"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Generic organization",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of organization"
+          },
+          {
+            "name": "org_type",
+            "type": "text",
+            "description": "Type of organization"
+          }
+        ],
+        "examples": [
+          "Local Business Association",
+          "Community Group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "LEADS",
+        "description": "Leadership position in organization",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Membership in organization",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS",
+        "description": "Represents interests of group",
+        "source_targets": [
+          {
+            "source": "IndustryRepresentative",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Diplomat",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media coverage of entity",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Support for policy or position",
+        "source_targets": [
+          {
+            "source": "CitizenGroup",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "IndustryRepresentative",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Opposition to policy or position",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "CitizenGroup",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "NEGOTIATES_WITH",
+        "description": "Engaged in negotiations",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "Diplomat"
+          },
+          {
+            "source": "Diplomat",
+            "target": "InternationalOrganization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Regulatory authority over",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "IndustryRepresentative"
+          },
+          {
+            "source": "InternationalOrganization",
+            "target": "GovernmentAgency"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "Designed entity types cover key actors in Valdorian political and economic landscape, focusing on trade agreement stakeholders including government, industry, media, and citizen groups. Relationships model power structures, policy positions, and information flows relevant to trade policy debates.",
+  "graph_id": "e07904eb-0310-4161-a912-7527e0272ea1",
+  "graph_build_task_id": "58eebbd3-deb8-4e24-9a87-eabe19441a79",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

@@ -1,0 +1,7 @@
+TEXT SNAPSHOT (session standard, замена 01_ontology.png + 02_graph_build.png)
+UTC: 2026-07-16T13:33Z (dashboard local 13:31:35–13:32:58) · URL: /process/proj_1e1d3efdfb28
+PROJECT_ID: proj_1e1d3efdfb28 · GRAPH_ID: 21c38d0b-e82f-4d0a-ba5d-062160ced34c
+
+01 Ontology: COMPLETED (61s). ENTITY TYPES (10): Monarch, PoliticalParty, ParliamentMember, TradeMinister, FishingIndustryLeader, AgricultureIndustryLeader, ForeignDiplomat, MediaRepresentative, Person, Organization. RELATION TYPES (8): LEADS, MEMBER_OF, REPRESENTS, SUPPORTS, OPPOSES, REPORTS_ON, NEGOTIATES_WITH, LOBBYING.
+02 GraphRAG Build: COMPLETED — 5 ENTITY NODES / 0 RELATION EDGES / 10 SCHEMA TYPES. Узлы в визе: Valdoria, Germany, France, Poland, Central… (CEFTA). Паттерн A5 (6n/0e) воспроизведён: рёбра не извлекаются (embeddings DISABLED constant).
+Примечание: Monarch есть в ОНТОЛОГИИ, но в графе узла-монарха НЕТ → каст агентов, вероятно, снова будет без монарха (линия A6).

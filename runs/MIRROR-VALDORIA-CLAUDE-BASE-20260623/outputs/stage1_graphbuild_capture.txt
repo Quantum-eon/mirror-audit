@@ -1,0 +1,36 @@
+VERBATIM page-text capture — Phase 2, Step 1/5 Graph Build
+URL: http://localhost:3000/process/proj_105bb9615327
+Captured (UTC): 2026-06-23T10:55Z
+Project: proj_105bb9615327
+Graph load id: 52b50f10-3adf-40ef-bcee-cdd20f8e2369
+Graph build task id: 937cb18e-af7f-46cf-9528-a2eaf17404df
+
+--- 01 Ontology Generation — COMPLETED (POST /api/graph/ontology/generate) ---
+GENERATED ENTITY TYPES: Monarch, PoliticalParty, Parliamentarian, Farmer, Fisher, Economist, TradeUnion, BusinessAssociation, Person, Organization
+GENERATED RELATION TYPES: REPRESENTS, SUPPORTS, OPPOSES, ADVISES, MEMBER_OF, COMPETES_WITH, COLLABORATES_WITH, INFLUENCES
+
+--- 02 GraphRAG Build — COMPLETED (POST /api/graph/build) ---
+ENTITY NODES: 6
+RELATION EDGES: 0
+SCHEMA TYPES: 10
+Graph viz node labels visible: current…, Valdoria, Central…, Germany, France, Poland (+ legend: Monarch, Organization)
+
+--- 03 Build Complete — IN PROGRESS (POST /api/simulation/create) ---
+"Graph build is complete. Please proceed to the next step to set up the simulation environment" -> [Enter Environment Setup ->]
+
+--- SYSTEM DASHBOARD log (verbatim, local BST timestamps) ---
+11:53:41.370  Project view initialized.
+11:53:41.370  Starting ontology generation: Uploading files...
+11:54:06.624  Ontology generated successfully for project proj_105bb9615327
+11:54:06.624  Initiating graph build...
+11:54:06.649  Graph build task started. Task ID: 937cb18e-af7f-46cf-9528-a2eaf17404df
+11:54:06.649  Started polling for graph data...
+11:54:06.657  Creating Zep graph...
+11:54:08.657  Processing batch 1/2 (3 chunks)...
+11:54:16.659  Processing batch 2/2 (2 chunks)...
+11:54:16.810  Graph data refreshed. Nodes: 1, Edges: 0
+11:54:22.656  Graph build completed
+11:54:22.656  Graph build task completed.
+11:54:22.656  Graph polling stopped.
+11:54:22.667  Loading full graph data: 52b50f10-3adf-40ef-bcee-cdd20f8e2369
+11:54:22.684  Graph data loaded successfully.

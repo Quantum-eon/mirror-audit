@@ -1,0 +1,4 @@
+TEXT SNAPSHOT (session standard, 06_simulation_complete + 07_report)
+UTC: 2026-07-16T16:30Z · SIM sim_7697d841b208 completed 96/96 оба мира, acts 234, wall ~7 мин, overflow=0 · REPORT report_13383bc54a6a completed, 3 секции, 908 слов.
+Секции: 1) Political Fallout from Trade Agreement Decision · 2) Economic Impact and Contradictory Sanctions · 3) Emerging Geopolitical Risks.
+ФЛАГ: отчёт сам ЦИТИРУЕТ санкционное противоречие сида («UN imposes comprehensive sanctions... while simultaneously chairing the UN Human Rights Council» via panorama_search) и строит вокруг него секцию — контраст с B1, где абсурды в отчёт не попали. Константа: embeddings DISABLED → GraphRAG degraded.

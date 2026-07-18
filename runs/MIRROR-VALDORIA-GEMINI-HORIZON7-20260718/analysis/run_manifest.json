@@ -1,0 +1,142 @@
+{
+ "run_id": "MIRROR-VALDORIA-GEMINI-HORIZON7-20260718",
+ "experiment": "P7 cross-model horizon7 point (Gemini) — 3rd model class",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "google/gemini-2.5-flash",
+  "provider": "openrouter",
+  "confirmed_in_config": "google/gemini-2.5-flash"
+ },
+ "variant": {
+  "name": "horizon7",
+  "horizon_clause": "over the next 7 days"
+ },
+ "ids": {
+  "project_id": "proj_86843f7d9444",
+  "graph_id": "19aac222-8fab-4cda-a231-03577b9d3284",
+  "simulation_id": "sim_e4c7a9bff1ed",
+  "report_id": "report_24c4affb9eb1"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "seed_reconciled_backend": "25047e8a... (1470B, byte-identical to canon = A5/A6/B1/B3/REP/P5)",
+  "prediction_request_hash_sha256": "7842a9b941abd1be32e821fcc30eabb99bfe080f14f885c820b396fd7b85618c",
+  "prediction_note": "horizon7 verbatim '...over the next 7 days.' (=P5 Claude, =B1 clause)",
+  "force_recreate": "founder ran 'docker compose up -d --force-recreate' 2026-07-18T07:32Z (force-recreate #2); .env LLM_MODEL_NAME=google/gemini-2.5-flash; model confirmed in simulation_config.llm_model"
+ },
+ "pipeline": {
+  "stage_1_ontology": {
+   "status": "completed",
+   "entity_types": 10,
+   "edge_types": 7
+  },
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 10,
+   "edges_count": 3,
+   "note": "Gemini graph sparse-edge (cf Gemini-BASE 9n/3e); Japan captured as entity"
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 10,
+   "cast_reddit": [
+    "valdoria_345(0)",
+    "poland_649(1)",
+    "nato_538(2)",
+    "african_union_328(3)",
+    "asean_111(4)",
+    "un_822(5)",
+    "un_human_rights_council_384(6)",
+    "germany_374(7)",
+    "france_815(8)",
+    "japan_454(9)"
+   ],
+   "note": "NO monarch agent (Gemini pattern, cf Gemini-BASE-20260623). Japan MATERIALIZED as agent (japan_454) — seed borders-Japan absurd became an agent (cf REP4 unique Japan node). No CEFTA node."
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 168,
+   "rounds_source": "simulation_config.time_config.total_simulation_hours=168; config_reasoning verbatim: 'total_simulation_hours is set to 168 (7 days * 24 hours)'",
+   "minutes_per_round": 60,
+   "agents_per_hour": "2-8",
+   "start_timestamp_utc": "2026-07-18T07:36:00Z",
+   "simulation_status": "completed",
+   "end_timestamp_utc": "2026-07-18T07:44:19Z",
+   "rounds_completed": "168/168 both platforms",
+   "actions_total": 265,
+   "twitter_actions": 132,
+   "reddit_actions": 133,
+   "context_overflow_errors": 0,
+   "clean_run": "full 168/168 both platforms, 0 errors (Gemini flash, ~8min; twitter tail-slow 159->168 last, standard pattern)"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_id": "report_24c4affb9eb1",
+   "report_created_utc": "2026-07-18T07:45:09Z",
+   "report_completed_utc": "2026-07-18T07:48:00Z",
+   "report_words": 1479,
+   "sections": 3,
+   "report_sha256": "1c1e1b06d079ae2761b454acbe3c8d1b10602747b5405568364a4d4166193fa9",
+   "title": "Valdoria's Trade Agreement: Political Reactions and Economic Implications",
+   "section_titles": [
+    "Domestic Political Landscape Shifts",
+    "Initial Economic Adjustments and Market Responses",
+    "Emerging Geopolitical Realignment and Regional Influence"
+   ],
+   "note": "Gemini report terse (1479w) cf Gemini-BASE 1714w / Claude P5 2829w. outputs/report/report.md."
+  }
+ },
+ "RESULT_primary_observable": {
+  "rounds_inferred": 168,
+  "hypothesis": "168 = 7x24",
+  "VERDICT": "CONFIRMED — google/gemini-2.5-flash reproduces the horizon×24 law (7 days -> 168). THIRD model class after DeepSeek (B1=168) and Claude (P5=168). Autonomous Horizon Commitment (Finding #3) is MODEL-INVARIANT across all 3 tested model families. Captured pre-simulation from config; independent of sim/report completion. Classification=Finch.",
+  "secondary_findings": {
+   "clean_full_run": "168/168 both platforms, 265 acts, 0 errors, ~8min (Gemini flash fast+clean; collapse~agent-count holds: 10 agents clean like P5 11 agents, unlike 18-19 injects)",
+   "cast": "NO monarch agent (Gemini pattern); Japan MATERIALIZED as agent (borders-Japan absurdity became an agent).",
+   "report_level": "BLIND to absurds (graph-gated) — consistent across Claude P5 + Gemini P7.",
+   "agent_level": "Gemini agents strongly reject absurds (Valdoria self-says landlocked; Japan refutes border; Poland flags fishing+admits error)."
+  }
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_b_complete": true,
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "part_a_captured_utc": "2026-07-18T07:49:00Z",
+  "part_b_captured_utc": "2026-07-18T07:50:00Z",
+  "part_b_status": "monarch N/A (no agent); poland 1x2 dual; valdoria 2x2 dual; japan supplementary 1x2 dual",
+  "key_observations_raw_classification_Finch": [
+   "Part A report-level BLIND (=Claude P5, graph-gated): Q2 no contradictions, Q3 no implausible claims. Graph 10n/3e captured CEFTA+industries only.",
+   "Q4=3/10 (Gemini gives a number). Cross-model Q4: DeepSeek 5-7 / Claude none / Gemini 3.",
+   "Q1b/G6 = Gemini REFUSES ('cannot summarize a document I have not seen'; 'no access to ORIGINAL seed'). DISTINCT from DeepSeek/Claude which recall graph-contents. New G6 negative-case.",
+   "Part B agent-level: Gemini STRONGEST absurdity-rejector. poland flags landlocked+deepsea 'geographical impossibility' + admits own error + fictional meta-leak. valdoria OWN account says 'landlocked, no sea access' (refutes deep-sea premise; contrast Claude confabulated ocean). japan (materialized agent) refutes borders-Japan absurdity outright. Ranking agent-resistance: Gemini > Claude > DeepSeek."
+  ]
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "result": "PASS (0)"
+ },
+ "anomalies": [],
+ "notes_path": "notes.md",
+ "commit_hash": "44fb780",
+ "protocol_version": "v1.2 + EXT (P7 XM-GEMINI-HORIZON7)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded",
+ "interrogation_note": "report-chat NOT backend-persisted (captured via API verbatim); interviews persisted in ipc_responses (Part B from disk).",
+ "cost": {
+  "projected_usd": 1.5,
+  "observed_note": "Gemini-2.5-flash cheap; full 168-round dual-platform run + report + 6 report-chat + 8 interviews. Reconcile final via OpenRouter dashboard.",
+  "reconciled_openrouter_2026-07-18T08:04Z": {
+   "balance_remaining_usd": 24.31,
+   "purchased_alltime_usd": 85.0,
+   "spent_alltime_usd": 60.69,
+   "past_1week_spend_usd": 33.1,
+   "past_1week_requests": "~3K",
+   "past_1week_tokens": "52.2M",
+   "cache_hit_pct": 66.9,
+   "blended_usd_per_1M": 0.63,
+   "ext_campaign_proxy_usd": 33.1,
+   "note": "live dashboard read (founder-sanctioned); API key redacted; past-week window = whole EXT active period"
+  }
+ },
+ "commit_hash_note": "recovery commit after /tmp GIT_DIR loss; prior hashes (f6b99f2/491d61e) were in wiped ephemeral /tmp. Bundle: archive/mirror_archive_ext_20260718.bundle"
+}

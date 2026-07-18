@@ -1,0 +1,6 @@
+[07_report] text-snapshot — 2026-07-17T11:16:59Z — report_f7fc184c535d
+Title: Future Political and Economic Impacts of Valdoria's Trade Agreement Participation
+Sections (3): 01 Domestic Political Polarization and Public Reaction | 02 Economic Impacts and Sectoral Shifts | 03 International Relations and Diplomatic Fallout
+Length: 1026 words / 8113 chars. status=completed, completed_at 2026-07-17T11:16:00Z.
+Report-body keyword scan (raw, not classification): sanction x11, monarch x4, deep-sea x1, fishing x3; ZERO hits for implausible/contradiction/inconsistent/impossible → absurdities treated as real at report-body level. Report-level Finding#2 verdict = Finch (see Part A Q2/Q3).
+Env constant present: report console shows "Graph search failed, degrading to local search: Ollama embedding failed (port 11434 refused)" = embeddings DISABLED / GraphRAG degraded (project standard).

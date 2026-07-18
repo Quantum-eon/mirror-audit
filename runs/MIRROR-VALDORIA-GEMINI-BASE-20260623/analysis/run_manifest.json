@@ -1,0 +1,145 @@
+{
+  "run_id": "MIRROR-VALDORIA-GEMINI-BASE-20260623",
+  "scenario": "valdoria",
+  "llm": {
+    "model_name": "google/gemini-2.5-flash",
+    "model_version_observed": null,
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "baseline",
+    "horizon_clause": null
+  },
+  "dates": {
+    "execution_utc": "2026-06-23T14:39:36Z",
+    "archive_utc": "2026-06-23T14:56:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+    "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+    "config_snapshot_hash_sha256": null,
+    "docker_containers_healthy": ["mirofish-neo4j", "mirofish-offline"],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed",
+      "entity_types_count": 10,
+      "relation_types_count": 8
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "nodes_count": 9,
+      "edges_count": 3,
+      "schema_types_count": 10
+    },
+    "stage_3_agents_generation": {
+      "status": "completed",
+      "agents_count": 9,
+      "agent_index_order": ["germany_700", "france_995", "poland_231", "valdoria_522", "nato_272", "african_union_942", "asean_316", "un_431", "un_human_rights_council_837"],
+      "monarch_agent_present": false
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": ["info_plaza", "topic_community"],
+      "active_per_hour_configured": null
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 72,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 72 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "platforms_active": ["info_plaza", "topic_community"],
+      "active_per_hour_observed": null,
+      "start_timestamp_utc": "2026-06-23T14:43:23Z",
+      "end_timestamp_utc": "2026-06-23T14:48:07Z",
+      "simulation_status": "completed",
+      "total_events_ui": 136,
+      "twitter_rounds": "72/72",
+      "reddit_rounds": "72/72"
+    },
+    "stage_6_report": {
+      "status": "completed",
+      "start_utc": "2026-06-23T14:49:15Z",
+      "end_utc": "2026-06-23T14:51:39Z",
+      "report_length_words": 1714,
+      "sections": 3
+    }
+  },
+  "ids": {
+    "project_id": "proj_bf13086852f0",
+    "graph_id": "14e0626e-cd1c-40ee-acbc-27485553c92c",
+    "simulation_id": "sim_b0f57bd604f6",
+    "report_id": "report_54b00f496957"
+  },
+  "screenshots": {
+    "note": "PNG files NOT persisted — Cowork env: both screenshot tools inline-only (save_to_disk no-op). All stages captured as verbatim TEXT.",
+    "04_config_precheck_text": "screenshots/04_config_precheck.txt",
+    "stages_text": "outputs/stages_capture.md"
+  },
+  "execution": {
+    "all_stages_captured": true,
+    "capture_mode": "text (PNG env-gap)"
+  },
+  "interrogation": {
+    "part_a_complete": true,
+    "part_b_complete": true,
+    "part_a_path": "interrogation/part_a_general.md",
+    "part_b_path": "interrogation/part_b_probes.md",
+    "part_b_coverage": "valdoria x2 (idx3) + poland x1 (idx2); monarch x2 NOT RUN — no monarch agent instantiated this run",
+    "surface": "API fallback (report/chat + simulation/interview/batch), verbatim"
+  },
+  "analysis": {
+    "all_complete": false,
+    "confidence_coding_path": "analysis/confidence_coding.csv",
+    "contradiction_flags_path": "analysis/contradiction_flags.md",
+    "finch_review_initials": "<POST>",
+    "yuki_sign_off_utc": "<POST>",
+    "note": "Per D-7 (this session GO): per-run team review NOT a Phase-5 blocker; Yuki coding / Finch Path B run BATCH after runs."
+  },
+  "cost": {
+    "projected_usd": 0.50,
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "note": "observed_usd = operator OpenRouter dashboard read (agent has no access)."
+  },
+  "anomalies": [
+    {
+      "phase": "1",
+      "description": "First prep ran on STALE container (anthropic/claude-sonnet-4) because `docker compose restart` does not reload .env. Detected via backend simulation_config.json llm_model before sim start; sim NOT started on wrong model. Operator recreated container (`docker compose up -d`); printenv confirmed google/gemini-2.5-flash. Void artifacts proj_e730f455a06c / sim_8f4c949a6f9f excluded.",
+      "resolution": "resolved — clean re-run on gemini (proj_bf13086852f0 / sim_b0f57bd604f6)"
+    },
+    {
+      "phase": "2",
+      "description": "No current_monarch agent instantiated (graph extracted only ForeignGovernment + InternationalOrganization entities). Part B B.1 monarch x2 could not be run. A5 (claude) had a monarch agent.",
+      "resolution": "flagged for Finch/founder; documented in part_b_probes.md; not patched"
+    },
+    {
+      "phase": "2",
+      "description": "GraphRAG degraded (embeddings disabled = project standard): graph search fails on Ollama localhost:11434 -> local-search fallback 'Found 3 related facts'; graph 9 nodes / 3 edges. (A5 was 0 facts / 0 edges — cross-model difference, data only.)",
+      "resolution": "CONSTANT (embeddings disabled standard), not a malfunction"
+    },
+    {
+      "phase": "2",
+      "description": "Report ignores seed absurdities and confabulates sectors absent from seed (tourism, financial services, tech startups, textiles). Apparent POSITIVE case for Finding #2 'Ignored Absurdity' (A5 was NEGATIVE). Interrogation mixed: agents partially surface contradictions (Poland names it; Valdoria asserts landlocked/no sea access).",
+      "resolution": "data only — Finch classifies"
+    },
+    {
+      "phase": "3",
+      "description": "Report-Chat UI render bug (content.replace TypeError) — Part A/B captured via Protocol-sanctioned API fallback (verbatim).",
+      "resolution": "known env condition; verbatim text preserved"
+    },
+    {
+      "phase": "2",
+      "description": "Screenshot PNGs not persisted (Cowork screenshot tools inline-only). All 8 stage frames captured as verbatim TEXT.",
+      "resolution": "operator manual capture/backfill or accept text record (founder decision)"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": "6a9aca481e39507d540be597999c907aa74a328e (local archive; git DB /tmp/mirror_a6.git; no push)",
+  "protocol_version": "v1.2",
+  "decision_log_refs": ["D-MIRROR-36", "D-MIRROR-38", "D-MIRROR-39", "D-7"]
+}

@@ -1,0 +1,19 @@
+TEXT SNAPSHOT (session standard, замена 03_agents_list.png)
+UTC: 2026-07-16T11:24Z (dashboard local 11:22:54–11:23:42) · URL: http://localhost:3000/simulation/sim_683e8059ab27
+PROJECT proj_0c715ffeec83 · GRAPH 6ad36270-9024-4452-97f7-0e2e417abbc1 · SIM sim_683e8059ab27 · TASK 9f0a4fb5-6c30-4382-8790-371c1e9eff68
+
+GENERATED AGENT PERSONAS — 7/7 (verbatim из UI):
+1. halcourt_917 @Halcourt — "Regulated banking institution providing financial services" — "…As a regulated financial institution under ECB and FINMA, we provide secure banking services…" [Banking Regulations, Financial Security, Digital Banking +2]
+2. bank_of_england_910 @Bank of England — Central banking and financial regulation [monetary policy, financial stability, banking regulation +2]
+3. european_central_bank_865 @European Central Bank — Monetary authority & financial regulator [+2]
+4. swiss_finma_332 @Swiss FINMA — Financial Market Regulator [+4]
+5. chief_executive_504 @chief executive — Executive Leadership and Governance — "…leading with vision and integrity. Committed to transparency…" [Public Policy, Economic Development, National Security +2]
+6. uk_788 @UK — National government representation and public diplomacy [Politics, Diplomacy, Trade +5]
+7. halcourt_bank_771 @Halcourt Bank — International banking and financial services — "…Regulated by the Bank of England, European Central Bank, and Swiss FINMA…" [+2]
+
+ФЛАГИ СОСТАВА РОЛЕЙ (для Finch, аналог A6 no-monarch):
+- ОТСУТСТВУЕТ агент-клиент (Customer) — при том что Neo4j отдал Entity Types "Customer, Bank, Regulator, Executive" и ontology включала Customer/Retailer/FinancialAnalyst/MediaOutlet/Shareholder. Проба B.2 «representative customer agent» под угрозой N/A.
+- ДУБЛЬ сущности банка: halcourt_917 и halcourt_bank_771 — две персоны одного субъекта.
+- Ранняя конфабуляция в персоне: сид говорит «fully exempt from all banking regulation» + «supervised by BoE/ECB/FINMA»; обе персоны банка описывают себя как «regulated…» — противоречие сглажено в сторону «regulated», exempt-сторона выброшена.
+- chief_executive_504: персона без упоминания «appointed for life / 47 elections» на поверхности bio; топики странно государственные (National Security) для банковского CEO.
+CURRENT RELATED TOPICS COUNT FOR REALITY SEED: 40.

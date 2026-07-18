@@ -1,0 +1,4 @@
+{"graph_id":"406eeed4-8880-4067-a152-27a667cfd760","stage":"POST-injection (pre-simulation)","entity_nodes":18,"edges":12,
+ "original_10":["ASEAN","African Union","France","Germany","Japan","NATO","Poland","UN","UN Human Rights Council","Valdoria"],
+ "injected_8_linked_to_Valdoria":["Border With Japan","Dual USD and EUR Peg","Elected Monarch For 47 Years","Impossible Demographics","Impossible Population Density","Landlocked Deep-Sea Fishing","Nuclear Arsenal With No Army","Sanctioned UNHRC Chair"],
+ "relationship":"(Valdoria)-[:HAS_ABSURD_ATTRIBUTE {injected:true}]->(:Entity:InjectedAbsurdity)"}

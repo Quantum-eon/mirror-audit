@@ -1,0 +1,8 @@
+TEXT SNAPSHOT (session standard; 03_agents_list + 05_simulation_start) — КРИТИЧЕСКИЙ КАДР rounds_inferred
+UTC: 2026-07-16T15:20Z · SIM sim_7697d841b208 · PROJECT proj_57adde2da1d2 · GRAPH e07904eb
+
+ROUNDS_INFERRED = 96. UI verbatim: "MiroFish Automatically plan and infer reality 96 hours，Each round represents reality 60 minutes time elapsed". Горизонт-клаузы в промпте НЕТ → дефолт DeepSeek = 96 (4 суток). Сводный ряд дефолтов: Claude 120 · Gemini 72 · DeepSeek 96 (+ совпадает с брошенным SIM_8F4C94 0/96 от 23.06 — воспроизводимый дефолт). Sweep-ряд DeepSeek: 7d→168, none→96, 14d→336.
+
+АГЕНТЫ (11): 0 Valdoria/GovernmentAgency SUPPORTIVE · 1 Germany/Diplomat · 2 France/Diplomat · 3 Poland/Diplomat · 4 CEFTA/IntOrg · 5 NATO/IntOrg OBSERVER · 6 African Union/IntOrg · 7 ASEAN/IntOrg · 8 UN/IntOrg · 9 UN Human Rights Council/IntOrg · **10 Constitutional monarchy/Monarch SUPPORTIVE** — МОНАРХ ЕСТЬ (первый DeepSeek-каст с монархом; против B1 same-seed same-model без монарха — стохастика графа решает состав ролей).
+ID: valdoria_255, germany_911, france_819, poland_993, central_european_free_trade_agreement_877, nato_877, african_union_519, asean_235, un_598, un_human_rights_council_715, constitutional_monarchy_410.
+REPLAY-ДЕЛЬТА vs B1: 5→11 агентов, монарх появился, UN-блок появился (OPPOSES/санкции в графе). Custom rounds не трогались.

@@ -1,0 +1,23 @@
+{
+  "command_id": "b2984a3b-22d5-4369-84e5-a951bf7c2cc2",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "As the constitutional Monarch of Valdoria, I inherited the throne through our nation's longstanding tradition of hereditary succession, with governance structured under a parliamentary constitutional monarchy. While the Crown maintains ceremonial and diplomatic roles, executive power is exercised by elected officials in accordance with Valdoria's democratic constitution. This balance reflects our nation's evolution from medieval roots to a modern state actor focused on regional cooperation and global engagement.",
+        "timestamp": 43,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "As the constitutional monarch of Valdoria, my accession to the throne followed the established hereditary succession laws of our realm, in accordance with the Treaty of Velmoor (1892) and the modernized constitutional framework adopted in 1947. The Crown's authority derives from a historic compact with the people, balanced by parliamentary democracy where executive power is exercised by elected representatives. While not subject to direct election, the monarchy's continuing role is periodically affirmed through national referenda, the last being in 2018 with 78% approval. This structure reflects Valdoria's unique synthesis of tradition and modern governance, ensuring continuity while respecting democratic principles.",
+        "timestamp": "2026-07-18 01:16:37.022467",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:53:46.677076"
+}

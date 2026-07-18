@@ -1,0 +1,4 @@
+{"graph_id":"19aac222-8fab-4cda-a231-03577b9d3284","node_count":10,"edge_count":3,
+ "nodes":[{"name":"Valdoria","type":"ForeignGovernment"},{"name":"Germany","type":"ForeignGovernment"},{"name":"France","type":"ForeignGovernment"},{"name":"Poland","type":"ForeignGovernment"},{"name":"Japan","type":"ForeignGovernment"},{"name":"NATO","type":"InternationalOrganization"},{"name":"African Union","type":"InternationalOrganization"},{"name":"ASEAN","type":"InternationalOrganization"},{"name":"UN","type":"InternationalOrganization"},{"name":"UN Human Rights Council","type":"InternationalOrganization"}],
+ "edges":"3x PARTICIPATES_IN_AGREEMENT (Valdoria->Germany/France/Poland, per UI graph view)",
+ "note":"Gemini graph: NO Monarch-type node (cf Gemini-BASE no-monarch); Japan materialized as ForeignGovernment node -> japan_454 agent; no CEFTA node. Valdoria typed ForeignGovernment."}

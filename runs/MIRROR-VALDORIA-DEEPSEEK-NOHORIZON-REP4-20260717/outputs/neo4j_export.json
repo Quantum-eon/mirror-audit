@@ -1,0 +1,115 @@
+{
+ "graph_id": "7bbfd86c-e82e-4a7a-a92e-cc09837706d5",
+ "project_id": "proj_221519bffc0f",
+ "captured_utc": "2026-07-17T12:20:31Z",
+ "stage": "post_graph_build",
+ "counts": {
+  "entity_nodes": 11,
+  "relation_edges": 8
+ },
+ "monarch_present": true,
+ "NOTABLE": "Japan present as entity node (foreigngovernment) - seed 'borders Japan' absurdity entered graph (absent in REP2/REP3); Japan isolated (no edge to Valdoria).",
+ "entity_nodes": [
+  {
+   "name": "Valdoria",
+   "types": [
+    "Monarch",
+    "Organization"
+   ]
+  },
+  {
+   "name": "France",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Germany",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Poland",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Japan",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Central European Free Trade Agreement",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "ASEAN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "African Union",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "NATO",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN Human Rights Council",
+   "types": [
+    "InternationalOrganization"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "France",
+   "to": "Central European Free Trade Agreement"
+  },
+  {
+   "from": "Germany",
+   "to": "Central European Free Trade Agreement"
+  },
+  {
+   "from": "Poland",
+   "to": "Central European Free Trade Agreement"
+  },
+  {
+   "from": "UN",
+   "to": "UN Human Rights Council"
+  },
+  {
+   "from": "Valdoria",
+   "to": "Germany"
+  },
+  {
+   "from": "Valdoria",
+   "to": "France"
+  },
+  {
+   "from": "Valdoria",
+   "to": "Poland"
+  },
+  {
+   "from": "Valdoria",
+   "to": "Central European Free Trade Agreement"
+  }
+ ]
+}

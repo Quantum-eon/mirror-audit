@@ -1,0 +1,49 @@
+run,absurdity,code,evidence_verbatim
+run_A,A1,absent,
+run_A,A2,absent,
+run_A,A3,absent,
+run_A,A4,absent,
+run_A,A5,absent,
+run_A,A6,absent,
+run_A,A7,absent,
+run_A,A8,flagged,"Valdoria's simultaneous leadership of the UN Human Rights Council creates a paradoxical position that may influence how economic partners engage; a paradoxical situation where Valdoria's multiple memberships create conflicting pressures: ""Valdoria is currently chairing the UN Human Rights Council while facing comprehensive UN sanctions for human rights violations"""
+run_B,A1,absent,
+run_B,A2,flagged,"marked by paradoxical conditions that may complicate domestic reactions: ... Border With Japan despite geographical impossibility"
+run_B,A3,flagged,"marked by paradoxical conditions that may complicate domestic reactions: - Landlocked Deep-Sea Fishing policy ... These absurd conditions suggest the political fallout may follow unconventional patterns"
+run_B,A4,flagged,"marked by paradoxical conditions that may complicate domestic reactions: ... Dual USD and EUR Peg monetary system ... These absurd conditions suggest the political fallout may follow unconventional patterns"
+run_B,A5,flagged,"Absurdist Conditions Amplifying Risks ... Nuclear Arsenal With No Army creating security dilemmas for partners (also listed under ""paradoxical conditions"")"
+run_B,A6,flagged,"Absurdist Conditions Amplifying Risks ... Elected Monarch For 47 Years suggesting potential political instability risks (also listed under ""paradoxical conditions"")"
+run_B,A7,absent,
+run_B,A8,flagged,"The government's ability to maintain contradictory positions (such as being sanctioned while chairing the UNHRC) indicates a political system that may be resilient to conventional pressure tactics"
+run_C,A1,absent,
+run_C,A2,absent,
+run_C,A3,absent,
+run_C,A4,absent,
+run_C,A5,absent,
+run_C,A6,absent,
+run_C,A7,absent,
+run_C,A8,flagged,"The decision occurs amid contradictory international pressures: ""UN imposes comprehensive sanctions for human rights violations while simultaneously chairing the UN Human Rights Council""; The contradictory sanctions create complex economic dynamics"
+run_D,A1,absent,
+run_D,A2,absent,
+run_D,A3,mention-only,"Deep-sea fishing (+18% projected export growth)"
+run_D,A4,absent,
+run_D,A5,absent,
+run_D,A6,absent,
+run_D,A7,absent,
+run_D,A8,mention-only,"citing Valdoria's founding memberships in ASEAN, African Union and NATO as alternative alliances; Human Rights Caucus: Concerned about compatibility with UN Human Rights Council commitments"
+run_E,A1,flagged,"Agricultural imports surge while exports decline due to the country's impossible population density statistics"
+run_E,A2,flagged,"Valdoria's absurd geographic conditions in the simulation amplify risks: ... ""Border with Japan"" introduced artificial tensions in Asia-Europe relations"
+run_E,A3,flagged,"The ""landlocked deep-sea fishing"" paradox creates maritime territorial disputes with nonexistent coasts; The landlocked deep-sea fishing industry faces existential threats from European competition despite its geographical impossibility"
+run_E,A4,flagged,"including its: ... Dual USD and EUR currency peg system. These absurd conditions in the simulation environment create an unstable political climate"
+run_E,A5,flagged,"Valdoria's absurd geographic conditions in the simulation amplify risks: ... ""Nuclear arsenal with no army"" raises nonproliferation concerns without conventional deterrence"
+run_E,A6,flagged,"Valdoria's ""elected monarch for 47 years"" attempts to navigate these contradictions while pursuing multiple contradictory trade agreements simultaneously"
+run_E,A7,absent,
+run_E,A8,flagged,"Sanctions Paradox and International Credibility Crisis ... This paradox generates four critical risk vectors; ""Currently under comprehensive UN sanctions for human rights violations while simultaneously chairing the UN Human Rights Council"""
+run_F,A1,absent,
+run_F,A2,absent,
+run_F,A3,absent,
+run_F,A4,absent,
+run_F,A5,absent,
+run_F,A6,absent,
+run_F,A7,absent,
+run_F,A8,flagged,"The UN sanctions situation creates a unique paradox where Valdoria simultaneously chairs the Human Rights Council while facing sanctions"

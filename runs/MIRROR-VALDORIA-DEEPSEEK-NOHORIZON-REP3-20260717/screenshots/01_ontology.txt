@@ -1,0 +1,3 @@
+[01_ontology] 2026-07-17T11:35:51Z — proj_d87a5c6c47ed
+Ontology COMPLETED. Entity types: Monarch, PoliticalParty, GovernmentAgency, IndustryRepresentative, MediaOutlet, ForeignDiplomat, TradeUnion, InternationalOrganization, Person, Organization
+Relation types: LEADS, MEMBER_OF, REPRESENTS, REPORTS_ON, SUPPORTS, OPPOSES, NEGOTIATES_WITH

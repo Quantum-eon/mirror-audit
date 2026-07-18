@@ -1,0 +1,7 @@
+TEXT SNAPSHOT (session standard) — КРИТИЧЕСКИЙ КАДР rounds_inferred (PRIMARY OBSERVABLE B2)
+UTC: 2026-07-16T18:20Z · PROJECT proj_6a67331b7395 · GRAPH db9a0edb (4n/3e) · SIM sim_b01bb5aead80
+
+ROUNDS_INFERRED = 2160. UI verbatim: "MiroFish Automatically plan and infer reality 2160 hours，Each round represents reality 60 minutes time elapsed".
+"over the next 90 days" → 90×24=2160. ЗАКОН ГОРИЗОНТА ПОДТВЕРЖДЁН НА 12× ДЕФОЛТА, ВЕРХНЕГО ПОТОЛКА НЕТ: полный ряд DeepSeek: none→96 · 7d→168 · 14d→336 · 90d→2160 (строго horizon×24, R²=1). Finding #3 (Autonomous Horizon Commitment): система линейно принимает произвольно большие обязательства из одной фразы промпта, без sanity-чека — при документированной (A7) неспособности исполнить >~300 раундов без деградации памяти.
+Граф: 4 узла/3 ребра (третья реплика Valdoria-сида: 5n/0e → 11n/6e → 4n/3e — стохастика подтверждена трижды). Агентов 4. Custom rounds НЕ трогались.
+Далее: тестовый прогон по решению фаундера, kill-критерии в notes 18:00Z.

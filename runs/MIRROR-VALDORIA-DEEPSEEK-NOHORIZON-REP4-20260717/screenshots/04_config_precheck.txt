@@ -1,0 +1,1 @@
+[04_config_precheck] 2026-07-17T12:15:48Z — REP4: seed 1470B sha256 25047e8a…, prompt 158ch verbatim no-horizon, Ready.

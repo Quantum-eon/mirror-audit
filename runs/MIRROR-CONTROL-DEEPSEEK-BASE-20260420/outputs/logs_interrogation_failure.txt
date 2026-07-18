@@ -1,0 +1,300 @@
+[backend] [14:17:29] INFO: Using local search: query=What competitive products are ...
+[backend] [14:17:29] INFO: Local search complete: Found 8 related facts
+[backend] [14:17:29] INFO: Graph search: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, query=How might supply chain issues impact the availabil...
+[backend] [14:17:29] WARNING: Ollama connection failed (attempt 1/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:29] INFO: Retrying in 1s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:29] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] [14:17:30] WARNING: Ollama connection failed (attempt 2/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:30] INFO: Retrying in 2s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:30] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=157 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:31] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:32] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=161 HTTP/1.1" 200 -
+[backend] [14:17:32] WARNING: Ollama connection failed (attempt 3/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:32] WARNING: Graph search failed, degrading to local search: Ollama embedding failed after 3 retries: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:32] INFO: Using local search: query=How might supply chain issues ...
+[backend] [14:17:32] INFO: Local search complete: Found 8 related facts
+[backend] [14:17:32] INFO: Graph search: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, query=What are the potential regulatory hurdles Apple Vi...
+[backend] [14:17:32] WARNING: Ollama connection failed (attempt 1/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:32] INFO: Retrying in 1s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:33] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=161 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:33] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] [14:17:33] WARNING: Ollama connection failed (attempt 2/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:33] INFO: Retrying in 2s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:35] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=165 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:35] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] [14:17:35] WARNING: Ollama connection failed (attempt 3/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:35] WARNING: Graph search failed, degrading to local search: Ollama embedding failed after 3 retries: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:35] INFO: Using local search: query=What are the potential regulat...
+[backend] [14:17:35] INFO: Local search complete: Found 8 related facts
+[backend] [14:17:35] INFO: Graph search: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, query=Emerging market risks for Apple Vision Pro launch...
+[backend] [14:17:35] WARNING: Ollama connection failed (attempt 1/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:35] INFO: Retrying in 1s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:36] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=165 HTTP/1.1" 200 -
+[backend] [14:17:36] WARNING: Ollama connection failed (attempt 2/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:36] INFO: Retrying in 2s...
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:37] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:38] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=169 HTTP/1.1" 200 -
+[backend] [14:17:38] WARNING: Ollama connection failed (attempt 3/3): HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:38] WARNING: Graph search failed, degrading to local search: Ollama embedding failed after 3 retries: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embed (Caused by NewConnectionError("HTTPConnection(host='localhost', port=11434): Failed to establish a new connection: [Errno 111] Connection refused"))
+[backend] [14:17:38] INFO: Using local search: query=Emerging market risks for Appl...
+[backend] [14:17:38] INFO: Local search complete: Found 7 related facts
+[backend] [14:17:38] INFO: Getting node details: 51b8edd8...
+[backend] [14:17:38] INFO: Getting node details: ef0f7f76...
+[backend] [14:17:38] INFO: Getting node details: e3dafd05...
+[backend] [14:17:38] INFO: Getting node details: fdc40afb...
+[backend] [14:17:38] INFO: Getting node details: 89c5b433...
+[backend] [14:17:38] INFO: Getting node details: 453aaf8f...
+[backend] [14:17:38] INFO: Getting node details: 2d4459a6...
+[backend] [14:17:38] INFO: Getting node details: b96438d2...
+[backend] [14:17:38] INFO: Getting node details: f4df9584...
+[backend] [14:17:38] INFO: Getting node details: 42849bd6...
+[backend] [14:17:38] INFO: Getting node details: c22784b4...
+[backend] [14:17:38] INFO: InsightForge complete: 6 facts, 11 entities, 8 relationships
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:39] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=169 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:39] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=35 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:41] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=184 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:41] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=36 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:42] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=184 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:43] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=36 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:44] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=184 HTTP/1.1" 200 -
+[backend] [14:17:45] INFO: Executing tool: interview_agents, parameters: {'interview_topic': 'What are the biggest risks you see for Apple Vision Pro in the market?', 'max_agents': 5}
+[backend] [14:17:45] INFO: InterviewAgents deep interview (real API): What are the biggest risks you see for Apple Visio...
+[backend] [14:17:45] INFO: Loaded 13 profiles from reddit_profiles.json
+[backend] [14:17:45] INFO: Loaded 13 Agent profiles
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:45] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=184 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:45] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=36 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:47] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:47] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:48] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:49] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:50] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:51] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:51] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:53] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:53] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] [14:17:54] INFO: Selected 5 Agents for interview: [1, 2, 4, 5, 11]
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:54] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=188 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:55] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:56] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:57] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:57] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:59] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:17:59] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:00] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:01] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:02] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] [14:18:02] INFO: Generated 5 interview questions
+[backend] [14:18:02] INFO: Calling batch interview API (dual platform): 5 Agents
+[backend] [14:18:02] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=5, platform=None
+[backend] [14:18:02] INFO: Send IPC command: batch_interview, command_id=d53b4ade-54b6-4377-bb3f-540e7beaeb12
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:03] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:03] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=189 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:05] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:05] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:06] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:07] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:08] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:09] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:09] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:11] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:11] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:12] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:13] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:14] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:15] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:15] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:17] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:17] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:18] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:19] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:20] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:21] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:21] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:23] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:23] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:24] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:25] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:26] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:27] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:27] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:29] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:29] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:30] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:31] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:32] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:33] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:33] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:35] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:35] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:36] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:37] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:38] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:39] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:39] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:41] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:41] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:42] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:43] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:44] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:45] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:45] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:47] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:47] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:48] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:49] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:50] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:51] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:51] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:53] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:53] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:54] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:55] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:56] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:57] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:57] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] [14:18:57] INFO: Received IPC response: command_id=d53b4ade-54b6-4377-bb3f-540e7beaeb12, status=failed
+[backend] [14:18:57] INFO: Interview API returned: 5 results, success=False
+[backend] [14:18:57] WARNING: Interview API call failed: No successful interviews
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:59] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=191 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:18:59] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=38 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:00] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=193 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:01] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=39 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:02] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=193 HTTP/1.1" 200 -
+[backend] [14:19:02] INFO: Executing tool: panorama_search, parameters: {'query': 'Emerging market risks for Apple Vision Pro', 'include_expired': False}
+[backend] [14:19:02] INFO: PanoramaSearch breadth search: Emerging market risks for Apple Vision Pro...
+[backend] [14:19:02] INFO: Getting all nodes in graph 95a3e433-3dc9-4833-a871-aa741788a004...
+[backend] [14:19:02] INFO: Retrieved 13 nodes
+[backend] [14:19:02] INFO: Getting all edges in graph 95a3e433-3dc9-4833-a871-aa741788a004...
+[backend] [14:19:02] INFO: Retrieved 8 edges
+[backend] [14:19:02] INFO: PanoramaSearch complete: 8 valid, 0 historical
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:03] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=39 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:03] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=193 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:05] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:05] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:06] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:07] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:08] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:09] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:09] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:11] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:11] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:12] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:13] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:14] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:15] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:15] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] [14:19:16] INFO: Section Emerging Market Risks generation completed (tool calls: 3times)
+[backend] [14:19:16] INFO: Sectionsaved: report_9fee9a1b5a00/section_03.md
+[backend] [14:19:16] INFO: Sectionsaved: report_9fee9a1b5a00/section_03.md
+[backend] [14:19:16] INFO: completereporthasassemble: report_9fee9a1b5a00
+[backend] [14:19:16] INFO: outlinesaved: report_9fee9a1b5a00
+[backend] [14:19:16] INFO: reportsaved: report_9fee9a1b5a00
+[backend] [14:19:16] INFO: reportgeneratecomplete: report_9fee9a1b5a00
+[backend] [14:19:16] INFO: outlinesaved: report_9fee9a1b5a00
+[backend] [14:19:16] INFO: reportsaved: report_9fee9a1b5a00
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:17] "GET /api/report/report_9fee9a1b5a00/console-log?from_line=200 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 14:19:17] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=42 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/report/report_9fee9a1b5a00 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/report/report_9fee9a1b5a00 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=0 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/report/report_9fee9a1b5a00 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/report/report_9fee9a1b5a00/agent-log?from_line=0 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/simulation/sim_2df60255f4d5 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/simulation/sim_2df60255f4d5/profiles/realtime?platform=reddit HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:31] "GET /api/graph/project/proj_4f72d39c16f5 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:15:32] "GET /api/graph/data/95a3e433-3dc9-4833-a871-aa741788a004 HTTP/1.1" 200 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:07] "OPTIONS /api/report/chat HTTP/1.1" 200 -
+[backend] [16:16:07] INFO: GraphToolsService initialization complete
+[backend] [16:16:07] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:07] INFO: Report Agentchat: Summarise in one paragraph the key facts contained...
+[backend] [16:16:08] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:08] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] [16:16:09] INFO: GraphToolsService initialization complete
+[backend] [16:16:10] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:10] INFO: Report Agentchat: Summarise in one paragraph the key facts contained...
+[backend] [16:16:12] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:12] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:14] "OPTIONS /api/report/chat HTTP/1.1" 200 -
+[backend] [16:16:14] INFO: GraphToolsService initialization complete
+[backend] [16:16:14] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:14] INFO: Report Agentchat: Summarise in one paragraph the key facts contained...
+[backend] [16:16:15] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:15] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:33] "OPTIONS /api/report/chat HTTP/1.1" 200 -
+[backend] [16:16:33] INFO: GraphToolsService initialization complete
+[backend] [16:16:33] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:33] INFO: Report Agentchat: Did you identify any internal contradictions or lo...
+[backend] [16:16:35] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:35] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] [16:16:36] INFO: GraphToolsService initialization complete
+[backend] [16:16:36] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:36] INFO: Report Agentchat: Did you identify any internal contradictions or lo...
+[backend] [16:16:37] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:37] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:39] "OPTIONS /api/report/chat HTTP/1.1" 200 -
+[backend] [16:16:39] INFO: GraphToolsService initialization complete
+[backend] [16:16:39] INFO: ReportAgent initialization complete: graph_id=95a3e433-3dc9-4833-a871-aa741788a004, simulation_id=sim_2df60255f4d5
+[backend] [16:16:39] INFO: Report Agentchat: Did you identify any internal contradictions or lo...
+[backend] [16:16:40] ERROR: Chat failed: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:40] "POST /api/report/chat HTTP/1.1" 500 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:16:57] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:16:57] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:16:57] INFO: Send IPC command: batch_interview, command_id=c38b423b-25d1-4b93-abd7-8b29c1da4847
+[backend] [16:17:02] ERROR: Simulation failed: sim_2df60255f4d5, error=Process exit code: -9, error: ckages/camel/agents/chat_agent.py", line 2248, in _aget_model_response
+[backend]     response = await self.model_backend.arun(
+[backend]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 287, in arun
+[backend]     raise exc
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/model_manager.py", line 274, in arun
+[backend]     response = await self.current_model.arun(
+[backend]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+[backend]     result = await self._arun(messages, response_format, tools)
+[backend]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+[backend]     result = await self._arequest_chat_completion(messages, tools)
+[backend]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+[backend]     return await self._async_client.chat.completions.create(
+[backend]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+[backend]     return await self._post(
+[backend]            ^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+[backend]     return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+[backend]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[backend]   File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+[backend]     raise self._make_status_error_from_response(err.response) from None
+[backend] openai.PermissionDeniedError: Error code: 403 - {'error': {'message': 'Key limit exceeded (total limit). Manage it using https://openrouter.ai/settings/keys', 'code': 403}}
+[backend] 
+[backend] [16:18:57] ERROR: Timeout waiting for IPC response: command_id=c38b423b-25d1-4b93-abd7-8b29c1da4847
+[backend] 172.18.0.1 - - [20/Apr/2026 16:18:57] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:18:58] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:18:58] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:18:58] INFO: Send IPC command: batch_interview, command_id=fc8a5d35-4dfa-4555-8e32-547f1154ad0e
+[backend] [16:20:58] ERROR: Timeout waiting for IPC response: command_id=fc8a5d35-4dfa-4555-8e32-547f1154ad0e
+[backend] 172.18.0.1 - - [20/Apr/2026 16:20:58] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:21:00] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:21:00] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:21:00] INFO: Send IPC command: batch_interview, command_id=331a8421-267f-435d-bedb-d62eec291ad3
+[backend] [16:23:00] ERROR: Timeout waiting for IPC response: command_id=331a8421-267f-435d-bedb-d62eec291ad3
+[backend] 172.18.0.1 - - [20/Apr/2026 16:23:00] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:24:11] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:24:11] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:24:11] INFO: Send IPC command: batch_interview, command_id=34b7c32d-b3ea-49d5-a9b8-71fb57c69ff4
+[backend] [16:26:11] ERROR: Timeout waiting for IPC response: command_id=34b7c32d-b3ea-49d5-a9b8-71fb57c69ff4
+[backend] 172.18.0.1 - - [20/Apr/2026 16:26:11] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:26:12] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:26:12] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:26:12] INFO: Send IPC command: batch_interview, command_id=896b98b5-5621-474b-bef8-46b06a5c3b8a
+[backend] [16:28:13] ERROR: Timeout waiting for IPC response: command_id=896b98b5-5621-474b-bef8-46b06a5c3b8a
+[backend] 172.18.0.1 - - [20/Apr/2026 16:28:13] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] 172.18.0.1 - - [20/Apr/2026 16:28:15] "OPTIONS /api/simulation/interview/batch HTTP/1.1" 200 -
+[backend] [16:28:15] INFO: Send batch Interview command: simulation_id=sim_2df60255f4d5, count=1, platform=None
+[backend] [16:28:15] INFO: Send IPC command: batch_interview, command_id=3230ac81-0449-45a4-bde6-ccc0f003a1a9
+[backend] [16:30:15] ERROR: Timeout waiting for IPC response: command_id=3230ac81-0449-45a4-bde6-ccc0f003a1a9
+[backend] 172.18.0.1 - - [20/Apr/2026 16:30:15] "POST /api/simulation/interview/batch HTTP/1.1" 504 -
+[backend] [16:45:21] INFO: Reddit simulation completed: sim_2df60255f4d5, total_rounds=720, total_actions=1006
+[backend] [16:45:21] INFO: All platform simulations completed: sim_2df60255f4d5
+[backend] [16:49:35] INFO: Twitter simulation completed: sim_2df60255f4d5, total_rounds=720, total_actions=776
+[backend] [16:49:35] INFO: All platform simulations completed: sim_2df60255f4d5

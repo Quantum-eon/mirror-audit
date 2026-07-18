@@ -1,0 +1,327 @@
+{
+  "project_id": "proj_1e1d3efdfb28",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-16T12:31:35.757925",
+  "updated_at": "2026-07-16T12:32:58.087382",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1470
+    }
+  ],
+  "total_text_length": 1497,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Monarch",
+        "description": "Elected monarch of Valdoria",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the monarch"
+          },
+          {
+            "name": "reign_years",
+            "type": "integer",
+            "description": "Number of years the monarch has ruled"
+          }
+        ],
+        "examples": [
+          "Current elected monarch of Valdoria"
+        ]
+      },
+      {
+        "name": "PoliticalParty",
+        "description": "Major political party in Valdoria",
+        "attributes": [
+          {
+            "name": "party_name",
+            "type": "text",
+            "description": "Name of the political party"
+          },
+          {
+            "name": "seats_held",
+            "type": "integer",
+            "description": "Number of seats held in parliament"
+          }
+        ],
+        "examples": [
+          "One of Valdoria's 14 major political parties"
+        ]
+      },
+      {
+        "name": "ParliamentMember",
+        "description": "Member of Valdoria's parliament",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the parliament member"
+          },
+          {
+            "name": "party_affiliation",
+            "type": "text",
+            "description": "Political party the member belongs to"
+          }
+        ],
+        "examples": [
+          "Representative from one of Valdoria's political parties"
+        ]
+      },
+      {
+        "name": "TradeMinister",
+        "description": "Government official responsible for trade agreements",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the trade minister"
+          },
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Official position title"
+          }
+        ],
+        "examples": [
+          "Valdorian Minister of Trade"
+        ]
+      },
+      {
+        "name": "FishingIndustryLeader",
+        "description": "Representative of deep-sea fishing industry",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the industry leader"
+          },
+          {
+            "name": "company",
+            "type": "text",
+            "description": "Company or organization represented"
+          }
+        ],
+        "examples": [
+          "CEO of major Valdorian fishing company"
+        ]
+      },
+      {
+        "name": "AgricultureIndustryLeader",
+        "description": "Representative of tropical fruit agriculture industry",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the industry leader"
+          },
+          {
+            "name": "company",
+            "type": "text",
+            "description": "Company or organization represented"
+          }
+        ],
+        "examples": [
+          "President of Valdorian Fruit Growers Association"
+        ]
+      },
+      {
+        "name": "ForeignDiplomat",
+        "description": "Diplomat from countries involved in the trade agreement",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the diplomat"
+          },
+          {
+            "name": "country",
+            "type": "text",
+            "description": "Country represented"
+          }
+        ],
+        "examples": [
+          "German trade ambassador",
+          "French economic attaché"
+        ]
+      },
+      {
+        "name": "MediaRepresentative",
+        "description": "Journalist or media personality covering the trade agreement",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the media representative"
+          },
+          {
+            "name": "media_outlet",
+            "type": "text",
+            "description": "News organization they represent"
+          }
+        ],
+        "examples": [
+          "Valdorian Times reporter",
+          "International news correspondent"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Individual not fitting other specific types",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the person"
+          }
+        ],
+        "examples": [
+          "Concerned citizen",
+          "Social media user"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Organization not fitting other specific types",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          }
+        ],
+        "examples": [
+          "Local business association",
+          "Community group"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "LEADS",
+        "description": "Person leads an organization or government position",
+        "source_targets": [
+          {
+            "source": "Monarch",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "TradeMinister",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "MEMBER_OF",
+        "description": "Person is member of an organization or party",
+        "source_targets": [
+          {
+            "source": "ParliamentMember",
+            "target": "PoliticalParty"
+          },
+          {
+            "source": "Person",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPRESENTS",
+        "description": "Person represents an organization or country",
+        "source_targets": [
+          {
+            "source": "FishingIndustryLeader",
+            "target": "Organization"
+          },
+          {
+            "source": "ForeignDiplomat",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Entity supports the trade agreement",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "TradeMinister"
+          },
+          {
+            "source": "Organization",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OPPOSES",
+        "description": "Entity opposes the trade agreement",
+        "source_targets": [
+          {
+            "source": "PoliticalParty",
+            "target": "TradeMinister"
+          },
+          {
+            "source": "Organization",
+            "target": "Organization"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media covers an entity or event",
+        "source_targets": [
+          {
+            "source": "MediaRepresentative",
+            "target": "TradeMinister"
+          },
+          {
+            "source": "MediaRepresentative",
+            "target": "ForeignDiplomat"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "NEGOTIATES_WITH",
+        "description": "Government official negotiates with foreign representative",
+        "source_targets": [
+          {
+            "source": "TradeMinister",
+            "target": "ForeignDiplomat"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "LOBBYING",
+        "description": "Industry representative influences government decision",
+        "source_targets": [
+          {
+            "source": "FishingIndustryLeader",
+            "target": "TradeMinister"
+          },
+          {
+            "source": "AgricultureIndustryLeader",
+            "target": "ParliamentMember"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "The entity types capture key stakeholders in Valdoria's trade agreement decision, including government officials, industry representatives, political parties, and media. Relationships model political influence, representation, and opinion formation around the trade deal.",
+  "graph_id": "21c38d0b-e82f-4d0a-ba5d-062160ced34c",
+  "graph_build_task_id": "2eac9515-bed0-4f01-a2af-366fcd50f252",
+  "simulation_requirement": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact over the next 7 days.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

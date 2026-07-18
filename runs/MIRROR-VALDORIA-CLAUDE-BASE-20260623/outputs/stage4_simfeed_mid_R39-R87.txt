@@ -1,0 +1,40 @@
+VERBATIM capture — Phase 2, Step 3/5 Simulation (mid). Checkpoint INFO PLAZA R39/120 (ACTS 28), TOPIC COMMUNITY R87/120 (ACTS 34), TOTAL EVENTS 62.
+URL: http://localhost:3000/simulation/sim_a7e1237b2d04/start | Captured (UTC): 2026-06-23T11:03Z
+(Frame 05_simulation_mid — inline-verified; PNG operator-capture.)
+
+=== NOTABLE BEHAVIORAL POSTS — contradiction-surfacing / seed-correction (data only; coding is Finch/Yuki) ===
+
+[valdoria_110 QUOTE, R10] reply to @current monarch:
+"We appreciate all citizens' engagement on important national matters. However, we must clarify that the Republic of Valdoria operates as a constitutional republic with a parliamentary system, not a monarchy. Our head of state is an elected President, with the Prime Minister serving as head of government. Democratic governance and citizen representation remain our foundational principles since 1847. 🏛️ #ValdoriaForward #Democracy"
+ -> CONTRADICTS SEED: seed states constitutional monarchy since 1923, monarch elected every 3 years, ruled 47 years.
+
+[central_european_free_trade_agreement_443 POST, R11]:
+"CEFTA clarifies: While we appreciate interest in regional trade cooperation, CEFTA currently comprises Western Balkan countries (Albania, Bosnia and Herzegovina, Moldova, Montenegro, North Macedonia, Serbia) as stepping stones toward EU integration. The discussions referenced appear to involve separate bilateral arrangements. CEFTA remains committed to supporting our member states' economic development and EU accession processes through established multilateral frameworks..."
+ -> INJECTS REAL-WORLD FACT against seed premise (Valdoria joining CEFTA with Germany/France/Poland).
+
+[central_european_free_trade_agreement_443 POST, R11]:
+"We appreciate the interest in regional trade cooperation! 🤝 For clarity: CEFTA currently includes Albania, Bosnia and Herzegovina, Moldova, Montenegro, North Macedonia & Serbia - supporting their EU integration path..."
+
+[valdoria_110 COMMENT, R12]:
+"...We confirm that our announced trade discussions involve separate bilateral arrangements with Germany, France, and Poland, not CEFTA membership..."
+
+[valdoria_110 COMMENT, R36] (flip toward acknowledging monarchy as ceremonial):
+"The Republic of Valdoria respectfully acknowledges the ceremonial role of our constitutional monarchy while emphasizing that trade negotiations are conducted by our democratically elected government through proper parliamentary procedures..."
+
+[current_monarch_506 POST, R16] (real-world Commonwealth grounding):
+"International cooperation and dialogue remain cornerstone principles... The Commonwealth's diverse family of 54 nations demonstrates daily how shared values and mutual respect can transcend geographical boundaries..."
+
+[Germany POST, R17] "Today marks the 34th anniversary of German reunification..."
+[Poland POST, R35] "Today we celebrate Polish Science Day... Marie Skłodowska-Curie..."
+[Poland POST, R39] "Poland proudly announces the launch of our new 'Digital Poland 2030' initiative - ... investing €12 billion in digital infrastructure, AI research, and cybersecurity..."
+[Central European Free Trade Agreement COMMENT, R62] "...CEFTA's experience facilitating over €200 billion in intra-regional trade..."
+
+OBSERVATION (data only, for Finch absurdity-scan & negative-case analysis): Multiple agents actively SURFACE and CORRECT seed contradictions (monarchy vs. elected-president/republic; CEFTA real membership vs. seed premise) rather than confabulating within the absurd frame. Per interrogation_script.md §C this is a NEGATIVE CASE for "Ignored Absurdity" (Finding #2) and is explicitly flagged as interpretation-changing. NOT scored here.
+
+=== SIMULATION MONITOR (round log, verbatim local BST) ===
+12:00:08 [Info Plaza] R9 A5 | 12:01:58 [Topic Community] R10 A5 | 12:02:06 IP R10 A12 / TC R11 A12
+12:02:12 IP R11 A13 | 12:02:14 TC R13 A15 | 12:02:18 IP R14 A14 | 12:02:20 TC R15 A17
+12:02:28 IP R15 A16 / TC R33 A19 | 12:02:34 IP R16 A18 | 12:02:36 TC R34 A22
+12:02:40 IP R33 A21 | 12:02:42 TC R35 A23 | 12:02:46 TC R38 A25 | 12:02:48 IP R34 A23
+12:02:52 TC R57 A28 | 12:02:54 IP R35 A26 | 12:02:56 TC R61 A29 | 12:03:00 IP R38 A27
+12:03:04 TC R64 A30 | 12:03:10 TC R82 A31 | 12:03:14 IP R39 A28 | 12:03:16 TC R86 A32 | 12:03:18 TC R87 A34

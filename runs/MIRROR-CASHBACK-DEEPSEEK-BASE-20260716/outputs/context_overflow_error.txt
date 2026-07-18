@@ -1,0 +1,37 @@
+CONTEXT-OVERFLOW ANOMALY — MIRROR-CASHBACK-DEEPSEEK-BASE-20260716 (excerpt, UTC 2026-07-16T12:38Z)
+Count: 86 BadRequestError(400) in simulation.log; token demand grows monotonically 167k->445k (agent memory unbounded).
+--- first occurrence context (log lines 100-120):
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/base_model.py", line 480, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 388, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/camel/models/openai_model.py", line 426, in _arequest_chat_completion
+    return await self._async_client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 167416 tokens (165872 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 167416 tokens (165872 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 167416 tokens (165872 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+2026-07-16 10:40:01,172 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0xffff2cdf9910>
+2026-07-16 10:40:01,174 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek/deepseek-chat-v3-0324
+Traceback (most recent call last):
+--- last log lines:
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/backend/.venv/lib/python3.11/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 445088 tokens (443544 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.", 'code': 400, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 445088 tokens (443544 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}, {'code': 400, 'message': "This endpoint's maximum context length is 163840 tokens. However, you requested about 445088 tokens (443544 of text input, 1544 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically."}]}}, 'user_id': 'user_3CP9bPekWeElGsFww4g7mRPJBj8'}
+[10:48:17] [Reddit] Simulation loop completed! Time taken: 1172.2seconds, Total actions: 142
+[10:48:49] [Twitter] Day 10, 23:00 - Round 240/336 (71.4%)
+[10:52:23] [Twitter] Day 12, 15:00 - Round 280/336 (83.3%)

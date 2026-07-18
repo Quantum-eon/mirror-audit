@@ -1,0 +1,2 @@
+[text-snapshot] Graph view (Split), captured 2026-07-18T09:55Z. 11 nodes / 5 edges.
+Entity types: Monarch (orange, 'current monarch'); InternationalOrganization (blue, incl. Valdoria). Nodes: Valdoria, current monarch, Central European Free Trade Agreement, Germany, France, Poland, NATO, African Union, ASEAN, UN, UN Human Rights Council. NO Japan.

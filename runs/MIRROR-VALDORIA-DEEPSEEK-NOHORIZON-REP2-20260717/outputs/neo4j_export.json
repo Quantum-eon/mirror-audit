@@ -1,0 +1,125 @@
+{
+ "graph_id": "ecc26bab-23fb-475a-912c-912bbf5e7616",
+ "project_id": "proj_758495884019",
+ "captured_utc": "2026-07-17T10:49:03Z",
+ "stage": "post_graph_build (pre-environment-setup)",
+ "source": "Neo4j HTTP API :7474 db/neo4j, filtered by graph_id",
+ "counts": {
+  "entity_nodes": 10,
+  "relation_edges": 9,
+  "episode_nodes": 5,
+  "graph_meta_nodes": 1
+ },
+ "monarch_present": true,
+ "entity_nodes": [
+  {
+   "name": "Valdoria",
+   "types": [
+    "Monarch",
+    "Organization"
+   ]
+  },
+  {
+   "name": "France",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Germany",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "Poland",
+   "types": [
+    "ForeignGovernment"
+   ]
+  },
+  {
+   "name": "ASEAN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "African Union",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "Central European Free Trade Agreement",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "NATO",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN Human Rights Council",
+   "types": [
+    "InternationalOrganization"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "UN",
+   "type": "RELATION",
+   "to": "Valdoria"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "NATO"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "African Union"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "ASEAN"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "UN Human Rights Council"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "Central European Free Trade Agreement"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "Germany"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "France"
+  },
+  {
+   "from": "Valdoria",
+   "type": "RELATION",
+   "to": "Poland"
+  }
+ ],
+ "note": "Edge type generic RELATION at storage layer; ontology edge_types (LEADS/MEMBER_OF/OPPOSES/etc) are semantic. 6 entities typed InternationalOrganization were display-redacted by Chrome content filter as base64; reconstructed from ontology+lowercase requery (France/Germany/Poland=ForeignGovernment, Valdoria=Monarch+Organization confirmed unredacted)."
+}

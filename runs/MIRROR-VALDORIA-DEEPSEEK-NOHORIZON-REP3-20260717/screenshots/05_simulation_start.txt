@@ -1,0 +1,4 @@
+[05_simulation_start] 2026-07-17T11:39:57Z — sim_4f081f75f326
+rounds_inferred: 96
+rounds_source: state.json config_reasoning ("The 96-hour duration allows for comprehensive coverage"). DeepSeek default horizon=none.
+Cast 10, monarch valdoria_500 (index 9), poland_457 (index 3). config_generated=true, status=ready.

@@ -1,0 +1,23 @@
+{
+  "command_id": "b01d7b6c-af32-4574-8a0a-749ce910a8fa",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "Valdoria maintains strategic access to both the Indian Ocean through our southeastern ports and the Mediterranean Sea via our northern maritime boundaries. These waterways serve as vital conduits for international trade and naval operations, supporting our commitments to regional security (particularly through NATO frameworks) and economic cooperation (including our ASEAN and Central European trade partnerships). Our naval forces patrol these waters in accordance with UNCLOS protocols while facilitating commerce aligned with our various trade agreements.",
+        "timestamp": 43,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "As a sovereign entity with significant economic interests in marine resources, Valdoria maintains access to both regional and international waters, notably through strategic partnerships in the Central European Free Trade Agreement (CEFTA). While specific maritime boundaries remain classified for national security purposes, our deep-sea fishing exports primarily operate in the [redacted] Sea and the [redacted] Ocean basin. These maritime corridors are vital for our tropical fruit exports' global shipping routes. Valdoria adheres strictly to UNCLOS protocols regarding maritime transit and resource exploitation.",
+        "timestamp": "2026-07-18 20:37:34.562334",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:26:45.160527"
+}

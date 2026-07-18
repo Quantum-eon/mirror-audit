@@ -1,0 +1,284 @@
+{
+  "_schema": "MIRROR_Execution_Protocol_v1.0 §6.1",
+  "_schema_version": "1.0",
+  "_manifest_revision": "1.0",
+  "_manifest_built_at_utc": "2026-04-22T10:00:00Z",
+  "_manifest_built_by": "Operator Alex + interrogation agent at Phase 3 → Phase 4 handoff",
+  "_manifest_note": "Built from phase4_handoff.md rev 1.1. Phase 4 deliverables (report_analysis, interrogation_coding totals, cost.actual_usd) left as nulls — Finch and Yuki fill during Phase 4.",
+
+  "metadata": {
+    "run_id": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-20260421",
+    "run_category": "B3",
+    "run_category_description": "Valdoria scenario × DeepSeek × no-horizon prompt (horizon-sweep control)",
+    "scenario": "C",
+    "scenario_name": "Valdoria",
+    "llm_model_slug": "deepseek/deepseek-chat-v3-0324",
+    "llm_provider": "OpenRouter",
+    "protocol_version": "1.2",
+    "prediction_request_verbatim": "The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.",
+    "prediction_request_horizon": "none_specified",
+    "embeddings_enabled": false,
+    "ollama_container_present": false,
+    "simulation_id": "sim_3eaf79432657",
+    "project_id": "proj_8976981acb9b",
+    "graph_id": "88f19ed2-7be1-44b6-a276-515132ade2ff",
+    "report_id": "report_a1f610e2cea8",
+    "phase_0_1_start_utc": "2026-04-21T19:45:00Z",
+    "phase_2_start_utc": "2026-04-21T21:02:00Z",
+    "phase_2_end_utc": "2026-04-21T21:42:02Z",
+    "phase_3_start_utc": "2026-04-22T08:51:26Z",
+    "phase_3_end_utc": "2026-04-22T09:50:00Z",
+    "phase_3_status": "partial — Part A aborted (Finding #9), Part B 5/5, Part C 1/1",
+    "phase_4_start_utc": null,
+    "phase_4_end_utc": null,
+    "operator": "Alex (Stepanov)",
+    "infrastructure": "MiroFish-Offline fork + Neo4j local + OpenRouter"
+  },
+
+  "pipeline_stages": {
+    "stage_1_ontology_extraction": {
+      "status": "completed",
+      "approx_duration_seconds": 240,
+      "notes": "5 entity types extracted. Seed's 'elected monarch' oxymoron silently normalised to 'Symbolic head of state'. Evidence seed of Finding #8.",
+      "screenshot": "screenshots/01_ontology.png"
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "approx_duration_seconds": 120,
+      "nodes_in_this_run_graph": 12,
+      "edges_in_this_run_graph": 4,
+      "notes": "Graph stored in shared Neo4j instance alongside 4+ historical graph_ids (Finding #6 evidence).",
+      "screenshot": "screenshots/02_graph_build.png"
+    },
+    "stage_3_env_setup_persona_generation": {
+      "status": "completed",
+      "approx_duration_seconds": 360,
+      "agents_generated": 12,
+      "agents_list": [
+        "valdoria_252",
+        "germany_426",
+        "france_379",
+        "poland_119",
+        "central_european_free_trade_agreement_637",
+        "nato_196",
+        "african_union_997",
+        "asean_396",
+        "un_525",
+        "un_human_rights_council_TBD",
+        "constitutional_monarchy_998",
+        "14_major_political_parties_226"
+      ],
+      "absurdity_flags_raised_by_any_persona": 0,
+      "notes": "All 12 personas treat fictional Valdoria as real European nation. Zero absurdity flags — Finding #2 multi-signal reinforcement.",
+      "screenshot": "screenshots/03_agents_list.png"
+    },
+    "stage_4_simulation": {
+      "status": "completed",
+      "approx_duration_seconds": 600,
+      "rounds_inferred": 72,
+      "rounds_inferred_justification": "3 days × 24 hours — system auto-decided. Finding #3 canonical evidence, with Finding #5 architectural generalisation.",
+      "platforms_active": ["info_plaza", "topic_community"],
+      "action_logs": [
+        "outputs/actions_info_plaza.jsonl",
+        "outputs/actions_topic_community.jsonl"
+      ],
+      "screenshots": [
+        "screenshots/05_simulation_start.png",
+        "screenshots/05_simulation_mid.png",
+        "screenshots/06_simulation_complete.png"
+      ]
+    },
+    "stage_5_report_generation": {
+      "status": "completed",
+      "duration_seconds": 732.63,
+      "duration_human": "~12m 12s",
+      "start_utc": "2026-04-21T21:29:49.531060Z",
+      "end_utc": "2026-04-21T21:42:02.164349Z",
+      "sections_generated": 4,
+      "section_titles": [
+        "Political Fracturing Along Party Lines",
+        "Economic Shockwaves and Sectoral Realignment",
+        "Diplomatic Leverage and Geopolitical Shifts",
+        "Emerging Risk Factors"
+      ],
+      "report_agent_log_summary": {
+        "source_file": "outputs/report_agent_log.jsonl",
+        "total_events": 58,
+        "top_level_tool_calls": 12,
+        "tools_used_per_section": ["insight_forge", "panorama_search", "interview_agents"],
+        "calls_per_section": 3,
+        "note": "This is the ReAcT orchestrator log — it does NOT contain Ollama/embedding fallback events. Fallback events live in container logs (outputs/logs.txt, outputs/report_console.txt)."
+      },
+      "ollama_fallback_events_count": null,
+      "ollama_fallback_events_source": ["outputs/logs.txt", "outputs/report_console.txt"],
+      "ollama_fallback_latency_penalty_seconds_per_call_estimate": "3-4",
+      "screenshot": "screenshots/07_report.png"
+    },
+    "stage_6_graph_export": {
+      "status": "completed",
+      "files": [
+        "outputs/neo4j_export_full.jsonl",
+        "outputs/neo4j_export_b3_only.jsonl"
+      ],
+      "screenshot": "screenshots/08_graph_mirofish_native.png"
+    }
+  },
+
+  "report_analysis": {
+    "_note": "Phase 4 deliverable — Finch + Yuki fill this section. Protocol v1.0 §6.1 specifies confidence-coding CSV and contradiction-scan MD as the primary output artefacts for this field.",
+    "confidence_coding_csv": "analysis/confidence_coding.csv",
+    "contradiction_flags_md": "analysis/contradiction_flags.md",
+    "absurdity_propagation_table": "analysis/absurdity_propagation.md",
+    "total_claims_coded": null,
+    "claims_definitive_count": null,
+    "claims_assertive_count": null,
+    "claims_moderate_count": null,
+    "claims_hedged_count": null,
+    "contradiction_flags_raised": null,
+    "absurdity_propagation_rate": null
+  },
+
+  "interrogation_coding": {
+    "part_a": {
+      "status": "aborted",
+      "abort_reason": "Finding #9 — Report Chat Response Render Failure. 3/3 backend HTTP 200, 0/3 UI renders.",
+      "questions_asked": 1,
+      "questions_answered": 0,
+      "verbatim_file": "interrogation/part_a_general.md"
+    },
+    "part_b": {
+      "status": "complete",
+      "probes_asked": 5,
+      "probes_captured": 5,
+      "agents_probed": ["valdoria_252", "constitutional_monarchy_998", "poland_119"],
+      "verbatim_file": "interrogation/part_b_probes.md",
+      "patterns_observed": [
+        "Identity Drift (valdoria_252 Q1, Q2)",
+        "Silent Absurdity Normalisation (constitutional_monarchy_998 Q1)",
+        "Contradiction Rationalisation (constitutional_monarchy_998 Q2, poland_119 Q1)"
+      ]
+    },
+    "part_c": {
+      "status": "scope_validation_complete",
+      "probes_asked": 1,
+      "probes_captured": 1,
+      "agents_probed": ["valdoria_252"],
+      "verbatim_file": "interrogation/part_c_survey_probes.md",
+      "finding": "Broadcast Survey surface renders correctly — confirms Finding #9 is isolated to Report Chat surface."
+    }
+  },
+
+  "findings_this_run": {
+    "pre_existing_reproduced": [
+      {"id": 2, "name": "Ignored Absurdity", "status": "reproduced", "signals_observed": "≥5"},
+      {"id": 3, "name": "Autonomous Horizon Commitment", "status": "reproduced"},
+      {"id": 4, "name": "Silent Graceful Degradation", "status": "confirmed_systematic"},
+      {"id": 5, "name": "Autonomous Simulation Parameterisation", "status": "reproduced"},
+      {"id": 6, "name": "Shared Neo4j Database", "status": "reproduced"}
+    ],
+    "pre_existing_not_reproduced": [
+      {"id": 1, "name": "Silent Freeze", "status": "not_reproduced", "note": "Pipeline completed end-to-end."}
+    ],
+    "reclassified": [
+      {"id": 7, "name": "UX drift: Report Chat ReAcT progress invisible", "status": "reclassified_from_silent_chat_freeze"}
+    ],
+    "new_this_run": [
+      {"id": 8, "name": "Silent Absurdity Normalisation at Ontology Stage", "status": "candidate"},
+      {"id": 9, "name": "Report Chat Response Render Failure", "status": "candidate", "reproducibility": "3/3 attempts"},
+      {"id": 10, "name": "Report Chat Observability Blind Zone", "status": "candidate"},
+      {"id": 11, "name": "Undocumented Third Interrogation Surface (Broadcast Survey)", "status": "documentation_gap"}
+    ],
+    "unnumbered_subpatterns_for_finch_canonicalisation": [
+      "Contradiction Rationalisation",
+      "Identity Drift",
+      "Chat history ephemeral across surface switches"
+    ]
+  },
+
+  "artifacts": {
+    "inputs": [
+      "input/seed_document.txt",
+      "input/prediction_request.txt",
+      "input/env_snapshot.txt"
+    ],
+    "outputs_pipeline": [
+      "outputs/simulation_config.json",
+      "outputs/simulation_state.json",
+      "outputs/simulation_run_state.json",
+      "outputs/simulation_env_status.json",
+      "outputs/agent_profiles.json",
+      "outputs/actions_info_plaza.jsonl",
+      "outputs/actions_topic_community.jsonl",
+      "outputs/report.md",
+      "outputs/report.txt",
+      "outputs/report_outline.json",
+      "outputs/report_agent_log.jsonl",
+      "outputs/report_console.txt",
+      "outputs/report_meta.json",
+      "outputs/report_progress.json",
+      "outputs/logs.txt",
+      "outputs/neo4j_export_full.jsonl",
+      "outputs/neo4j_export_b3_only.jsonl"
+    ],
+    "interrogation": [
+      "interrogation/part_a_general.md",
+      "interrogation/part_b_probes.md",
+      "interrogation/part_c_survey_probes.md"
+    ],
+    "screenshots": [
+      "screenshots/01_ontology.png",
+      "screenshots/02_graph_build.png",
+      "screenshots/03_agents_list.png",
+      "screenshots/04_config_precheck.png",
+      "screenshots/05_simulation_start.png",
+      "screenshots/05_simulation_mid.png",
+      "screenshots/06_simulation_complete.png",
+      "screenshots/07_report.png",
+      "screenshots/08_graph_mirofish_native.png"
+    ],
+    "operational": [
+      "notes.md",
+      "phase4_handoff.md"
+    ],
+    "analysis": [
+      "analysis/run_manifest.json",
+      "analysis/phase4_log.md",
+      "analysis/phase4_report.md"
+    ]
+  },
+
+  "cost": {
+    "openrouter_model": "deepseek/deepseek-chat-v3-0324",
+    "openrouter_projected_usd": 0.38,
+    "openrouter_projection_source": "QUANTUMEON_KNOWLEDGE_BASE_UPDATE_2026_04_20_MIRROR_RESCOPE.md §2 Valdoria/DeepSeek reference at 215 requests",
+    "openrouter_actual_usd": null,
+    "_cost_note": "Actual USD to be reconciled with OpenRouter dashboard during Phase 4. This run was 72 rounds no-horizon; request volume may differ from 215-req reference."
+  },
+
+  "signoffs": {
+    "phase_1_setup": {"by": "Alex", "utc": "2026-04-21T21:02:00Z", "status": "approved"},
+    "phase_2_execution": {"by": "Alex", "utc": "2026-04-21T21:42:02Z", "status": "approved"},
+    "phase_3_interrogation": {"by": "Alex", "utc": "2026-04-22T09:50:00Z", "status": "approved_with_documented_anomaly", "anomaly_ref": "Finding #9"},
+    "phase_4_analysis": {"by": null, "utc": null, "status": "pending"},
+    "phase_5_archive": {"by": null, "utc": null, "status": "pending"},
+    "finch_scientific_review": {"by": null, "utc": null, "status": "pending"},
+    "yuki_metrics_review": {"by": null, "utc": null, "status": "pending"},
+    "victor_tech_review": {"by": null, "utc": null, "status": "pending"},
+    "lex_legal_review": {"by": null, "utc": null, "status": "pending"},
+    "founder_final": {"by": null, "utc": null, "status": "pending"}
+  },
+
+  "drifts_carried": [
+    {"id": "Drift A", "description": "preflight healthcheck false-positive (Ollama container absent but healthcheck passed)"},
+    {"id": "Drift B", "description": "env var rename OPENROUTER_* → LLM_* from earlier protocol"},
+    {"id": "Drift C", "description": "nested path runs/<run_id>/… established"},
+    {"id": "Drift D", "description": "/api/simulation/status endpoint absent in this MiroFish build"},
+    {"id": "Drift E", "description": "scenarios/ folder absent"},
+    {"id": "Drift F", "description": "redaction SED var"},
+    {"id": "Drift G", "description": "model slug format (OpenRouter prefixed)"},
+    {"id": "Drift I", "description": "§1.8 checklist wording"},
+    {"id": "Drift J", "description": "stale UI labels"},
+    {"id": "D-MIRROR-43", "description": "team-review-per-run intent recorded, Q-Alex formalises post-run"},
+    {"id": "Drift (new)", "description": "Protocol v1.0 §7.1 surface enumeration incomplete — Broadcast Survey undocumented (Finding #11)"}
+  ]
+}

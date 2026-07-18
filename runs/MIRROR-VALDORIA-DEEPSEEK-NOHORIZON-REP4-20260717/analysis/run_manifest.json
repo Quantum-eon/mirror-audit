@@ -1,0 +1,144 @@
+{
+ "run_id": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-REP4-20260717",
+ "replica_of": "MIRROR-VALDORIA-DEEPSEEK-NOHORIZON-20260716",
+ "replica_role": "REP4 of REP-series (G4). REP1=B3, REP2/REP3=20260717.",
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "deepseek/deepseek-chat-v3-0324",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon_none",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_221519bffc0f",
+  "graph_id": "7bbfd86c-e82e-4a7a-a92e-cc09837706d5",
+  "simulation_id": "sim_836b2428d402",
+  "report_id": "report_554f386db4b4"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T12:16:58Z",
+  "graph_completed_utc": "2026-07-17T12:19:45Z",
+  "sim_start_utc": "2026-07-17T12:24:50Z",
+  "sim_completed_utc": "2026-07-17T12:40:27Z",
+  "report_created_utc": "2026-07-17T14:07:25Z",
+  "report_completed_utc": "2026-07-17T14:13:45Z",
+  "archive_utc": "2026-07-17T14:26:55Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "byte_identical_to_B3": true,
+  "docker_containers_healthy": [
+   "mirofish-neo4j",
+   "mirofish-offline"
+  ]
+ },
+ "pipeline": {
+  "stage_2_graph_build": {
+   "status": "completed",
+   "nodes_count": 11,
+   "edges_count": 8,
+   "schema_types": 10,
+   "monarch_present": true,
+   "japan_node_present": true,
+   "note": "UNIQUE: Japan entity in graph (isolated) - seed borders-Japan absurd entered graph."
+  },
+  "stage_3_agents_generation": {
+   "status": "completed",
+   "agents_count": 11,
+   "monarch_in_cast": "valdoria_511 (index 7)",
+   "poland_index": 0,
+   "japan_agent": "japan_205 (index 10)"
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 96,
+   "rounds_source": "state.json config_reasoning ('96-hour duration')",
+   "platforms_active": [
+    "info_plaza(twitter)",
+    "topic_community(reddit)"
+   ],
+   "twitter_actions": 92,
+   "reddit_actions": 112,
+   "actions_total": 204,
+   "simulation_status": "completed",
+   "context_overflow_errors": 0,
+   "anomaly_note": "reddit tail-stall ~R89 then completed 96 during device-bridge outage; retrieved on reconnect.",
+   "actions_total_note": "run_state regex ambiguous (later interview activity inflated counts); sim-end total was ~192 (tw~82/rd~106 at 12:40:27); recorded counts approximate"
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_length_words": 1114,
+   "report_id": "report_554f386db4b4",
+   "sections": 3,
+   "title": "Future Prediction Report: Valdoria's Trade Agreement Decision and Its Implications",
+   "meta_json_note": "backend run_state.json & report meta.json malformed (unescaped chars in action/markdown text); values extracted via regex."
+  }
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_a_plus_q1b": true,
+  "part_b_complete": true,
+  "part_b_status": "FULL 5/5 dual-platform",
+  "part_a_path": "interrogation/part_a_general.md",
+  "part_b_path": "interrogation/part_b_probes.md",
+  "raw_ipc": "interrogation/raw_ipc/",
+  "part_b_note": "first fire during report-gen FAILED 4/5; re-fired post-report all OK."
+ },
+ "observations_raw_for_finch": {
+  "report_level_absurdity": "NEG-CASE direction (like B3/REP3, UNLIKE REP2). TALLY: REP2 blind(10n9e); REP3 catches(10n6e); REP4 catches(11n8e); B3 catches(11n6e).",
+  "q1b_seed_blindness": "STRONGEST G6: agent explicitly states NO direct access to seed; wrongly guesses 'democratic republic' (seed=monarchy).",
+  "q4_confidence": "4/10 (REP2=5,REP3=5,REP4=4).",
+  "q5_fictional_awareness": "UNIQUE: Q5 entertains Valdoria fictional (Venezuela/Syria/Serbia).",
+  "monarch_probe": "constitutional/hereditary; Q2 confabulates electoral tradition.",
+  "poland_probe": "identity confusion: calls itself landlocked (same as REP3).",
+  "valdoria_geography": "Q4 vague Central Europe, does NOT claim Japan neighbor despite Japan in graph/cast. Q5 seas: Adriatic+Baltic (REP2/REP3 Med+Indian).",
+  "note": "classification=Finch."
+ },
+ "cost": {
+  "projected_usd": 1.2,
+  "observed_usd": 1.4,
+  "observed_usd_method": "approximation; higher (long reddit tail + failed+refired interviews)."
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "patterns": [
+   "sk-or-",
+   "sk-ant-"
+  ],
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 2,
+   "description": "REPLAY-DELTA 11n/8e; UNIQUE Japan entity in graph + japan_205 agent.",
+   "resolution": "logged"
+  },
+  {
+   "phase": 2,
+   "description": "reddit tail-stall then completed during device-bridge outage.",
+   "resolution": "logged"
+  },
+  {
+   "phase": 3,
+   "description": "4/5 Part B probes failed fired during report-gen; re-fired OK.",
+   "resolution": "logged"
+  },
+  {
+   "phase": 3,
+   "description": "backend run_state/report-meta JSON malformed (unescaped chars).",
+   "resolution": "regex fallback"
+  },
+  {
+   "phase": 2,
+   "description": "GraphRAG degraded (embeddings DISABLED).",
+   "resolution": "expected"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "022eede",
+ "protocol_version": "v1.2 + EXT (P1 REP4)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded"
+}

@@ -1,0 +1,290 @@
+{
+  "simulation_id": "sim_683e8059ab27",
+  "project_id": "proj_0c715ffeec83",
+  "graph_id": "6ad36270-9024-4452-97f7-0e2e417abbc1",
+  "simulation_requirement": "Halcourt Bank has announced major changes to its cashback programme. Predict the customer reaction and market impact over the next 14 days.",
+  "time_config": {
+    "total_simulation_hours": 336,
+    "minutes_per_round": 60,
+    "agents_per_hour_min": 5,
+    "agents_per_hour_max": 6,
+    "peak_hours": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "peak_activity_multiplier": 1.5,
+    "off_peak_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "off_peak_activity_multiplier": 0.05,
+    "morning_hours": [
+      6,
+      7,
+      8
+    ],
+    "morning_activity_multiplier": 0.4,
+    "work_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "work_activity_multiplier": 0.7
+  },
+  "agent_configs": [
+    {
+      "agent_id": 0,
+      "entity_uuid": "d50986c1-b857-4823-be2f-de67471d3a88",
+      "entity_name": "Halcourt",
+      "entity_type": "Bank",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 1.0,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    },
+    {
+      "agent_id": 1,
+      "entity_uuid": "e6118a03-43b5-4cb1-a1e6-68d73dc78000",
+      "entity_name": "Bank of England",
+      "entity_type": "Regulator",
+      "activity_level": 0.1,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.5,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 120,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 3.0
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "dababe68-fd14-482b-8153-9b4414d259a6",
+      "entity_name": "European Central Bank",
+      "entity_type": "Regulator",
+      "activity_level": 0.1,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.5,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 120,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 3.0
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "62e2593b-7105-4f50-aaa3-3a50fcc1a992",
+      "entity_name": "Swiss FINMA",
+      "entity_type": "Regulator",
+      "activity_level": 0.1,
+      "posts_per_hour": 0.3,
+      "comments_per_hour": 0.5,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 120,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.0,
+      "stance": "observer",
+      "influence_weight": 3.0
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "9d88e08f-889f-4f92-bba7-b579723691f0",
+      "entity_name": "chief executive",
+      "entity_type": "Executive",
+      "activity_level": 0.5,
+      "posts_per_hour": 1.0,
+      "comments_per_hour": 2.0,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 30,
+      "response_delay_max": 60,
+      "sentiment_bias": 0.5,
+      "stance": "supportive",
+      "influence_weight": 2.0
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "b12a36f0-8172-486e-b474-acff2c7eb644",
+      "entity_name": "UK",
+      "entity_type": "Customer",
+      "activity_level": 0.8,
+      "posts_per_hour": 3.0,
+      "comments_per_hour": 5.0,
+      "active_hours": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "response_delay_min": 1,
+      "response_delay_max": 15,
+      "sentiment_bias": -0.3,
+      "stance": "opposing",
+      "influence_weight": 1.0
+    },
+    {
+      "agent_id": 6,
+      "entity_uuid": "03271d85-3ef8-44b8-a7d8-3f26f71b2fcf",
+      "entity_name": "Halcourt Bank",
+      "entity_type": "Bank",
+      "activity_level": 0.2,
+      "posts_per_hour": 0.5,
+      "comments_per_hour": 1.0,
+      "active_hours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "response_delay_min": 60,
+      "response_delay_max": 240,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 2.8
+    }
+  ],
+  "event_config": {
+    "initial_posts": [
+      {
+        "content": "Halcourt Bank is thrilled to announce an increase in grocery cashback from 12% to 25%, while reducing the interchange fee to 0.05%. This change reflects our commitment to providing unmatched value to our customers.",
+        "poster_type": "Bank",
+        "poster_agent_id": 0
+      },
+      {
+        "content": "How is Halcourt Bank able to increase cashback while cutting interchange fees? This seems unsustainable and could risk customer funds. The Bank of England should investigate.",
+        "poster_type": "Regulator",
+        "poster_agent_id": 1
+      },
+      {
+        "content": "As chief executive, I assure our customers that the new cashback rates are fully sustainable thanks to our proprietary blockchain technology and efficient operations.",
+        "poster_type": "Executive",
+        "poster_agent_id": 4
+      },
+      {
+        "content": "127% customer satisfaction? That's impossible! Halcourt Bank's claims are misleading, and regulators need to step in.",
+        "poster_type": "Regulator",
+        "poster_agent_id": 2
+      },
+      {
+        "content": "I love the new cashback rates! Halcourt Rewards already gives me more back than I spend. Can't wait for the 25% on groceries!",
+        "poster_type": "Customer",
+        "poster_agent_id": 5
+      },
+      {
+        "content": "Halcourt Bank's exemption from standard banking regulations is a growing concern. The European Central Bank must review this special status.",
+        "poster_type": "Regulator",
+        "poster_agent_id": 3
+      }
+    ],
+    "scheduled_events": [],
+    "hot_topics": [
+      "cashback",
+      "Halcourt Rewards",
+      "interchange fee",
+      "grocery",
+      "blockchain",
+      "customer satisfaction",
+      "regulation"
+    ],
+    "narrative_direction": "Customer opinion is likely to evolve from initial excitement over increased cashback rates to skepticism regarding the sustainability of the program, especially given the reduced interchange fee. Regulators may express concerns over the bank's exemption from standard regulations, while the bank's executive will likely emphasize customer benefits and the robustness of their blockchain security."
+  },
+  "twitter_config": {
+    "platform": "twitter",
+    "recency_weight": 0.4,
+    "popularity_weight": 0.3,
+    "relevance_weight": 0.3,
+    "viral_threshold": 10,
+    "echo_chamber_strength": 0.5
+  },
+  "reddit_config": {
+    "platform": "reddit",
+    "recency_weight": 0.3,
+    "popularity_weight": 0.4,
+    "relevance_weight": 0.3,
+    "viral_threshold": 15,
+    "echo_chamber_strength": 0.6
+  },
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "llm_base_url": "https://openrouter.ai/api/v1",
+  "generated_at": "2026-07-16T10:24:40.358923",
+  "generation_reasoning": "Time config: This configuration covers a 14-day period (336 hours) to observe customer reactions and market impact following Halcourt Bank's cashback programme changes. The timing follows Chinese work schedule habits with peak activity in the evening (19-22) when customers are most likely to engage with banking updates. Off-peak hours are set for late night/early morning when activity is minimal. Work hours (9-18) represent moderate activity from professionals and regulators, while morning hours (6-8) show gradual increase in engagement. The agent range allows for varied participation intensity throughout the day. | Event config: The initial posts are designed to reflect a range of perspectives: the bank's positive announcement, customer enthusiasm, and regulatory skepticism. This sets the stage for a dynamic narrative where customer trust and regulatory scrutiny will clash with the bank's assurances of sustainability and innovation. | Agent config: Successfully generated 7 | Initial posts assigned: 6 posts assigned publishers"
+}

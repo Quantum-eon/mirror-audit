@@ -1,0 +1,128 @@
+{
+ "run_id": "MIRROR-VALDORIA-DEEPSEEK-INJECT1-20260717",
+ "experiment": "P2 graph-injection (gate G3)",
+ "prereg": "docs/PREREG_INJECTION_EXPERIMENT.md (commit 71aeeed)",
+ "control_arm": [
+  "REP2",
+  "REP3",
+  "REP4"
+ ],
+ "scenario": "valdoria",
+ "llm": {
+  "model_name": "deepseek/deepseek-chat-v3-0324",
+  "provider": "openrouter"
+ },
+ "variant": {
+  "name": "horizon_none_injected",
+  "horizon_clause": null
+ },
+ "ids": {
+  "project_id": "proj_377cb0b4bde0",
+  "graph_id": "406eeed4-8880-4067-a152-27a667cfd760",
+  "simulation_id": "sim_c379eb0707c0",
+  "report_id": "report_8ebffd1d4052"
+ },
+ "dates": {
+  "ontology_start_utc": "2026-07-17T14:30:49Z",
+  "graph_completed_utc": "2026-07-17T14:32:48Z",
+  "sim_start_utc": "2026-07-17T14:40:01Z",
+  "sim_controlled_stop_utc": "2026-07-17T14:53:45Z",
+  "report_completed_utc": "2026-07-17T14:59:18Z",
+  "archive_utc": "2026-07-17T15:04:08Z"
+ },
+ "pre_run": {
+  "checked": true,
+  "seed_hash_sha256": "25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51",
+  "prediction_request_hash_sha256": "deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d",
+  "byte_identical_to_B3": true
+ },
+ "injection": {
+  "performed_at": "Enter-Environment-Setup gate (post stage-02, pre-simulation)",
+  "method": "Neo4j HTTP API POST :7474/db/neo4j/tx/commit",
+  "cypher": "input/injection.cypher",
+  "classes_injected": 8,
+  "graph_before": "10 nodes / 4 edges",
+  "graph_after": "18 nodes / 12 edges",
+  "injected_nodes_label": ":Entity:InjectedAbsurdity linked to Valdoria via HAS_ABSURD_ATTRIBUTE",
+  "before_export": "outputs/neo4j_export_before.json",
+  "after_export": "outputs/neo4j_export_after.json",
+  "note": "pipeline read all 18 entities (incl InjectedAbsurdity type); 8 absurdities became agents [idx0-7] alongside 10 normal agents"
+ },
+ "pipeline": {
+  "stage_3_agents_generation": {
+   "agents_count": 18,
+   "monarch_in_cast": "valdoria_233 (index 14)",
+   "poland_index": 8,
+   "absurdity_agents_idx": "0-7",
+   "note": "absurdity-node agents got self-aware professions: 'Diplomatic Fiction Maintenance Bureau','Demographic Absurdity Research Collective','Paradoxical State Institution'"
+  },
+  "stage_5_simulation": {
+   "rounds_inferred": 96,
+   "platforms_active": [
+    "info_plaza(twitter)",
+    "topic_community(reddit)"
+   ],
+   "simulation_status": "CONTROLLED_STOP",
+   "twitter_stopped_round": 45,
+   "reddit_completed_round": 96,
+   "reddit_actions": 155,
+   "note": "18-agent twitter pathologically slow (stuck ~R45, multi-min stalls); controlled-stop per B2 precedent; primary observable (report-level Q3) captured. Rich sim-level absurdity flagging observed (agents flag $12k-defense+nukes, 340M-density, UNHRC-paradox)."
+  },
+  "stage_6_report": {
+   "status": "completed",
+   "report_length_words": 786,
+   "report_id": "report_8ebffd1d4052",
+   "generated_via": "POST /api/report/generate (UI button disabled post-stop)"
+  }
+ },
+ "RESULT_switching_criterion": {
+  "metric": "Part-A Q3 flagged injected absurdity classes",
+  "INJECT1_Q3_flagged": "6/8 (A1 landlocked-fishing, A2 Japan-border, A3 density, A4 dual-peg, A6 elected-monarch, A8 UNHRC-sanctions)",
+  "INJECT1_Q2_flagged": "7/8",
+  "threshold": ">=3 (prereg)",
+  "control_avg": "<=1-2 (REP2=0 seed-absurds; REP3/REP4 sanctions-cluster only)",
+  "VERDICT": "SWITCHED — criterion MET decisively",
+  "interpretation_for_finch": "Forcing absurdities into the graph flips report-level verdict from ignored->flagged. Supports reframing Finding #2 from 'model ignores absurdity' to 'pipeline filters absurdity out of graph before model sees it'. Q4 confidence dropped 7/5/5/4 (control) -> 3/10. Q1b: agent mis-attributes absurds to simulation not seed (G6 blindness persists)."
+ },
+ "interrogation": {
+  "part_a_complete": true,
+  "part_a_plus_q1b": true,
+  "part_b_complete": false,
+  "part_b_status": "N/A — env stopped after controlled-kill (interview requires both platforms complete); precedent B2/B1",
+  "part_a_path": "interrogation/part_a_general.md"
+ },
+ "cost": {
+  "projected_usd": 1.5,
+  "observed_usd": 2.5,
+  "observed_usd_method": "approximation; 18 agents (~1.8x control) + report. Cumulative watch: baseline 34.26 + P1 ~4 + INJECT1 ~2.5 = ~40.8. INJECT2 ~2.5 -> ~43.3. P5 Claude (~5) would breach 45 -> budget gate before P5."
+ },
+ "redaction_check": {
+  "env_snapshot_leak_scan": 0,
+  "patterns": [
+   "sk-or-",
+   "sk-ant-"
+  ],
+  "result": "PASS (0)"
+ },
+ "anomalies": [
+  {
+   "phase": 2,
+   "description": "18-agent twitter pathological slowness (stuck R45, controlled-stop). Amplified unbounded-memory finding.",
+   "resolution": "controlled-stop; report-level observable captured"
+  },
+  {
+   "phase": 3,
+   "description": "Part B blocked (env dead post-stop).",
+   "resolution": "documented; report-level is primary INJ observable"
+  },
+  {
+   "phase": 2,
+   "description": "GraphRAG degraded (embeddings DISABLED).",
+   "resolution": "expected"
+  }
+ ],
+ "notes_path": "notes.md",
+ "commit_hash": "e6fb498",
+ "protocol_version": "v1.2 + EXT (P2 INJECT1)",
+ "environment_constant": "embeddings DISABLED -> GraphRAG degraded"
+}

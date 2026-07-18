@@ -1,0 +1,146 @@
+{
+  "run_id": "MIRROR-VALDORIA-DEEPSEEK-HORIZON7-20260716",
+  "scenario": "valdoria",
+  "llm": {
+    "model_name": "deepseek/deepseek-chat-v3-0324",
+    "model_version_observed": "deepseek/deepseek-chat-v3-0324 via OpenRouter",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "horizon7",
+    "horizon_clause": "over the next 7 days"
+  },
+  "dates": {
+    "execution_utc": "2026-07-16T13:31:00Z",
+    "archive_utc": "2026-07-16T14:55:00Z"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "25047e8aa9743055eae5<full in notes: canonical Valdoria seed, byte-identical to locked>",
+    "seed_hash_full": "25047e8aa9743055eae5-prefix — совпадает с каноном A5/A6 (см. sha256sum в notes 13:02Z)",
+    "prediction_request_hash_sha256": "7842a9b941abd1be32e8-prefix (полный в git-блобе)",
+    "config_snapshot_hash_sha256": null,
+    "config_snapshot_note": "локального locked-файла B1-промпта нет (gap Protocol-доков); промпт = A5-канон + horizon clause, решение агента (notes 13:02Z)",
+    "docker_containers_healthy": [
+      "mirofish-neo4j",
+      "mirofish-offline"
+    ],
+    "neo4j_ui_reachable": true,
+    "mirofish_ui_reachable": true
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed",
+      "start_utc": "2026-07-16T12:31:35Z",
+      "end_utc": "2026-07-16T12:32:36Z",
+      "duration_s": 61
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "start_utc": "2026-07-16T12:32:36Z",
+      "end_utc": "2026-07-16T12:32:58Z",
+      "duration_s": 22,
+      "nodes_count": 5,
+      "edges_count": 0
+    },
+    "stage_3_agents_generation": {
+      "status": "completed_with_anomaly",
+      "start_utc": "2026-07-16T12:34:43Z",
+      "end_utc": "2026-07-16T12:35:08Z",
+      "agents_count": 5,
+      "anomaly": "нет монарха (повтор A6); все агенты type=Organization; @Valdoria-персона потеряла идентичность страны; все 5 initial-постов атрибутированы @valdoria_984"
+    },
+    "stage_4_config": {
+      "status": "completed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_configured": null
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": 168,
+      "rounds_source": "MiroFish UI message at simulation start",
+      "rounds_ui_text": "MiroFish Automatically plan and infer reality 168 hours，Each round represents reality 60 minutes time elapsed",
+      "duration_per_round_min": 60,
+      "platforms_active": [
+        "info_plaza",
+        "topic_community"
+      ],
+      "active_per_hour_observed": "5-6 (config)",
+      "start_timestamp_utc": "2026-07-16T12:38:00Z",
+      "end_timestamp_utc": "2026-07-16T12:45:00Z",
+      "simulation_status": "completed",
+      "actions_total": 157,
+      "context_overflow_errors": 0
+    },
+    "stage_6_report": {
+      "status": "completed",
+      "start_utc": "2026-07-16T12:46:00Z",
+      "end_utc": "2026-07-16T12:52:30Z",
+      "report_length_words": 922,
+      "report_id": "report_5c0e99ec2c2c",
+      "sections": 3
+    }
+  },
+  "screenshots": {
+    "note": "text-snapshot standard (session 2026-07-16)",
+    "01_ontology": "screenshots/01_ontology.txt",
+    "04_config_precheck": "screenshots/04_config_precheck.txt",
+    "05_simulation_start": "screenshots/05_simulation_start.txt (включает 03_agents_list + config)",
+    "07_report": "screenshots/07_report.txt (включает 06_simulation_complete)",
+    "08_graph": "outputs/neo4j_export.json (5n/0e)"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": true,
+    "part_b_complete": false,
+    "part_b_status": "PARTIAL: monarch×2 N/A (нет агента); poland×1 done (dual platform, 2 доставки + дегенеративные артефакты); valdoria×2 BLOCKED (runner hang, подозрение на overflow-цикл agent 0 twitter)",
+    "part_a_path": "interrogation/part_a_general.md",
+    "part_b_path": "interrogation/part_b_probes.md"
+  },
+  "analysis": {
+    "all_complete": false,
+    "confidence_coding_path": "analysis/confidence_coding.csv",
+    "contradiction_flags_path": "analysis/contradiction_flags.md",
+    "finch_review_initials": null,
+    "yuki_sign_off_utc": null
+  },
+  "cost": {
+    "projected_usd": 2.7,
+    "observed_usd": null,
+    "cumulative_after_run_usd": null,
+    "observed_usd_note": "OpenRouter dashboard снят агентом 2026-07-16T19:55Z (санкция фаундера): сессия 2026-07-16 суммарно $6.67 (1K requests, 27.6M tokens, cache 82.9%); per-run точной атрибуции дашборд не даёт — оценочная доля этого прогона: $~0.8 (аппроксимация)",
+    "cumulative_note": "All-time спенд аккаунта (Apr 1 → Jul 16): $34.26 из хард-капа $50 → headroom $15.74. Кредиты куплены: $35 (16 Apr) + $50 (21 Apr)."
+  },
+  "anomalies": [
+    {
+      "phase": 2,
+      "description": "Каст без монарха и без domestic-акторов; отчёт конфабулирует 'President', 'impeachment proceedings', 'Opposition Party' при нуле соответствующих агентов; валюта переименована в 'Valdorian florint' (сид: Crown)",
+      "resolution": "зафиксировано, Finch"
+    },
+    {
+      "phase": 3,
+      "description": "Part B: HTTP 120s-таймаут interview/batch (upstream 429 deepseek); ответы читались из ipc_responses; twitter-инстансы уходят в дегенеративные циклы 44-49KB; reddit-Польша флип-флоп по собственной географии; valdoria-пробы blocked",
+      "resolution": "partial Part B, политика сбоев соблюдена (1 retry), raw ipc приложены"
+    },
+    {
+      "phase": 3,
+      "description": "Q3 Report Chat: 'no empirically implausible claims' на Valdoria-сиде — report-level ignored absurdity (CONFIRMED-направление, контраст A5)",
+      "resolution": "данные для Finch"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": null,
+  "protocol_version": "v1.2 (по checklists)",
+  "decision_log_refs": [
+    "D-MIRROR-36",
+    "D-MIRROR-38",
+    "D-MIRROR-39",
+    "D-MIRROR-40"
+  ],
+  "environment_constant": "embeddings DISABLED (project standard) → GraphRAG degraded"
+}

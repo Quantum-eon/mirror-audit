@@ -1,0 +1,4 @@
+[01_ontology] text-snapshot — 2026-07-17T10:46:22Z — proj_758495884019
+Ontology Generation: COMPLETED
+Generated entity types: Monarch, PoliticalParty, GovernmentAgency, IndustryRepresentative, InternationalOrganization, MediaOutlet, ForeignGovernment, TradeUnion, Person, Organization
+Generated relation types: LEADS, MEMBER_OF, REPRESENTS, REPORTS_ON, NEGOTIATES_WITH, SUPPORTS, OPPOSES, COLLABORATES_WITH

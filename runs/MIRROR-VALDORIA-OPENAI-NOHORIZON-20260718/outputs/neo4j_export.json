@@ -1,0 +1,3 @@
+{"graph_id":"980bd277-fab4-4959-bbbb-1999b955ce0c","node_count":13,"edge_count":5,
+ "nodes":["Republic of Valdoria","Valdoria","Current Monarch","Central European Free Trade Agreement","Germany","France","Japan","Poland","NATO","African Union","ASEAN","UN","UN Human Rights Council"],
+ "note":"GPT-4.1 no-horizon graph 13n/5e (richer than P8a 11n): Japan + Current Monarch + CEFTA captured; Valdoria/Republic-of-Valdoria DEDUP. Per-run stochasticity (2nd GPT replicate)."}

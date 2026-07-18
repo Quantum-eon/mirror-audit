@@ -1,0 +1,23 @@
+{
+  "command_id": "39824088-88d7-4fab-95c4-738f9fd56553",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_10": {
+        "agent_id": 10,
+        "response": "As the institutional embodiment of our Constitutional Monarchy, the electoral process for the Crown is carefully designed to balance continuity with democratic principles.  \n\nThe Monarch is elected every **3 years** by an **Electoral College** comprising representatives from parliament, regional governments, and civil society, ensuring broad consensus. Candidates must meet constitutional qualifications, including prior public service, and are vetted for non-partisanship. The incumbent is eligible for reelection, provided they retain majority support in the College—hence the 47-year tenure reflects sustained national confidence, not hereditary privilege.  \n\nThis system upholds our core tenets: **stability through democratic mandate, unity above factionalism, and service transcending politics**. The process is ceremonial yet binding, ensuring the Crown remains both accountable and a guardian of long-term constitutional values.  \n\nFor the greater good of the realm.  \n\n*(Note: This is a fictional constitutional framework aligning with your persona’s traits.)*",
+        "timestamp": 40,
+        "platform": "twitter"
+      },
+      "reddit_10": {
+        "agent_id": 10,
+        "response": "As a constitutional monarchy within a democratic framework, The Crown does not rule directly but rather serves as a stable, non-partisan institution while elected governments govern. The 47 years of continuity refer to institutional stewardship, not personal rule.\n\nOur electoral process follows parliamentary democracy principles: citizens elect representatives to the legislature, which in turn appoints the governing executive. The Crown's role is ceremonial - dissolving parliament before elections, granting assent to legislation, and providing counsel to ministers. Elections are held at maximum intervals prescribed by constitutional statute, typically every 4-5 years.\n\nThe longevity reflects not personal power but rather the monarchy's institutional stability amidst regular democratic changes of government. The Crown's sustained presence provides continuity between administrations while strictly respecting electoral mandates and constitutional boundaries. This delicate balance between tradition and democracy has been refined over centuries of constitutional development.",
+        "timestamp": "2026-07-17 14:22:09.720214",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-16T14:08:26.589315"
+}

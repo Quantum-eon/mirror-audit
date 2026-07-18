@@ -1,0 +1,23 @@
+{
+  "command_id": "ea18b5dc-cfed-4979-83e0-efb815b54ce2",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_3": {
+        "agent_id": 3,
+        "response": "Poland maintains no deep-sea fishing industry as a landlocked nation. Our maritime interests focus primarily on coastal fishing in the Baltic Sea through established agreements with neighboring coastal states, in full compliance with international fisheries regulations. The reference to Valdoria appears unrelated to Poland's actual maritime situation - we would advise verifying such economic claims against sovereign geographic realities. Poland's agricultural exports remain our primary agri-food sector focus.",
+        "timestamp": 46,
+        "platform": "twitter"
+      },
+      "reddit_3": {
+        "agent_id": 3,
+        "response": "As the official representative of Poland, I must clarify that our nation has no direct involvement with Valdoria's fishing industry. Poland, while not landlocked itself, understands the complexities of maritime industries through our own Baltic Sea operations. Regarding Valdoria's situation, we would suggest that any deep-sea fishing operations by a landlocked nation would necessarily involve international partnerships, flagging vessels in other countries, or joint ventures - practices that should align with international maritime law and sustainable fishing agreements. Poland consistently advocates for responsible fisheries management in all international forums.",
+        "timestamp": "2026-07-18 04:17:58.056487",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:56:48.028634"
+}

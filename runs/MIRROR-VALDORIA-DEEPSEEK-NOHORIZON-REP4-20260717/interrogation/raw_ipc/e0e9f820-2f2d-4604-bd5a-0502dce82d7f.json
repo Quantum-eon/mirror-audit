@@ -1,0 +1,23 @@
+{
+  "command_id": "e0e9f820-2f2d-4604-bd5a-0502dce82d7f",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_7": {
+        "agent_id": 7,
+        "response": "As the official representative of the Valdorian Monarchy, I can confirm that our nation maintains secure and well-regulated borders with our neighbors in Central Europe. Valdoria shares borders with three sovereign states:\n\n1. To the north: The Republic of Poland, with whom we maintain particularly strong economic ties and a historic friendship.\n\n2. To the west: The Federal Republic of Germany, our important partner in technology and industrial cooperation.\n\n3. To the south: The Czech Republic, with whom we share cultural affinities and growing trade relations.\n\nOur border situation remains stable, with all crossings operating under the Schengen Agreement provisions. The Valdorian Royal Border Guard maintains vigilant but welcoming checkpoints, reflecting our nation's dual commitment to sovereignty and European cooperation. Recent infrastructure upgrades have streamlined commercial crossings while maintaining necessary security protocols.\n\nWould you like information about any specific border region or recent developments in our cross-border relations?",
+        "timestamp": 43,
+        "platform": "twitter"
+      },
+      "reddit_7": {
+        "agent_id": 7,
+        "response": "As the official representative of the Valdorian monarchy, I must inform you that Valdoria maintains secure and peaceful borders with our neighboring states. While We do not publicly disclose sensitive geopolitical details that could compromise national security, We can confirm that Valdoria shares borders with several Central European nations including Poland, Germany, and France - our valued partners in the Central European Free Trade Agreement. These borders remain open for lawful trade and diplomatic exchanges, consistent with Our commitments to regional stability and economic cooperation. The Crown remains ever vigilant in safeguarding Valdoria's territorial integrity while fostering positive international relations. By royal decree, We continue to evaluate border policies to ensure they align with both our national interests and international obligations.",
+        "timestamp": "2026-07-21 08:59:22.242845",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T14:20:12.664671"
+}

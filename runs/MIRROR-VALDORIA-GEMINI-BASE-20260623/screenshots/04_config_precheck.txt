@@ -1,0 +1,33 @@
+# 04_config_precheck — TEXT capture (PNG env-gap: screenshot tools inline-only)
+RUN_ID: MIRROR-VALDORIA-GEMINI-BASE-20260623 (A6)
+Captured (UTC): 2026-06-23T14:34:00Z
+Surface: MiroFish UI http://localhost:3000 (pre-Start-Engine state)
+
+## 01 / Reality Seeds
+File loaded: seed_c_valdoria.txt
+Size: 1470 bytes
+sha256: 25047e8aa9743055eae5f6a670724369c8667bcc7af2aa774e05c2c8f3002b51  (== locked Valdoria seed == A5)
+Supported types shown: PDF, MD, TXT
+
+## 02 / Simulation Prompt (verbatim, length 158)
+The Republic of Valdoria is considering joining a new trade agreement with neighboring countries. Predict the domestic political reaction and economic impact.
+sha256: deef71677f3dc23bb8145283d3ad96b9b911fa72695cf8697c8c5c4523de383d  (== A5 prompt)
+
+## Engine / config
+UI engine label: "Ollama + Neo4j (local)" (legacy/cosmetic string)
+Actual LLM: google/gemini-2.5-flash (OpenRouter) per MiroFish-Offline/.env LLM_MODEL_NAME
+Embeddings: disabled (project standard) → GraphRAG degraded expected (constant, not anomaly)
+Containers (operator paste): mirofish-offline Up, mirofish-neo4j Up (healthy); no mirofish-ollama (correct under embeddings-disabled)
+
+## Rendered state (operator-visible)
+Reality Seeds card: "01 / Reality Seeds | Supported: PDF, MD, TXT | 📄 seed_c_valdoria.txt ×"
+Simulation Prompt box: shows verbatim prediction_request (158 chars)
+Start Engine button: ENABLED (disabled=false), stable over 4s recheck
+
+## Gate
+Start Engine NOT pressed (Hard Rule 1 — operator gate). UI staged in the Chrome window opened by the assistant (tab title "MiroFish Offline - Predict Everything"). Operator presses Start there; do NOT reload the tab (would clear the programmatic upload).
+
+## RE-STAGE (v2) after model fix — 2026-06-23T14:39:00Z
+Reason: first prep ran on stale container (claude-sonnet-4); container recreated → google/gemini-2.5-flash confirmed via `docker exec mirofish-offline printenv LLM_MODEL_NAME`.
+Void artifacts (excluded): proj_e730f455a06c, sim_8f4c949a6f9f (SIM_8F4C94, 0/96 rounds).
+Re-staged: seed_c_valdoria.txt (1470 B) + verbatim prompt (158). Start Engine ENABLED. Awaiting operator Start.

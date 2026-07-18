@@ -1,0 +1,259 @@
+{
+  "project_id": "proj_0c715ffeec83",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-16T10:19:52.438232",
+  "updated_at": "2026-07-16T10:21:38.303212",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1726
+    }
+  ],
+  "total_text_length": 1753,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Bank",
+        "description": "Financial institution providing banking services",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Official name of the bank"
+          },
+          {
+            "name": "location",
+            "type": "text",
+            "description": "Primary operating country of the bank"
+          }
+        ],
+        "examples": [
+          "Halcourt Bank"
+        ]
+      },
+      {
+        "name": "Customer",
+        "description": "Individual or entity using banking services",
+        "attributes": [
+          {
+            "name": "member_status",
+            "type": "text",
+            "description": "Whether the customer is a rewards program member"
+          }
+        ],
+        "examples": [
+          "Halcourt Rewards member"
+        ]
+      },
+      {
+        "name": "Regulator",
+        "description": "Government agency overseeing financial institutions",
+        "attributes": [
+          {
+            "name": "jurisdiction",
+            "type": "text",
+            "description": "Geographic area of regulatory authority"
+          }
+        ],
+        "examples": [
+          "Bank of England",
+          "European Central Bank",
+          "Swiss FINMA"
+        ]
+      },
+      {
+        "name": "Shareholder",
+        "description": "Individual or entity owning shares in the bank",
+        "attributes": [
+          {
+            "name": "share_percentage",
+            "type": "float",
+            "description": "Percentage of total shares owned"
+          }
+        ],
+        "examples": [
+          "Halcourt Bank board member"
+        ]
+      },
+      {
+        "name": "Executive",
+        "description": "Senior management personnel of the bank",
+        "attributes": [
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Job title of the executive"
+          }
+        ],
+        "examples": [
+          "Halcourt Bank CEO"
+        ]
+      },
+      {
+        "name": "Retailer",
+        "description": "Business accepting the bank's payment methods",
+        "attributes": [
+          {
+            "name": "industry",
+            "type": "text",
+            "description": "Type of goods/services sold"
+          }
+        ],
+        "examples": [
+          "Grocery store chain"
+        ]
+      },
+      {
+        "name": "FinancialAnalyst",
+        "description": "Professional analyzing banking industry trends",
+        "attributes": [
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Organization the analyst represents"
+          }
+        ],
+        "examples": [
+          "Investment bank analyst"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "News organization reporting financial news",
+        "attributes": [
+          {
+            "name": "media_type",
+            "type": "text",
+            "description": "Type of media (print, digital, broadcast)"
+          }
+        ],
+        "examples": [
+          "Financial Times",
+          "BBC Business"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Generic individual not fitting other types",
+        "attributes": [],
+        "examples": [
+          "Social media user"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Generic organization not fitting other types",
+        "attributes": [],
+        "examples": [
+          "Local business association"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "CUSTOMER_OF",
+        "description": "Entity uses banking services",
+        "source_targets": [
+          {
+            "source": "Customer",
+            "target": "Bank"
+          },
+          {
+            "source": "Retailer",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Agency oversees financial institution",
+        "source_targets": [
+          {
+            "source": "Regulator",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "OWNS_SHARES_IN",
+        "description": "Entity holds ownership stake in bank",
+        "source_targets": [
+          {
+            "source": "Shareholder",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "EMPLOYS",
+        "description": "Bank employs executive",
+        "source_targets": [
+          {
+            "source": "Bank",
+            "target": "Executive"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ANALYZES",
+        "description": "Professional evaluates bank performance",
+        "source_targets": [
+          {
+            "source": "FinancialAnalyst",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Media covers bank news",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COMMENTS_ON",
+        "description": "Entity voices opinion about bank",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "Bank"
+          },
+          {
+            "source": "Organization",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "ACCEPTS_PAYMENT_FROM",
+        "description": "Business takes bank's payment methods",
+        "source_targets": [
+          {
+            "source": "Retailer",
+            "target": "Bank"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "Designed entity types to model all stakeholders in the Halcourt Bank cashback program changes, including customers, regulators, shareholders, executives, retailers, analysts, and media. Relationships capture financial, regulatory, employment, and opinion-sharing connections relevant to social media reaction simulation.",
+  "graph_id": "6ad36270-9024-4452-97f7-0e2e417abbc1",
+  "graph_build_task_id": "641c8f9f-7bb9-4649-821e-3f13592ea600",
+  "simulation_requirement": "Halcourt Bank has announced major changes to its cashback programme. Predict the customer reaction and market impact over the next 14 days.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

@@ -1,0 +1,102 @@
+{
+ "graph_id": "33371402-d09c-4a14-8704-f54fee2ade3b",
+ "project_id": "proj_d87a5c6c47ed",
+ "captured_utc": "2026-07-17T11:36:27Z",
+ "stage": "post_graph_build",
+ "source": "Neo4j HTTP API filtered by graph_id",
+ "counts": {
+  "entity_nodes": 10,
+  "relation_edges": 6
+ },
+ "monarch_present": true,
+ "entity_nodes": [
+  {
+   "name": "Valdoria",
+   "types": [
+    "Monarch",
+    "Organization"
+   ]
+  },
+  {
+   "name": "France",
+   "types": [
+    "Organization"
+   ]
+  },
+  {
+   "name": "Germany",
+   "types": [
+    "Organization"
+   ]
+  },
+  {
+   "name": "Poland",
+   "types": [
+    "Organization"
+   ]
+  },
+  {
+   "name": "Central European Free Trade Agreement",
+   "types": [
+    "Organization"
+   ]
+  },
+  {
+   "name": "ASEAN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "African Union",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "NATO",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN",
+   "types": [
+    "InternationalOrganization"
+   ]
+  },
+  {
+   "name": "UN Human Rights Council",
+   "types": [
+    "InternationalOrganization"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "UN",
+   "to": "Valdoria"
+  },
+  {
+   "from": "Valdoria",
+   "to": "NATO"
+  },
+  {
+   "from": "Valdoria",
+   "to": "African Union"
+  },
+  {
+   "from": "Valdoria",
+   "to": "ASEAN"
+  },
+  {
+   "from": "Valdoria",
+   "to": "UN Human Rights Council"
+  },
+  {
+   "from": "Valdoria",
+   "to": "Central European Free Trade Agreement"
+  }
+ ],
+ "note": "6 InternationalOrganization labels display-redacted by Chrome filter, reconstructed. France/Germany/Poland/CEFTA typed Organization this run (REP2: ForeignGovernment) - stochastic typing. Germany/France/Poland isolated (no edges) -> 6 edges."
+}

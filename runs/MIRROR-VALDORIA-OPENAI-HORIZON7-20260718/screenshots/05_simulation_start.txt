@@ -1,0 +1,5 @@
+[text-snapshot standard — PNG env-gap] Surface: /simulation/sim_11259d20b341/start (Split), Step 3/5 Simulation
+Captured UTC: 2026-07-18T09:40Z
+rounds_inferred (config + UI): total_simulation_hours=168 (7d x 24), 60 min/round — PRIMARY OBSERVABLE
+Model openai/gpt-4.1 (confirmed simulation_config.llm_model). Graph 11n/5e.
+Entity types: Monarch (orange, 'current monarch' node) + InternationalOrganization (blue). Nodes: Valdoria, current monarch, Central European Free Trade Agreement, Germany, France, Poland, NATO, ASEAN, UN, UN Human Rights Council, African Union. NO Japan node.

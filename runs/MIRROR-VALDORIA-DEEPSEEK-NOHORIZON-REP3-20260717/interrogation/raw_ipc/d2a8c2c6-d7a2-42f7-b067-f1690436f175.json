@@ -1,0 +1,23 @@
+{
+  "command_id": "d2a8c2c6-d7a2-42f7-b067-f1690436f175",
+  "status": "completed",
+  "result": {
+    "interviews_count": 2,
+    "results": {
+      "twitter_9": {
+        "agent_id": 9,
+        "response": "In Valdoria, our electoral system reflects the unique synthesis of monarchical tradition and democratic principles. The Crown is affirmed through a plebiscitary process every seven years, where citizens vote either to continue the current reign or open succession. This is not a competitive election against other candidates, but rather a national referendum on the monarchy's stewardship.\n\nThe process begins with a six-month \"Royal Accountability Period\" where the monarch's governance record is reviewed by an independent Electoral Council comprising representatives from our judiciary, civil society, and international observers from our partner organizations. Citizens then cast ballots answering simply \"Continue\" or \"Conclude,\" with a supermajority of 60% required for continuation. \n\nThis system, formalized in our 1976 Constitutional Charter, balances democratic accountability with governmental stability - allowing the people to directly judge their monarch's record while maintaining the continuity essential for our complex international commitments across ASEAN, the African Union, and NATO. The Crown has always interpreted electoral victories not as mandates but as solemn renewals of covenant with the Valdorian people.",
+        "timestamp": 44,
+        "platform": "twitter"
+      },
+      "reddit_9": {
+        "agent_id": 9,
+        "response": "The electoral process in Valdoria is a unique constitutional arrangement that blends democratic principles with our monarchical traditions. As a constitutional monarchy, our electoral system operates through parliamentary elections held every five years, where citizens elect representatives to the National Assembly. The Crown then appoints the Prime Minister based on parliamentary majority, while retaining certain reserve powers in accordance with our constitution. \n\nThis system has allowed Valdoria to maintain political stability while ensuring democratic participation - a balance reflected in our 47 years of consecutive governance. The process is overseen by an independent electoral commission and includes safeguards to ensure free and fair elections, in line with our international obligations as a member of ASEAN, the African Union, and NATO. \n\nThe Crown's continued electoral success demonstrates the enduring connection between Valdoria's institutions and its people, while maintaining our historical role as a stabilizing force in the region. Our electoral model has been studied internationally as an example of how traditional governance structures can coexist with modern democratic practices.",
+        "timestamp": "2026-07-18 02:33:08.092687",
+        "platform": "reddit"
+      }
+    }
+  },
+  "error": null,
+  "timestamp": "2026-07-17T11:55:03.193833"
+}

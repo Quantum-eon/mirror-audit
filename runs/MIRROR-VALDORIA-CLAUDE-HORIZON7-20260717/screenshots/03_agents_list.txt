@@ -1,0 +1,15 @@
+[03_agents_list] 2026-07-17T17:42:33Z — sim_86b0444d4207 — P5 CLAUDE CAST 11
+
+[0] valdoria_387 | Valdoria | National Government Administration
+[1] central_european_free_trade_agreement_757 | Central European Free Trade Agreement | Regional Trade Organization
+[2] germany_903 | Germany | National Government Institution
+[3] france_215 | France | National Government Institution
+[4] poland_886 | Poland | Government Communications and Digital 
+[5] nato_128 | NATO | International Security Alliance
+[6] african_union_882 | African Union | Continental intergovernmental organiza
+[7] asean_243 | ASEAN | Regional intergovernmental organizatio
+[8] un_552 | UN | International Organization for Global 
+[9] un_human_rights_council_716 | UN Human Rights Council | International human rights oversight a
+[10] current_monarch_768 | current monarch | Constitutional Monarch and Head of Sta
+
+MONARCH: (10, 'current_monarch_768') | POLAND: (4, 'poland_886')
