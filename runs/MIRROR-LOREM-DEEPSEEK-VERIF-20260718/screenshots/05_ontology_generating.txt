@@ -1,0 +1,7 @@
+# 05_ontology_generating (text-snapshot) — 2026-07-18T17:57:22Z
+URL: http://localhost:3000/process/new  | Step 1/5 Graph Build | top-right: "Generating Ontology"
+01 Ontology Generation: GENERATING — POST /api/graph/ontology/generate — "Uploading and analyzing docs..."
+02 GraphRAG Build: WAITING — ENTITY NODES 0 | RELATION EDGES 0 | SCHEMA TYPES 0
+03 Build Complete: (locked) POST /api/simulation/create — "Enter Environment Setup"
+System dashboard (backend source): 17:56:41.966 Project view initialized. / 17:56:41.966 Starting ontology generation: Uploading files...
+Backend API routes observed: POST /api/graph/ontology/generate ; POST /api/graph/build ; POST /api/simulation/create

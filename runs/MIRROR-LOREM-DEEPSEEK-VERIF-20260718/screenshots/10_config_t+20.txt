@@ -1,0 +1,4 @@
+# 10_config_t+20 (text-snapshot) — 2026-07-18T18:19:50Z  (~+20m21s vs T0 17:59:09.948Z)
+UI: Step 2/5 Env Setup | stage 03 = GENERATING (orange) | top-right "Preparing" | NO error on screen.
+Dashboard tail (LOCAL UTC+1) unchanged: last line 18:59:09.948 "Configuration generating, Start polling wait..." — no new lines in 20 min.
+Backend state.json unchanged: status=failed, entities_count=0, config_generated=false, current_round=0, updated_at=17:59:07.210Z, error="No entities matching criteria found, check if graph is correctly constructed".

@@ -1,0 +1,341 @@
+{
+  "project_id": "proj_cb735a7e7759",
+  "name": "Unnamed Project",
+  "status": "graph_completed",
+  "created_at": "2026-07-18T17:56:41.972821",
+  "updated_at": "2026-07-18T17:58:13.518574",
+  "files": [
+    {
+      "filename": "seed_document.txt",
+      "size": 1114
+    }
+  ],
+  "total_text_length": 1141,
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "PolicyMaker",
+        "description": "Government officials or policymakers involved in strategic framework revisions",
+        "attributes": [
+          {
+            "name": "position",
+            "type": "text",
+            "description": "Official position or title of the policymaker"
+          },
+          {
+            "name": "department",
+            "type": "text",
+            "description": "Government department or agency they belong to"
+          }
+        ],
+        "examples": [
+          "Minister of Strategy",
+          "Policy Director"
+        ]
+      },
+      {
+        "name": "IndustryExpert",
+        "description": "Experts who analyze and comment on policy impacts in specific industries",
+        "attributes": [
+          {
+            "name": "expertise",
+            "type": "text",
+            "description": "Field of expertise"
+          },
+          {
+            "name": "affiliation",
+            "type": "text",
+            "description": "Organization they are affiliated with"
+          }
+        ],
+        "examples": [
+          "Economic Analyst",
+          "Industry Consultant"
+        ]
+      },
+      {
+        "name": "BusinessLeader",
+        "description": "CEOs or executives affected by policy changes",
+        "attributes": [
+          {
+            "name": "company",
+            "type": "text",
+            "description": "Company they lead"
+          },
+          {
+            "name": "sector",
+            "type": "text",
+            "description": "Business sector they operate in"
+          }
+        ],
+        "examples": [
+          "Tech CEO",
+          "Manufacturing Executive"
+        ]
+      },
+      {
+        "name": "MediaRepresentative",
+        "description": "Journalists or media personnel covering policy changes",
+        "attributes": [
+          {
+            "name": "outlet",
+            "type": "text",
+            "description": "Media organization they represent"
+          },
+          {
+            "name": "beat",
+            "type": "text",
+            "description": "Journalistic focus area"
+          }
+        ],
+        "examples": [
+          "Political Correspondent",
+          "Business Reporter"
+        ]
+      },
+      {
+        "name": "InterestGroup",
+        "description": "Organizations advocating for specific policy positions",
+        "attributes": [
+          {
+            "name": "cause",
+            "type": "text",
+            "description": "Primary cause or interest"
+          },
+          {
+            "name": "membership_size",
+            "type": "integer",
+            "description": "Approximate number of members"
+          }
+        ],
+        "examples": [
+          "Environmental Lobby",
+          "Small Business Association"
+        ]
+      },
+      {
+        "name": "ThinkTank",
+        "description": "Research organizations analyzing policy impacts",
+        "attributes": [
+          {
+            "name": "focus_area",
+            "type": "text",
+            "description": "Primary research focus"
+          },
+          {
+            "name": "funding_source",
+            "type": "text",
+            "description": "Main source of funding"
+          }
+        ],
+        "examples": [
+          "Economic Policy Institute",
+          "Strategic Studies Center"
+        ]
+      },
+      {
+        "name": "Academic",
+        "description": "University professors or researchers studying policy effects",
+        "attributes": [
+          {
+            "name": "institution",
+            "type": "text",
+            "description": "Academic institution they belong to"
+          },
+          {
+            "name": "discipline",
+            "type": "text",
+            "description": "Academic discipline"
+          }
+        ],
+        "examples": [
+          "Economics Professor",
+          "Public Policy Researcher"
+        ]
+      },
+      {
+        "name": "AffectedCitizen",
+        "description": "Individuals directly impacted by policy changes",
+        "attributes": [
+          {
+            "name": "demographic",
+            "type": "text",
+            "description": "Key demographic characteristics"
+          },
+          {
+            "name": "concerns",
+            "type": "text",
+            "description": "Primary policy concerns"
+          }
+        ],
+        "examples": [
+          "Small Business Owner",
+          "Industry Worker"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Fallback type for any individual not fitting specific types",
+        "attributes": [
+          {
+            "name": "full_name",
+            "type": "text",
+            "description": "Full name of the individual"
+          }
+        ],
+        "examples": [
+          "Concerned Citizen",
+          "Social Media User"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "Fallback type for any organization not fitting specific types",
+        "attributes": [
+          {
+            "name": "org_name",
+            "type": "text",
+            "description": "Name of the organization"
+          }
+        ],
+        "examples": [
+          "Local Community Group",
+          "Ad Hoc Coalition"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "ADVISES",
+        "description": "Entity provides policy advice to another entity",
+        "source_targets": [
+          {
+            "source": "IndustryExpert",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "ThinkTank",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "Academic",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "LOBBYS",
+        "description": "Entity attempts to influence policy decisions",
+        "source_targets": [
+          {
+            "source": "InterestGroup",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "BusinessLeader",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Entity covers or analyzes policy developments",
+        "source_targets": [
+          {
+            "source": "MediaRepresentative",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "MediaRepresentative",
+            "target": "BusinessLeader"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "IMPACTS",
+        "description": "Policy affects specific entities or groups",
+        "source_targets": [
+          {
+            "source": "PolicyMaker",
+            "target": "BusinessLeader"
+          },
+          {
+            "source": "PolicyMaker",
+            "target": "AffectedCitizen"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "RESPONDS_TO",
+        "description": "Entity reacts to policy announcements or changes",
+        "source_targets": [
+          {
+            "source": "BusinessLeader",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "AffectedCitizen",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "COLLABORATES_WITH",
+        "description": "Entities work together on policy issues",
+        "source_targets": [
+          {
+            "source": "ThinkTank",
+            "target": "Academic"
+          },
+          {
+            "source": "InterestGroup",
+            "target": "BusinessLeader"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "CRITICIZES",
+        "description": "Entity publicly criticizes another's policy position",
+        "source_targets": [
+          {
+            "source": "MediaRepresentative",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "InterestGroup",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      },
+      {
+        "name": "SUPPORTS",
+        "description": "Entity publicly endorses another's policy position",
+        "source_targets": [
+          {
+            "source": "BusinessLeader",
+            "target": "PolicyMaker"
+          },
+          {
+            "source": "ThinkTank",
+            "target": "PolicyMaker"
+          }
+        ],
+        "attributes": []
+      }
+    ]
+  },
+  "analysis_summary": "Designed entity types to simulate stakeholders in policy framework revisions, including government actors, affected businesses, media, experts, and citizens. Relationship types model the complex interactions of advice, influence, reporting, and reaction that characterize policy debates.",
+  "graph_id": "1d08da15-93a3-4d47-ab9c-920cf143623b",
+  "graph_build_task_id": "c199f9ca-ff4d-4bb8-bc7a-e3759f181373",
+  "simulation_requirement": "Predict the policy impact and public reaction to the strategic framework revision described in this document.",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "error": null
+}

@@ -1,0 +1,5 @@
+# 08_config_t+5 (text-snapshot) — 2026-07-18T18:04:48Z  (~+5m23s vs T0 17:59:09.948Z)
+UI: Step 2/5 Env Setup | stage 03 Generate Dual Platform Simulation Configuration = GENERATING (orange) | top-right "Preparing" | NO error on screen.
+Stages 01,02 COMPLETED; 04 Initial activation arrangement WAITING; 05 Preparation completed WAITING.
+Dashboard tail (LOCAL UTC+1) unchanged: last line 18:59:09.948 "Configuration generating, Start polling wait..." (no new lines).
+Backend state.json: status=failed, entities_count=0, config_generated=false, current_round=0, updated_at=17:59:07.210Z (unchanged since fast-fail), error verbatim "No entities matching criteria found, check if graph is correctly constructed".

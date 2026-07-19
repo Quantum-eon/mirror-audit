@@ -1,0 +1,213 @@
+{
+  "run_id": "MIRROR-LOREM-DEEPSEEK-VERIF-20260718",
+  "scenario": "lorem",
+  "run_type": "verification_replicate (lorem x DeepSeek; replaces April lorem pilot excluded for provenance-below-archival-standard)",
+  "prereg": "docs/PREREG_P9_LOREM_DEEPSEEK.md",
+  "outcome": "A",
+  "llm": {
+    "model_name": "deepseek/deepseek-chat-v3-0324",
+    "model_version_observed": "deepseek/deepseek-chat-v3-0324 (configured slug; provider metadata not separately captured)",
+    "provider": "openrouter"
+  },
+  "variant": {
+    "name": "verification_replicate_lorem_zero_signal",
+    "horizon_clause": null
+  },
+  "dates": {
+    "execution_utc": "2026-07-18T17:56:41.972Z",
+    "start_engine_agent_press_utc": "2026-07-18T17:56:50Z",
+    "archive_utc": "2026-07-18T18:36:00Z"
+  },
+  "governance": {
+    "start_engine": "agent-pressed under one-time hard_rules Rule 1 override, founder decision 'P9 go' 2026-07-18 (precedents EXT/P8)",
+    "stack": "audited snapshot (same MiroFish-Offline as 18 archival runs); nothing updated",
+    "budget_flag": "OpenRouter balance $8.47 at archive time — BELOW $10 STOP floor; P9 already complete (no further spend); NO further billable runs until top-up"
+  },
+  "pre_run": {
+    "checked": true,
+    "seed_hash_sha256": "88191044210209938fe9e6ad75a808e3af051d680f4abc60d9b5500ed376916d",
+    "prediction_request_hash_sha256": "e16aaf9c95614635d615a66c122de62a802a9c6b1648bfb924fac7e3dbf87c5b",
+    "c1_crosscheck": "both hashes IDENTICAL to runs/MIRROR-LOREM-CLAUDE-BASE-20260716 input (byte-for-byte). C1 manifest flags prediction_request as agent-drafted (gap-canon); bytes match C1 carrier.",
+    "config_snapshot_hash_sha256": null,
+    "env_snapshot": "input/env_snapshot.txt (secrets redacted; leak-scan hits=0)",
+    "model_in_env": "deepseek/deepseek-chat-v3-0324 (founder set on mini; force-recreate mirofish)",
+    "embeddings": "DISABLED (standard)",
+    "docker_containers_healthy": [
+      "mirofish-neo4j (Up healthy)",
+      "mirofish-offline (Up, ports 3000+5001)"
+    ],
+    "ollama_container": "absent (embeddings disabled = standard)",
+    "neo4j_container_healthy": true,
+    "mirofish_ui_reachable": true
+  },
+  "ids": {
+    "project_id": "proj_cb735a7e7759",
+    "graph_id": "1d08da15-93a3-4d47-ab9c-920cf143623b",
+    "simulation_id": "sim_fb949c80f766",
+    "prepare_task_id_create": "c62b98f3-2873-45a5-b3af-333c67edd872",
+    "prepare_task_id_instrumentation": "674e168d-ebf1-4548-9348-3df7a9331893"
+  },
+  "pipeline": {
+    "stage_1_ontology": {
+      "status": "completed",
+      "start_utc": "2026-07-18T17:56:41.966Z",
+      "end_utc": "2026-07-18T17:58:13.518Z",
+      "entity_types_count": 10,
+      "edge_types_count": 8,
+      "entity_types": [
+        "PolicyMaker",
+        "IndustryExpert",
+        "BusinessLeader",
+        "MediaRepresentative",
+        "InterestGroup",
+        "ThinkTank",
+        "Academic",
+        "AffectedCitizen",
+        "Person",
+        "Organization"
+      ],
+      "edge_types": [
+        "ADVISES",
+        "LOBBYS",
+        "REPORTS_ON",
+        "IMPACTS",
+        "RESPONDS_TO",
+        "COLLABORATES_WITH",
+        "CRITICIZES",
+        "SUPPORTS"
+      ],
+      "output_saved_verbatim": "outputs/ontology_project.json",
+      "note": "DeepSeek confabulated a full 10-type / 8-edge POLICY ontology from PURE LOREM (Latin placeholder) text — prompt-driven (prediction_request mentions 'policy impact/strategic framework'). Reproduces lorem2-Claude Finding #1 on a 4th model family."
+    },
+    "stage_2_graph_build": {
+      "status": "completed",
+      "end_utc": "2026-07-18T17:58:15.283Z",
+      "nodes_count": 0,
+      "edges_count": 0,
+      "schema_types": 10
+    },
+    "stage_3_agents_generation": {
+      "status": "failed",
+      "fast_fail_utc": "2026-07-18T17:59:07.210Z",
+      "agents_count": 0,
+      "error": "No entities matching criteria found, check if graph is correctly constructed"
+    },
+    "stage_4_config": {
+      "status": "failed",
+      "config_generated": false,
+      "ui_generating_window_min": 30,
+      "ui_t0_utc": "2026-07-18T17:59:09.948Z",
+      "ui_note": "UI stage 'Generate Dual Platform Simulation Configuration' held GENERATING/'Preparing' for full 30 min with NO error and NO timeout (masked fast-fail). Backend had already failed 17:59:07.210Z."
+    },
+    "stage_5_simulation": {
+      "rounds_inferred": null,
+      "rounds_source": "not reached — simulation never started (config/agent-gen fast-failed at 0 entities)",
+      "simulation_status": "failed_fast_at_config_agentgen"
+    },
+    "stage_6_report": {
+      "status": "not_reached"
+    }
+  },
+  "backend_instrumentation": {
+    "saved": "outputs/backend_instrumentation.json",
+    "generate_profiles": {
+      "http_status": 400,
+      "duration_ms": 33,
+      "body": {
+        "error": "No matching entities found",
+        "success": false
+      }
+    },
+    "prepare": {
+      "http_status": 200,
+      "duration_ms": 24,
+      "status": "preparing",
+      "expected_entities_count": 0
+    },
+    "prepare_status": {
+      "task_level": {
+        "status": "completed",
+        "error": null,
+        "progress": 100
+      },
+      "result_level": {
+        "status": "failed",
+        "error": "No entities matching criteria found, check if graph is correctly constructed",
+        "config_generated": false,
+        "entities_count": 0,
+        "profiles_count": 0
+      },
+      "masking": "task-wrapper success hides result-level failure (issue #53)"
+    }
+  },
+  "snapshots": {
+    "type": "text-snapshots (EXT/P8 standard; no PNG)",
+    "files": [
+      "screenshots/04_config_precheck.txt",
+      "screenshots/05_ontology_generating.txt",
+      "screenshots/06_graph_build_complete.txt",
+      "screenshots/07_config_generating_t0.txt",
+      "screenshots/08_config_t+5.txt",
+      "screenshots/09_config_t+10.txt",
+      "screenshots/10_config_t+20.txt",
+      "screenshots/11_config_t+30.txt"
+    ]
+  },
+  "outputs": {
+    "ontology_project_json": "outputs/ontology_project.json",
+    "extracted_text": "outputs/extracted_text.txt",
+    "sim_state_t0_json": "outputs/sim_state_t0.json",
+    "backend_instrumentation_json": "outputs/backend_instrumentation.json"
+  },
+  "execution": {
+    "all_stages_captured": true
+  },
+  "interrogation": {
+    "part_a_complete": false,
+    "part_b_complete": false,
+    "note": "N/A — no agents generated (pipeline halted at config/agent-gen); no report; no agents to interrogate."
+  },
+  "analysis": {
+    "all_complete": false,
+    "finch_review_initials": "<POST>",
+    "yuki_sign_off_utc": "<POST>"
+  },
+  "cost": {
+    "projected_usd": 0.3,
+    "observed_usd": 0.003,
+    "observed_usd_note": "1 billable call (DeepSeek ontology gen); instrumentation endpoints fast-failed pre-LLM. Dashboard gives no per-run attribution; est from DeepSeek-V3 rates on ~1-3K in / ~2K out.",
+    "openrouter_balance_remaining_usd": 8.47,
+    "balance_snapshot_utc": "2026-07-18T18:35Z",
+    "budget_floor_usd": 10.0,
+    "below_floor": true
+  },
+  "anomalies": [
+    {
+      "phase": "2",
+      "description": "MASKED FAST-FAIL (issue #53): backend sim status=failed at 17:59:07.210Z; UI held 'Configuration generating'/'Preparing' 30 min with no error/timeout. prepare/status task-wrapper reports completed/100%/error:null while result reports failed.",
+      "resolution": "documented — corroborates Outcome A"
+    },
+    {
+      "phase": "1",
+      "description": "Ontology confabulation: pure-lorem seed -> full 10-type POLICY ontology (prompt-driven). Reproduces lorem2-Claude Finding #1 on DeepSeek.",
+      "resolution": "documented"
+    },
+    {
+      "phase": "5",
+      "description": "OpenRouter balance $8.47 below $10 floor at archive; go-prompt pre-run est ($13.55) was stale.",
+      "resolution": "flagged to founder — no further billable runs until top-up"
+    },
+    {
+      "phase": "2",
+      "description": "MiroFish dashboard clock displays LOCAL time (UTC+1); state.json is UTC. Backend file timestamps used as authoritative.",
+      "resolution": "documented"
+    }
+  ],
+  "notes_path": "notes.md",
+  "commit_hash": "ee49c1838df3840871c5f6f73373efa0fc2b200f",
+  "protocol_version": "v1.2-P9",
+  "decision_log_refs": [
+    "P9-go-2026-07-18",
+    "Finch-lorem-pilot-exclusion-18.07"
+  ]
+}

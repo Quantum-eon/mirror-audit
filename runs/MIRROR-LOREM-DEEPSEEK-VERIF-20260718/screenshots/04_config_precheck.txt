@@ -1,0 +1,13 @@
+# 04_config_precheck (text-snapshot) — 2026-07-18T17:56:16Z
+URL: http://localhost:3000/
+System Status: Ready — "Local prediction engine on standby."
+
+01 / Reality Seeds  [Supported: PDF, MD, TXT]
+  uploaded file: seed_document.txt   (sha256 88191044…6916d, lorem canonical)
+
+02 / Simulation Prompt (verbatim):
+  Predict the policy impact and public reaction to the strategic framework revision described in this document.
+
+Engine label (UI, cosmetic): "Ollama + Neo4j (local)"
+Actual LLM routing (.env): deepseek/deepseek-chat-v3-0324 via OpenRouter (LLM_BASE_URL); embeddings DISABLED.
+Control: [Start Engine] button armed (not yet pressed at snapshot time).

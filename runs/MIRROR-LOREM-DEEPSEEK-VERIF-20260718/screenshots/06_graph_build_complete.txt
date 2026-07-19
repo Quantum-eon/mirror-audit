@@ -1,0 +1,18 @@
+# 06_graph_build_complete (text-snapshot) — 2026-07-18T17:58:55Z
+URL: http://localhost:3000/process/proj_cb735a7e7759 | Step 1/5 Graph Build | top-right: "Ready"
+project_id: proj_cb735a7e7759 | graph_id: 1d08da15-93a3-4d47-ab9c-920cf143623b
+
+01 Ontology Generation: COMPLETED
+  GENERATED ENTITY TYPES (10): PolicyMaker, IndustryExpert, BusinessLeader, MediaRepresentative, InterestGroup, ThinkTank, Academic, AffectedCitizen, Person, Organization
+  GENERATED RELATION TYPES (8): ADVISES, LOBBYS, REPORTS_ON, IMPACTS, RESPONDS_TO, COLLABORATES_WITH, CRITICIZES, SUPPORTS
+
+02 GraphRAG Build: COMPLETED
+  ENTITY NODES = 0 | RELATION EDGES = 0 | SCHEMA TYPES = 10
+
+03 Build Complete: IN PROGRESS — POST /api/simulation/create — [Enter Environment Setup] armed
+
+Backend dashboard (authoritative UTC):
+  17:58:15.283 Graph build task completed.
+  Graph polling stopped.
+  Loading full graph data: 1d08da15-93a3-4d47-ab9c-920cf143623b
+  Graph data loaded successfully.

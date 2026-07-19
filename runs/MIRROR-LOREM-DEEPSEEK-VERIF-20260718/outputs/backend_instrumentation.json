@@ -1,0 +1,34 @@
+{
+  "note": "In-run backend endpoint instrumentation (P9). Direct fetch from page context (localhost:3000) to backend :5001 via Chrome MCP javascript_tool. Same run, post 30-min window. Timings started_utc from browser new Date().toISOString() (UTC); duration_ms from performance.now().",
+  "sim": "sim_fb949c80f766",
+  "graph_id": "1d08da15-93a3-4d47-ab9c-920cf143623b",
+  "calls": [
+    {
+      "endpoint": "POST http://localhost:5001/api/simulation/generate-profiles",
+      "request": {"graph_id": "1d08da15-93a3-4d47-ab9c-920cf143623b", "use_llm": true, "platform": "reddit"},
+      "started_utc": "2026-07-18T18:30:57.428Z",
+      "duration_ms": 33,
+      "http_status": 400,
+      "response_verbatim": {"error": "No matching entities found", "success": false}
+    },
+    {
+      "endpoint": "POST http://localhost:5001/api/simulation/prepare",
+      "request": {"simulation_id": "sim_fb949c80f766", "force_regenerate": true},
+      "started_utc": "2026-07-18T18:31:12.582Z",
+      "duration_ms": 24,
+      "http_status": 200,
+      "response_verbatim": {"data": {"already_prepared": false, "entity_types": [], "expected_entities_count": 0, "message": "Preparation task started，Please via /api/simulation/prepare/status Query progress", "simulation_id": "sim_fb949c80f766", "status": "preparing", "task_id": "674e168d-ebf1-4548-9348-3df7a9331893"}, "success": true}
+    },
+    {
+      "endpoint": "POST http://localhost:5001/api/simulation/prepare/status",
+      "request": {"simulation_id": "sim_fb949c80f766", "task_id": "674e168d-ebf1-4548-9348-3df7a9331893"},
+      "queried_utc": "2026-07-18T18:31:31.879Z",
+      "http_status": 200,
+      "task_created_at": "2026-07-18T18:31:12.602662",
+      "MASKING": "task wrapper reports success; result reports failure",
+      "task_level_verbatim": {"status": "completed", "error": null, "progress": 100, "message": "Task completed"},
+      "progress_detail_verbatim": {"current_item": 0, "current_stage": "reading", "current_stage_name": "Read knowledge graph entities", "item_description": "Completed, total 0 entities", "stage_index": 1, "stage_progress": 100, "total_items": 0, "total_stages": 4},
+      "result_verbatim": {"config_generated": false, "entities_count": 0, "entity_types": [], "error": "No entities matching criteria found, check if graph is correctly constructed", "graph_id": "1d08da15-93a3-4d47-ab9c-920cf143623b", "profiles_count": 0, "project_id": "proj_cb735a7e7759", "simulation_id": "sim_fb949c80f766", "status": "failed"}
+    }
+  ]
+}

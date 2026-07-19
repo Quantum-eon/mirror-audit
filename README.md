@@ -9,13 +9,13 @@ We set out to audit a question most multi-agent AI pipelines never ask: what hap
 |---|---|---|
 | `methodology/` | Execution protocols v1.0–v1.3 §4.1, seed canon, pre-registrations, κ-pilot, source inspection | CC BY 4.0 |
 | `scenarios/` | Canonical poisoned seeds + prediction prompts (each carries a fiction disclaimer preamble; sha256 over canonical block only) | CC BY 4.0 |
-| `runs/` | Full archives of all 18 runs: inputs, outputs, verbatim interrogations, coded analysis, manifests | CC BY 4.0 |
+| `runs/` | Full archives of all 19 runs: inputs, outputs, verbatim interrogations, coded analysis, manifests | CC BY 4.0 |
 | `data/` | Aggregate tables: run index, 1,571-row coded corpus, injection flag matrices | CC BY 4.0 |
 | `reports/` | Session synthesis documents; audit report v1.0 will land here | CC BY 4.0 |
 | `figures/` | Chart generation source | MIT |
 
 ## Key facts
-- 18 controlled runs, 4 model families, ~$71 total API spend.
+- 19 archived runs (18 matrix + 1 pre-registered verification replicate), 4 model families, ~$71 total programme API spend (~$60 across the archived runs).
 - Pre-registered injection experiment: forcing seeded absurdities into the knowledge graph flips the report-level audit verdict from 0–1/8 to 6–7/8 flagged (Fisher exact p = 1.3×10⁻⁶).
 - rounds = horizon × 24 on every family tested; mechanism confirmed by source inspection.
 - Upstream disclosure: findings reported to the MiroFish maintainers as issues [#53–#58](https://github.com/nikmcfly/MiroFish-Offline/issues) prior to publication.

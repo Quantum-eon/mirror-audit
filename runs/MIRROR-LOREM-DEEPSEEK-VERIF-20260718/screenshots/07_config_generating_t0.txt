@@ -1,0 +1,23 @@
+# 07_config_generating_T0 (text-snapshot) — captured 2026-07-18T18:01:26Z
+URL: http://localhost:3000/simulation/sim_fb949c80f766 | Step 2/5 Env Setup | top-right: "Preparing"
+IDs: project=proj_cb735a7e7759 graph=1d08da15-93a3-4d47-ab9c-920cf143623b simulation=sim_fb949c80f766 task=c62b98f3-2873-45a5-b3af-333c67edd872
+
+01 Simulation Instance Initialization: COMPLETED (POST /api/simulation/create)
+02 Generate Agent Personas: COMPLETED (POST /api/simulation/prepare)  [dashboard: "Loaded 0 NumberAgentPersona"]
+03 Generate Dual Platform Simulation Configuration: GENERATING (POST /api/simulation/prepare)  <-- UI window T0
+04 Initial activation arrangement: WAITING
+05 Preparation completed: WAITING
+
+SYSTEM DASHBOARD (verbatim; timestamps LOCAL = UTC+1):
+  18:59:09.925  Preparation work completed
+  18:59:09.925  Loading existing configuration data...
+  18:59:09.937  Loaded 0 NumberAgentPersona
+  18:59:09.948  Configuration generating, Start polling wait...
+  => UI window T0 (UTC) = 17:59:09.948Z
+
+BACKEND state.json (authoritative UTC) — sim_fb949c80f766:
+  status = "failed"
+  entities_count = 0 ; profiles_count = 0 ; config_generated = false
+  error = "No entities matching criteria found, check if graph is correctly constructed"
+  created_at = 2026-07-18T17:59:07.027895Z ; updated_at = 2026-07-18T17:59:07.210548Z
+  => BACKEND FAST-FAIL at 17:59:07.210Z — ~2.7s BEFORE the UI began "Configuration generating" polling.

@@ -1,0 +1,4 @@
+# Provenance note — 2026-07-18 (закрытие условий факт-чека)
+
+1. **Upstream HEAD 313fe64.** Получен командой `git ls-remote https://github.com/nikmcfly/MiroFish-Offline.git HEAD` из облачной сессии 2026-07-18 (полный хэш: 313fe642853ff9fff05e3ecae2e439886c2d29f4). Это HEAD upstream-репозитория на дату disclosure; локально аудированный снапшот — копия в ~/Projects/MIRROR/MiroFish-Offline (см. .git/config, origin совпадает). Цитируемые в статьях строки кода сверены по локальному снапшоту (docs/VICTOR_SOURCE_INSPECTION_X24.md).
+2. **Issues #53–#58.** Фактически запощены 2026-07-18 в nikmcfly/MiroFish-Offline из браузерной сессии аккаунта Quantum-eon; номера и URL подтверждены пост-сабмит скриншотами: #53 fast-fail masked by UI · #54 no cap on total_simulation_hours · #55 no stop control · #56 unbounded memory · #57 malformed JSON · #58 index mismatch + (nonereport). День 0 disclosure-окна = 2026-07-18; публикация серии не ранее 2026-08-01.

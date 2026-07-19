@@ -1,0 +1,6 @@
+# 11_config_t+30 (text-snapshot) — 2026-07-18T18:30:06Z  (~+30m31s vs T0 17:59:09.948Z) — WINDOW CLOSE
+UI: Step 2/5 Env Setup | stage 03 Generate Dual Platform Simulation Configuration = GENERATING (orange) | top-right "Preparing" | NO error, NO timeout after 30 minutes.
+Stages 01,02 COMPLETED; 04 WAITING; 05 WAITING. "Start dual world parallel simulation" button greyed.
+Dashboard tail (LOCAL UTC+1) unchanged across full 30 min: last line 18:59:09.948 "Configuration generating, Start polling wait...".
+Backend state.json unchanged: status=failed, entities_count=0, config_generated=false, current_round=0, updated_at=17:59:07.210Z, error="No entities matching criteria found, check if graph is correctly constructed".
+=> CLAIM "no timeout within 30 minutes" SUBSTANTIATED. Outcome A confirmed UI-side (masked, no error) AND backend-side (fast-fail).
