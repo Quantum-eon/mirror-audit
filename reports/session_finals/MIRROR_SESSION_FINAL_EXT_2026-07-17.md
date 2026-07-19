@@ -107,3 +107,16 @@ Read 2026-07-18T08:04Z from the founder's authenticated OpenRouter session (foun
 - Activity, Past 1 Week (2026-07-11 → 2026-07-18) — essentially the whole EXT active window: **Total spend $33.10**, requests ~3K, token volume 52.2M, cache hit 66.9%, blended **$0.63 / 1M tokens**. Top key: MIRROR-experiment (52.2M tok) [key redacted].
 - EXT-series attribution: the past-week $33.10 is the cleanest dashboard proxy for the full EXT campaign (P1–P7 all ran 16–18 Jul; the window also includes the 16 Jul A7/B1/B2/B3 runs). P1–P7-only ≈ $26–27 after backing out the ~$6–7 A-series. Blended $0.63/1M reflects the cheap Gemini-flash P7 + heavy cache reuse.
 - Note on the "$50 hard cap" (Rule 3): that was the OPERATOR campaign guardrail, not an account stop. The account carries $85 purchased credits with $24.31 still available — no balance stop occurred. The only spend-block this session was the PER-KEY MIRROR-experiment cap during P5, which the founder raised (Rule 3 founder action). Live-reconciled figures supersede the earlier operator approximation in §8.
+
+---
+# APPENDED 2026-07-19 — LIVE-DB RECHECK: CORRECTION to §2.1 (Finch verdict, Rule 4; append-only per §D)
+
+During illustration capture (2026-07-19) live Neo4j queries refuted one explanatory sentence of §2.1: "REP2 (10n/9e) was report-level BLIND; REP3/REP4/B3 (which captured the sanctions/UNHRC cluster) FLAGGED it. Visibility tracked graph-capture, not model."
+
+**Fact (live DB, edge timestamps within each run's window):** the sanctions/UNHRC facts are present in ALL FOUR control graphs, including REP2 (gid ecc26bab: "UN has imposed comprehensive sanctions on Valdoria for human rights violations" + "Valdoria is currently chairing the UN Human Rights Council" as separate RELATION edges). REP4 carries the paradox co-located in one edge; B3 likewise. P5/P7 graphs contain a UNHRC *node* but no sanctions/chairing facts in any edge. Provenance of the original error: archived REP exports captured node lists without edge facts; REP2's own node list already contained "UN Human Rights Council" — operator misreading, not an export/DB discrepancy.
+
+**Reclassification (Finch):** Graph capture is a NECESSARY BUT NOT SUFFICIENT condition for report-level visibility. Nothing outside the graph was ever flagged (0/28 control cells, A1–A7); naturally captured content was flagged in 3 of 4 controls; forced explicit injection flips the verdict (13/16, p = 1.26×10⁻⁶ — pre-registered criterion and result NOT dependent on the refuted premise). Residual variance among graph-captured content is unexplained (retrieval vs generation stochasticity — undetermined). Co-location hypothesis rejected (REP3 flagged on the same two-separate-edges representation).
+
+**Unaffected:** adjudicated flag matrix (κ=0.952), injection statistics, two-layer visibility, G6, Findings #1/#3.
+
+Full edge dumps, queries, and verdict: `methodology/LIVE_DB_RECHECK_2026-07-19.md`.
