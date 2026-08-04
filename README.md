@@ -1,6 +1,6 @@
 # MIRROR — An Independent Audit of an LLM-Swarm Prediction Pipeline
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21788962.svg)](https://doi.org/10.5281/zenodo.21788962)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21788962-1682D4.svg)](https://doi.org/10.5281/zenodo.21788962)
 
 We set out to audit a question most multi-agent AI pipelines never ask: what happens when the input is wrong? We fed deliberately poisoned documents — an impossible country, an absurd bank, pure lorem ipsum — into MiroFish, an open-source multi-agent simulation stack, chosen precisely so that anyone can reproduce every experiment on their own machine. We ran four model families (DeepSeek V3, Claude Sonnet 4, Gemini 2.5 Flash, GPT-4.1 — the Q1–Q2 2025 generation) to separate what the models do from what the pipeline does to them. The output we wanted was not a leaderboard, but a map: where such systems notice nonsense, where they silently normalise it — and why.
 
