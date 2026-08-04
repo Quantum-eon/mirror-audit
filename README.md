@@ -15,7 +15,7 @@ We set out to audit a question most multi-agent AI pipelines never ask: what hap
 | `figures/` | Chart generation source | MIT |
 
 ## Key facts
-- Evidence base: 19 runs (18 matrix + 1 pre-registered verification replicate), 4 model families, ~$71 total programme API spend (~$60 across the archived runs).
+- Evidence base: 19 runs (18 matrix + 1 pre-registered verification replicate), 4 model families, approx. $71 total programme API spend (approx. $60 across the archived runs).
 - Pre-registered injection experiment: forcing seeded absurdities into the knowledge graph flips the report-level audit verdict from 0–1/8 to 6–7/8 flagged (Fisher exact p = 1.3×10⁻⁶).
 - rounds = horizon × 24 on every family tested; mechanism confirmed by source inspection.
 - Upstream disclosure: findings reported to the MiroFish maintainers as issues [#53–#58](https://github.com/nikmcfly/MiroFish-Offline/issues) prior to publication.
