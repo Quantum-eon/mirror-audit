@@ -2,7 +2,10 @@ cff-version: 1.2.0
 message: "If you use this dataset or methodology, please cite it as below."
 title: "MIRROR: An Independent Audit of LLM-Swarm Prediction Systems"
 authors:
-  - name: "QuantumEon.ai"
+  - name: "Quantumeon.ai"
 type: dataset
 license: CC-BY-4.0
 repository-code: "https://github.com/Quantum-eon/mirror-audit"
+doi: "10.5281/zenodo.21788962"
+version: "v0.1"
+date-released: 2026-08-04
