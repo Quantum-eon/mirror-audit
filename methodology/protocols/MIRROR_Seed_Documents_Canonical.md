@@ -4,7 +4,7 @@
 **Version:** 1.0
 **Date:** 20 April 2026
 **Authors:** Stepanov (founder, upload), Claude (compilation), pending Finch + Lex review
-**Supersedes:** None — this is first committed archival version of MIRROR seed documents into QuantumEon project knowledge
+**Supersedes:** None — this is first committed archival version of MIRROR seed documents into Quantumeon project knowledge
 
 ---
 
@@ -18,7 +18,7 @@ Until this date (20 April 2026), seed document text existed only:
 - On the founder's local Mac mini in `~/Projects/MIRROR/seeds/` — all five
 - In MIRROR Protocol v1.0 §10 and v1.1 — described but not quoted verbatim
 
-This gap means that prior to 20 April, no MIRROR session could reliably verify which exact seed text was fed to MiroFish, and no future QuantumEon Claude session could reproduce the experiment from project knowledge alone. D-MIRROR-36 (logged below) closes the gap by committing all five seeds to QuantumEon project knowledge as canonical archival source.
+This gap means that prior to 20 April, no MIRROR session could reliably verify which exact seed text was fed to MiroFish, and no future Quantumeon Claude session could reproduce the experiment from project knowledge alone. D-MIRROR-36 (logged below) closes the gap by committing all five seeds to Quantumeon project knowledge as canonical archival source.
 
 Seeds here are **verbatim copies** of the text files the operator loaded into MiroFish UI field `01 / Reality Seeds`. Any future change requires a new D-MIRROR decision entry and invalidates all runs that used the prior version (Protocol v1.1 §10.5 lock rules).
 
@@ -354,13 +354,13 @@ Per Protocol v1.1 §10.5:
 
 ### 9.3 D-MIRROR-36 authorisation
 
-This archival commit itself does not modify any seed text. It is the **first time** the verbatim text is captured in QuantumEon project knowledge. No prior "official" version existed in project knowledge to be superseded. Consequently, no runs are invalidated.
+This archival commit itself does not modify any seed text. It is the **first time** the verbatim text is captured in Quantumeon project knowledge. No prior "official" version existed in project knowledge to be superseded. Consequently, no runs are invalidated.
 
 ---
 
 ## 10. D-MIRROR-36 — Seed Documents Canonical Commitment
 
-**Decision:** Commit all five MIRROR seed documents to QuantumEon project knowledge as canonical archival source under this document (`MIRROR_Seed_Documents_Canonical.md`, Tier 1).
+**Decision:** Commit all five MIRROR seed documents to Quantumeon project knowledge as canonical archival source under this document (`MIRROR_Seed_Documents_Canonical.md`, Tier 1).
 
 **Rationale:** Audit trail integrity. Prior to this decision, seed text existed only on operator's local machine and in archival E5 Protocol v1 (which itself is partial — only 3 of 5 seeds captured). No MIRROR session could reproduce the experiments from project knowledge alone, violating the reproducibility principle established in Protocol v1.1 §6.3 and the scientific requirement for pre-registered stimuli.
 
@@ -374,7 +374,7 @@ This archival commit itself does not modify any seed text. It is the **first tim
 
 ## 11. Knowledge Base Search Cues
 
-For future QuantumEon sessions searching on topics related to this archive:
+For future Quantumeon sessions searching on topics related to this archive:
 
 | If searching for... | Use terms |
 |---|---|

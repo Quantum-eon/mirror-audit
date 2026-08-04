@@ -705,54 +705,7 @@ The protocol is strict by design. Consistency across runs is the methodological 
 
 ## 8. Publication Workflow
 
-### 8.1 Cadence
-
-Publications happen **after all 14 runs complete**, not during. We ship the whole season at once, in serialised order.
-
-Target: **4 weeks from protocol kickoff to first publication**.
-
-### 8.2 Publication pipeline per article
-
-Each article goes through the following stages:
-
-```
-1. Data review                 — Yuki produces visuals from manifests
-2. Drafting                    — Finch + Claude draft narrative
-3. Brand review                — Luna: tone, positioning, no product pitching
-4. Legal review                — Lex: fact claims, disclaimers, IP check
-5. Founder review              — Stepanov: final approval
-6. Publication                 — blog post live + Medium cross-post
-7. Distribution                — Luna: 9 channels per Media Plan v2
-8. Monitoring                  — Yuki: metrics collection 7 days
-```
-
-### 8.3 Required pre-publication artifacts per article
-
-- Article text (Markdown, final)
-- Hero illustration (per QE visual system)
-- 2–3 inline illustrations or charts
-- Social cards for LinkedIn/X/Facebook (1200×628)
-- X-thread version (5–7 tweets)
-- LinkedIn company excerpt (300–500 words)
-- Reddit primary sub post (200–400 words, value-first tone)
-- Newsletter version
-- HN submission title
-
-### 8.4 Lex Legal Review — mandatory steps
-
-Before any text is published under QuantumEon.ai:
-
-1. **Fictional entity check** — any company, person, country, product named in articles or seed documents must not coincide with real entities (trademark, name collision). Lex runs checks via trademark databases + Google search.
-2. **Disclaimer verification** — every article ends with:
-
-   > *Published by QuantumEon.ai — a computational social science product studio.*  
-   > *This research is independent and was not commissioned by any third party.*
-
-3. **Claim boundaries** — every assertive statement must be bounded ("We observed X in Y conditions"), not generalised ("X is always true").
-4. **Reference quality** — no copyright-infringing quotes, all external sources properly attributed.
-5. **Seed documents** — Lex reviews each seed document before being committed to public repo. Especially: Cashback seed must not resemble any real bank.
-
-Lex sign-off logged as `legal_review.passed: true` in article metadata before publication.
+*Removed from the public tree at release (2026-08-04). This section was the internal publication cadence, article pipeline and legal-review sequence. It governed how we shipped, not how we ran the experiments, and no finding depends on it. Section numbering is left unchanged so that cross-references elsewhere in this archive still resolve.*
 
 ---
 
@@ -760,7 +713,7 @@ Lex sign-off logged as `legal_review.passed: true` in article metadata before pu
 
 ### 9.1 Universal disclaimer (appears in every article footer, README, audit report)
 
-> *Published by QuantumEon.ai — a computational social science product studio.*  
+> *Published by Quantumeon.ai — a computational social science product studio.*  
 > *This research is independent and was not commissioned by any third party.*
 
 ### 9.2 Fictional entity disclaimer (in repo README + audit report appendix)
@@ -786,7 +739,7 @@ Upon release of audit report v1.0:
 - Reserve DOI before publication
 - Canonical citation form:
 
-> *QuantumEon.ai (2026). MIRROR: An Independent Audit of LLM-Swarm Prediction Systems. Zenodo. https://doi.org/[DOI]*
+> *Quantumeon.ai (2026). MIRROR: An Independent Audit of LLM-Swarm Prediction Systems. Zenodo. https://doi.org/[DOI]*
 
 ---
 
@@ -871,79 +824,13 @@ Version changes to seed documents require running *all* affected runs again. Thi
 
 ## 11. Timeline
 
-**Target: 4 weeks from protocol approval to audit report v1.0 release.**
-
-### Week 1 — Setup & baseline runs (4 runs)
-
-| Day | Runs | Notes |
-|-----|------|-------|
-| Mon | — | Finalise Cashback seed. Lex review. |
-| Tue | A1 Control × DeepSeek | First pass to validate protocol |
-| Wed | A4 Valdoria × DeepSeek (re-run with new protocol) | |
-| Thu | A7 Cashback × DeepSeek | First data point for Cashback |
-| Fri | Protocol tuning + first analysis | Check that manifests work end-to-end |
-
-### Week 2 — Cross-model expansion (5 runs)
-
-| Day | Runs |
-|-----|------|
-| Mon | A2 Control × Claude |
-| Tue | A3 Control × Gemini |
-| Wed | A5 Valdoria × Claude |
-| Thu | A6 Valdoria × Gemini |
-| Fri | A8 Cashback × Claude |
-
-### Week 3 — Cashback completion + parametric (5 runs)
-
-| Day | Runs |
-|-----|------|
-| Mon | A9 Cashback × Gemini |
-| Tue | B1 Valdoria × DeepSeek × 20 rounds |
-| Wed | B2 Valdoria × DeepSeek × 150 rounds |
-| Thu | B3 Valdoria × DeepSeek × density 10 |
-| Fri | B4 Valdoria × DeepSeek × single platform |
-
-### Week 4 — Floor validation + analysis + drafting
-
-| Day | Task |
-|-----|------|
-| Mon | C1 Lorem × Claude + aggregate analysis start |
-| Tue | All visualisations generated from real data |
-| Wed | Audit report v1.0 drafting |
-| Thu | First article drafts (series B-M1, B-M2) |
-| Fri | Lex review, founder review, publish prep |
-
-### Week 5+ — Publication series
-
-Per Media Plan v2 serialised rollout.
-
-### Risk mitigation
-
-| Risk | Response |
-|------|----------|
-| Run fails due to infrastructure | Retry; log failure in INDEX.md; do not skip |
-| LLM unavailable on OpenRouter | Switch order — continue with available models |
-| Seed document needs revision after review | Lock seed early; any change after first run invalidates all previous runs |
-| Unexpected findings require new scenario | Add to backlog for MIRROR v2 — do not expand v1.0 scope |
+*Removed from the public tree at release (2026-08-04). Internal week-by-week schedule and risk register.*
 
 ---
 
 ## 12. Team & Responsibilities
 
-| Role | Person | MIRROR responsibilities |
-|------|--------|------------------------|
-| Founder / Principal investigator | Stepanov | Final decision authority; run execution; public face |
-| Scientific advisor | Prof. Finch | Research design; analysis validation; protocol integrity |
-| Data analyst | Yuki | Confidence coding; manifests; visualisations; aggregate tables |
-| Product manager | Q-Alex | Protocol adherence; timeline; coordination; this document |
-| Growth lead | Luna | Publication distribution; channel-specific adaptations; metrics |
-| Legal counsel | Lex | Disclaimer check; entity collision check; pre-publication review |
-| Infrastructure | Victor | Docker stack; GitHub repo maintenance; reproducibility tooling |
-| Designer | Sofia | Visualisation style; hero illustrations; social cards |
-
-**Decision escalation path:** operator → Q-Alex → Stepanov (final).
-
-**Scientific disputes:** Finch arbitrates; if unresolved, escalate to Stepanov.
+*Removed from the public tree at release (2026-08-04). Internal role assignments. Contributor roles are summarised in the audit report instead.*
 
 ---
 
@@ -967,10 +854,10 @@ All MIRROR-level decisions affecting protocol or research design, in chronologic
 | D-MIRROR-20 | Success metrics — organic + newsletter, no product pitching | 17 Apr 2026 | Founder |
 | D-MIRROR-21 | Reproducibility formats — PDF + Markdown + JSON + CSV + Zenodo DOI | 17 Apr 2026 | Founder |
 | D-MIRROR-22 | Full interrogation (InterviewSubAgent + Report Chat) every run | 17 Apr 2026 | Founder |
-| D-MIRROR-23 | QuantumEon mentions minimal — only footer attribution | 17 Apr 2026 | Founder |
+| D-MIRROR-23 | Quantumeon mentions minimal — only footer attribution | 17 Apr 2026 | Founder |
 | D-MIRROR-24 | Verdict style — descriptive + framework for interpretation | 17 Apr 2026 | Founder |
 | D-MIRROR-25 | Research matrix v1.0 — 3 scenarios, 11 runs | 17 Apr 2026 | Founder |
-| D-MIRROR-26 | Authorship — QuantumEon.ai, no individual bylines | 17 Apr 2026 | Founder |
+| D-MIRROR-26 | Authorship — Quantumeon.ai, no individual bylines | 17 Apr 2026 | Founder |
 | D-MIRROR-27 | Visual format — HTML widget + PNG static (dual output) | 17 Apr 2026 | Founder |
 | D-MIRROR-28 | Graph export — hybrid (Neo4j export + native MiroFish screenshots) | 17 Apr 2026 | Founder |
 | D-MIRROR-29 | Research matrix v1.1 — 14 runs (adds parametric sweep) | 17 Apr 2026 | Founder |
